@@ -1,0 +1,353 @@
+{
+  "u000043": {
+    "start": 21.97,
+    "end": 24.03787,
+    "left_silence": [
+      21.8254,
+      22.11474
+    ],
+    "right_silence": [
+      23.88073,
+      24.19501
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000045": {
+    "start": 24.03787,
+    "end": 24.81111,
+    "left_silence": [
+      23.88073,
+      24.19501
+    ],
+    "right_silence": [
+      24.64399,
+      24.97823
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000047": {
+    "start": 24.81111,
+    "end": 27.615,
+    "left_silence": [
+      24.64399,
+      24.97823
+    ],
+    "right_silence": [
+      27.45261,
+      27.78685
+    ],
+    "rationale": "Restore omitted Himm vocalization at about 24.98-25.40 s; retain following sentence."
+  },
+  "u000467": {
+    "start": 142.315,
+    "end": 143.84308,
+    "left_silence": [
+      142.19184,
+      142.5161
+    ],
+    "right_silence": [
+      143.66349,
+      144.02268
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000470": {
+    "start": 143.84308,
+    "end": 144.79093,
+    "left_silence": [
+      143.66349,
+      144.02268
+    ],
+    "right_silence": [
+      144.60136,
+      144.9805
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000474": {
+    "start": 144.79093,
+    "end": 145.80113,
+    "left_silence": [
+      144.60136,
+      144.9805
+    ],
+    "right_silence": [
+      145.5941,
+      146.00816
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000476": {
+    "start": 145.80113,
+    "end": 146.75829,
+    "left_silence": [
+      145.5941,
+      146.00816
+    ],
+    "right_silence": [
+      146.70658,
+      146.81
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000495": {
+    "start": 146.75829,
+    "end": 147.96122,
+    "left_silence": [
+      146.70658,
+      146.81
+    ],
+    "right_silence": [
+      147.91383,
+      148.00862
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000497": {
+    "start": 147.96122,
+    "end": 148.66872,
+    "left_silence": [
+      147.91383,
+      148.00862
+    ],
+    "right_silence": [
+      148.52744,
+      148.81
+    ],
+    "rationale": "Isolate non-lexical vocalization between Hayir and Sag ol at about 148.02-148.48 s; ASR omitted it."
+  },
+  "u000499": {
+    "start": 148.66872,
+    "end": 149.97166,
+    "left_silence": [
+      148.52744,
+      148.81
+    ],
+    "right_silence": [
+      149.80454,
+      150.13878
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000510": {
+    "start": 149.97166,
+    "end": 150.84966,
+    "left_silence": [
+      149.80454,
+      150.13878
+    ],
+    "right_silence": [
+      150.65261,
+      151.04671
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000512": {
+    "start": 150.84966,
+    "end": 152.95238,
+    "left_silence": [
+      150.65261,
+      151.04671
+    ],
+    "right_silence": [
+      152.76281,
+      153.14195
+    ],
+    "rationale": "Restore final Wilkes and full onset; v02 truncated name and cut active speech."
+  },
+  "u000526": {
+    "start": 152.95238,
+    "end": 153.89025,
+    "left_silence": [
+      152.76281,
+      153.14195
+    ],
+    "right_silence": [
+      153.71066,
+      154.06984
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000528": {
+    "start": 153.89025,
+    "end": 155.72857,
+    "left_silence": [
+      153.71066,
+      154.06984
+    ],
+    "right_silence": [
+      155.55646,
+      155.90068
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000570": {
+    "start": 155.72857,
+    "end": 156.88095,
+    "left_silence": [
+      155.55646,
+      155.90068
+    ],
+    "right_silence": [
+      156.70884,
+      157.05306
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000572": {
+    "start": 156.88095,
+    "end": 158.21293,
+    "left_silence": [
+      156.70884,
+      157.05306
+    ],
+    "right_silence": [
+      158.03583,
+      158.39002
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000575": {
+    "start": 158.21293,
+    "end": 159.91905,
+    "left_silence": [
+      158.03583,
+      158.39002
+    ],
+    "right_silence": [
+      159.76689,
+      160.0712
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000577": {
+    "start": 159.91905,
+    "end": 164.8678,
+    "left_silence": [
+      159.76689,
+      160.0712
+    ],
+    "right_silence": [
+      164.69569,
+      165.03991
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000579": {
+    "start": 164.8678,
+    "end": 166.69615,
+    "left_silence": [
+      164.69569,
+      165.03991
+    ],
+    "right_silence": [
+      166.55646,
+      166.83583
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000582": {
+    "start": 166.69615,
+    "end": 167.95329,
+    "left_silence": [
+      166.55646,
+      166.83583
+    ],
+    "right_silence": [
+      167.78866,
+      168.11791
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000584": {
+    "start": 167.95329,
+    "end": 173.99456,
+    "left_silence": [
+      167.78866,
+      168.11791
+    ],
+    "right_silence": [
+      173.81497,
+      174.17415
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000586": {
+    "start": 173.99456,
+    "end": 177.04762,
+    "left_silence": [
+      173.81497,
+      174.17415
+    ],
+    "right_silence": [
+      176.88798,
+      177.20726
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000588": {
+    "start": 177.04762,
+    "end": 182.33061,
+    "left_silence": [
+      176.88798,
+      177.20726
+    ],
+    "right_silence": [
+      182.19093,
+      182.47029
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000590": {
+    "start": 182.33061,
+    "end": 185.5034,
+    "left_silence": [
+      182.19093,
+      182.47029
+    ],
+    "right_silence": [
+      185.34875,
+      185.65805
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000592": {
+    "start": 185.5034,
+    "end": 194.40816,
+    "left_silence": [
+      185.34875,
+      185.65805
+    ],
+    "right_silence": [
+      194.2585,
+      194.55782
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000594": {
+    "start": 194.40816,
+    "end": 201.86372,
+    "left_silence": [
+      194.2585,
+      194.55782
+    ],
+    "right_silence": [
+      201.74649,
+      201.98095
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  },
+  "u000596": {
+    "start": 201.86372,
+    "end": 205.28,
+    "left_silence": [
+      201.74649,
+      201.98095
+    ],
+    "right_silence": [
+      205.19864,
+      205.45306
+    ],
+    "rationale": "Ordered source transcript and -55 dBFS silence window; no listening approval."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "u000043": {
+    "priority": "HIGH",
+    "notes": "v03 komşu Ne gibi repliğini dışarıda bırakır. Second Echelon özel adı bağlam ASR ile destekli; telaffuz dinlenecek."
+  },
+  "u000045": {
+    "priority": "HIGH",
+    "notes": "v03 doğru Ne gibi cümlesini alır; eski v01 sonraki Hımm sesiydi."
+  },
+  "u000047": {
+    "priority": "HIGH",
+    "notes": "v03 24.811 s ile başlar; önceki iki sürümün kaçırdığı Hımm dalga biçimi dahil. 2000deki / 2000lerdeki farkı ve ünlem işitsel doğrulama ister."
+  },
+  "u000467": {
+    "priority": "HIGH",
+    "notes": "v03 komşu Onu alırım cümlesini dışarıda bırakır. almam / alman farkı iki ASR sonucunda da var; kaynak telaffuzu işitsel doğrulanmalı."
+  },
+  "u000470": {
+    "priority": "HIGH",
+    "notes": "v03: kaynak MP3 üzerindeki sessizlik sınırlarına göre yeniden kesildi. Baş/son ve komşu kaynak tarandı; işitsel onay bekliyor."
+  },
+  "u000474": {
+    "priority": "HIGH",
+    "notes": "v02 metni %100 eşleştirse de başlangıcı aktif ses içinde (-30 dBFS). v03 sessiz aralıktan başlar."
+  },
+  "u000476": {
+    "priority": "HIGH",
+    "notes": "7 manuel kayıttan biri: v03 Artık sizin; bitişi Hayır öncesindeki sessizlikte."
+  },
+  "u000495": {
+    "priority": "HIGH",
+    "notes": "7 manuel kayıttan biri: v03 Hayır; sonraki Ah ayrı tutuldu. ASR eski kelime zamanında önceki duraklamayı da kapsamış."
+  },
+  "u000497": {
+    "priority": "HIGH",
+    "notes": "7 manuel kayıttan biri: v03 yaklaşık 148.02–148.48 s ünlemini içerir. Ah semantiği/oyunculuğu işitsel doğrulama bekliyor; ASR atlaması kayıp kayıt kanıtı değil."
+  },
+  "u000499": {
+    "priority": "HIGH",
+    "notes": "7 manuel kayıttan biri: v03 Sağ ol ve Wilkes tam kaynak aralığı; özel ad eşleşmesi yüzünden v2 üretilememişti."
+  },
+  "u000510": {
+    "priority": "HIGH",
+    "notes": "v03 başı ve sonu sessizliğe taşındı. v02 hem Hallederim başını kesiyor hem sonraki Zaten başlangıcına taşıyordu."
+  },
+  "u000512": {
+    "priority": "HIGH",
+    "notes": "v03 başı geri alındı ve Wilkes dahil edildi. v02 aktif ses içinde başlayıp Wilkes ortasında bitiyordu."
+  },
+  "u000526": {
+    "priority": "HIGH",
+    "notes": "v03: kaynak MP3 üzerindeki sessizlik sınırlarına göre yeniden kesildi. Baş/son ve komşu kaynak tarandı; işitsel onay bekliyor."
+  },
+  "u000528": {
+    "priority": "HIGH",
+    "notes": "v03: kaynak MP3 üzerindeki sessizlik sınırlarına göre yeniden kesildi. Baş/son ve komşu kaynak tarandı; işitsel onay bekliyor."
+  },
+  "u000570": {
+    "priority": "HIGH",
+    "notes": "v03: kaynak MP3 üzerindeki sessizlik sınırlarına göre yeniden kesildi. Baş/son ve komşu kaynak tarandı; işitsel onay bekliyor."
+  },
+  "u000572": {
+    "priority": "HIGH",
+    "notes": "7 manuel kayıttan biri: v03 birinci Sen Ivan mısın. large-v3 bağlamı soruyu tanıyor; medium Ivanlısın yazımı dinlenerek ayırt edilmeli."
+  },
+  "u000575": {
+    "priority": "HIGH",
+    "notes": "v03: kaynak MP3 üzerindeki sessizlik sınırlarına göre yeniden kesildi. Baş/son ve komşu kaynak tarandı; işitsel onay bekliyor."
+  },
+  "u000577": {
+    "priority": "HIGH",
+    "notes": "v03: kaynak MP3 üzerindeki sessizlik sınırlarına göre yeniden kesildi. Baş/son ve komşu kaynak tarandı; işitsel onay bekliyor."
+  },
+  "u000579": {
+    "priority": "HIGH",
+    "notes": "v03: kaynak MP3 üzerindeki sessizlik sınırlarına göre yeniden kesildi. Baş/son ve komşu kaynak tarandı; işitsel onay bekliyor."
+  },
+  "u000582": {
+    "priority": "HIGH",
+    "notes": "7 manuel kayıttan biri: v03 ikinci Sen Ivan mısın. Tekrar eden metin kaynak sıra ve farklı zaman penceresiyle eşlendi; birinci kayıt kopyalanmadı."
+  },
+  "u000584": {
+    "priority": "HIGH",
+    "notes": "v03 başlangıcı ilk heceden önceye alındı. dostun / dostum farkı işitsel doğrulama ister."
+  },
+  "u000586": {
+    "priority": "HIGH",
+    "notes": "v02 bitişi sonraki Anlaşma başlangıcına taşıyordu (-17.6 dBFS). v03 sınırı sessizliğe alındı."
+  },
+  "u000588": {
+    "priority": "HIGH",
+    "notes": "v02 başlangıcı Anlaşma kelimesinin içindeydi. v03 ilk heceyi kaynaktan geri alır."
+  },
+  "u000590": {
+    "priority": "HIGH",
+    "notes": "v03: kaynak MP3 üzerindeki sessizlik sınırlarına göre yeniden kesildi. Baş/son ve komşu kaynak tarandı; işitsel onay bekliyor."
+  },
+  "u000592": {
+    "priority": "HIGH",
+    "notes": "v03 doğru tam kaynak aralığı. yapacağımı / yapacağını ve FBI telaffuzu işitsel doğrulama ister."
+  },
+  "u000594": {
+    "priority": "HIGH",
+    "notes": "v02 başlangıcı Kelime sözcüğünün içindeydi (-31 dBFS). v03 başı korur; dağarcığın çekimi dinlenecek."
+  },
+  "u000596": {
+    "priority": "HIGH",
+    "notes": "v02 başlangıcı Sağ sözcüğünün içindeydi (-28.5 dBFS). v03 başı geri alır."
+  },
+  "u000041": {
+    "priority": "HIGH",
+    "notes": "v01 korundu. v02 19.46 s noktasında ilk ünlemin sesini kesiyor; Hah eksiliyor."
+  },
+  "u000435": {
+    "priority": "HIGH",
+    "notes": "7 manuel kayıttan biri: v01 korundu, 140.950–142.315 s sınırları sessiz. Dougherty özel adının tam dalga biçimi mevcut; bağlam ASR Dorothy diye yazıyor. Kesim eksikliği saptanmadı; telaffuz dinlenecek."
+  },
+  "u000604": {
+    "priority": "HIGH",
+    "notes": "v01 korundu. v02 Sence kelimesinin başlangıcını kesiyordu (-29.6 dBFS); %97.4 ASR güvenli sınır anlamına gelmiyor."
+  },
+  "u000721": {
+    "priority": "HIGH",
+    "notes": "v01 korundu. Kaynak sırası Kapı var mı / İyi iş / Bu Çinli general kim; komşu sınırları sessiz."
+  },
+  "u000723": {
+    "priority": "HIGH",
+    "notes": "v01 korundu, sınırları sessiz. medium tek klipte Işşşş yazıyor; large-v3 bağlamda İyi iş tanıyor. Kısa replik kesin dinleme önceliği."
+  },
+  "u000725": {
+    "priority": "HIGH",
+    "notes": "v01 korundu. Kaynak ve komşu sınırları sessiz; bağlam ASR beklenen metni destekliyor."
+  },
+  "u000123": {
+    "priority": "HIGH",
+    "notes": "Kesim sınırları sessiz; beklenen Ne haber yerine klip ASR Naber yazıyor. Kaynakta konuşma daralması mı metin farkı mı dinlenmeli."
+  }
+}
