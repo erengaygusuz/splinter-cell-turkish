@@ -1,0 +1,28 @@
+{
+  "protected_files_unchanged": 421,
+  "fisher_file_set_unchanged": true,
+  "unique_selected_ids": 207,
+  "v01_files": 207,
+  "v02_files": 4,
+  "selected_versions": {
+    "v01": 203,
+    "v02": 4
+  },
+  "source_pcm_exact_wavs": 211,
+  "sources": 4,
+  "duration_sec": 1030.8,
+  "contiguous_neighbor_pairs": 203,
+  "active_edge_flags": 0,
+  "short_edge_flags": 3,
+  "source_clipped_samples": 0,
+  "full_source_asr_count": 4,
+  "isolated_v01_asr_count": 207,
+  "revised_asr_count": 4,
+  "large_context_count": 26,
+  "large_isolated_retry_count": 6,
+  "technical_cut_pass": 204,
+  "priority_boundary_review": 3,
+  "listened": 0,
+  "approved": 0,
+  "rerecord_required": 0
+}

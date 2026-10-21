@@ -1,0 +1,12 @@
+{
+  "path": "dubbing/characters/irving_lambert/gameplay/review_pending/lambert_207_selected_v1_20261021.zip",
+  "sha256": "254f3044aaa33e85418f3286472cbc9579fbecd2f8848e694825811f44efe398",
+  "bytes": 73893425,
+  "wav_count": 207,
+  "versions": {
+    "v01": 203,
+    "v02": 4
+  },
+  "status": "REVIEW_PENDING",
+  "included_audio_verified_against_selected_manifest": true
+}
