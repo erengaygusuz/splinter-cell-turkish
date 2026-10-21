@@ -1,0 +1,32 @@
+{
+  "character": "sam_fisher",
+  "voice_version": "VD001",
+  "scope": "gameplay",
+  "batch": "E001",
+  "date": "2026-10-21",
+  "expected_count": 11,
+  "expected_ordered_sound_ids": [
+    "u000034",
+    "u000096",
+    "u000158",
+    "u000267",
+    "u000312",
+    "u000426",
+    "u000435",
+    "u000712",
+    "u000742",
+    "u000970",
+    "u000125"
+  ],
+  "provided_by_user": true,
+  "original_path": "/home/ereng/Downloads/ElevenLabs_2026-10-21T14_37_51_Sam Fisher_gen_sp100_s50_sb75_v4.mp3",
+  "original_filename": "ElevenLabs_2026-10-21T14_37_51_Sam Fisher_gen_sp100_s50_sb75_v4.mp3",
+  "archive_filename": "sam_fisher_vd001_test11_E001_20261021_143751.mp3",
+  "bytes": 455793,
+  "sha256": "ff8102a00dea5caa330da2c0600f2297faa2cbac77fbfa6b489c32941706f71d",
+  "codec": "mp3",
+  "sample_rate": 44100,
+  "channels": 1,
+  "container_duration": 27.36,
+  "status": "SOURCE_RECEIVED_PENDING_QA"
+}

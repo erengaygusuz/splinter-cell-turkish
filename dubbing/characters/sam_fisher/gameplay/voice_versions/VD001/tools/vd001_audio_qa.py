@@ -18,7 +18,7 @@ import wave
 import numpy as np
 
 BASE = Path('dubbing/characters/sam_fisher/gameplay/voice_versions/VD001')
-QA = BASE / 'qa/r001_v1_20261021'
+QA = BASE / 'qa/full201_v2_20261021'
 RATE = 44100
 DEVICE = 'cpu'
 COMPUTE = 'int8'
@@ -101,6 +101,15 @@ def load_inputs():
         sources.append(dict(key=f'R001_20261021_part{item["part"]:02d}', group='R001_20261021',
             part=item['part'], path=str(path), sha256=sha(path)))
     assert len(sources) == 2
+    e001_manifest = BASE / 'batches/E001_20261021/source_manifest.json'
+    if e001_manifest.exists():
+        item = json.loads(e001_manifest.read_text())
+        assert item['voice_version'] == 'VD001' and item['expected_count'] == 11
+        assert item['expected_ordered_sound_ids'] == manifest['e001_11_id_order']
+        path = e001_manifest.parent / item['archive_filename']
+        assert sha(path) == item['sha256'] and path.stat().st_size == item['bytes']
+        sources.append(dict(key='E001_20261021_part01', group='E001_20261021',
+            part=1, path=str(path), sha256=sha(path)))
     return rows, sources
 
 
@@ -118,7 +127,7 @@ def inventory():
             decoded_samples=len(pcm)))
     write_tsv(QA / 'source_inventory.tsv', result)
     write_tsv(QA / 'expected_201.tsv', rows)
-    print('Verified: two VD001 MP3 hashes; 190 + 11 disjoint IDs; 201 reference/catalog texts.', flush=True)
+    print('Verified:', len(sources), 'VD001 MP3 hashes; 190 + 11 disjoint IDs; 201 reference/catalog texts.', flush=True)
 
 
 def decode(path):
