@@ -1,0 +1,27 @@
+{
+  "interline_boundaries_viewed": 203,
+  "source_edges_viewed": 8,
+  "review_method": "Visual inspection of source peak envelopes around every cut; no auditory review.",
+  "quiet_interline_regions": 202,
+  "low_level_noise_boundary": [
+    "u000285",
+    "u000287"
+  ],
+  "source_head_priority": "u000912",
+  "voice_content_scope": "User confirms voices are correct; ASR discrepancies are not rerecord defects.",
+  "plot_sha256": {
+    "boundaries_01.png": "5db1c365de626a475e31ec3b6953e342c98c16b6cc85c19eed59d01e9c109182",
+    "boundaries_02.png": "cd68653f1cd9236f8a268e63d8822d9d889f349ca3e32d5775139099dfc654b2",
+    "boundaries_03.png": "b4c76916d561e4f3ec0434a2ffe3d3879a05d71799df581cf27e6f5ad671d21d",
+    "boundaries_04.png": "5e5ed8c0ec3be933d5bf10f564ce4e1ff3a7dd867361725707a6ff6cbec122d8",
+    "boundaries_05.png": "e4e384a25fb41a750a697e38b62a46be4c3bd6c7499589ba3a9ccee205915dd0",
+    "boundaries_06.png": "5af508687140caf329b9a78f1886482ea3b7579949173b147846f133a007dfb3",
+    "boundaries_07.png": "2753ef4b6883da7a4d5a9941674248782afeed02636408a9abd7b28a2e5cd9c4",
+    "boundaries_08.png": "fe27f6fb46bbbd4de5cb3615834aa0d419f52649dbf5e8772675d67e518e7640",
+    "boundaries_09.png": "6560216cd3bb1d6c607ced07e2572edbbdaef639607b727dd4144f91171da3e0",
+    "boundaries_10.png": "71f818de5e694785397097b1b8688c91745fca54ccc67d775e4013786da78404",
+    "boundaries_11.png": "8d4fc49f2bb055bdd294f18395ef673fd9b35a707928e60d184e0c1e732e0811",
+    "source_edges.png": "22b207195b7a04142e7877cd98d1b7f651058bf01b1ea78eace12778fc0010c6",
+    "u000285_u000287_detail.png": "9aca2fc06f982023135f6970638d9a091d461b76e743aa98ebffb90c4b66933c"
+  }
+}

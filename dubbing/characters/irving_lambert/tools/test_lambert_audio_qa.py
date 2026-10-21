@@ -4,6 +4,7 @@ from pathlib import Path
 
 import numpy as np
 import lambert_audio_qa as qa
+from lambert_delivery import validate_partitions
 
 
 class LambertSafetyTests(unittest.TestCase):
@@ -54,6 +55,34 @@ class LambertSafetyTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             with self.assertRaises(ValueError):
                 qa.save_cut(Path(temp) / 'invalid.wav', np.zeros(10, dtype='<i2'), 0, 11)
+
+    def partition_fixture(self):
+        rows = []
+        lengths = {}
+        for source, count in enumerate([10, 79, 86, 32]):
+            key = str(source)
+            lengths[key] = count*100
+            for i in range(count):
+                rows.append(dict(id=f'{key}-{i}', source_key=key,
+                    start_sample=i*100, end_sample_exclusive=(i+1)*100))
+        return rows, lengths
+
+    def test_four_sources_have_203_shared_boundaries(self):
+        rows, lengths = self.partition_fixture()
+        self.assertEqual(len(validate_partitions(rows, lengths)), 203)
+
+    def test_source_sample_gap_or_overlap_is_rejected(self):
+        for delta in [-1, 1]:
+            rows, lengths = self.partition_fixture()
+            rows[1]['start_sample'] += delta
+            with self.assertRaises(AssertionError):
+                validate_partitions(rows, lengths)
+
+    def test_duplicate_delivery_id_is_rejected(self):
+        rows, lengths = self.partition_fixture()
+        rows[1]['id'] = rows[0]['id']
+        with self.assertRaises(AssertionError):
+            validate_partitions(rows, lengths)
 
 
 if __name__ == '__main__':
