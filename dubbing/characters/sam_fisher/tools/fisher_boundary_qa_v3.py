@@ -71,6 +71,9 @@ def check_inputs():
 def load_archive():
     catalog = read_tsv(BASE / 'gameplay/catalog.tsv')
     assert len(catalog) == len({r['id'] for r in catalog}) == 201
+    reference = [s.strip() for s in (BASE / 'reference/sam_fisher_201_sade_v2.txt')
+                 .read_text(encoding='utf-8-sig').splitlines() if s.strip()]
+    assert reference == [r['prompt'] for r in catalog], 'Catalog differs from reference text'
     cats = {r['id']: r for r in catalog}
     clips, sources = [], {}
     for path in sorted((BASE / 'gameplay/batches').glob('*/batch_info.json')):
@@ -168,6 +171,37 @@ def transcribe():
         print(ident, cache[ident]['text'], flush=True)
 
 
+def context():
+    """Optional independent context check; never supply the expected text as a prompt."""
+    from faster_whisper import WhisperModel
+    from faster_whisper.audio import decode_audio
+    check_inputs()
+    _, sources = load_archive()
+    source = sources['B002_20261021']
+    path = OUT / 'context_asr_large_v3.json'
+    if path.exists():
+        data = json.loads(path.read_text())
+        assert data['source_sha256'] == sha(source)
+        assert len(data['contexts']) == 4
+        print('Verified existing contextual ASR cache; no re-transcription.')
+        return
+    model = WhisperModel('large-v3', device='cpu', compute_type='int8',
+                         cpu_threads=6, local_files_only=True)
+    audio = decode_audio(str(source))
+    data = dict(model='large-v3', device='cpu', compute_type='int8',
+                initial_prompt=None, source_sha256=sha(source), contexts=[])
+    for start, end in [(19, 28), (140.7, 153.2), (155.6, 168.3), (237.9, 241.6)]:
+        segments, _ = model.transcribe(audio[int(start*16000):int(end*16000)],
+            language='tr', beam_size=5, word_timestamps=True,
+            condition_on_previous_text=False, vad_filter=False)
+        segments = list(segments)
+        data['contexts'].append(dict(source_batch='B002_20261021', start=start, end=end,
+            text=' '.join(s.text for s in segments), words=[dict(start=round(w.start+start, 3),
+            end=round(w.end+start, 3), text=w.word) for s in segments for w in (s.words or [])]))
+        print(start, end, data['contexts'][-1]['text'], flush=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+
+
 def aligned_words(clips, full):
     """Character anchors tolerate merged words and names. These are ASR evidence,
     not forced alignment or a substitute for listening. Retain every raw word.
@@ -219,6 +253,26 @@ def edge_metrics(pcm, start, end):
                 leading_quiet_ms=quiet[0], trailing_quiet_ms=quiet[1])
 
 
+def wav_metrics(path, pcm, start):
+    with wave.open(str(path)) as wav:
+        assert wav.getparams()[:3] == (1, 2, RATE), path
+        samples = np.frombuffer(wav.readframes(wav.getnframes()), dtype='<i2')
+    a = round(start * RATE)
+    errors = []
+    # Legacy manifests round time to 5 decimals, and ffmpeg seek may round by one sample.
+    for shift in range(-2, 3):
+        lo = a + shift
+        hi = lo + len(samples)
+        if lo >= 0 and hi <= len(pcm):
+            error = np.sqrt(np.mean((samples.astype(float) - pcm[lo:hi]) ** 2))
+            errors.append((float(error), shift))
+    error, shift = min(errors)
+    return dict(wav_frames=len(samples), wav_peak=float(np.max(np.abs(samples.astype(float))) / 32768),
+        clipped_samples=int(np.count_nonzero(np.abs(samples.astype(int)) >= 32767)),
+        wav_source_pcm_rms_error=round(error, 6), wav_source_offset_samples=shift,
+        wav_first_20ms_dbfs=db(samples[:882]), wav_last_20ms_dbfs=db(samples[-882:]))
+
+
 def report():
     protected = check_inputs()
     clips, sources = load_archive()
@@ -226,6 +280,8 @@ def report():
     full = json.loads((OLD / 'full_mp3_cache.json').read_text())
     for batch, source in sources.items():
         assert full[batch]['sha256'] == sha(source)
+    context_data = json.loads((OUT / 'context_asr_large_v3.json').read_text())
+    assert context_data['source_sha256'] == sha(sources['B002_20261021'])
     old_cache = json.loads((OLD / 'clip_cache.json').read_text())
     new_cache = json.loads((OUT / 'new_clip_asr_medium.json').read_text())
     cuts = {r['id']: r for r in read_tsv(OUT / 'new_cut_manifest.tsv')}
@@ -253,10 +309,13 @@ def report():
             candidates.append(dict(id=ident, version=version, path=path, source_start=start,
                 source_end=end, asr_match=similarity(c['expected_text'], text), asr_text=text,
                 selected=version == chosen[0], sha256=sha(path),
-                **edge_metrics(pcm[c['batch']], start, end)))
+                **edge_metrics(pcm[c['batch']], start, end),
+                **wav_metrics(path, pcm[c['batch']], start)))
         version, path, start, end, text = chosen
         ev = edge_metrics(pcm[c['batch']], start, end)
         extra = notes.get(ident, {})
+        priority = extra.get('priority', 'HIGH' if c['batch'].startswith('B001')
+                             or similarity(c['expected_text'], text) < 95 else 'NORMAL')
         # A quiet edge excludes a click at the cut, not a wrong utterance.
         status = 'NEEDS_LISTEN'
         if max(ev['start_edge_dbfs'], ev['end_edge_dbfs']) > -45:
@@ -275,12 +334,17 @@ def report():
             source_start_sec=round(start, 6), source_end_sec=round(end, 6),
             first_asr_word=words[0]['text'] if words else '', last_asr_word=words[-1]['text'] if words else '',
             first_asr_word_start=words[0]['start'] if words else '', last_asr_word_end=words[-1]['end'] if words else '',
-            selected_asr_text=text, priority=extra.get('priority', 'NORMAL'),
-            reviewed_by='Codex: transcript and waveform analysis only', review_date='2026-10-21', **ev))
+            selected_asr_text=text, priority=priority,
+            word_onset_check='ACOUSTIC_SCREEN_ONLY_NEEDS_LISTEN',
+            word_offset_check='ACOUSTIC_SCREEN_ONLY_NEEDS_LISTEN',
+            neighbor_spill_check='SOURCE_ORDER_AND_ASR_SCREEN_ONLY_NEEDS_LISTEN',
+            reviewed_by='Codex: transcript and waveform analysis only', review_date='2026-10-21', **ev,
+            **wav_metrics(path, pcm[c['batch']], start)))
     assert len(decisions) == len({r['id'] for r in decisions}) == 201
     write_tsv(OUT / 'fisher_qa_decisions.tsv', decisions)
     write_tsv(OUT / 'candidate_comparison.tsv', candidates)
     write_tsv(OUT / 'source_word_evidence.tsv', word_rows)
+    write_tsv(OUT / 'text_discrepancies.tsv', [r for r in decisions if r['asr_match'] < 100])
     # Pairwise selected intervals, including silent shared source intervals.
     neighbors = []
     selected = {r['id']: r for r in decisions}
@@ -339,6 +403,8 @@ def verify():
     for r in rows:
         assert sha(r['selected_path']) == r['sha256']
         assert r['manual_listen'] == 'NOT_PERFORMED' and r['status'] != 'APPROVED'
+        assert float(r['wav_source_pcm_rms_error']) <= 5, r['id']
+        assert int(r['clipped_samples']) == 0, r['id']
     cuts = read_tsv(OUT / 'new_cut_manifest.tsv')
     for r in cuts:
         with wave.open(r['selected_path']) as wav:
@@ -347,16 +413,31 @@ def verify():
         expected = pcm[r['batch']][int(r['start_sample']):int(r['end_sample_exclusive'])].tobytes()
         assert raw == expected, r['id']
         assert sha(r['selected_path']) == r['sha256']
-    assert not any(r['overlap'] == 'True' for r in read_tsv(OUT / 'neighbor_audit.tsv'))
+    neighbors = read_tsv(OUT / 'neighbor_audit.tsv')
+    assert len(neighbors) == 198
+    assert all(abs(float(r['source_gap_sec'])) <= 1 / RATE for r in neighbors)
+    for batch, source_pcm in pcm.items():
+        selected = sorted((r for r in rows if r['batch'] == batch),
+                          key=lambda r: float(r['source_start_sec']))
+        assert float(selected[0]['source_start_sec']) == 0
+        assert abs(float(selected[-1]['source_end_sec']) - len(source_pcm)/RATE) < 1 / RATE
+    snapshot = read_tsv(OUT / 'input_snapshot.tsv')
+    for folder in [BASE / 'gameplay/approved', BASE / 'gameplay/game_ready']:
+        before = {r['path'] for r in snapshot if Path(r['path']).is_relative_to(folder)}
+        after = {str(p) for p in folder.rglob('*') if p.is_file()}
+        assert before == after, folder
     result = dict(protected_files_unchanged=protected, unique_decisions=201,
         new_cuts_source_pcm_identical=len(cuts), selected_hashes_valid=201,
-        selected_source_overlaps=0, approvals=0, manual_listens=0)
+        selected_source_pcm_verified=201, selected_source_overlaps=0,
+        catalog_reference_matches=201, contiguous_neighbor_pairs=198,
+        full_source_coverage_batches=3, approved_and_game_ready_unchanged=True,
+        clipped_selected_wavs=0, approvals=0, manual_listens=0)
     (OUT / 'validation.json').write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps(result), flush=True)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('mode', choices=['build', 'transcribe', 'report', 'verify'])
+    parser.add_argument('mode', choices=['build', 'transcribe', 'context', 'report', 'verify'])
     args = parser.parse_args()
     globals()[args.mode]()
