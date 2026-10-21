@@ -1,0 +1,39 @@
+{
+  "protected_files_unchanged": 715,
+  "old_character_file_sets_unchanged": true,
+  "expected_ids": 201,
+  "available_cuts": 190,
+  "missing_e001": 11,
+  "source_count": 2,
+  "source_distribution": {
+    "R001_20261021_part01": 167,
+    "R001_20261021_part02": 23
+  },
+  "duration_sec": 359.12,
+  "exact_source_pcm_wavs": 190,
+  "contiguous_boundaries": 188,
+  "visually_reviewed_boundaries": 188,
+  "source_edges_viewed": 4,
+  "originally_unassigned_asr_words": 1,
+  "unassigned_words_resolved": 1,
+  "isolated_medium_count": 190,
+  "medium_exact_matches": 167,
+  "large_isolated_count": 20,
+  "large_context_windows": 4,
+  "decision_counts": {
+    "NEEDS_LISTEN": 189,
+    "SOURCE_AUDIO_MISSING": 11,
+    "NEEDS_BOUNDARY_LISTEN": 1
+  },
+  "content_counts": {
+    "CONTENT_UNCONFIRMED": 4,
+    "PRONUNCIATION_UNCONFIRMED": 7
+  },
+  "active_edge_flags": 0,
+  "short_edge_flags": 1,
+  "clipped_samples": 0,
+  "listened": 0,
+  "approved": 0,
+  "confirmed_regenerate_required": 0,
+  "completion": "190 processed; 11 E001 source audio missing"
+}

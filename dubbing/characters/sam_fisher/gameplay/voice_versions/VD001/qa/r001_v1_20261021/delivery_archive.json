@@ -1,0 +1,9 @@
+{
+  "path": "dubbing/characters/sam_fisher/gameplay/voice_versions/VD001/review_pending/sam_fisher_VD001_R001_190_v1_20261021.zip",
+  "bytes": 23094242,
+  "sha256": "c90fc93cbd65c618dc036900d28f7ddf1bdd82e8123d8de099d02ad20ebbb28a",
+  "wav_count": 190,
+  "voice_version": "VD001",
+  "missing_e001": 11,
+  "status": "REVIEW_PENDING"
+}

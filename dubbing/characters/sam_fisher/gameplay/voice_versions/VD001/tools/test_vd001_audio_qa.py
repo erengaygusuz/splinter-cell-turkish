@@ -4,6 +4,7 @@ from pathlib import Path
 
 import numpy as np
 import vd001_audio_qa as qa
+from vd001_delivery import validate_partition
 
 
 class VD001SafetyTests(unittest.TestCase):
@@ -54,6 +55,34 @@ class VD001SafetyTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             with self.assertRaises(ValueError):
                 qa.save_cut(Path(temp) / 'invalid.wav', np.zeros(10, dtype='<i2'), 0, 11)
+
+    def partition_fixture(self):
+        rows=[dict(id=f'u{i}',source_key='one' if i<3 else 'two',
+            start_sample=(i if i<3 else i-3)*100,
+            end_sample_exclusive=(i+1 if i<3 else i-2)*100,group_order=i+1) for i in range(5)]
+        return rows, {'one':300,'two':200}, [r['id'] for r in rows]
+
+    def test_partition_validates_each_source_separately(self):
+        rows,lengths,ids=self.partition_fixture()
+        self.assertEqual(len(validate_partition(rows,lengths,ids)),3)
+
+    def test_missing_expected_line_cannot_pass(self):
+        rows,lengths,ids=self.partition_fixture()
+        with self.assertRaises(AssertionError):
+            validate_partition(rows,lengths,ids+['missing'])
+
+    def test_gap_and_overlap_are_rejected(self):
+        for delta in [-1,1]:
+            rows,lengths,ids=self.partition_fixture()
+            rows[1]['start_sample']+=delta
+            with self.assertRaises(AssertionError):
+                validate_partition(rows,lengths,ids)
+
+    def test_out_of_order_cut_ids_are_rejected(self):
+        rows,lengths,ids=self.partition_fixture()
+        rows[1]['group_order']=3
+        with self.assertRaises(AssertionError):
+            validate_partition(rows,lengths,ids)
 
 
 if __name__ == '__main__':
