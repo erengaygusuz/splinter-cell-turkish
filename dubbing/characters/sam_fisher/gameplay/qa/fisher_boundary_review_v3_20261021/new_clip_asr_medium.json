@@ -1,0 +1,1023 @@
+{
+  "u000043": {
+    "sha256": "ff5fe55657dda8e7e3bfe6faa200df1ff4fdcda355cf023b88d5c6b11b74e3a3",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Second Ashalan'da çalışmıştın değil mi?",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Second"
+      },
+      {
+        "start": 0.6,
+        "end": 1.06,
+        "text": " Ashalan'da"
+      },
+      {
+        "start": 1.06,
+        "end": 1.64,
+        "text": " çalışmıştın"
+      },
+      {
+        "start": 1.64,
+        "end": 1.78,
+        "text": " değil"
+      },
+      {
+        "start": 1.78,
+        "end": 1.92,
+        "text": " mi?"
+      }
+    ]
+  },
+  "u000045": {
+    "sha256": "e56745ee77ead599d2d4241b44bf3574c47d18b5e34abc543ef4d36d7cbdb465",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Ne gibi?",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.38,
+        "text": " Ne"
+      },
+      {
+        "start": 0.38,
+        "end": 0.52,
+        "text": " gibi?"
+      }
+    ]
+  },
+  "u000047": {
+    "sha256": "16907c4cb9d2aa895dab88d7a3d8852107ac07684111ec7d7a6ba62caa6a79ee",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Hmm... 2000'lerdeki çöküşte orada mıydın?",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 1.08,
+        "text": " Hmm..."
+      },
+      {
+        "start": 1.08,
+        "end": 1.3,
+        "text": " 2000"
+      },
+      {
+        "start": 1.3,
+        "end": 1.72,
+        "text": "'lerdeki"
+      },
+      {
+        "start": 1.72,
+        "end": 2.14,
+        "text": " çöküşte"
+      },
+      {
+        "start": 2.14,
+        "end": 2.38,
+        "text": " orada"
+      },
+      {
+        "start": 2.38,
+        "end": 2.66,
+        "text": " mıydın?"
+      }
+    ]
+  },
+  "u000467": {
+    "sha256": "49dbcafafac8e9ff5ed4336ee5494ee33b9e01a1d5fcea86a04395a32f8b67f9",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Daha onu alman gerek.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.46,
+        "text": " Daha"
+      },
+      {
+        "start": 0.46,
+        "end": 0.66,
+        "text": " onu"
+      },
+      {
+        "start": 0.66,
+        "end": 0.98,
+        "text": " alman"
+      },
+      {
+        "start": 0.98,
+        "end": 1.28,
+        "text": " gerek."
+      }
+    ]
+  },
+  "u000470": {
+    "sha256": "f4f14132e92d7e821540a8781cb7568908f593d25cabc2cfbe3c5368b8893181",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Onu alırım.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Onu"
+      },
+      {
+        "start": 0.4,
+        "end": 0.72,
+        "text": " alırım."
+      }
+    ]
+  },
+  "u000474": {
+    "sha256": "d976ff7118199476ec25dcc4bb356eef73496ae4786898d124515350775824fb",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Memnun oldum.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.58,
+        "text": " Memnun"
+      },
+      {
+        "start": 0.58,
+        "end": 0.86,
+        "text": " oldum."
+      }
+    ]
+  },
+  "u000476": {
+    "sha256": "c01abaa43cf6de1ed5d2467495917a1bdb0871577bb1806cd3e4b0d466679982",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Artık sizin.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.58,
+        "text": " Artık"
+      },
+      {
+        "start": 0.58,
+        "end": 0.8,
+        "text": " sizin."
+      }
+    ]
+  },
+  "u000495": {
+    "sha256": "d4c1abf81528a47095b1bef5bc65be71809fce51cacc3738cb99704744277ab9",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Hayır.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.76,
+        "text": " Hayır."
+      }
+    ]
+  },
+  "u000497": {
+    "sha256": "a0a608890a2c92152abc7423f22492d3b615ce76f7c0446976f8a8a8c2777d0f",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Ah!",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Ah!"
+      }
+    ]
+  },
+  "u000499": {
+    "sha256": "3e4cf2defb0ccef3fb10b59e792fe299bb1a3995651bc4dc6b8dd84d8817af62",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Sağ ol Wilkes.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Sağ"
+      },
+      {
+        "start": 0.6,
+        "end": 0.76,
+        "text": " ol"
+      },
+      {
+        "start": 0.76,
+        "end": 1.12,
+        "text": " Wilkes."
+      }
+    ]
+  },
+  "u000510": {
+    "sha256": "9a373e711a4aca54e5939390868ac12732878dfca8f75efa9e498c76053d806e",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "hallederim.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.78,
+        "text": " hallederim."
+      }
+    ]
+  },
+  "u000512": {
+    "sha256": "fdb5376bcfb34c14dc33dcb49b3b3abbc0aa56df14b72f083cdf0bd7c0b61f32",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Zaten bir annem var, Wilkes.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.64,
+        "text": " Zaten"
+      },
+      {
+        "start": 0.64,
+        "end": 0.86,
+        "text": " bir"
+      },
+      {
+        "start": 0.86,
+        "end": 1.14,
+        "text": " annem"
+      },
+      {
+        "start": 1.14,
+        "end": 1.44,
+        "text": " var,"
+      },
+      {
+        "start": 1.68,
+        "end": 1.86,
+        "text": " Wilkes."
+      }
+    ]
+  },
+  "u000526": {
+    "sha256": "00b0d371595746e69d882e05edb621b155988c8426615309e75f73108c0d95ff",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Ivan kim?",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.5,
+        "text": " Ivan"
+      },
+      {
+        "start": 0.5,
+        "end": 0.7,
+        "text": " kim?"
+      }
+    ]
+  },
+  "u000528": {
+    "sha256": "e0f3b7db8bc0fdba522d6da22846ebc3cb443b0843706e022888afb861964f86",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "kendi adamlarını öldürüyorlar.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.5,
+        "text": " kendi"
+      },
+      {
+        "start": 0.5,
+        "end": 0.98,
+        "text": " adamlarını"
+      },
+      {
+        "start": 0.98,
+        "end": 1.66,
+        "text": " öldürüyorlar."
+      }
+    ]
+  },
+  "u000570": {
+    "sha256": "45d06b41cd700a98508ace190175d9c2414046f702a772ffa6d7d3ef0f7e24c9",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Konuşabilir misin?",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.68,
+        "text": " Konuşabilir"
+      },
+      {
+        "start": 0.68,
+        "end": 0.92,
+        "text": " misin?"
+      }
+    ]
+  },
+  "u000572": {
+    "sha256": "0233ca252e0957e993e3d59379d7a541d9b615075f7aeb4c2b8975473d051b80",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Sen İvanlısın.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Sen"
+      },
+      {
+        "start": 0.56,
+        "end": 1.14,
+        "text": " İvanlısın."
+      }
+    ]
+  },
+  "u000575": {
+    "sha256": "f804149511e72b489a4df07b5ec96491a83bc2b24c56f42f337626ba4b312f4d",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Şifreleme anahtarın var mı?",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.74,
+        "text": " Şifreleme"
+      },
+      {
+        "start": 0.74,
+        "end": 1.22,
+        "text": " anahtarın"
+      },
+      {
+        "start": 1.22,
+        "end": 1.44,
+        "text": " var"
+      },
+      {
+        "start": 1.44,
+        "end": 1.52,
+        "text": " mı?"
+      }
+    ]
+  },
+  "u000577": {
+    "sha256": "6d29ac44b335efb7de636f8c56eb606466b4f7da2e088cc257cc81874df09fab",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Ivan adında birini bulmam gerek. Kendini binanın yangın kapılarının arkasına kilitlemiş.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ivan"
+      },
+      {
+        "start": 0.4,
+        "end": 0.76,
+        "text": " adında"
+      },
+      {
+        "start": 0.76,
+        "end": 1.04,
+        "text": " birini"
+      },
+      {
+        "start": 1.04,
+        "end": 1.38,
+        "text": " bulmam"
+      },
+      {
+        "start": 1.38,
+        "end": 1.76,
+        "text": " gerek."
+      },
+      {
+        "start": 2.2,
+        "end": 2.4,
+        "text": " Kendini"
+      },
+      {
+        "start": 2.4,
+        "end": 2.82,
+        "text": " binanın"
+      },
+      {
+        "start": 2.82,
+        "end": 3.22,
+        "text": " yangın"
+      },
+      {
+        "start": 3.22,
+        "end": 3.84,
+        "text": " kapılarının"
+      },
+      {
+        "start": 3.84,
+        "end": 4.16,
+        "text": " arkasına"
+      },
+      {
+        "start": 4.16,
+        "end": 4.72,
+        "text": " kilitlemiş."
+      }
+    ]
+  },
+  "u000579": {
+    "sha256": "8d07bc5ffad3d66d82b14906e3a5730f433c2afd74bb61ba99de25412f2fd1bf",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Bu işime yarar. Sağ ol.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.38,
+        "text": " Bu"
+      },
+      {
+        "start": 0.38,
+        "end": 0.64,
+        "text": " işime"
+      },
+      {
+        "start": 0.64,
+        "end": 1.16,
+        "text": " yarar."
+      },
+      {
+        "start": 1.4,
+        "end": 1.62,
+        "text": " Sağ"
+      },
+      {
+        "start": 1.62,
+        "end": 1.66,
+        "text": " ol."
+      }
+    ]
+  },
+  "u000582": {
+    "sha256": "eee5288c5fc45412ad1abc0183ea28197ecffbc0af924584a83c3ee72dc511f9",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Sen Ivan mısın?",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Sen"
+      },
+      {
+        "start": 0.48,
+        "end": 0.8,
+        "text": " Ivan"
+      },
+      {
+        "start": 0.8,
+        "end": 1.04,
+        "text": " mısın?"
+      }
+    ]
+  },
+  "u000584": {
+    "sha256": "0e3a9cd912544c42d6ef15c9107ede4b60176eeda932796a50da1fc549a5d649",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Hem evet hem hayır. Polis yolda, gelene kadar tek dostum benim. Ben de pek iyi bir dost sayılmam.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Hem"
+      },
+      {
+        "start": 0.42,
+        "end": 0.74,
+        "text": " evet"
+      },
+      {
+        "start": 0.74,
+        "end": 1.02,
+        "text": " hem"
+      },
+      {
+        "start": 1.02,
+        "end": 1.58,
+        "text": " hayır."
+      },
+      {
+        "start": 1.88,
+        "end": 2.14,
+        "text": " Polis"
+      },
+      {
+        "start": 2.14,
+        "end": 2.68,
+        "text": " yolda,"
+      },
+      {
+        "start": 2.92,
+        "end": 3.08,
+        "text": " gelene"
+      },
+      {
+        "start": 3.08,
+        "end": 3.38,
+        "text": " kadar"
+      },
+      {
+        "start": 3.38,
+        "end": 3.62,
+        "text": " tek"
+      },
+      {
+        "start": 3.62,
+        "end": 4.06,
+        "text": " dostum"
+      },
+      {
+        "start": 4.06,
+        "end": 4.26,
+        "text": " benim."
+      },
+      {
+        "start": 4.62,
+        "end": 4.74,
+        "text": " Ben"
+      },
+      {
+        "start": 4.74,
+        "end": 4.88,
+        "text": " de"
+      },
+      {
+        "start": 4.88,
+        "end": 5.08,
+        "text": " pek"
+      },
+      {
+        "start": 5.08,
+        "end": 5.14,
+        "text": " iyi"
+      },
+      {
+        "start": 5.14,
+        "end": 5.3,
+        "text": " bir"
+      },
+      {
+        "start": 5.3,
+        "end": 5.42,
+        "text": " dost"
+      },
+      {
+        "start": 5.42,
+        "end": 5.88,
+        "text": " sayılmam."
+      }
+    ]
+  },
+  "u000586": {
+    "sha256": "6d3700901c8ff5a580679dc32b705b8a2f4b4e2bf08c2ab899d56cec5656449b",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "O benim işim değil, şifreleme anahtarın için geldim.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.34,
+        "text": " O"
+      },
+      {
+        "start": 0.34,
+        "end": 0.58,
+        "text": " benim"
+      },
+      {
+        "start": 0.58,
+        "end": 0.96,
+        "text": " işim"
+      },
+      {
+        "start": 0.96,
+        "end": 1.18,
+        "text": " değil,"
+      },
+      {
+        "start": 1.42,
+        "end": 1.88,
+        "text": " şifreleme"
+      },
+      {
+        "start": 1.88,
+        "end": 2.38,
+        "text": " anahtarın"
+      },
+      {
+        "start": 2.38,
+        "end": 2.54,
+        "text": " için"
+      },
+      {
+        "start": 2.54,
+        "end": 2.94,
+        "text": " geldim."
+      }
+    ]
+  },
+  "u000588": {
+    "sha256": "99bf7fd31984e31111ca5f97ad39d7781a4a301c5fa4e0b2f20b1f135da93acc",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Anlaşma hâlâ geçerli. FBI seni buradan sağ çıkaracak. Ama önce anahtarı ver.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.68,
+        "text": " Anlaşma"
+      },
+      {
+        "start": 0.68,
+        "end": 1.08,
+        "text": " hâlâ"
+      },
+      {
+        "start": 1.08,
+        "end": 1.74,
+        "text": " geçerli."
+      },
+      {
+        "start": 2.02,
+        "end": 2.3,
+        "text": " FBI"
+      },
+      {
+        "start": 2.3,
+        "end": 2.58,
+        "text": " seni"
+      },
+      {
+        "start": 2.58,
+        "end": 2.92,
+        "text": " buradan"
+      },
+      {
+        "start": 2.92,
+        "end": 3.14,
+        "text": " sağ"
+      },
+      {
+        "start": 3.14,
+        "end": 3.72,
+        "text": " çıkaracak."
+      },
+      {
+        "start": 4.06,
+        "end": 4.16,
+        "text": " Ama"
+      },
+      {
+        "start": 4.16,
+        "end": 4.5,
+        "text": " önce"
+      },
+      {
+        "start": 4.5,
+        "end": 4.94,
+        "text": " anahtarı"
+      },
+      {
+        "start": 4.94,
+        "end": 5.12,
+        "text": " ver."
+      }
+    ]
+  },
+  "u000590": {
+    "sha256": "ba319ce4141d4727b67a55836fe5dbe46f932e648299dc824efae1674d7cad87",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Ben işine karışıp sivilleri nasıl öldüreceğini söylüyor muyum?",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.34,
+        "text": " Ben"
+      },
+      {
+        "start": 0.34,
+        "end": 0.7,
+        "text": " işine"
+      },
+      {
+        "start": 0.7,
+        "end": 1.06,
+        "text": " karışıp"
+      },
+      {
+        "start": 1.06,
+        "end": 1.64,
+        "text": " sivilleri"
+      },
+      {
+        "start": 1.64,
+        "end": 1.86,
+        "text": " nasıl"
+      },
+      {
+        "start": 1.86,
+        "end": 2.5,
+        "text": " öldüreceğini"
+      },
+      {
+        "start": 2.5,
+        "end": 2.86,
+        "text": " söylüyor"
+      },
+      {
+        "start": 2.86,
+        "end": 3.0,
+        "text": " muyum?"
+      }
+    ]
+  },
+  "u000592": {
+    "sha256": "27d6acee2b504e2de0f344b424d04e407f887de907495326f6aa15f6728cb91e",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Hayır, o zaman sen de bana işimi nasıl yapacağını söyleme. FBA yolda, belki de geldi. İyi olacaksın. Anahtarı verirsin ya da ben alırım.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Hayır,"
+      },
+      {
+        "start": 0.92,
+        "end": 0.98,
+        "text": " o"
+      },
+      {
+        "start": 0.98,
+        "end": 1.22,
+        "text": " zaman"
+      },
+      {
+        "start": 1.22,
+        "end": 1.44,
+        "text": " sen"
+      },
+      {
+        "start": 1.44,
+        "end": 1.68,
+        "text": " de"
+      },
+      {
+        "start": 1.68,
+        "end": 1.84,
+        "text": " bana"
+      },
+      {
+        "start": 1.84,
+        "end": 2.2,
+        "text": " işimi"
+      },
+      {
+        "start": 2.2,
+        "end": 2.48,
+        "text": " nasıl"
+      },
+      {
+        "start": 2.48,
+        "end": 3.0,
+        "text": " yapacağını"
+      },
+      {
+        "start": 3.0,
+        "end": 3.58,
+        "text": " söyleme."
+      },
+      {
+        "start": 3.86,
+        "end": 4.2,
+        "text": " FBA"
+      },
+      {
+        "start": 4.2,
+        "end": 4.84,
+        "text": " yolda,"
+      },
+      {
+        "start": 5.0,
+        "end": 5.16,
+        "text": " belki"
+      },
+      {
+        "start": 5.16,
+        "end": 5.4,
+        "text": " de"
+      },
+      {
+        "start": 5.4,
+        "end": 5.66,
+        "text": " geldi."
+      },
+      {
+        "start": 6.0,
+        "end": 6.18,
+        "text": " İyi"
+      },
+      {
+        "start": 6.18,
+        "end": 6.72,
+        "text": " olacaksın."
+      },
+      {
+        "start": 7.04,
+        "end": 7.48,
+        "text": " Anahtarı"
+      },
+      {
+        "start": 7.48,
+        "end": 8.02,
+        "text": " verirsin"
+      },
+      {
+        "start": 8.02,
+        "end": 8.28,
+        "text": " ya"
+      },
+      {
+        "start": 8.28,
+        "end": 8.4,
+        "text": " da"
+      },
+      {
+        "start": 8.4,
+        "end": 8.54,
+        "text": " ben"
+      },
+      {
+        "start": 8.54,
+        "end": 8.76,
+        "text": " alırım."
+      }
+    ]
+  },
+  "u000594": {
+    "sha256": "219c85d7c690a51b643823a46c7904d1d69eeef2642d4fe0c7e6001e8ae8d7d1",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Kelime dağarcının epey sınırlı. Dinle, anahtarı ver. Yorgunum ve insanları bağırtmaktan nefret ederim. Moralimi bozuyor.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.58,
+        "text": " Kelime"
+      },
+      {
+        "start": 0.58,
+        "end": 1.04,
+        "text": " dağarcının"
+      },
+      {
+        "start": 1.04,
+        "end": 1.46,
+        "text": " epey"
+      },
+      {
+        "start": 1.46,
+        "end": 1.98,
+        "text": " sınırlı."
+      },
+      {
+        "start": 2.24,
+        "end": 2.64,
+        "text": " Dinle,"
+      },
+      {
+        "start": 2.84,
+        "end": 3.2,
+        "text": " anahtarı"
+      },
+      {
+        "start": 3.2,
+        "end": 3.44,
+        "text": " ver."
+      },
+      {
+        "start": 3.7,
+        "end": 4.16,
+        "text": " Yorgunum"
+      },
+      {
+        "start": 4.16,
+        "end": 4.52,
+        "text": " ve"
+      },
+      {
+        "start": 4.52,
+        "end": 4.94,
+        "text": " insanları"
+      },
+      {
+        "start": 4.94,
+        "end": 5.58,
+        "text": " bağırtmaktan"
+      },
+      {
+        "start": 5.58,
+        "end": 5.94,
+        "text": " nefret"
+      },
+      {
+        "start": 5.94,
+        "end": 6.22,
+        "text": " ederim."
+      },
+      {
+        "start": 6.58,
+        "end": 6.88,
+        "text": " Moralimi"
+      },
+      {
+        "start": 6.88,
+        "end": 7.34,
+        "text": " bozuyor."
+      }
+    ]
+  },
+  "u000596": {
+    "sha256": "a9cb569a2501e27eb1cd993c0f5c892ef9aff6e25cc1e253168ebccae92a9814",
+    "model": "medium",
+    "initial_prompt": null,
+    "text": "Sağ ol, FBI gelene kadar daha iyi bir saklanma yeri bul.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Sağ"
+      },
+      {
+        "start": 0.48,
+        "end": 0.76,
+        "text": " ol,"
+      },
+      {
+        "start": 1.02,
+        "end": 1.3,
+        "text": " FBI"
+      },
+      {
+        "start": 1.3,
+        "end": 1.66,
+        "text": " gelene"
+      },
+      {
+        "start": 1.66,
+        "end": 1.96,
+        "text": " kadar"
+      },
+      {
+        "start": 1.96,
+        "end": 2.26,
+        "text": " daha"
+      },
+      {
+        "start": 2.26,
+        "end": 2.4,
+        "text": " iyi"
+      },
+      {
+        "start": 2.4,
+        "end": 2.56,
+        "text": " bir"
+      },
+      {
+        "start": 2.56,
+        "end": 3.0,
+        "text": " saklanma"
+      },
+      {
+        "start": 3.0,
+        "end": 3.22,
+        "text": " yeri"
+      },
+      {
+        "start": 3.22,
+        "end": 3.3,
+        "text": " bul."
+      }
+    ]
+  }
+}

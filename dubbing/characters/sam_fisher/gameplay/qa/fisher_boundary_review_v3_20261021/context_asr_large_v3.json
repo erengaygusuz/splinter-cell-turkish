@@ -1,0 +1,431 @@
+{
+  "model": "large-v3",
+  "device": "cpu",
+  "compute_type": "int8",
+  "initial_prompt": null,
+  "contexts": [
+    {
+      "source_batch": "B002_20261021",
+      "start": 19,
+      "end": 28,
+      "text": " Ne? Karanlık işlerin azizi mi?  Second Echelon'da çalışmıştın değil mi?  Ne gibi?  2000'lerdeki çöküşte orada mıydın?",
+      "words": [
+        {
+          "start": 19.0,
+          "end": 19.52,
+          "text": " Ne?"
+        },
+        {
+          "start": 20.16,
+          "end": 20.88,
+          "text": " Karanlık"
+        },
+        {
+          "start": 20.88,
+          "end": 21.18,
+          "text": " işlerin"
+        },
+        {
+          "start": 21.18,
+          "end": 21.54,
+          "text": " azizi"
+        },
+        {
+          "start": 21.54,
+          "end": 21.68,
+          "text": " mi?"
+        },
+        {
+          "start": 21.86,
+          "end": 22.36,
+          "text": " Second"
+        },
+        {
+          "start": 22.36,
+          "end": 22.92,
+          "text": " Echelon'da"
+        },
+        {
+          "start": 22.92,
+          "end": 23.48,
+          "text": " çalışmıştın"
+        },
+        {
+          "start": 23.48,
+          "end": 23.62,
+          "text": " değil"
+        },
+        {
+          "start": 23.62,
+          "end": 23.74,
+          "text": " mi?"
+        },
+        {
+          "start": 23.84,
+          "end": 24.3,
+          "text": " Ne"
+        },
+        {
+          "start": 24.3,
+          "end": 24.42,
+          "text": " gibi?"
+        },
+        {
+          "start": 25.5,
+          "end": 25.86,
+          "text": " 2000"
+        },
+        {
+          "start": 25.86,
+          "end": 26.38,
+          "text": "'lerdeki"
+        },
+        {
+          "start": 26.38,
+          "end": 26.8,
+          "text": " çöküşte"
+        },
+        {
+          "start": 26.8,
+          "end": 27.02,
+          "text": " orada"
+        },
+        {
+          "start": 27.02,
+          "end": 27.38,
+          "text": " mıydın?"
+        }
+      ]
+    },
+    {
+      "source_batch": "B002_20261021",
+      "start": 140.7,
+      "end": 153.2,
+      "text": " Dorothy'yi ne yapacağım?  Daha onu alman gerek.  Onu alırım.  Memnun oldum.  Artık sizin.  Hayır!  Sağ ol, Wilkes.  Hallederim.  Zaten bir annem var, Wilkes.",
+      "words": [
+        {
+          "start": 140.7,
+          "end": 141.38,
+          "text": " Dorothy"
+        },
+        {
+          "start": 141.38,
+          "end": 141.56,
+          "text": "'yi"
+        },
+        {
+          "start": 141.56,
+          "end": 141.62,
+          "text": " ne"
+        },
+        {
+          "start": 141.62,
+          "end": 141.98,
+          "text": " yapacağım?"
+        },
+        {
+          "start": 142.22,
+          "end": 142.6,
+          "text": " Daha"
+        },
+        {
+          "start": 142.6,
+          "end": 142.82,
+          "text": " onu"
+        },
+        {
+          "start": 142.82,
+          "end": 143.16,
+          "text": " alman"
+        },
+        {
+          "start": 143.16,
+          "end": 143.38,
+          "text": " gerek."
+        },
+        {
+          "start": 143.62,
+          "end": 144.1,
+          "text": " Onu"
+        },
+        {
+          "start": 144.1,
+          "end": 144.46,
+          "text": " alırım."
+        },
+        {
+          "start": 144.74,
+          "end": 145.22,
+          "text": " Memnun"
+        },
+        {
+          "start": 145.22,
+          "end": 145.54,
+          "text": " oldum."
+        },
+        {
+          "start": 145.8,
+          "end": 146.28,
+          "text": " Artık"
+        },
+        {
+          "start": 146.28,
+          "end": 146.44,
+          "text": " sizin."
+        },
+        {
+          "start": 146.86,
+          "end": 147.34,
+          "text": " Hayır!"
+        },
+        {
+          "start": 148.66,
+          "end": 149.14,
+          "text": " Sağ"
+        },
+        {
+          "start": 149.14,
+          "end": 149.16,
+          "text": " ol,"
+        },
+        {
+          "start": 149.26,
+          "end": 149.64,
+          "text": " Wilkes."
+        },
+        {
+          "start": 150.1,
+          "end": 150.58,
+          "text": " Hallederim."
+        },
+        {
+          "start": 150.86,
+          "end": 151.34,
+          "text": " Zaten"
+        },
+        {
+          "start": 151.34,
+          "end": 151.52,
+          "text": " bir"
+        },
+        {
+          "start": 151.52,
+          "end": 151.86,
+          "text": " annem"
+        },
+        {
+          "start": 151.86,
+          "end": 152.02,
+          "text": " var,"
+        },
+        {
+          "start": 152.18,
+          "end": 152.58,
+          "text": " Wilkes."
+        }
+      ]
+    },
+    {
+      "source_batch": "B002_20261021",
+      "start": 155.6,
+      "end": 168.3,
+      "text": " Konuşabilir misin? Sen Ivan mısın? Şifreleme anahtarın var mı?  Ivan adında birini bulmam gerek. Kendini binanın yangın kapılarının arkasına kilitlemiş.  Bu işime yarar. Sağ ol. Sen Ivan mısın?",
+      "words": [
+        {
+          "start": 155.6,
+          "end": 156.22,
+          "text": " Konuşabilir"
+        },
+        {
+          "start": 156.22,
+          "end": 156.48,
+          "text": " misin?"
+        },
+        {
+          "start": 156.7,
+          "end": 157.2,
+          "text": " Sen"
+        },
+        {
+          "start": 157.2,
+          "end": 157.6,
+          "text": " Ivan"
+        },
+        {
+          "start": 157.6,
+          "end": 157.92,
+          "text": " mısın?"
+        },
+        {
+          "start": 158.18,
+          "end": 158.82,
+          "text": " Şifreleme"
+        },
+        {
+          "start": 158.82,
+          "end": 159.3,
+          "text": " anahtarın"
+        },
+        {
+          "start": 159.3,
+          "end": 159.48,
+          "text": " var"
+        },
+        {
+          "start": 159.48,
+          "end": 159.58,
+          "text": " mı?"
+        },
+        {
+          "start": 159.76,
+          "end": 160.22,
+          "text": " Ivan"
+        },
+        {
+          "start": 160.22,
+          "end": 160.54,
+          "text": " adında"
+        },
+        {
+          "start": 160.54,
+          "end": 160.84,
+          "text": " birini"
+        },
+        {
+          "start": 160.84,
+          "end": 161.14,
+          "text": " bulmam"
+        },
+        {
+          "start": 161.14,
+          "end": 161.4,
+          "text": " gerek."
+        },
+        {
+          "start": 161.58,
+          "end": 162.22,
+          "text": " Kendini"
+        },
+        {
+          "start": 162.22,
+          "end": 162.54,
+          "text": " binanın"
+        },
+        {
+          "start": 162.54,
+          "end": 163.04,
+          "text": " yangın"
+        },
+        {
+          "start": 163.04,
+          "end": 163.52,
+          "text": " kapılarının"
+        },
+        {
+          "start": 163.52,
+          "end": 163.94,
+          "text": " arkasına"
+        },
+        {
+          "start": 163.94,
+          "end": 164.44,
+          "text": " kilitlemiş."
+        },
+        {
+          "start": 164.64,
+          "end": 165.06,
+          "text": " Bu"
+        },
+        {
+          "start": 165.06,
+          "end": 165.38,
+          "text": " işime"
+        },
+        {
+          "start": 165.38,
+          "end": 165.8,
+          "text": " yarar."
+        },
+        {
+          "start": 165.82,
+          "end": 166.28,
+          "text": " Sağ"
+        },
+        {
+          "start": 166.28,
+          "end": 166.36,
+          "text": " ol."
+        },
+        {
+          "start": 166.52,
+          "end": 166.96,
+          "text": " Sen"
+        },
+        {
+          "start": 166.96,
+          "end": 167.32,
+          "text": " Ivan"
+        },
+        {
+          "start": 167.32,
+          "end": 167.72,
+          "text": " mısın?"
+        }
+      ]
+    },
+    {
+      "source_batch": "B002_20261021",
+      "start": 237.9,
+      "end": 241.6,
+      "text": " Kapı var mı?  İyi iş.  Bu Çinli general kim?",
+      "words": [
+        {
+          "start": 237.9,
+          "end": 238.5,
+          "text": " Kapı"
+        },
+        {
+          "start": 238.5,
+          "end": 238.64,
+          "text": " var"
+        },
+        {
+          "start": 238.64,
+          "end": 238.74,
+          "text": " mı?"
+        },
+        {
+          "start": 238.88,
+          "end": 239.34,
+          "text": " İyi"
+        },
+        {
+          "start": 239.34,
+          "end": 239.58,
+          "text": " iş."
+        },
+        {
+          "start": 239.76,
+          "end": 240.18,
+          "text": " Bu"
+        },
+        {
+          "start": 240.18,
+          "end": 240.58,
+          "text": " Çinli"
+        },
+        {
+          "start": 240.58,
+          "end": 240.84,
+          "text": " general"
+        },
+        {
+          "start": 240.84,
+          "end": 241.14,
+          "text": " kim?"
+        }
+      ]
+    }
+  ],
+  "source_sha256": "2ab911eb2219733e5fa20a212d50e4c64ad6507b31d52a303fa5de2d8a3f1dd2"
+}
