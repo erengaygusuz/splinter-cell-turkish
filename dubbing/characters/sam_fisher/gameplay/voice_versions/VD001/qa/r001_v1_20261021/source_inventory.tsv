@@ -1,0 +1,3 @@
+﻿key	group	part	path	sha256	bytes	codec	sample_rate	channels	container_duration	decoded_duration	decoded_samples
+R001_20261021_part01	R001_20261021	1	dubbing/characters/sam_fisher/gameplay/voice_versions/VD001/batches/R001_20261021/sam_fisher_vd001_remaining190_part01_20261021_183548.mp3	1850fccb3b023b8b03863fae0b1f499f8fbf3939bdf1447d911350e2262a480a	4957631	mp3	44100	1	308.72	308.72	13614552
+R001_20261021_part02	R001_20261021	2	dubbing/characters/sam_fisher/gameplay/voice_versions/VD001/batches/R001_20261021/sam_fisher_vd001_remaining190_part02_20261021_184106.mp3	cca8bac9d94070c67a2ddc751c3071f1d899a478f2cd2bd00ae49694f61cdd39	824433	mp3	44100	1	50.4	50.4	2222640
