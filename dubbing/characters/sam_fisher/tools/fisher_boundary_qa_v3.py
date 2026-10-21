@@ -315,7 +315,7 @@ def report():
         ev = edge_metrics(pcm[c['batch']], start, end)
         extra = notes.get(ident, {})
         priority = extra.get('priority', 'HIGH' if c['batch'].startswith('B001')
-                             or similarity(c['expected_text'], text) < 95 else 'NORMAL')
+                             or similarity(c['expected_text'], text) < 100 else 'NORMAL')
         # A quiet edge excludes a click at the cut, not a wrong utterance.
         status = 'NEEDS_LISTEN'
         if max(ev['start_edge_dbfs'], ev['end_edge_dbfs']) > -45:
@@ -431,7 +431,8 @@ def verify():
         selected_source_pcm_verified=201, selected_source_overlaps=0,
         catalog_reference_matches=201, contiguous_neighbor_pairs=198,
         full_source_coverage_batches=3, approved_and_game_ready_unchanged=True,
-        clipped_selected_wavs=0, approvals=0, manual_listens=0)
+        clipped_selected_wavs=0, approvals=0, manual_listens=0,
+        overall_qa_complete=False, remaining_gate='Human listening of all 201 selected clips')
     (OUT / 'validation.json').write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps(result), flush=True)
 

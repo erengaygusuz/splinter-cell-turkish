@@ -1,0 +1,17 @@
+{
+  "protected_files_unchanged": 290,
+  "unique_decisions": 201,
+  "new_cuts_source_pcm_identical": 27,
+  "selected_hashes_valid": 201,
+  "selected_source_pcm_verified": 201,
+  "selected_source_overlaps": 0,
+  "catalog_reference_matches": 201,
+  "contiguous_neighbor_pairs": 198,
+  "full_source_coverage_batches": 3,
+  "approved_and_game_ready_unchanged": true,
+  "clipped_selected_wavs": 0,
+  "approvals": 0,
+  "manual_listens": 0,
+  "overall_qa_complete": false,
+  "remaining_gate": "Human listening of all 201 selected clips"
+}
