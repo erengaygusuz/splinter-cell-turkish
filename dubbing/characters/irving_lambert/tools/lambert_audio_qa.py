@@ -464,9 +464,120 @@ def acoustic():
             print(r, flush=True)
 
 
+def revise():
+    check_protected()
+    plan = json.loads((QA / 'revision_plan.json').read_text())
+    original = {}
+    for group in ['E001_20261021', 'R001_20261021']:
+        original.update({r['id']: r for r in tsv(QA / ('cuts_'+group+'.tsv'))})
+    pcm, manifest = {}, []
+    for ident, revision in plan.items():
+        row = dict(original[ident])
+        if row['source_key'] not in pcm:
+            pcm[row['source_key']] = decode(row['source_mp3'])
+        a, b = round(revision['start_sec']*RATE), round(revision['end_sec']*RATE)
+        path = BASE / 'gameplay/review_pending' / row['group'] / (ident+'_v02.wav')
+        save_cut(path, pcm[row['source_key']], a, b)
+        row.update(start_sample=a, end_sample_exclusive=b, start_sec=a/RATE, end_sec=b/RATE,
+            duration_sec=(b-a)/RATE, version='v02', wav_path=str(path), sha256=sha(path),
+            start_method='REVIEWED_WAVEFORM_BOUNDARY', end_method='REVIEWED_WAVEFORM_BOUNDARY',
+            revision_reason=revision['rationale'])
+        manifest.append(row)
+    write_tsv(QA / 'revision_manifest.tsv', manifest)
+    print('New immutable revisions:', len(manifest), flush=True)
+
+
+def verify_revisions():
+    from faster_whisper import WhisperModel
+    check_protected()
+    rows = tsv(QA / 'revision_manifest.tsv')
+    path = QA / 'revision_asr.json'
+    cache = json.loads(path.read_text()) if path.exists() else {}
+    model = None
+    for row in rows:
+        if cache.get(row['id'], {}).get('sha256') == sha(row['wav_path']):
+            continue
+        if model is None:
+            model = WhisperModel('medium', device=DEVICE, compute_type=COMPUTE, local_files_only=True, cpu_threads=6)
+        segments, _ = model.transcribe(row['wav_path'], language='tr', beam_size=5,
+            word_timestamps=True, condition_on_previous_text=False, vad_filter=False)
+        segments = list(segments)
+        text = ' '.join(s.text.strip() for s in segments)
+        cache[row['id']] = dict(sha256=sha(row['wav_path']), model='medium', device=DEVICE,
+            compute_type=COMPUTE, initial_prompt=None, text=text, match=score(row['expected_text'], text),
+            words=[dict(start=w.start, end=w.end, text=w.word) for s in segments for w in (s.words or [])])
+        save_json(path, cache)
+        print(row['id'], cache[row['id']]['match'], text, flush=True)
+
+
+def context_asr():
+    from faster_whisper import WhisperModel
+    from faster_whisper.audio import decode_audio
+    check_protected()
+    targets = json.loads((QA / 'context_targets.json').read_text())
+    cuts = {r['id']: r for r in selected_cuts()}
+    path = QA / 'context_asr_large_v3.json'
+    cache = json.loads(path.read_text()) if path.exists() else {}
+    model, audio = None, {}
+    for ident, reason in targets.items():
+        cut = cuts[ident]
+        if ident in cache:
+            assert cache[ident]['source_sha256'] == sha(cut['source_mp3'])
+            assert cache[ident]['selected_sha256'] == sha(cut['wav_path'])
+            continue
+        if model is None:
+            model = WhisperModel('large-v3', device=DEVICE, compute_type=COMPUTE, local_files_only=True, cpu_threads=6)
+        key = cut['source_key']
+        if key not in audio:
+            audio[key] = decode_audio(cut['source_mp3'])
+        start, end = float(cut['start_sec']), float(cut['end_sec'])
+        a, b = max(0, start-1.5), min(len(audio[key])/16000, end+1.5)
+        segments, _ = model.transcribe(audio[key][round(a*16000):round(b*16000)], language='tr',
+            beam_size=5, word_timestamps=True, condition_on_previous_text=False, vad_filter=False)
+        segments = list(segments)
+        words = [dict(start=w.start+a, end=w.end+a, text=w.word, probability=w.probability)
+                 for s in segments for w in (s.words or [])]
+        text = ' '.join(w['text'].strip() for w in words if start <= (w['start']+w['end'])/2 <= end)
+        cache[ident] = dict(source_sha256=sha(cut['source_mp3']), selected_sha256=sha(cut['wav_path']),
+            source_key=key, context_start=a, context_end=b, model='large-v3', device=DEVICE,
+            compute_type=COMPUTE, initial_prompt=None, reason=reason,
+            context_text=' '.join(s.text.strip() for s in segments), selected_text=text,
+            selected_match=score(cut['expected_text'], text), words=words)
+        save_json(path, cache)
+        print(ident, cache[ident]['selected_match'], text, flush=True)
+
+
+def retry_asr():
+    """Independent isolated large-model retry for hallucinated/context-edge results."""
+    from faster_whisper import WhisperModel
+    check_protected()
+    cuts = {r['id']: r for r in selected_cuts()}
+    targets = ['u000070', 'u000396', 'u000969', 'u000981', 'u000122', 'u001017']
+    path = QA / 'isolated_retry_large_v3.json'
+    cache = json.loads(path.read_text()) if path.exists() else {}
+    model = None
+    for ident in targets:
+        row = cuts[ident]
+        if cache.get(ident, {}).get('sha256') == sha(row['wav_path']):
+            continue
+        if model is None:
+            model = WhisperModel('large-v3', device=DEVICE, compute_type=COMPUTE, cpu_threads=6, local_files_only=True)
+        segments, _ = model.transcribe(row['wav_path'], language='tr', beam_size=5,
+            temperature=0, word_timestamps=True, condition_on_previous_text=False, vad_filter=False)
+        segments = list(segments)
+        text = ' '.join(s.text.strip() for s in segments)
+        cache[ident] = dict(sha256=sha(row['wav_path']), model='large-v3', device=DEVICE,
+            compute_type=COMPUTE, temperature=0, initial_prompt=None, text=text,
+            match=score(row['expected_text'], text),
+            words=[dict(start=w.start, end=w.end, text=w.word) for s in segments for w in (s.words or [])])
+        save_json(path, cache)
+        print(ident, cache[ident]['match'], text, flush=True)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('mode', choices=['inventory', 'source_asr', 'align', 'cut', 'clip_asr', 'acoustic'])
+    parser.add_argument('mode', choices=['inventory', 'source_asr', 'align', 'cut', 'clip_asr',
+        'acoustic', 'revise', 'verify_revisions', 'context_asr', 'retry_asr'])
     parser.add_argument('--group', choices=['E001', 'R001'])
     parser.add_argument('--device', choices=['cpu', 'cuda'], default='cpu')
     parser.add_argument('--compute-type', default='int8')

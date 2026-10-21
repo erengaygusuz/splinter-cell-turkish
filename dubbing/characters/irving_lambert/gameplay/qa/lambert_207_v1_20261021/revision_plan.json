@@ -1,0 +1,22 @@
+{
+  "u000009": {
+    "start_sec": 25.72902494331066,
+    "end_sec": 28.901814058956916,
+    "rationale": "Move shared boundary to center of visually inspected longer source silence; preserve speech and breaths. v01 was text-complete but had only 20-25 ms quiet margin."
+  },
+  "u000010": {
+    "start_sec": 28.901814058956916,
+    "end_sec": 35.69637188208617,
+    "rationale": "Move shared boundary to center of visually inspected longer source silence; preserve speech and breaths. v01 was text-complete but had only 20-25 ms quiet margin."
+  },
+  "u000698": {
+    "start_sec": 252.5984126984127,
+    "end_sec": 256.08049886621313,
+    "rationale": "Move shared boundary to center of visually inspected longer source silence; preserve speech and breaths. v01 was text-complete but had only 20-25 ms quiet margin."
+  },
+  "u000700": {
+    "start_sec": 256.08049886621313,
+    "end_sec": 263.62086167800453,
+    "rationale": "Move shared boundary to center of visually inspected longer source silence; preserve speech and breaths. v01 was text-complete but had only 20-25 ms quiet margin."
+  }
+}

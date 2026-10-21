@@ -1,0 +1,344 @@
+{
+  "u000070": {
+    "sha256": "12d15deef4d2d90da62f2ac1446c5321de5a4f5b5ea2ebc57c3e721e7ab5a8fb",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "temperature": 0,
+    "initial_prompt": null,
+    "text": "Bir sonraki kapı kilitli Sam. Geçmek için maymuncuklarını kullanman gerekecek.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.26,
+        "text": " Bir"
+      },
+      {
+        "start": 0.26,
+        "end": 0.7,
+        "text": " sonraki"
+      },
+      {
+        "start": 0.7,
+        "end": 0.94,
+        "text": " kapı"
+      },
+      {
+        "start": 0.94,
+        "end": 1.36,
+        "text": " kilitli"
+      },
+      {
+        "start": 1.36,
+        "end": 1.52,
+        "text": " Sam."
+      },
+      {
+        "start": 1.68,
+        "end": 2.18,
+        "text": " Geçmek"
+      },
+      {
+        "start": 2.18,
+        "end": 2.44,
+        "text": " için"
+      },
+      {
+        "start": 2.44,
+        "end": 3.14,
+        "text": " maymuncuklarını"
+      },
+      {
+        "start": 3.14,
+        "end": 3.7,
+        "text": " kullanman"
+      },
+      {
+        "start": 3.7,
+        "end": 4.2,
+        "text": " gerekecek."
+      }
+    ]
+  },
+  "u000396": {
+    "sha256": "613f443659467552d91b5eecdbceda890def6233d411c431792bb89c58b23b8e",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "temperature": 0,
+    "initial_prompt": null,
+    "text": "Seni silahsız bırakmak aptallık olurdu ama silahı kılıfında tut. C.I.A'den bir kişi bile ölürse görev biter.",
+    "match": 99.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.28,
+        "text": " Seni"
+      },
+      {
+        "start": 0.28,
+        "end": 0.82,
+        "text": " silahsız"
+      },
+      {
+        "start": 0.82,
+        "end": 1.22,
+        "text": " bırakmak"
+      },
+      {
+        "start": 1.22,
+        "end": 1.74,
+        "text": " aptallık"
+      },
+      {
+        "start": 1.74,
+        "end": 2.04,
+        "text": " olurdu"
+      },
+      {
+        "start": 2.04,
+        "end": 2.2,
+        "text": " ama"
+      },
+      {
+        "start": 2.2,
+        "end": 2.72,
+        "text": " silahı"
+      },
+      {
+        "start": 2.72,
+        "end": 3.16,
+        "text": " kılıfında"
+      },
+      {
+        "start": 3.16,
+        "end": 3.4,
+        "text": " tut."
+      },
+      {
+        "start": 3.54,
+        "end": 3.76,
+        "text": " C"
+      },
+      {
+        "start": 3.76,
+        "end": 4.1,
+        "text": ".I"
+      },
+      {
+        "start": 4.1,
+        "end": 4.52,
+        "text": ".A'den"
+      },
+      {
+        "start": 4.52,
+        "end": 4.64,
+        "text": " bir"
+      },
+      {
+        "start": 4.64,
+        "end": 4.9,
+        "text": " kişi"
+      },
+      {
+        "start": 4.9,
+        "end": 5.04,
+        "text": " bile"
+      },
+      {
+        "start": 5.04,
+        "end": 5.48,
+        "text": " ölürse"
+      },
+      {
+        "start": 5.48,
+        "end": 5.88,
+        "text": " görev"
+      },
+      {
+        "start": 5.88,
+        "end": 6.24,
+        "text": " biter."
+      }
+    ]
+  },
+  "u000969": {
+    "sha256": "75a95fca4b6ed0e1005129bac53c9a9a0378a8c8558db4c02f5901fccd5bee73",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "temperature": 0,
+    "initial_prompt": null,
+    "text": "Gürcistan'a tekrar hoş geldin Fischer. Arka giden en temiz yol Başkan Kristabi'nin kayıtları. Ayrıntılar OPSAT'ında.",
+    "match": 97.3,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Gürcistan"
+      },
+      {
+        "start": 0.52,
+        "end": 0.7,
+        "text": "'a"
+      },
+      {
+        "start": 0.7,
+        "end": 0.88,
+        "text": " tekrar"
+      },
+      {
+        "start": 0.88,
+        "end": 1.16,
+        "text": " hoş"
+      },
+      {
+        "start": 1.16,
+        "end": 1.52,
+        "text": " geldin"
+      },
+      {
+        "start": 1.52,
+        "end": 1.82,
+        "text": " Fischer."
+      },
+      {
+        "start": 2.02,
+        "end": 2.58,
+        "text": " Arka"
+      },
+      {
+        "start": 2.58,
+        "end": 2.82,
+        "text": " giden"
+      },
+      {
+        "start": 2.82,
+        "end": 3.02,
+        "text": " en"
+      },
+      {
+        "start": 3.02,
+        "end": 3.44,
+        "text": " temiz"
+      },
+      {
+        "start": 3.44,
+        "end": 3.58,
+        "text": " yol"
+      },
+      {
+        "start": 3.58,
+        "end": 4.04,
+        "text": " Başkan"
+      },
+      {
+        "start": 4.04,
+        "end": 4.52,
+        "text": " Kristabi"
+      },
+      {
+        "start": 4.52,
+        "end": 4.64,
+        "text": "'nin"
+      },
+      {
+        "start": 4.64,
+        "end": 5.14,
+        "text": " kayıtları."
+      },
+      {
+        "start": 5.48,
+        "end": 6.04,
+        "text": " Ayrıntılar"
+      },
+      {
+        "start": 6.04,
+        "end": 6.42,
+        "text": " OPSAT"
+      },
+      {
+        "start": 6.42,
+        "end": 6.6,
+        "text": "'ında."
+      }
+    ]
+  },
+  "u000981": {
+    "sha256": "29c61c5c990487a936d94777e94c97107629e377ef30e7d0680fa222855ebd04",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "temperature": 0,
+    "initial_prompt": null,
+    "text": "Ark 1S ADM",
+    "match": 72.7,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.36,
+        "text": " Ark"
+      },
+      {
+        "start": 0.36,
+        "end": 0.92,
+        "text": " 1S"
+      },
+      {
+        "start": 0.92,
+        "end": 1.6,
+        "text": " ADM"
+      }
+    ]
+  },
+  "u000122": {
+    "sha256": "e010857ed305bbdf352c8a321720459ab9521780bc9f7c13bbda04df0df0da85",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "temperature": 0,
+    "initial_prompt": null,
+    "text": "Tüh!",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.36,
+        "text": " Tüh!"
+      }
+    ]
+  },
+  "u001017": {
+    "sha256": "1af183d58a2bd69e73702b3ad52516f869c8d44af2f5723ffa95ef2c271faf3b",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "temperature": 0,
+    "initial_prompt": null,
+    "text": "O da neydi Fischer?",
+    "match": 97.1,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.22,
+        "text": " O"
+      },
+      {
+        "start": 0.22,
+        "end": 0.34,
+        "text": " da"
+      },
+      {
+        "start": 0.34,
+        "end": 0.6,
+        "text": " neydi"
+      },
+      {
+        "start": 0.6,
+        "end": 0.94,
+        "text": " Fischer?"
+      }
+    ]
+  }
+}

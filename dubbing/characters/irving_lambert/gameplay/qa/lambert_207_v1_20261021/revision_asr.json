@@ -1,0 +1,261 @@
+{
+  "u000009": {
+    "sha256": "215f2d2f1e5d3dc4502914dcecd87d3c1de65ae5b9d982097f4aa2fb33301816",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Mükemmel! Şimdi önünde yerde olanı bul.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 1.1,
+        "text": " Mükemmel!"
+      },
+      {
+        "start": 1.34,
+        "end": 1.52,
+        "text": " Şimdi"
+      },
+      {
+        "start": 1.52,
+        "end": 2.06,
+        "text": " önünde"
+      },
+      {
+        "start": 2.06,
+        "end": 2.46,
+        "text": " yerde"
+      },
+      {
+        "start": 2.46,
+        "end": 2.84,
+        "text": " olanı"
+      },
+      {
+        "start": 2.84,
+        "end": 2.94,
+        "text": " bul."
+      }
+    ]
+  },
+  "u000010": {
+    "sha256": "72e9f7cc30986f731872424d6f5650f504dac6a89cd6b9172320a969b887f306",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Pekala Fisher, bunu olabildiğince hızlı bitireceğiz. Basitten başlayalım. Şu havuzun üzerindeki çıkıntıya tırman.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.66,
+        "text": " Pekala"
+      },
+      {
+        "start": 0.66,
+        "end": 1.04,
+        "text": " Fisher,"
+      },
+      {
+        "start": 1.36,
+        "end": 1.48,
+        "text": " bunu"
+      },
+      {
+        "start": 1.48,
+        "end": 2.2,
+        "text": " olabildiğince"
+      },
+      {
+        "start": 2.2,
+        "end": 2.54,
+        "text": " hızlı"
+      },
+      {
+        "start": 2.54,
+        "end": 3.24,
+        "text": " bitireceğiz."
+      },
+      {
+        "start": 3.5,
+        "end": 3.86,
+        "text": " Basitten"
+      },
+      {
+        "start": 3.86,
+        "end": 4.56,
+        "text": " başlayalım."
+      },
+      {
+        "start": 4.78,
+        "end": 4.86,
+        "text": " Şu"
+      },
+      {
+        "start": 4.86,
+        "end": 5.28,
+        "text": " havuzun"
+      },
+      {
+        "start": 5.28,
+        "end": 5.76,
+        "text": " üzerindeki"
+      },
+      {
+        "start": 5.76,
+        "end": 6.28,
+        "text": " çıkıntıya"
+      },
+      {
+        "start": 6.28,
+        "end": 6.6,
+        "text": " tırman."
+      }
+    ]
+  },
+  "u000698": {
+    "sha256": "88c46f706f5f5c6312c10774a0e3d58d12d05438e021318ee9b7f8a3f716076d",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Temasın yerinde, Burma'daki adamımız, ya da Myanmar.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.68,
+        "text": " Temasın"
+      },
+      {
+        "start": 0.68,
+        "end": 1.22,
+        "text": " yerinde,"
+      },
+      {
+        "start": 1.42,
+        "end": 1.86,
+        "text": " Burma'daki"
+      },
+      {
+        "start": 1.86,
+        "end": 2.44,
+        "text": " adamımız,"
+      },
+      {
+        "start": 2.7,
+        "end": 2.76,
+        "text": " ya"
+      },
+      {
+        "start": 2.76,
+        "end": 2.92,
+        "text": " da"
+      },
+      {
+        "start": 2.92,
+        "end": 3.18,
+        "text": " Myanmar."
+      }
+    ]
+  },
+  "u000700": {
+    "sha256": "d042da9d0cef9ef01a0f7ebe651e42688f486c21dc09cc6f6dc54a635e49d4dc",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Elçiliğin birkaç blok ötesindeki çatıda, büyük kırmızı bir tabelanın altında, parola, Nisan'da parlak ve soğuk bir gün.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.68,
+        "text": " Elçiliğin"
+      },
+      {
+        "start": 0.68,
+        "end": 1.14,
+        "text": " birkaç"
+      },
+      {
+        "start": 1.14,
+        "end": 1.34,
+        "text": " blok"
+      },
+      {
+        "start": 1.34,
+        "end": 1.92,
+        "text": " ötesindeki"
+      },
+      {
+        "start": 1.92,
+        "end": 2.58,
+        "text": " çatıda,"
+      },
+      {
+        "start": 2.8,
+        "end": 2.94,
+        "text": " büyük"
+      },
+      {
+        "start": 2.94,
+        "end": 3.48,
+        "text": " kırmızı"
+      },
+      {
+        "start": 3.48,
+        "end": 3.66,
+        "text": " bir"
+      },
+      {
+        "start": 3.66,
+        "end": 4.02,
+        "text": " tabelanın"
+      },
+      {
+        "start": 4.02,
+        "end": 4.66,
+        "text": " altında,"
+      },
+      {
+        "start": 4.94,
+        "end": 5.3,
+        "text": " parola,"
+      },
+      {
+        "start": 5.56,
+        "end": 6.08,
+        "text": " Nisan'da"
+      },
+      {
+        "start": 6.08,
+        "end": 6.56,
+        "text": " parlak"
+      },
+      {
+        "start": 6.56,
+        "end": 6.76,
+        "text": " ve"
+      },
+      {
+        "start": 6.76,
+        "end": 7.12,
+        "text": " soğuk"
+      },
+      {
+        "start": 7.12,
+        "end": 7.32,
+        "text": " bir"
+      },
+      {
+        "start": 7.32,
+        "end": 7.42,
+        "text": " gün."
+      }
+    ]
+  }
+}
