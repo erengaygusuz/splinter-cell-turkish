@@ -40,7 +40,7 @@ def read_tsv(path):
 
 def write_tsv(path, rows):
     with Path(path).open('w', encoding='utf-8-sig', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0]), delimiter='\t')
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]), delimiter='\t', lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
 
