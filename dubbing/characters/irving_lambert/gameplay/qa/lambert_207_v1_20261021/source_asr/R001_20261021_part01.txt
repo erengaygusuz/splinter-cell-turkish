@@ -1,0 +1,163 @@
+[0.000–2.300] Bu operasyon gizlilik üzerine kurulu.
+[2.640–3.700] Alarmlara dikkat et.
+[4.080–4.840] Limitimiz bu.
+[5.120–7.080] Bir alarm daha ve görevi iptal ederim.
+[7.540–8.460] Bir alarm fazla.
+[8.780–9.540] Görev bitti.
+[9.940–10.560] Güzel.
+[10.800–13.000] Demek diğeri altı hoparlör düzgün çalışıyor.
+[13.460–15.780] Şimdi teknisyenler ekipmanını kalibre edecek.
+[16.240–18.980] Solundaki duvardaki kırmızı acil durum ışığına dön.
+[19.420–19.960] Harika.
+[20.140–21.020] Şimdi sağındakine.
+[21.420–21.780] Tamam.
+[22.040–23.220] Aynısını yukarı için yap.
+[23.560–25.540] Tavandaki kirişlerde başka bir ışık ara.
+[26.020–26.780] Mükemmel.
+[27.000–28.700] Şimdi önünde yerde olanı bul.
+[28.700–35.580] Pekala Fisher, bunu olabildiğince hızlı bitireceğiz. Basitten başlayalım. Şu havuzun üzerindeki çıkıntıya tırman.
+[35.980–42.020] Burada seni kendi haline bırakacağız. Karşındaki temel bir engel parkuru. Bitirince tekrar devreye girerim.
+[42.380–47.660] İyi iş Fisher. Kapının öbür tarafına geçmenin yolunu bulunca gizli operasyon eğitimine geçeceğiz.
+[48.160–50.740] Sam Fisher. Benden önce gelmene inanamıyorum.
+[51.200–52.820] Lambert de. O da güvenli.
+[53.120–56.340] Seni tekrar görmek güzel. NCA eğitimi nasıl gidiyor?
+[56.340–59.320] Ajansın doğası bu. Kimse her şeyi bilmez.
+[59.560–61.160] Bu yüzden birlikte çalışırız.
+[61.380–64.020] Tahmin edemeyeceğin kadar çok şeyi bize aktaracaksın.
+[64.300–67.600] Kulaklığın ve opsatın üzerinden sürekli bağlantıda olacağız.
+[68.460–70.680] Evet, seni parkura soktuğum için kusura bakma.
+[70.840–72.000] Kendine baktığını biliyorum.
+[72.320–74.380] Tabii, sahabecerisi unutulmaz.
+[74.520–75.600] Bisiklete binmek gibi.
+[75.940–78.740] Dikkat et Fisher. Söylediğimiz her şey izleniyor.
+[78.960–82.280] Üstlerin beşinci özgürlük konusunda ne kadar tedirgin biliyorsun.
+[82.640–85.780] İyi olmak yetmez. Third echelon yepyeni bir girişim.
+[85.780–92.120] Agresif istihbarat operasyonlarının enseayın geleceğindeki yeri büyük ölçüde senin performansına bağlı.
+[92.280–94.040] Parkurun öbür tarafında görüşürüz.
+[94.420–97.960] İyi iş Sam. Unutma, ihtiyat operasyonlarımız için hayati.
+[98.320–102.560] Geçtiğine dair iz bırakmaman sahadaki değerimizi kanıtlamamız da çok önemli.
+[103.060–106.860] Sam, eğitimin bu bölümünün amacı bu değil. Bir daha deneyelim.
+[107.320–111.280] Pekala Fisher, şimdi işini değerlendirmesi için başka bir muhafız getirelim.
+[111.640–114.200] Seni monitörden gördüm Sam, bir daha deneyelim.
+[114.560–115.440] Daha başlamadın mı?
+[115.440–118.960] Fischer! Aman Tanrım, sona gelmişsin! Müthiş iş!
+[119.220–122.580] Devam edelim. Yeterince sessiz değildi. Bir daha dene.
+[122.820–124.780] Şimdi gizli operasyonlara geçiyorsun.
+[125.100–127.280] Amaç, fark edilmeden bölgeden geçmek.
+[127.520–129.000] İçeride gerçek insanlar var.
+[129.520–133.440] CIA'in en iyi eğitmenlerinden bazıları kurbanın olmaya gönüllü oldu.
+[133.900–138.040] Bir sonraki kapı kilitli sem, geçmek için maymuncuklarını kullanman gerekecek.
+[138.460–140.380] Sıradaki kapı tuş takımıyla kilitli.
+[140.620–143.780] Kapıdaki adam kodu biliyor ama iş birliği yapmaması söylendi.
+[144.040–144.880] Fikrini değiştir.
+[144.880–150.960] Sıradaki kapı retina tarayıcısı ile kilitli, bunlar ucuzdur ama kırılması neredeyse imkansızdır.
+[151.120–155.200] Neyse ki doğru gözleri tarayıcıya götürmek yeter, genelde bir subay inkileri.
+[155.440–158.680] İlerideki adam tarayıcıya kayıtlı, kapıyı açmaya ikna et.
+[159.020–164.020] Gizliliğe çalışalım, silahın her zaman son çare olsun, en iyi silahın görünmezlik.
+[164.260–168.100] Kıyafetindeki fotoseller opsattaki görünürlük göstergesine bağlı.
+[168.260–173.700] Gösterge 4'teyse gene Lev tabelası gibi parlıyorsun, 0'daysa hayaletin gölgesisin.
+[173.700–177.380] Bazı kameralar daha hassastır. Geçmek için vurman yeter.
+[177.800–181.960] Bazen kamerayı geçmenin tek yolu gölgelerde kalıp hareketini doğru zamanlamak.
+[182.320–185.420] Koridordaki muhafızı bayılt ve devriye onu bulmadan sakla.
+[185.760–189.020] Sıradaki koridorda aynı şeyi yapacağız ama bu kez ses için.
+[189.180–190.920] Birkaç gizli mikrofonu izleyeceğim.
+[191.300–194.820] Evet, Sam Fisher, seni Vernon Wilkes Jr.la tanıştırayım.
+[195.000–198.640] Umarım sakıncası yoktur. Ona Kuwait'teki birkaç hikayeni anlattım.
+[198.640–201.200] Junior Wilks uzun süredir NSA'de.
+[201.280–203.920] Kara ve hava ulaşımınla silahlarından o sorumlu.
+[204.080–206.180] Ulaşım ve ekipmanı o koordine edecek.
+[206.420–208.600] Eminim ikiniz çok iyi anlaşacaksınız.
+[208.860–210.980] Third Echelon, yepyeni bir girişim.
+[211.140–212.880] Kanıtlamamız gereken çok şey var.
+[213.320–216.420] İkiniz Third Echelon'un sahadaki ilk ekibi olacaksınız.
+[216.700–218.800] Hazır olun ve bizi gururlandırın.
+[219.040–220.480] NSA'ya hoş geldiniz.
+[220.860–222.180] Fisher, güneş battı.
+[222.300–223.540] İşe koyulma zamanı.
+[223.680–225.720] Önceliğimiz Ajan Blaustein'i bulmak.
+[225.720–229.260] Yerel NSA bağlantımız üzerinden yerini tespit edeceksin.
+[229.620–230.900] Ve sokaklardan uzak dur.
+[231.260–235.280] Şehirde yoğun polis var. Olay çıkarsa, Washington arkamızda olmayacak.
+[235.580–236.780] Ayrıntılar opsatında.
+[237.160–238.800] Zaten bildiğin şeyi neden söyleyeyim?
+[239.140–240.000] Acele etmelisin.
+[240.360–244.260] Grimsdottir Darkstar dron verilerini depo planlarıyla karşılaştırıyor.
+[244.540–245.620] Seni o yönlendirecek.
+[246.000–246.800] Kahretsin Sam!
+[247.060–250.380] Bu görev sokaklarda dolaşmanı göze alamayacağımız kadar hassas.
+[250.540–251.800] Operasyonu iptal ediyorum.
+[252.260–252.860] Lanet olsun!
+[253.080–255.120] Az önce bir sivili vurdun, farkındasın değil mi?
+[255.120–257.420] Bir hata daha ve görev biter.
+[257.740–258.440] Kahretsin Fisher!
+[258.760–261.120] Bu sivil cesetlerini durmadan örtbas edemeyiz.
+[261.300–263.220] Belki de aradığımız ajan sen değildin.
+[263.540–265.200] Senin de görevin de işi bitti.
+[265.460–265.840] Güzel.
+[266.040–268.280] Sıradaki hedefin Blaustein'in kara kutusu.
+[268.620–271.200] Standart ajan saha prosedürlerini kullandıysa,
+[271.380–275.060] kutuyu sahte bir kitaplığın ya da duvar panelinin arkasında bulursun.
+[275.200–275.740] Tüh.
+[276.040–276.300] Yok.
+[276.780–280.080] Derealtı vericisi ölümünden 6 saat sonra devre dışı kalmış.
+[280.380–283.080] Son aktif konum birkaç blok ötedeki polis karakolu.
+[283.300–284.020] Opsatına bak.
+[284.020–286.380] Fisher, sokak kısıtlamanı kaldırıyorum.
+[286.720–288.440] Tiflis, polis telsizini dinliyoruz.
+[288.620–290.720] Bu polisler tepeden tırnağa yozlaşmış.
+[290.980–293.560] Bizim kadar onlar da uluslararası ilgi istemez.
+[293.820–294.980] Artık bütün yollar açık.
+[295.240–297.520] Kayıp ajanları bulmak için ne gerekiyorsa yap.
+[297.800–298.980] Huzur içinde yatsınlar.
+[299.200–301.080] Biri derialtı vericilerini sökmüş.
+[301.300–303.800] Yapabilirsek derialtı vericilerin izini süreriz.
+[304.080–304.740] İyi düşündün.
+[304.900–307.180] Vericileri video arşivinden takip ederiz.
+[307.380–309.400] Karakolun gözetim odası en üst katta.
+[309.700–310.360] İyi iş Fisher.
+[310.680–311.680] Kasetleri tarıyoruz.
+[311.680–314.140] Grim, yüzünü Echelon'da taratabilir misin?
+[314.440–315.100] Harika.
+[315.380–317.020] Fischer, ihtiyacımız olanı aldık.
+[317.240–319.120] Wilkes'le buluş, buradaki işim bitti.
+[319.480–322.280] Bu istihbaratı inceledikten sonra sana döneceğiz.
+[322.680–324.920] Tanrı aşkına Fischer, ne yaptığını sanıyorsun?
+[325.200–326.020] Görev bitti!
+[326.340–329.380] Echelon Mork güvenlik kameralarından hedefini teşhis etti.
+[329.740–331.480] Adı Vyacheslav Grinko.
+[331.680–332.320] Plakasından.
+[332.720–334.440] O zaman şoförü arabanın yanında olur.
+[334.780–335.780] Yakala ve konuştur.
+[336.080–337.380] Güç kullanmaktan çekinme.
+[337.780–339.960] Grimsdottir bakanlığın planlarını çıkardı.
+[339.960–342.480] Avluda lazer güvenlik ağı aktif.
+[342.620–343.740] Hiç alarm çaldırma.
+[343.980–347.220] Bu operasyon için genel kurmaydan hala resmi onayımız yok.
+[347.480–349.120] Tek hata ve görev biter.
+[349.400–352.500] Grinko ile Masse in Asansör'de ne konuştuğunu duymak istiyorum.
+[352.860–353.560] O zaman yap.
+[353.960–355.720] Demek deri altıvericileri bulduk.
+[356.060–358.320] Bu konuşma doğrudan genel kurmaya gidiyor.
+[358.560–360.240] Daha fazlasına ihtiyacımız olacak.
+[360.600–363.100] Bildin, ofisine gir ve bilgisayara eriş.
+[363.360–365.080] Alarmlar artık görevi bitirmez.
+[365.340–367.200] Beşinci özgürlük yetkisine geçiyoruz.
+[367.560–369.200] Bir albay sana doğru geliyor Fischer.
+[369.200–375.960] İşine yarayacak. Avlu kapısındaki retina tarayıcısını açmak istiyorsan, bilinci açık ve iş birliğine hazır olmalı.
+[376.200–377.580] Her şeyi bilmek benim işim.
+[377.940–381.340] Kahretsin Fisher, o neydi? Özensiz iş! Bir daha yapma!
+[381.740–383.400] Aman tanrım, kötü şeyler.
+[383.700–386.520] Yayına devam et. Bunun nereye vardığını görmemiz gerek.
+[386.940–392.140] Cesetler, mülteci kampları. Haftalardır Azerbaycan'da komando operasyonları yürütüyorlar.
+[392.380–393.420] Bunu nasıl kaçırdık?
+[393.660–394.660] Yayına devam et.
+[394.920–398.420] Fisher, Nikoladze'nin bilgisayarındaki dosyaların kalanını istiyoruz.
+[398.420–400.500] Bunlar doğrudan başkana gidiyor.
+[400.740–402.640] Askeri harekata gidiyor olabiliriz.
+[402.780–404.740] Tartışmasız kanıta ihtiyacımız var.
+[405.080–406.600] Bitti. Tanrıya şükür.
+[406.900–408.460] Rakamları duysan inanmazsın.
+[408.780–411.980] Nikoladze, Azerbaycan'da sistematik bir katliam yürütüyor.
+[412.360–413.380] Kimsenin yoktu.
+[413.640–414.420] Haberleri sonra izlersin.
+[415.160–416.940] Tahliye için Junior Wilkes'le buluş.

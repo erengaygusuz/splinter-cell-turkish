@@ -1,0 +1,658 @@
+{
+  "u000004": {
+    "sha256": "cad2fcfaee4f2e35facb350e2f0225b2e1b68bb5372493d5660298b5671ac294",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Pekala Sam, başlayalım. Beni net duyuyor musun?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Pekala",
+        "probability": 0.8019205729166666
+      },
+      {
+        "start": 0.6,
+        "end": 0.9,
+        "text": " Sam,",
+        "probability": 0.904296875
+      },
+      {
+        "start": 1.16,
+        "end": 1.78,
+        "text": " başlayalım.",
+        "probability": 0.9825846354166666
+      },
+      {
+        "start": 2.06,
+        "end": 2.14,
+        "text": " Beni",
+        "probability": 0.98974609375
+      },
+      {
+        "start": 2.14,
+        "end": 2.34,
+        "text": " net",
+        "probability": 0.99853515625
+      },
+      {
+        "start": 2.34,
+        "end": 2.68,
+        "text": " duyuyor",
+        "probability": 0.99462890625
+      },
+      {
+        "start": 2.68,
+        "end": 2.86,
+        "text": " musun?",
+        "probability": 0.998046875
+      }
+    ]
+  },
+  "u000103": {
+    "sha256": "a17a560ed71449cd749947958c5bdcfc847e290fbe144d3a81ae81f91277591f",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Cesedi yangına bırak. Ailesine açıklanacak daha az şey kalır.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.64,
+        "text": " Cesedi",
+        "probability": 0.845947265625
+      },
+      {
+        "start": 0.64,
+        "end": 1.02,
+        "text": " yangına",
+        "probability": 0.98828125
+      },
+      {
+        "start": 1.02,
+        "end": 1.4,
+        "text": " bırak.",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 1.78,
+        "end": 2.24,
+        "text": " Ailesine",
+        "probability": 0.9889322916666666
+      },
+      {
+        "start": 2.24,
+        "end": 2.86,
+        "text": " açıklanacak",
+        "probability": 0.9977213541666666
+      },
+      {
+        "start": 2.86,
+        "end": 3.12,
+        "text": " daha",
+        "probability": 0.9921875
+      },
+      {
+        "start": 3.12,
+        "end": 3.32,
+        "text": " az",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 3.32,
+        "end": 3.44,
+        "text": " şey",
+        "probability": 0.99951171875
+      },
+      {
+        "start": 3.44,
+        "end": 3.76,
+        "text": " kalır.",
+        "probability": 0.998046875
+      }
+    ]
+  },
+  "u000119": {
+    "sha256": "87ae218745faafe0019ab39f11279a31aa2a0b62959985a85de75ee7e9e8eff9",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ucuz atlattın. Yaşıyor musun?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.5,
+        "text": " Ucuz",
+        "probability": 0.819091796875
+      },
+      {
+        "start": 0.5,
+        "end": 1.18,
+        "text": " atlattın.",
+        "probability": 0.99853515625
+      },
+      {
+        "start": 1.34,
+        "end": 1.68,
+        "text": " Yaşıyor",
+        "probability": 0.9923502604166666
+      },
+      {
+        "start": 1.68,
+        "end": 1.86,
+        "text": " musun?",
+        "probability": 0.998046875
+      }
+    ]
+  },
+  "u000124": {
+    "sha256": "cbeb28c885203bede92602fcbc5d7c5a7dbafc89ab35466fc30f1fb03d4d9d78",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Blaustein'in kalbi 43 saat önce durdu.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.82,
+        "text": " Blaustein",
+        "probability": 0.67529296875
+      },
+      {
+        "start": 0.82,
+        "end": 0.94,
+        "text": "'in",
+        "probability": 0.7978515625
+      },
+      {
+        "start": 0.94,
+        "end": 1.28,
+        "text": " kalbi",
+        "probability": 0.992919921875
+      },
+      {
+        "start": 1.28,
+        "end": 1.66,
+        "text": " 43",
+        "probability": 0.9658203125
+      },
+      {
+        "start": 1.66,
+        "end": 1.94,
+        "text": " saat",
+        "probability": 0.986328125
+      },
+      {
+        "start": 1.94,
+        "end": 2.22,
+        "text": " önce",
+        "probability": 0.99462890625
+      },
+      {
+        "start": 2.22,
+        "end": 2.66,
+        "text": " durdu.",
+        "probability": 0.995361328125
+      }
+    ]
+  },
+  "u000220": {
+    "sha256": "add95b0d8fdecacb4afc1f958d72ee42cb31a516f6c30cc0a07e7147a296b011",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Lazer mikrofonu kullan Fischer. Grinco ile Masse yukarı varmadan ne konuştuklarını duymamız kritik.",
+    "match": 98.4,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Lazer",
+        "probability": 0.544403076171875
+      },
+      {
+        "start": 0.6,
+        "end": 1.08,
+        "text": " mikrofonu",
+        "probability": 0.9444580078125
+      },
+      {
+        "start": 1.08,
+        "end": 1.28,
+        "text": " kullan",
+        "probability": 0.96142578125
+      },
+      {
+        "start": 1.28,
+        "end": 1.9,
+        "text": " Fischer.",
+        "probability": 0.7247314453125
+      },
+      {
+        "start": 2.18,
+        "end": 2.42,
+        "text": " Grinco",
+        "probability": 0.4652099609375
+      },
+      {
+        "start": 2.42,
+        "end": 2.6,
+        "text": " ile",
+        "probability": 0.7890625
+      },
+      {
+        "start": 2.6,
+        "end": 2.92,
+        "text": " Masse",
+        "probability": 0.5992431640625
+      },
+      {
+        "start": 2.92,
+        "end": 3.28,
+        "text": " yukarı",
+        "probability": 0.9542643229166666
+      },
+      {
+        "start": 3.28,
+        "end": 3.74,
+        "text": " varmadan",
+        "probability": 0.85302734375
+      },
+      {
+        "start": 3.74,
+        "end": 4.06,
+        "text": " ne",
+        "probability": 0.96728515625
+      },
+      {
+        "start": 4.06,
+        "end": 4.6,
+        "text": " konuştuklarını",
+        "probability": 0.9908447265625
+      },
+      {
+        "start": 4.6,
+        "end": 5.08,
+        "text": " duymamız",
+        "probability": 0.9908854166666666
+      },
+      {
+        "start": 5.08,
+        "end": 5.54,
+        "text": " kritik.",
+        "probability": 0.97216796875
+      }
+    ]
+  },
+  "u000314": {
+    "sha256": "9911bf48267c404b76b70b380dd619c8b2c7791737af251d19e960e4f5172c88",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Kötü haber Fisher, bir şey ordunun dikkatini çekti.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Kötü",
+        "probability": 0.8782552083333334
+      },
+      {
+        "start": 0.54,
+        "end": 0.72,
+        "text": " haber",
+        "probability": 0.8935546875
+      },
+      {
+        "start": 0.72,
+        "end": 1.06,
+        "text": " Fisher,",
+        "probability": 0.783203125
+      },
+      {
+        "start": 1.44,
+        "end": 1.54,
+        "text": " bir",
+        "probability": 0.9091796875
+      },
+      {
+        "start": 1.54,
+        "end": 1.66,
+        "text": " şey",
+        "probability": 0.95751953125
+      },
+      {
+        "start": 1.66,
+        "end": 2.02,
+        "text": " ordunun",
+        "probability": 0.892822265625
+      },
+      {
+        "start": 2.02,
+        "end": 2.48,
+        "text": " dikkatini",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 2.48,
+        "end": 2.84,
+        "text": " çekti.",
+        "probability": 0.99072265625
+      }
+    ]
+  },
+  "u000030": {
+    "sha256": "8170aa0d6bde7526e2b3b3cff2071bd00894a61f767c35c2cdbe8c45c440e541",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Kahretsin Fischer! Seni bu işi aldırmak için boynuma ortaya koydum. Aklından ne geçiyordu? Kovuldun, ajansla işim bitti, oyun bitti!",
+    "match": 96.8,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.84,
+        "text": " Kahretsin",
+        "probability": 0.91259765625
+      },
+      {
+        "start": 0.84,
+        "end": 1.34,
+        "text": " Fischer!",
+        "probability": 0.577392578125
+      },
+      {
+        "start": 1.64,
+        "end": 1.66,
+        "text": " Seni",
+        "probability": 0.98095703125
+      },
+      {
+        "start": 1.66,
+        "end": 1.84,
+        "text": " bu",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 1.84,
+        "end": 1.98,
+        "text": " işi",
+        "probability": 0.85986328125
+      },
+      {
+        "start": 1.98,
+        "end": 2.42,
+        "text": " aldırmak",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 2.42,
+        "end": 2.62,
+        "text": " için",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 2.62,
+        "end": 3.02,
+        "text": " boynuma",
+        "probability": 0.9080403645833334
+      },
+      {
+        "start": 3.02,
+        "end": 3.4,
+        "text": " ortaya",
+        "probability": 0.98974609375
+      },
+      {
+        "start": 3.4,
+        "end": 3.8,
+        "text": " koydum.",
+        "probability": 0.9977213541666666
+      },
+      {
+        "start": 3.94,
+        "end": 4.34,
+        "text": " Aklından",
+        "probability": 0.9733072916666666
+      },
+      {
+        "start": 4.34,
+        "end": 4.6,
+        "text": " ne",
+        "probability": 0.9921875
+      },
+      {
+        "start": 4.6,
+        "end": 5.18,
+        "text": " geçiyordu?",
+        "probability": 0.9978841145833334
+      },
+      {
+        "start": 5.36,
+        "end": 5.96,
+        "text": " Kovuldun,",
+        "probability": 0.9874267578125
+      },
+      {
+        "start": 6.16,
+        "end": 6.6,
+        "text": " ajansla",
+        "probability": 0.8932291666666666
+      },
+      {
+        "start": 6.6,
+        "end": 6.88,
+        "text": " işim",
+        "probability": 0.88525390625
+      },
+      {
+        "start": 6.88,
+        "end": 7.24,
+        "text": " bitti,",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 7.52,
+        "end": 7.68,
+        "text": " oyun",
+        "probability": 0.9873046875
+      },
+      {
+        "start": 7.68,
+        "end": 8.12,
+        "text": " bitti!",
+        "probability": 0.99755859375
+      }
+    ]
+  },
+  "u000979": {
+    "sha256": "be5dec78053b8d6ec5f0d4e3864353a9865d1b22bc843e3e297c401d72a47e0b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sorgu, işkence ve aman tanrım!",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.82,
+        "text": " Sorgu,",
+        "probability": 0.6942138671875
+      },
+      {
+        "start": 1.1,
+        "end": 1.48,
+        "text": " işkence",
+        "probability": 0.9842122395833334
+      },
+      {
+        "start": 1.48,
+        "end": 1.92,
+        "text": " ve",
+        "probability": 0.97509765625
+      },
+      {
+        "start": 1.92,
+        "end": 2.28,
+        "text": " aman",
+        "probability": 0.70703125
+      },
+      {
+        "start": 2.28,
+        "end": 2.78,
+        "text": " tanrım!",
+        "probability": 0.8728841145833334
+      }
+    ]
+  },
+  "u001039": {
+    "sha256": "38423f4b45ff1fa37921cba62241751d494e2404573aa966e7654bf770be3b26",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Konuşma Fisher, 5 saniye içinde elektrikleri keseceğiz. İyi değerlendir.",
+    "match": 97.1,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Konuşma",
+        "probability": 0.91064453125
+      },
+      {
+        "start": 0.56,
+        "end": 0.88,
+        "text": " Fisher,",
+        "probability": 0.60791015625
+      },
+      {
+        "start": 1.3,
+        "end": 1.4,
+        "text": " 5",
+        "probability": 0.73095703125
+      },
+      {
+        "start": 1.4,
+        "end": 1.8,
+        "text": " saniye",
+        "probability": 0.9822591145833334
+      },
+      {
+        "start": 1.8,
+        "end": 2.04,
+        "text": " içinde",
+        "probability": 0.978515625
+      },
+      {
+        "start": 2.04,
+        "end": 2.64,
+        "text": " elektrikleri",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 2.64,
+        "end": 3.22,
+        "text": " keseceğiz.",
+        "probability": 0.9913736979166666
+      },
+      {
+        "start": 3.48,
+        "end": 3.64,
+        "text": " İyi",
+        "probability": 0.93896484375
+      },
+      {
+        "start": 3.64,
+        "end": 4.2,
+        "text": " değerlendir.",
+        "probability": 0.9986572265625
+      }
+    ]
+  },
+  "u001064": {
+    "sha256": "a2c198fa2f2ca4c998b223155711404b5fc38e705228d038a3aec8a5d58dcd9c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "İyi iş Pişir, şimdi ortadan kaybol. Taşıdığın veri bunun sonuncusu.",
+    "match": 96.1,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " İyi",
+        "probability": 0.8603515625
+      },
+      {
+        "start": 0.4,
+        "end": 0.6,
+        "text": " iş",
+        "probability": 0.99462890625
+      },
+      {
+        "start": 0.6,
+        "end": 1.02,
+        "text": " Pişir,",
+        "probability": 0.6985270182291666
+      },
+      {
+        "start": 1.24,
+        "end": 1.38,
+        "text": " şimdi",
+        "probability": 0.9599609375
+      },
+      {
+        "start": 1.38,
+        "end": 1.78,
+        "text": " ortadan",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 1.78,
+        "end": 2.22,
+        "text": " kaybol.",
+        "probability": 0.998291015625
+      },
+      {
+        "start": 2.5,
+        "end": 2.94,
+        "text": " Taşıdığın",
+        "probability": 0.9748046875
+      },
+      {
+        "start": 2.94,
+        "end": 3.24,
+        "text": " veri",
+        "probability": 0.9853515625
+      },
+      {
+        "start": 3.24,
+        "end": 3.46,
+        "text": " bunun",
+        "probability": 0.93896484375
+      },
+      {
+        "start": 3.46,
+        "end": 4.06,
+        "text": " sonuncusu.",
+        "probability": 0.9930419921875
+      }
+    ]
+  }
+}

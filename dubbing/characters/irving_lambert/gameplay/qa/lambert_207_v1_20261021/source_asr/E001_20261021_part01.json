@@ -1,0 +1,620 @@
+{
+  "source": "dubbing/characters/irving_lambert/gameplay/batches/E001_20261021/irving_lambert_pilot10_E001_20261021_132006.mp3",
+  "source_sha256": "85f2ed2c2a9af7ace875bd7846171a2cfc363209e916716bac06cdbdb318ca32",
+  "model": "medium",
+  "language": "tr",
+  "device": "cpu",
+  "compute_type": "int8",
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.94,
+      "text": "Pekala Sam, başlayalım. Beni net duyuyor musun?"
+    },
+    {
+      "start": 3.46,
+      "end": 7.0,
+      "text": "Cesedi yangına bırak. Ailesine açıklanacak daha az şey kalır."
+    },
+    {
+      "start": 7.46,
+      "end": 9.1,
+      "text": "Ucuz atlattın. Yaşıyor musun?"
+    },
+    {
+      "start": 9.56,
+      "end": 12.02,
+      "text": "Blaustein'in kalbi 43 saat önce durdu."
+    },
+    {
+      "start": 12.44,
+      "end": 13.78,
+      "text": "Lazer mikrofonu kullan, Fisher."
+    },
+    {
+      "start": 14.28,
+      "end": 17.82,
+      "text": "Grinko ile Masse yukarı varmadan ne konuştuklarını duymamız kritik."
+    },
+    {
+      "start": 18.22,
+      "end": 20.82,
+      "text": "Kötü haber, Fisher. Bir şey ordunun dikkatini çekti."
+    },
+    {
+      "start": 21.2,
+      "end": 24.62,
+      "text": "Kahretsin, Fisher. Seni bu işi aldırmak için boynuma ortaya koydum."
+    },
+    {
+      "start": 24.86,
+      "end": 29.12,
+      "text": "Aklından ne geçiyordu? Kovuldun. Ajansla işim bitti. Oyun bitti."
+    },
+    {
+      "start": 29.12,
+      "end": 32.16,
+      "text": "Sorgu, işkence ve aman tanrım!"
+    },
+    {
+      "start": 32.42,
+      "end": 36.38,
+      "text": "Konuşma Fischer, 5 saniye içinde elektrikleri keseceğiz. İyi değerlendir."
+    },
+    {
+      "start": 36.7,
+      "end": 40.52,
+      "text": "İyi iş Fischer, şimdi ortadan kaybol. Taşıdığın veri bunun sonuncusu."
+    }
+  ],
+  "words": [
+    {
+      "start": 0.0,
+      "end": 0.58,
+      "text": "Pekala",
+      "probability": 0.6846303145090739
+    },
+    {
+      "start": 0.58,
+      "end": 0.92,
+      "text": "Sam,",
+      "probability": 0.8835374116897583
+    },
+    {
+      "start": 1.16,
+      "end": 1.78,
+      "text": "başlayalım.",
+      "probability": 0.9831331769625345
+    },
+    {
+      "start": 1.9,
+      "end": 2.12,
+      "text": "Beni",
+      "probability": 0.976935625076294
+    },
+    {
+      "start": 2.12,
+      "end": 2.34,
+      "text": "net",
+      "probability": 0.9946112632751465
+    },
+    {
+      "start": 2.34,
+      "end": 2.68,
+      "text": "duyuyor",
+      "probability": 0.9852728843688965
+    },
+    {
+      "start": 2.68,
+      "end": 2.94,
+      "text": "musun?",
+      "probability": 0.9979368448257446
+    },
+    {
+      "start": 3.46,
+      "end": 3.84,
+      "text": "Cesedi",
+      "probability": 0.95369091629982
+    },
+    {
+      "start": 3.84,
+      "end": 4.26,
+      "text": "yangına",
+      "probability": 0.9830847680568695
+    },
+    {
+      "start": 4.26,
+      "end": 4.58,
+      "text": "bırak.",
+      "probability": 0.9987271428108215
+    },
+    {
+      "start": 5.0,
+      "end": 5.44,
+      "text": "Ailesine",
+      "probability": 0.9936645030975342
+    },
+    {
+      "start": 5.44,
+      "end": 6.06,
+      "text": "açıklanacak",
+      "probability": 0.9976056814193726
+    },
+    {
+      "start": 6.06,
+      "end": 6.3,
+      "text": "daha",
+      "probability": 0.9921802282333374
+    },
+    {
+      "start": 6.3,
+      "end": 6.5,
+      "text": "az",
+      "probability": 0.998712420463562
+    },
+    {
+      "start": 6.5,
+      "end": 6.64,
+      "text": "şey",
+      "probability": 0.9991232752799988
+    },
+    {
+      "start": 6.64,
+      "end": 7.0,
+      "text": "kalır.",
+      "probability": 0.9965857565402985
+    },
+    {
+      "start": 7.46,
+      "end": 7.7,
+      "text": "Ucuz",
+      "probability": 0.9767213463783264
+    },
+    {
+      "start": 7.7,
+      "end": 8.36,
+      "text": "atlattın.",
+      "probability": 0.9990730583667755
+    },
+    {
+      "start": 8.5,
+      "end": 8.86,
+      "text": "Yaşıyor",
+      "probability": 0.997450073560079
+    },
+    {
+      "start": 8.86,
+      "end": 9.1,
+      "text": "musun?",
+      "probability": 0.9991673231124878
+    },
+    {
+      "start": 9.56,
+      "end": 10.14,
+      "text": "Blaustein",
+      "probability": 0.8368561863899231
+    },
+    {
+      "start": 10.14,
+      "end": 10.28,
+      "text": "'in",
+      "probability": 0.8448406755924225
+    },
+    {
+      "start": 10.28,
+      "end": 10.6,
+      "text": "kalbi",
+      "probability": 0.9937354624271393
+    },
+    {
+      "start": 10.6,
+      "end": 10.98,
+      "text": "43",
+      "probability": 0.9023096561431885
+    },
+    {
+      "start": 10.98,
+      "end": 11.26,
+      "text": "saat",
+      "probability": 0.9915996789932251
+    },
+    {
+      "start": 11.26,
+      "end": 11.56,
+      "text": "önce",
+      "probability": 0.9941178560256958
+    },
+    {
+      "start": 11.56,
+      "end": 12.02,
+      "text": "durdu.",
+      "probability": 0.9961566925048828
+    },
+    {
+      "start": 12.44,
+      "end": 12.78,
+      "text": "Lazer",
+      "probability": 0.7666943073272705
+    },
+    {
+      "start": 12.78,
+      "end": 13.24,
+      "text": "mikrofonu",
+      "probability": 0.9916093647480011
+    },
+    {
+      "start": 13.24,
+      "end": 13.48,
+      "text": "kullan,",
+      "probability": 0.9967707395553589
+    },
+    {
+      "start": 13.66,
+      "end": 13.78,
+      "text": "Fisher.",
+      "probability": 0.6386134624481201
+    },
+    {
+      "start": 14.28,
+      "end": 14.62,
+      "text": "Grinko",
+      "probability": 0.5843063394228617
+    },
+    {
+      "start": 14.62,
+      "end": 14.8,
+      "text": "ile",
+      "probability": 0.6996960043907166
+    },
+    {
+      "start": 14.8,
+      "end": 15.1,
+      "text": "Masse",
+      "probability": 0.6376341134309769
+    },
+    {
+      "start": 15.1,
+      "end": 15.46,
+      "text": "yukarı",
+      "probability": 0.953403373559316
+    },
+    {
+      "start": 15.46,
+      "end": 15.92,
+      "text": "varmadan",
+      "probability": 0.8766095439592997
+    },
+    {
+      "start": 15.92,
+      "end": 16.22,
+      "text": "ne",
+      "probability": 0.9615140557289124
+    },
+    {
+      "start": 16.22,
+      "end": 16.78,
+      "text": "konuştuklarını",
+      "probability": 0.983272984623909
+    },
+    {
+      "start": 16.78,
+      "end": 17.26,
+      "text": "duymamız",
+      "probability": 0.9864535331726074
+    },
+    {
+      "start": 17.26,
+      "end": 17.82,
+      "text": "kritik.",
+      "probability": 0.9837885499000549
+    },
+    {
+      "start": 18.22,
+      "end": 18.46,
+      "text": "Kötü",
+      "probability": 0.9837263425191244
+    },
+    {
+      "start": 18.46,
+      "end": 18.64,
+      "text": "haber,",
+      "probability": 0.9968041181564331
+    },
+    {
+      "start": 18.7,
+      "end": 19.04,
+      "text": "Fisher.",
+      "probability": 0.9953775405883789
+    },
+    {
+      "start": 19.32,
+      "end": 19.48,
+      "text": "Bir",
+      "probability": 0.9786033034324646
+    },
+    {
+      "start": 19.48,
+      "end": 19.58,
+      "text": "şey",
+      "probability": 0.9970468878746033
+    },
+    {
+      "start": 19.58,
+      "end": 19.94,
+      "text": "ordunun",
+      "probability": 0.9105443358421326
+    },
+    {
+      "start": 19.94,
+      "end": 20.44,
+      "text": "dikkatini",
+      "probability": 0.9981412291526794
+    },
+    {
+      "start": 20.44,
+      "end": 20.82,
+      "text": "çekti.",
+      "probability": 0.9959263801574707
+    },
+    {
+      "start": 21.2,
+      "end": 21.76,
+      "text": "Kahretsin,",
+      "probability": 0.9703933795293173
+    },
+    {
+      "start": 21.84,
+      "end": 22.12,
+      "text": "Fisher.",
+      "probability": 0.9974966645240784
+    },
+    {
+      "start": 22.44,
+      "end": 22.58,
+      "text": "Seni",
+      "probability": 0.9962700605392456
+    },
+    {
+      "start": 22.58,
+      "end": 22.78,
+      "text": "bu",
+      "probability": 0.996024489402771
+    },
+    {
+      "start": 22.78,
+      "end": 22.9,
+      "text": "işi",
+      "probability": 0.9404014945030212
+    },
+    {
+      "start": 22.9,
+      "end": 23.34,
+      "text": "aldırmak",
+      "probability": 0.9975618124008179
+    },
+    {
+      "start": 23.34,
+      "end": 23.54,
+      "text": "için",
+      "probability": 0.9979968667030334
+    },
+    {
+      "start": 23.54,
+      "end": 23.94,
+      "text": "boynuma",
+      "probability": 0.8497211933135986
+    },
+    {
+      "start": 23.94,
+      "end": 24.32,
+      "text": "ortaya",
+      "probability": 0.9927982985973358
+    },
+    {
+      "start": 24.32,
+      "end": 24.62,
+      "text": "koydum.",
+      "probability": 0.9986451864242554
+    },
+    {
+      "start": 24.86,
+      "end": 25.28,
+      "text": "Aklından",
+      "probability": 0.9681440790494283
+    },
+    {
+      "start": 25.28,
+      "end": 25.54,
+      "text": "ne",
+      "probability": 0.996052086353302
+    },
+    {
+      "start": 25.54,
+      "end": 26.0,
+      "text": "geçiyordu?",
+      "probability": 0.9977560838063558
+    },
+    {
+      "start": 26.26,
+      "end": 26.78,
+      "text": "Kovuldun.",
+      "probability": 0.9943530857563019
+    },
+    {
+      "start": 27.04,
+      "end": 27.52,
+      "text": "Ajansla",
+      "probability": 0.8825927972793579
+    },
+    {
+      "start": 27.52,
+      "end": 27.8,
+      "text": "işim",
+      "probability": 0.8869927525520325
+    },
+    {
+      "start": 27.8,
+      "end": 28.14,
+      "text": "bitti.",
+      "probability": 0.9987039268016815
+    },
+    {
+      "start": 28.32,
+      "end": 28.62,
+      "text": "Oyun",
+      "probability": 0.9562150537967682
+    },
+    {
+      "start": 28.62,
+      "end": 29.12,
+      "text": "bitti.",
+      "probability": 0.9981809556484222
+    },
+    {
+      "start": 29.12,
+      "end": 30.02,
+      "text": "Sorgu,",
+      "probability": 0.7075105756521225
+    },
+    {
+      "start": 30.24,
+      "end": 30.7,
+      "text": "işkence",
+      "probability": 0.9760693907737732
+    },
+    {
+      "start": 30.7,
+      "end": 31.14,
+      "text": "ve",
+      "probability": 0.9709219336509705
+    },
+    {
+      "start": 31.14,
+      "end": 31.52,
+      "text": "aman",
+      "probability": 0.5519938468933105
+    },
+    {
+      "start": 31.52,
+      "end": 32.16,
+      "text": "tanrım!",
+      "probability": 0.9086033701896667
+    },
+    {
+      "start": 32.42,
+      "end": 32.68,
+      "text": "Konuşma",
+      "probability": 0.9556931257247925
+    },
+    {
+      "start": 32.68,
+      "end": 33.0,
+      "text": "Fischer,",
+      "probability": 0.6042116284370422
+    },
+    {
+      "start": 33.4,
+      "end": 33.5,
+      "text": "5",
+      "probability": 0.6756690740585327
+    },
+    {
+      "start": 33.5,
+      "end": 33.92,
+      "text": "saniye",
+      "probability": 0.9877316355705261
+    },
+    {
+      "start": 33.92,
+      "end": 34.14,
+      "text": "içinde",
+      "probability": 0.9756430387496948
+    },
+    {
+      "start": 34.14,
+      "end": 34.74,
+      "text": "elektrikleri",
+      "probability": 0.9959932565689087
+    },
+    {
+      "start": 34.74,
+      "end": 35.34,
+      "text": "keseceğiz.",
+      "probability": 0.9921618302663168
+    },
+    {
+      "start": 35.64,
+      "end": 35.74,
+      "text": "İyi",
+      "probability": 0.942333459854126
+    },
+    {
+      "start": 35.74,
+      "end": 36.38,
+      "text": "değerlendir.",
+      "probability": 0.9989781230688095
+    },
+    {
+      "start": 36.7,
+      "end": 36.84,
+      "text": "İyi",
+      "probability": 0.9660132527351379
+    },
+    {
+      "start": 36.84,
+      "end": 37.02,
+      "text": "iş",
+      "probability": 0.997468113899231
+    },
+    {
+      "start": 37.02,
+      "end": 37.4,
+      "text": "Fischer,",
+      "probability": 0.9479577243328094
+    },
+    {
+      "start": 37.72,
+      "end": 37.84,
+      "text": "şimdi",
+      "probability": 0.9807769656181335
+    },
+    {
+      "start": 37.84,
+      "end": 38.24,
+      "text": "ortadan",
+      "probability": 0.9984063804149628
+    },
+    {
+      "start": 38.24,
+      "end": 38.68,
+      "text": "kaybol.",
+      "probability": 0.9988844096660614
+    },
+    {
+      "start": 38.96,
+      "end": 39.4,
+      "text": "Taşıdığın",
+      "probability": 0.9809464931488037
+    },
+    {
+      "start": 39.4,
+      "end": 39.7,
+      "text": "veri",
+      "probability": 0.9910961389541626
+    },
+    {
+      "start": 39.7,
+      "end": 39.92,
+      "text": "bunun",
+      "probability": 0.9574711918830872
+    },
+    {
+      "start": 39.92,
+      "end": 40.52,
+      "text": "sonuncusu.",
+      "probability": 0.992523655295372
+    }
+  ],
+  "text": "Pekala Sam, başlayalım. Beni net duyuyor musun? Cesedi yangına bırak. Ailesine açıklanacak daha az şey kalır. Ucuz atlattın. Yaşıyor musun? Blaustein'in kalbi 43 saat önce durdu. Lazer mikrofonu kullan, Fisher. Grinko ile Masse yukarı varmadan ne konuştuklarını duymamız kritik. Kötü haber, Fisher. Bir şey ordunun dikkatini çekti. Kahretsin, Fisher. Seni bu işi aldırmak için boynuma ortaya koydum. Aklından ne geçiyordu? Kovuldun. Ajansla işim bitti. Oyun bitti. Sorgu, işkence ve aman tanrım! Konuşma Fischer, 5 saniye içinde elektrikleri keseceğiz. İyi değerlendir. İyi iş Fischer, şimdi ortadan kaybol. Taşıdığın veri bunun sonuncusu."
+}

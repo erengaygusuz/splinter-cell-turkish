@@ -1,0 +1,82 @@
+[0.000–3.000] Tüh, kayıp Amerisium-239'u bulduk.
+[3.120–3.880] Bir saniye Fisher.
+[4.360–5.360] Yeni hedef Fisher.
+[5.660–8.260] Elçilik arazisinde bir kamyon konvoyu ve depo var.
+[8.560–10.460] O araçların buradan çıkmasına izin verme.
+[10.780–12.920] Yeterince patlayıcın olmadığını biliyorum ama...
+[13.460–14.820] Parçalar henüz birleştirilmedi.
+[15.080–16.740] Nükleer bir patlama tetiklemezsin.
+[17.100–18.200] Kahretsin, çok geç.
+[18.620–21.440] Fejrong'un verilerini ve savaşı önleme şansımızı yok ettiler.
+[21.740–22.620] Görev bitti Fisher.
+[23.080–23.940] Kahretsin Fisher.
+[24.280–25.840] Sandığından büyük hata yaptın.
+[26.060–28.580] O muhafız tuş takımını geçmemizin tek yoluydu.
+[28.580–30.360] Sıkıştın. Görev bitti.
+[30.800–32.440] Kendine bir nükleer sığınak bul, Fisher.
+[32.780–33.800] Çok zaman kaybettin.
+[34.160–36.900] O termal gözlük numarası içeri girmenin tek yoluydu.
+[37.080–37.900] Görev bitti.
+[38.080–40.060] Tuş takımlı kapılar için bir fikrimiz var.
+[40.380–41.120] Devam et Grim.
+[41.420–42.140] Denemeye değer.
+[42.460–44.320] İlerlemek için tek yolumuz bu kapılar.
+[44.620–45.680] Ne bekliyordun, Fisher?
+[46.000–48.380] Kamyonlar Phaerong'un nükleer silahını taşıyordu.
+[48.740–50.320] Tanrı Tayvan'ın yardımcısı olsun.
+[50.580–51.340] Görev bitti.
+[51.540–53.240] Tanrı hepimizin yardımcısı olsun.
+[53.520–54.280] İyi iş, Fisher.
+[54.580–56.460] O nükleer silahlar hiçbir yere gitmiyor.
+[56.880–57.300] Doğru.
+[57.300–61.500] Hem Fejrong'un hem bilgisayarının büyük elçinin ofisinde olduğunu düşünüyoruz.
+[61.660–64.340] Verilerine erişmek için Fejrong'u canlı tutmalısın.
+[64.460–65.340] Müthiş iş Fischer.
+[65.760–66.860] Grimm, veriler nasıl?
+[67.140–67.720] Harika.
+[67.960–69.780] İlgili verileri genel kurmaya gönder.
+[70.100–72.600] Aynısını CIA üzerinden Çin'e ileteceğiz.
+[72.980–74.800] Fischer, Myanmar'da işimiz bitti.
+[75.020–76.560] Goen'le buluş ve defol oradan.
+[76.860–78.660] Gürcistan'a tekrar hoş geldin Fischer.
+[79.120–82.000] Arka giden en temiz yol Başkan Kristabi'nin kayıtları.
+[82.320–83.500] Ayrıntılar Opsat'ında.
+[83.780–84.420] Dokunma.
+[84.700–86.080] CIA ile uyumlu çalışıyor.
+[86.080–88.140] Kristavi ölürse görev biter.
+[88.360–89.800] Bu tür şeylerden nefret ederim.
+[90.300–91.980] Ark bir S.A.D.M.
+[92.200–94.120] Özel Atomik İmha Mühimmatı.
+[94.360–95.600] Evet, sana dönerim.
+[95.840–97.160] Asıl görev Ark, Fisher.
+[97.440–100.220] Onu ele geçir. Kütüphanedeki mahzende bir kasada.
+[100.560–102.440] Kilit Nikoladze'nin retinasına bağlı.
+[102.740–103.380] Doğru.
+[103.600–105.040] Gürcü Özel Kuvvetleri.
+[105.240–106.980] Muhtemelen Kristavi'nin adamları.
+[107.240–109.640] Bu da Nikoladze'nin yakınlarda olduğunu düşündürüyor.
+[110.100–111.840] Hayır, sorgu dosyalarını bul.
+[112.180–115.780] Kristavi'nin adamları Nikoladze'ninkilerden daha dost canlısı olmayacak.
+[115.780–117.880] Ölümcül güç kullanabilirsin.
+[118.160–120.980] Fischer, Nikoladze'nin çekip gitmesine izin veremeyiz.
+[121.240–124.180] Evet, o bilgiyle hayatta kalmasına izin veremeyiz.
+[124.420–126.720] Tanrım Fischer, bu düpedüz delilikti.
+[126.960–127.900] Ne diyeceğimi bilmiyorum.
+[128.220–128.780] Oradan çık!
+[128.980–129.620] Görev bitti!
+[130.020–130.940] O da neydi Fischer?
+[131.340–131.740] Görüyorum!
+[132.020–133.120] Artık arka alamayız!
+[133.280–133.980] Görev bitti!
+[134.240–134.740] Oradan çık!
+[135.260–136.780] Olabildiğince açık söyleyeyim.
+[137.020–138.240] Nikoladze'yi oradan vur.
+[138.520–138.920] Şimdi!
+[139.160–139.760] Iskalama!
+[139.980–141.320] İkinci bir şansın olmayabilir.
+[141.780–145.180] Nikoladze'nin ABD'ye yönelik tehditine dair son parça.
+[145.180–149.200] Şu an en büyük önceliğimiz taşıdığın veriyi düşmanın eline geçirmemek.
+[149.360–150.280] Osprey bekliyor.
+[150.720–152.940] Tüh, Fischer, yanlış Gürcü'yü öldürdün.
+[153.160–154.520] O varlam Kristavi'ydi.
+[154.760–156.060] Görev bitti, oradan çık!
