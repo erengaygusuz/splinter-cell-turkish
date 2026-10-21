@@ -1,0 +1,25 @@
+{
+  "interline_boundaries_viewed": 188,
+  "source_edges_viewed": 4,
+  "review_method": "Visual source waveform inspection, no auditory approval.",
+  "interline_result": "All selected cuts lie in low-energy interline regions.",
+  "source_head_priority": "u000926: source begins after 29.9 ms quiet; preserved from sample zero.",
+  "manual_anchors": [
+    "u000047",
+    "u000497"
+  ],
+  "plot_sha256": {
+    "boundaries_01.png": "2f0509a94eae08252a4841787145dc17ebfa1a7f0b57616ab36a7fd50fda6bef",
+    "boundaries_02.png": "55aa9c257484843630ebc4cd91034e70164897ed2b4a22343379cc92efcebff5",
+    "boundaries_03.png": "95dc118b98230b7a3621863b6bd5ab417a4254d087cd014249191c9af37cd132",
+    "boundaries_04.png": "a2ef219db837847609f02f6b19567f374680b5890cb09ea0cadbb8b687a59f8a",
+    "boundaries_05.png": "eae818d84cfddc18c0de1d4ac563ba4cb0516f2a5b6c1f41110be5a52fd0f568",
+    "boundaries_06.png": "4f15822112399cb4f9f2d9519ef9c769af4c7d177289f199b93475c00e83dd72",
+    "boundaries_07.png": "0c1091c3442b29ec532c01a17f3e381800410decabf76aed2ed818857beb41af",
+    "boundaries_08.png": "1d5a6f6ccc7b9a820cea090c0eee1a2c770d61611a264e4307067e61e38a1bfa",
+    "boundaries_09.png": "512c26d09a4b9133ceed06ba564ddde11667bf9218c0c66ccdd67067037ed1bf",
+    "boundaries_10.png": "0792dab1747997f95f3247d0c98784b63dab2f632ac1b0d4b5958291e5990f3f",
+    "initial_interjection_review.png": "d5d404615b67d2876c7e8a944d715eeb3c3ebea6f3b8d14e0cdd41709c098afc",
+    "source_edges.png": "3c5fe324ea0cd9b845e3c6705451aacf1183d88ae245bd5d271b22f447d0ef17"
+  }
+}
