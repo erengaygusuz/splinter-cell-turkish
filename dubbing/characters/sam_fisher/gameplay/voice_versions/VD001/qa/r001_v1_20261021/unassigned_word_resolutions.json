@@ -1,0 +1,9 @@
+[
+  {
+    "source_key": "R001_20261021_part01",
+    "word_index": 60,
+    "raw_text": "2",
+    "assigned_id": "u000047",
+    "reason": "Large-v3 context confirms 2000; manual anchor preserves Hmm plus the numeric phrase. Raw source ASR and word alignment are retained unchanged."
+  }
+]

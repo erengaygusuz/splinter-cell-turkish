@@ -1,0 +1,686 @@
+{
+  "u000047": {
+    "sha256": "618d8e3ae48c90b5cc72f4d2b8d19322c022bdfca9d99af89946c60a7e49c99a",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Hmm, 2000'lerdeki çöküşte orada mıydı?",
+    "match": 93.0,
+    "words": [
+      {
+        "text": "Hmm,",
+        "start": 0.0,
+        "end": 0.32,
+        "probability": 0.283203125
+      },
+      {
+        "text": "2000",
+        "start": 0.58,
+        "end": 1.18,
+        "probability": 0.9814453125
+      },
+      {
+        "text": "'lerdeki",
+        "start": 1.18,
+        "end": 1.62,
+        "probability": 0.9991455078125
+      },
+      {
+        "text": "çöküşte",
+        "start": 1.62,
+        "end": 2.1,
+        "probability": 0.94091796875
+      },
+      {
+        "text": "orada",
+        "start": 2.1,
+        "end": 2.36,
+        "probability": 0.99951171875
+      },
+      {
+        "text": "mıydı?",
+        "start": 2.36,
+        "end": 2.8,
+        "probability": 0.9619140625
+      }
+    ]
+  },
+  "u000102": {
+    "sha256": "48fa4df0c7a88855aa9b67e4ce85d45dbfc5bbdc9221ad26b8c4d0b50d3f964e",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Guggenitze öldü.",
+    "match": 86.7,
+    "words": [
+      {
+        "text": "Guggenitze",
+        "start": 0.0,
+        "end": 0.68,
+        "probability": 0.81572265625
+      },
+      {
+        "text": "öldü.",
+        "start": 0.68,
+        "end": 1.08,
+        "probability": 0.85498046875
+      }
+    ]
+  },
+  "u000109": {
+    "sha256": "9d9331fb7702899333d87bf903359d6fe5853a5bbad174da859b0ec1e5f539b1",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Gurgenitze",
+    "match": 90.0,
+    "words": [
+      {
+        "text": "Gurgenitze",
+        "start": 0.0,
+        "end": 0.66,
+        "probability": 0.60693359375
+      }
+    ]
+  },
+  "u000111": {
+    "sha256": "dde5eba42c39dacb357783ee257aa8b7c722169be0633b0188c820ba054dc1db",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "N.S.A. denim. Seni buradan çıkaracağız.",
+    "match": 97.1,
+    "words": [
+      {
+        "text": "N",
+        "start": 0.0,
+        "end": 0.26,
+        "probability": 0.51416015625
+      },
+      {
+        "text": ".S",
+        "start": 0.26,
+        "end": 0.54,
+        "probability": 0.835205078125
+      },
+      {
+        "text": ".A.",
+        "start": 0.54,
+        "end": 0.72,
+        "probability": 0.93115234375
+      },
+      {
+        "text": "denim.",
+        "start": 0.74,
+        "end": 1.02,
+        "probability": 0.6719970703125
+      },
+      {
+        "text": "Seni",
+        "start": 1.06,
+        "end": 1.42,
+        "probability": 0.97607421875
+      },
+      {
+        "text": "buradan",
+        "start": 1.42,
+        "end": 1.64,
+        "probability": 0.98876953125
+      },
+      {
+        "text": "çıkaracağız.",
+        "start": 1.64,
+        "end": 2.22,
+        "probability": 0.994873046875
+      }
+    ]
+  },
+  "u000123": {
+    "sha256": "9ee1a727242b4eabd1261e932a491c2835ed676c920a7980c9718007c510a5a6",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Ne haber?",
+    "match": 100.0,
+    "words": [
+      {
+        "text": "Ne",
+        "start": 0.0,
+        "end": 0.28,
+        "probability": 0.60888671875
+      },
+      {
+        "text": "haber?",
+        "start": 0.28,
+        "end": 0.42,
+        "probability": 0.97119140625
+      }
+    ]
+  },
+  "u000187": {
+    "sha256": "251865a9a9214e2db5c1d9911366dee50beb08ee97ba587236a87f96d2bc38e3",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Dere altı vericiler",
+    "match": 94.7,
+    "words": [
+      {
+        "text": "Dere",
+        "start": 0.0,
+        "end": 0.36,
+        "probability": 0.920654296875
+      },
+      {
+        "text": "altı",
+        "start": 0.36,
+        "end": 0.62,
+        "probability": 0.6884765625
+      },
+      {
+        "text": "vericiler",
+        "start": 0.62,
+        "end": 1.08,
+        "probability": 0.9270833333333334
+      }
+    ]
+  },
+  "u000258": {
+    "sha256": "de71fe4a565931f6c95bf1001a02277402ee830df1a3edff50abfc05160b9a3c",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Nikoladze'nin bilgisayarı,",
+    "match": 100.0,
+    "words": [
+      {
+        "text": "Nikoladze",
+        "start": 0.0,
+        "end": 0.7,
+        "probability": 0.683349609375
+      },
+      {
+        "text": "'nin",
+        "start": 0.7,
+        "end": 0.78,
+        "probability": 0.99365234375
+      },
+      {
+        "text": "bilgisayarı,",
+        "start": 0.78,
+        "end": 1.36,
+        "probability": 0.9759765625
+      }
+    ]
+  },
+  "u000432": {
+    "sha256": "90fa7bd787a3e04abf30c5f46eeb1384ae4143218a58f91415497666b2637a90",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Tek sorun ben ve Doherty.",
+    "match": 96.0,
+    "words": [
+      {
+        "text": "Tek",
+        "start": 0.0,
+        "end": 0.28,
+        "probability": 0.93310546875
+      },
+      {
+        "text": "sorun",
+        "start": 0.28,
+        "end": 0.72,
+        "probability": 0.92578125
+      },
+      {
+        "text": "ben",
+        "start": 0.72,
+        "end": 0.86,
+        "probability": 0.931640625
+      },
+      {
+        "text": "ve",
+        "start": 0.86,
+        "end": 1.12,
+        "probability": 0.9990234375
+      },
+      {
+        "text": "Doherty.",
+        "start": 1.12,
+        "end": 1.62,
+        "probability": 0.7501627604166666
+      }
+    ]
+  },
+  "u000723": {
+    "sha256": "d8d50f642a581ecd7b8a14e878634daa782320fc26d0e0410cc4cc81d414335a",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "İş",
+    "match": 50.0,
+    "words": [
+      {
+        "text": "İş",
+        "start": 0.0,
+        "end": 0.42,
+        "probability": 0.54150390625
+      }
+    ]
+  },
+  "u000732": {
+    "sha256": "817eddd0b38abebc23c85898c2f4f601a93b5b9ef9f61dbc867b86a24d3e233a",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Bilmediğin bir şey mi var?",
+    "match": 96.0,
+    "words": [
+      {
+        "text": "Bilmediğin",
+        "start": 0.31999999999999984,
+        "end": 0.62,
+        "probability": 0.80224609375
+      },
+      {
+        "text": "bir",
+        "start": 0.62,
+        "end": 0.72,
+        "probability": 0.99755859375
+      },
+      {
+        "text": "şey",
+        "start": 0.72,
+        "end": 0.88,
+        "probability": 0.99267578125
+      },
+      {
+        "text": "mi",
+        "start": 0.88,
+        "end": 0.98,
+        "probability": 0.998046875
+      },
+      {
+        "text": "var?",
+        "start": 0.98,
+        "end": 1.18,
+        "probability": 0.9990234375
+      }
+    ]
+  },
+  "u000737": {
+    "sha256": "39712f1fb3b55ffc992f5ec2aa8ff931e007891103a1aa26a22343ed2186ea8b",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Çinli bir generalin Nikoladze ile konuşması iyi haber değil.",
+    "match": 98.3,
+    "words": [
+      {
+        "text": "Çinli",
+        "start": 0.0,
+        "end": 0.46,
+        "probability": 0.9933268229166666
+      },
+      {
+        "text": "bir",
+        "start": 0.46,
+        "end": 0.6,
+        "probability": 0.99609375
+      },
+      {
+        "text": "generalin",
+        "start": 0.6,
+        "end": 1.16,
+        "probability": 0.98193359375
+      },
+      {
+        "text": "Nikoladze",
+        "start": 1.16,
+        "end": 1.74,
+        "probability": 0.865966796875
+      },
+      {
+        "text": "ile",
+        "start": 1.74,
+        "end": 1.8,
+        "probability": 0.97802734375
+      },
+      {
+        "text": "konuşması",
+        "start": 1.8,
+        "end": 2.36,
+        "probability": 0.99951171875
+      },
+      {
+        "text": "iyi",
+        "start": 2.36,
+        "end": 2.6,
+        "probability": 0.99951171875
+      },
+      {
+        "text": "haber",
+        "start": 2.6,
+        "end": 2.86,
+        "probability": 0.99951171875
+      },
+      {
+        "text": "değil.",
+        "start": 2.86,
+        "end": 3.2,
+        "probability": 0.9990234375
+      }
+    ]
+  },
+  "u000821": {
+    "sha256": "2e45f1f37c7ec3fbfddb658022402d47a4d6e3236231a723201f802ab9d0a312",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Nikoladze bunun neresinde?",
+    "match": 100.0,
+    "words": [
+      {
+        "text": "Nikoladze",
+        "start": 0.0,
+        "end": 0.64,
+        "probability": 0.9130859375
+      },
+      {
+        "text": "bunun",
+        "start": 0.64,
+        "end": 0.8,
+        "probability": 0.9912109375
+      },
+      {
+        "text": "neresinde?",
+        "start": 0.8,
+        "end": 1.44,
+        "probability": 0.9998372395833334
+      }
+    ]
+  },
+  "u000959": {
+    "sha256": "6a8f976ddae2dc53779f5b161c0788138becfb51fad78483d2912924fb6b5c41",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Hımm, olur.",
+    "match": 100.0,
+    "words": [
+      {
+        "text": "Hımm,",
+        "start": 0.0,
+        "end": 0.62,
+        "probability": 0.6630452473958334
+      },
+      {
+        "text": "olur.",
+        "start": 0.62,
+        "end": 1.22,
+        "probability": 0.99462890625
+      }
+    ]
+  },
+  "u000960": {
+    "sha256": "ad524e4553de8b943ed190aa4e2f5e1896e65cbb87a9ccb535f142bc3ae6aa9e",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Nikoladze nereye kaçtı?",
+    "match": 100.0,
+    "words": [
+      {
+        "text": "Nikoladze",
+        "start": 0.0,
+        "end": 0.68,
+        "probability": 0.8760986328125
+      },
+      {
+        "text": "nereye",
+        "start": 0.68,
+        "end": 0.94,
+        "probability": 0.99609375
+      },
+      {
+        "text": "kaçtı?",
+        "start": 0.94,
+        "end": 1.38,
+        "probability": 1.0
+      }
+    ]
+  },
+  "u000978": {
+    "sha256": "25d59d122c491b6d07b5b0a484d998a79ec18c09a084201fe1a72e593afad2b8",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Ne buldu?",
+    "match": 94.1,
+    "words": [
+      {
+        "text": "Ne",
+        "start": 0.0,
+        "end": 0.28,
+        "probability": 0.75634765625
+      },
+      {
+        "text": "buldu?",
+        "start": 0.28,
+        "end": 0.6,
+        "probability": 0.934814453125
+      }
+    ]
+  },
+  "u000987": {
+    "sha256": "fa34c0e480475b703fb0b65d0a2d1aa2b257276a25fc848471387e862b6cc0ff",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Yani arka almak için Nikoladze'yi canlı tutmam gerekecek.",
+    "match": 97.3,
+    "words": [
+      {
+        "text": "Yani",
+        "start": 0.0,
+        "end": 0.34,
+        "probability": 0.9580078125
+      },
+      {
+        "text": "arka",
+        "start": 0.34,
+        "end": 0.86,
+        "probability": 0.990234375
+      },
+      {
+        "text": "almak",
+        "start": 0.86,
+        "end": 1.1,
+        "probability": 0.99755859375
+      },
+      {
+        "text": "için",
+        "start": 1.1,
+        "end": 1.34,
+        "probability": 1.0
+      },
+      {
+        "text": "Nikoladze",
+        "start": 1.34,
+        "end": 2.0,
+        "probability": 0.8077392578125
+      },
+      {
+        "text": "'yi",
+        "start": 2.0,
+        "end": 2.06,
+        "probability": 0.98876953125
+      },
+      {
+        "text": "canlı",
+        "start": 2.06,
+        "end": 2.4,
+        "probability": 0.999755859375
+      },
+      {
+        "text": "tutmam",
+        "start": 2.4,
+        "end": 2.68,
+        "probability": 1.0
+      },
+      {
+        "text": "gerekecek.",
+        "start": 2.68,
+        "end": 3.24,
+        "probability": 0.99951171875
+      }
+    ]
+  },
+  "u001018": {
+    "sha256": "a41e6a618306ef7d99fcaf8db907b2b9ca31cd8c567512d32c0f6d9255c62bc9",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Kombayn Nikoladze'yi öldürdüm.",
+    "match": 100.0,
+    "words": [
+      {
+        "text": "Kombayn",
+        "start": 0.0,
+        "end": 0.54,
+        "probability": 0.650390625
+      },
+      {
+        "text": "Nikoladze",
+        "start": 0.54,
+        "end": 1.12,
+        "probability": 0.826171875
+      },
+      {
+        "text": "'yi",
+        "start": 1.12,
+        "end": 1.18,
+        "probability": 0.994140625
+      },
+      {
+        "text": "öldürdüm.",
+        "start": 1.18,
+        "end": 1.66,
+        "probability": 0.9991861979166666
+      }
+    ]
+  },
+  "u001065": {
+    "sha256": "082458a37d6c99e1d7ac681ac65ff6df44d919435603aa257ef91a51b1a6faf6",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "May'in sonuncusu,",
+    "match": 83.9,
+    "words": [
+      {
+        "text": "May",
+        "start": 0.0,
+        "end": 0.28,
+        "probability": 0.67431640625
+      },
+      {
+        "text": "'in",
+        "start": 0.28,
+        "end": 0.4,
+        "probability": 0.9814453125
+      },
+      {
+        "text": "sonuncusu,",
+        "start": 0.4,
+        "end": 0.96,
+        "probability": 0.99365234375
+      }
+    ]
+  },
+  "u001084": {
+    "sha256": "72e67874d8ab584fa6e60bbec83367037e63857e4e825024ef8eca989a8d3a9f",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Arka Anlat",
+    "match": 85.7,
+    "words": [
+      {
+        "text": "Arka",
+        "start": 0.0,
+        "end": 0.5,
+        "probability": 0.876220703125
+      },
+      {
+        "text": "Anlat",
+        "start": 0.5,
+        "end": 0.76,
+        "probability": 0.75390625
+      }
+    ]
+  },
+  "u001092": {
+    "sha256": "d8840b587dfd1e03c3782962f679b2a28f20822d710e66f0859beb1c1382bf00",
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "reason": "Independent isolated retry: distinguish ASR spelling/recognition uncertainty from content or boundary issues.",
+    "text": "Arka Anlat",
+    "match": 85.7,
+    "words": [
+      {
+        "text": "Arka",
+        "start": 0.0,
+        "end": 0.5,
+        "probability": 0.874755859375
+      },
+      {
+        "text": "Anlat",
+        "start": 0.5,
+        "end": 0.76,
+        "probability": 0.7476806640625
+      }
+    ]
+  }
+}
