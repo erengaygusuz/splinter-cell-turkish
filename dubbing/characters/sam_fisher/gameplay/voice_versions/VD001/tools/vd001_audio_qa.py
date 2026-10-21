@@ -244,6 +244,8 @@ def align(group_filter=None):
     expected, sources = load_inputs()
     evidence, unmatched, plans, boundary_rows = [], [], [], []
     inventory_rows = {r['key']: r for r in tsv(QA / 'source_inventory.tsv')}
+    override_path = QA / 'manual_anchors.json'
+    overrides = json.loads(override_path.read_text()) if override_path.exists() else {}
     for group in ['E001_20261021', 'R001_20261021']:
         if group_filter and not group.startswith(group_filter):
             continue
@@ -276,6 +278,15 @@ def align(group_filter=None):
                 last_word_end=match[-1]['end'] if match else None,
                 first_word=match[0]['text'] if match else '', last_word=match[-1]['text'] if match else '',
                 status='ALIGNED_CANDIDATE' if len(keys) == 1 else 'MISSING_OR_MULTI_SOURCE_REVIEW')
+            if row['id'] in overrides:
+                anchor = overrides[row['id']]
+                assert anchor['source_key'] in {s['key'] for s in source_group}
+                result.update(source_key=anchor['source_key'],
+                    matched_source_keys=[anchor['source_key']],
+                    first_word_start=anchor['first_word_start'], last_word_end=anchor['last_word_end'],
+                    first_word=anchor['first_word'], last_word=anchor['last_word'],
+                    manual_anchor=True, manual_anchor_reason=anchor['reason'],
+                    status='MANUAL_ANCHOR_CANDIDATE')
             group_plan.append(result)
         for source in source_group:
             subset = [r for r in group_plan if r['source_key'] == source['key']]

@@ -1,0 +1,106 @@
+{
+  "u000047": {
+    "source_sha256": "1850fccb3b023b8b03863fae0b1f499f8fbf3939bdf1447d911350e2262a480a",
+    "window": {
+      "source_key": "R001_20261021_part01",
+      "start_sec": 27.8,
+      "end_sec": 32.2,
+      "reason": "Recover omitted initial interjection and number."
+    },
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne gibi? Hmm, 2000'lerdeki çöküşte orada mıydı?",
+    "words": [
+      {
+        "text": "Ne",
+        "start": 27.8,
+        "end": 28.240000000000002,
+        "probability": 0.91943359375
+      },
+      {
+        "text": "gibi?",
+        "start": 28.240000000000002,
+        "end": 28.42,
+        "probability": 0.98974609375
+      },
+      {
+        "text": "Hmm,",
+        "start": 28.580000000000002,
+        "end": 29.12,
+        "probability": 0.2476806640625
+      },
+      {
+        "text": "2000",
+        "start": 29.42,
+        "end": 30.060000000000002,
+        "probability": 0.96337890625
+      },
+      {
+        "text": "'lerdeki",
+        "start": 30.060000000000002,
+        "end": 30.48,
+        "probability": 0.998779296875
+      },
+      {
+        "text": "çöküşte",
+        "start": 30.48,
+        "end": 30.96,
+        "probability": 0.99755859375
+      },
+      {
+        "text": "orada",
+        "start": 30.96,
+        "end": 31.22,
+        "probability": 0.99951171875
+      },
+      {
+        "text": "mıydı?",
+        "start": 31.22,
+        "end": 31.66,
+        "probability": 0.8142903645833334
+      }
+    ]
+  },
+  "u000497": {
+    "source_sha256": "1850fccb3b023b8b03863fae0b1f499f8fbf3939bdf1447d911350e2262a480a",
+    "window": {
+      "source_key": "R001_20261021_part01",
+      "start_sec": 154.9,
+      "end_sec": 158.5,
+      "reason": "Recover short interjection omitted by source ASR."
+    },
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hayır! Sağ ol Wilkes.",
+    "words": [
+      {
+        "text": "Hayır!",
+        "start": 154.9,
+        "end": 155.4,
+        "probability": 0.974609375
+      },
+      {
+        "text": "Sağ",
+        "start": 156.54,
+        "end": 157.42000000000002,
+        "probability": 0.884765625
+      },
+      {
+        "text": "ol",
+        "start": 157.42000000000002,
+        "end": 157.42000000000002,
+        "probability": 0.8798828125
+      },
+      {
+        "text": "Wilkes.",
+        "start": 157.42000000000002,
+        "end": 157.86,
+        "probability": 0.86376953125
+      }
+    ]
+  }
+}
