@@ -1,0 +1,48 @@
+{
+  "protected_files_unchanged": 958,
+  "old_character_file_sets_unchanged": false,
+  "observed_external_added_files": 207,
+  "observed_external_removed_empty_placeholders": 1,
+  "expected_ids": 201,
+  "available_cuts": 201,
+  "missing_e001": 0,
+  "source_count": 3,
+  "source_distribution": {
+    "R001_20261021_part01": 167,
+    "R001_20261021_part02": 23,
+    "E001_20261021_part01": 11
+  },
+  "duration_sec": 386.48,
+  "exact_source_pcm_wavs": 201,
+  "all_wav_versions_verified": 202,
+  "selected_versions": {
+    "v01": 200,
+    "v02": 1
+  },
+  "excluded_tail_samples": 3286,
+  "excluded_tail_sec": 0.0745124716553288,
+  "contiguous_boundaries": 198,
+  "visually_reviewed_boundaries": 198,
+  "source_edges_viewed": 6,
+  "originally_unassigned_asr_words": 1,
+  "unassigned_words_resolved": 1,
+  "isolated_medium_count": 201,
+  "medium_exact_matches": 171,
+  "large_isolated_count": 31,
+  "large_context_windows": 4,
+  "decision_counts": {
+    "NEEDS_LISTEN": 198,
+    "NEEDS_BOUNDARY_LISTEN": 3
+  },
+  "content_counts": {
+    "CONTENT_UNCONFIRMED": 4,
+    "PRONUNCIATION_UNCONFIRMED": 10
+  },
+  "active_edge_flags": 0,
+  "short_edge_flags": 2,
+  "clipped_samples": 0,
+  "listened": 0,
+  "approved": 0,
+  "confirmed_regenerate_required": 0,
+  "completion": "201 WAV candidates; no missing source audio; auditory review pending"
+}

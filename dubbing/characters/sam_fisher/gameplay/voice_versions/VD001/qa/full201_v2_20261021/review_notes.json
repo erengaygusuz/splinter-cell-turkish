@@ -1,0 +1,164 @@
+{
+  "u000102": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "Gurgenidze: kaynak ASR doğru yazarken iki izole ASR modeli Guggenitze/Gurgenitze yazıyor. İsim telaffuzu dinlenmeli; kesim sözcüğün tamamını ve sessiz payları koruyor. Üretim hatası doğrulanmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000109": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "Gurgenidze: kaynak ASR doğru yazarken iki izole ASR modeli Guggenitze/Gurgenitze yazıyor. İsim telaffuzu dinlenmeli; kesim sözcüğün tamamını ve sessiz payları koruyor. Üretim hatası doğrulanmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000432": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "Dougherty: medium Dorothy, large-v3 Doherty yazıyor. Özel isim yazım/telaffuz ayrımı için dinleme gerekli; komşu replik taşması saptanmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000111": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "NSA'denim: modeller N.S.A.D'in / N.S.A. denim yazıyor. Kısaltma ayrıştırması belirsiz, baş/son sınırlar sessizlikte. Kesimden bağımsız telaffuz dinlemesi gerekli.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000987": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "Ark'ı: izole modeller arka olarak yazıyor. Özel isim/ek telaffuzu işitsel kontrol gerektiriyor; otomatik yeniden seslendirme kararı verilmedi.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u001084": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "Ark'ı: izole modeller arka olarak yazıyor. Özel isim/ek telaffuzu işitsel kontrol gerektiriyor; otomatik yeniden seslendirme kararı verilmedi.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u001092": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "Ark'ı: izole modeller arka olarak yazıyor. Özel isim/ek telaffuzu işitsel kontrol gerektiriyor; otomatik yeniden seslendirme kararı verilmedi.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000047": {
+    "category": "CONTENT_UNCONFIRMED",
+    "note": "Hımm başlangıcı kaynak bağlamı ve dalga biçimiyle ilk WAV oluşturulmadan önce korundu. İki model 2000'lerdeki ve mıydı biçimlerini tanıyor; beklenen 2000'deki / mıydın. Sınırlar sessizlikte; sözcük biçimi için dinleme gerekli, kesin üretim hatası değil.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000187": {
+    "category": "CONTENT_UNCONFIRMED",
+    "note": "Deri altı / dere altı ayrımı izole modellerde belirsiz. Tam kaynak ASR Deri altı vericiler tanıyor; ilk hecenin kaynak örnekleri korunuyor. Dinlemeden üretim hatası sayılmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000732": {
+    "category": "CONTENT_UNCONFIRMED",
+    "note": "Beklenen Bilmediğim; kaynak ve iki izole model Bilmediğin tanıyor. Kesim başlangıç/sonu sessizlikte. Olası sözcük farkı kesimden ayrı işitsel kontrol gerektiriyor.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000978": {
+    "category": "CONTENT_UNCONFIRMED",
+    "note": "Beklenen Ne buldun; kaynak ASR aynı, iki izole model Ne buldu tanıyor. Kaynak son hece kuyruğu ve ardından sessizlik korunuyor. Son n sesini dinle; yalnız ASR sonucu için kesimi uzatma.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000926": {
+    "category": "",
+    "note": "İkinci MP3'ün ilk repliği sıfırıncı örnekten korunuyor. Kaynağın kendi ilk sessizliği 29,9 ms; hiçbir ön örnek atılmadı. Kaynak başlangıcı son dinlemede kontrol edilmeli.",
+    "decision": "NEEDS_BOUNDARY_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000497": {
+    "category": "",
+    "note": "Kaynak ve bağlam ASR'sinin atladığı Ah, üretim sırası ve ayrık kaynak dalga biçimiyle bulundu. 156,117687–156,898413 sn kesimindeki bağımsız medium transkripti Ah! (%100). Komşu Hayır ve Sağ ol Wilkes ayrı tutuldu.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000723": {
+    "category": "",
+    "note": "İzole ASR İyi iş sözünü Işşş/İş tanıdı; tam kaynak ve büyük model bağlam kontrolü İyi iş tanıyor. Kesimin iki kenarı sessizlikte; buna dayanarak kayıp sözcük veya üretim hatası ilan edilmedi.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u001065": {
+    "category": "",
+    "note": "İzole ASR Mey'in/May'in sonuncusu yazdı; tam kaynak ve büyük model bağlamı Neyin sonuncusu tanıyor. Kesim yanlış eşleşme göstermiyor.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000123": {
+    "category": "",
+    "note": "Ne haber? büyük model izole kontrolünde tam tanındı. İşitsel onay yerine kullanılmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000258": {
+    "category": "",
+    "note": "Nikoladze'nin bilgisayarı büyük modelde doğru tanındı. İşitsel onay yerine kullanılmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000821": {
+    "category": "",
+    "note": "Nikoladze bunun neresinde büyük modelde doğru tanındı. İşitsel onay yerine kullanılmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000960": {
+    "category": "",
+    "note": "Nikoladze nereye kaçtı büyük modelde doğru tanındı. İşitsel onay yerine kullanılmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u001018": {
+    "category": "",
+    "note": "Kombayn Nikoladze'yi öldürdüm büyük modelde doğru tanındı. İşitsel onay yerine kullanılmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000959": {
+    "category": "",
+    "note": "Hımm... Olur büyük modelde doğru tanındı. İşitsel onay yerine kullanılmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000034": {
+    "category": "",
+    "note": "Kaynak başlangıcındaki 24,9 ms sessizlik dahil sıfırıncı örnekten korunuyor. Modeller Echelon'un yazıyor; ek farkı ve ilk hece son dinlemede kontrol edilmeli. ASR yazımı tek başına kesim/üretim hatası sayılmadı.",
+    "decision": "NEEDS_BOUNDARY_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000426": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "Grimsdottir: medium Grimstone tire, large-v3 Grimstow treni tanıyor. Baş ve son sessizlikte; özel isim telaffuzu dinlenmeli. Yanlış üretim doğrulanmadı.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000742": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "Mouke Tsoe Bo: medium Moket soğubu, large-v3 Möke Tsoebo tanıyor. İsimlerin fonetik yazım farkı üretim hatası sayılmadı; kesim iki sessiz sınır arasında tam korunuyor.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000125": {
+    "category": "PRONUNCIATION_UNCONFIRMED",
+    "note": "v02: son cümle ve sessiz kuyruğu korunarak 27,285488 sn noktasından kesildi. Kaynağın sonundaki ayrı kısa çıkıntı öncesindeki 74,512 ms dışarıda; v01 saklandı. İki izole model v02 metnini %100 eşleştiriyor. CIA harf telaffuzu ve son hece işitsel onay gerektiriyor.",
+    "decision": "NEEDS_BOUNDARY_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000435": {
+    "category": "",
+    "note": "Dougherty: medium yazım sapması büyük modelde doğru tanındı. Sınırlar sessizlikte; ASR farkı nedeniyle yeniden üretim istenmedi.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  },
+  "u000970": {
+    "category": "",
+    "note": "Cristavi / Kristavi yazım farkı telaffuz hatası kanıtı değil. Tam replik, başlangıç ve bitiş sessizlikleriyle korundu.",
+    "decision": "NEEDS_LISTEN",
+    "confidence": "HIGH_TECHNICAL_NOT_AUDITORY"
+  }
+}

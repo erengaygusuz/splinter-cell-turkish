@@ -1,0 +1,202 @@
+﻿id	group	group_order	catalog_order	expected_text	production_prompt
+u000005	R001_20261021	1	1	Selam.	[calm, conversational, understated] Selam.
+u000014	R001_20261021	2	2	Erken gelmeyi severim. Merhaba Albay.	[calm, conversational, understated] Erken gelmeyi severim. Merhaba Albay.
+u000016	R001_20261021	3	3	Lambert.	[calm, conversational, understated] Lambert.
+u000018	R001_20261021	4	4	Fena değil. Neyi bilmeme izin var, kimse açık konuşmuyor.	[calm, conversational, understated] Fena değil. Neyi bilmeme izin var, kimse açık konuşmuyor.
+u000020	R001_20261021	5	5	Ama sahada yalnız olacağım.	[calm, conversational, understated] Ama sahada yalnız olacağım.
+u000022	R001_20261021	6	6	Eğitim de böyle mi?	[dry humor, calm, understated] Eğitim de böyle mi?
+u000024	R001_20261021	7	7	Yıllardır sahada değilim.	[calm, conversational, understated] Yıllardır sahada değilim.
+u000026	R001_20261021	8	8	Ya da topuklu giymek.	[dry humor, calm, understated] Ya da topuklu giymek.
+u000028	R001_20261021	9	9	Uslu dururum.	[dry humor, calm, understated] Uslu dururum.
+u000031	R001_20261021	10	10	Sen kimsin?	[calm, conversational, understated] Sen kimsin?
+u000036	R001_20261021	11	12	Bir kısmını. OPSAT konusunda hâlâ biraz kafam karışık.	[calm, conversational, understated] Bir kısmını. OPSAT konusunda hâlâ biraz kafam karışık.
+u000039	R001_20261021	12	13	Anlattığı kadar kötü değilim.	[dry humor, calm, understated] Anlattığı kadar kötü değilim.
+u000041	R001_20261021	13	14	Hah. Ne? Karanlık işlerin azizi mi?	[dry humor, calm, understated] Hah. Ne? Karanlık işlerin azizi mi?
+u000043	R001_20261021	14	15	Second Echelon'da çalışmıştın, değil mi?	[calm, conversational, understated] Second Echelon'da çalışmıştın, değil mi?
+u000045	R001_20261021	15	16	Ne gibi?	[calm, conversational, understated] Ne gibi?
+u000047	R001_20261021	16	17	Hımm. 2000'deki çöküşte orada mıydın?	[calm, conversational, understated] Hımm. 2000'deki çöküşte orada mıydın?
+u000052	R001_20261021	17	18	Bana torpil yok, değil mi?	[calm, conversational, understated] Bana torpil yok, değil mi?
+u000054	R001_20261021	18	19	Kusura bakma. Kapının kodu ne?	[calm, conversational, understated] Kusura bakma. Kapının kodu ne?
+u000056	R001_20261021	19	20	Seninle çalışmak zevkti.	[calm, conversational, understated] Seninle çalışmak zevkti.
+u000080	R001_20261021	20	21	Merhaba.	[calm, conversational, understated] Merhaba.
+u000083	R001_20261021	21	22	Hepimiz dostuz.	[calm, conversational, understated] Hepimiz dostuz.
+u000086	R001_20261021	22	23	Harika.	[calm, conversational, understated] Harika.
+u000088	R001_20261021	23	24	Zaten tek becerdiğim bu.	[dry humor, calm, understated] Zaten tek becerdiğim bu.
+u000091	R001_20261021	24	25	Doğru.	[calm, conversational, understated] Doğru.
+u000094	R001_20261021	25	26	Yoldayım.	[focused, calm, understated] Yoldayım.
+u000102	R001_20261021	26	28	Gurgenidze öldü.	[focused, calm, understated] Gurgenidze öldü.
+u000109	R001_20261021	27	29	Gurgenidze?	[concerned, reassuring, controlled] Gurgenidze?
+u000111	R001_20261021	28	30	NSA'denim. Seni buradan çıkaracağız.	[concerned, reassuring, controlled] NSA'denim. Seni buradan çıkaracağız.
+u000113	R001_20261021	29	31	Evet.	[concerned, reassuring, controlled] Evet.
+u000115	R001_20261021	30	32	Onu nasıl bulurum?	[concerned, reassuring, controlled] Onu nasıl bulurum?
+u000117	R001_20261021	31	33	Lambert, bu adamı tahliye edebilir miyiz?	[concerned, reassuring, controlled] Lambert, bu adamı tahliye edebilir miyiz?
+u000120	R001_20261021	32	34	Uğraşıyorum.	[focused, professional, controlled] Uğraşıyorum.
+u000123	R001_20261021	33	35	Ne haber?	[focused, professional, controlled] Ne haber?
+u000127	R001_20261021	34	37	Paylaşmaları ne hoş.	[dry, sardonic, understated] Paylaşmaları ne hoş.
+u000160	R001_20261021	35	39	Şimdi ne yapıyoruz?	[focused, professional, controlled] Şimdi ne yapıyoruz?
+u000162	R001_20261021	36	40	Burada bir güvenlik kamerası var.	[focused, professional, controlled] Burada bir güvenlik kamerası var.
+u000169	R001_20261021	37	41	Yanlış bir hareket yaparsan ölürsün. Bilgi istiyorum.	[cold, interrogative, controlled] Yanlış bir hareket yaparsan ölürsün. Bilgi istiyorum.
+u000171	R001_20261021	38	42	İki Amerikalı arıyorum. Muhtemelen ölüler.	[cold, interrogative, controlled] İki Amerikalı arıyorum. Muhtemelen ölüler.
+u000173	R001_20261021	39	43	Neredeler?	[cold, interrogative, controlled] Neredeler?
+u000175	R001_20261021	40	44	Deri altı vericiler.	[cold, interrogative, controlled] Deri altı vericiler.
+u000177	R001_20261021	41	45	Sakin ol. Sorularıma cevap vereceksin.	[cold, interrogative, controlled] Sakin ol. Sorularıma cevap vereceksin.
+u000179	R001_20261021	42	46	Bunlar kim?	[cold, interrogative, controlled] Bunlar kim?
+u000181	R001_20261021	43	47	Yalanlar keyfimi kaçırır.	[dark humor, threatening, controlled] Yalanlar keyfimi kaçırır.
+u000183	R001_20261021	44	48	Cesetler.	[cold, interrogative, controlled] Cesetler.
+u000185	R001_20261021	45	49	Bu işte senin rolün ne?	[cold, interrogative, controlled] Bu işte senin rolün ne?
+u000187	R001_20261021	46	50	Deri altı vericiler?	[cold, interrogative, controlled] Deri altı vericiler?
+u000189	R001_20261021	47	51	Neredeler?	[cold, interrogative, controlled] Neredeler?
+u000191	R001_20261021	48	52	Ne zaman ayrıldı?	[cold, interrogative, controlled] Ne zaman ayrıldı?
+u000193	R001_20261021	49	53	Ölümüne yemin et.	[dark humor, threatening, controlled] Ölümüne yemin et.
+u000195	R001_20261021	50	54	Boş ver.	[dismissive, dry, understated] Boş ver.
+u000198	R001_20261021	51	55	Grinko'yu anlat.	[cold, interrogative, controlled] Grinko'yu anlat.
+u000200	R001_20261021	52	56	Öyle mi?	[cold, interrogative, controlled] Öyle mi?
+u000244	R001_20261021	53	57	Onu nasıl bulurum?	[focused, tactical, controlled] Onu nasıl bulurum?
+u000246	R001_20261021	54	58	Ya arabasının yanında değilse?	[focused, tactical, controlled] Ya arabasının yanında değilse?
+u000248	R001_20261021	55	59	Ben mi?	[dry, sardonic, understated] Ben mi?
+u000250	R001_20261021	56	60	O zaman avludan uzak dururum.	[focused, tactical, controlled] O zaman avludan uzak dururum.
+u000253	R001_20261021	57	61	Konuma geçmek için avludaki lazer ağını kapatmam gerekecek.	[focused, tactical, controlled] Konuma geçmek için avludaki lazer ağını kapatmam gerekecek.
+u000256	R001_20261021	58	62	Kötü adamlar 'kan' şakaları yapınca geriliyorum.	[dry, sardonic, understated] Kötü adamlar 'kan' şakaları yapınca geriliyorum.
+u000258	R001_20261021	59	63	Nikoladze'nin bilgisayarı?	[focused, tactical, controlled] Nikoladze'nin bilgisayarı?
+u000261	R001_20261021	60	64	Sana birkaç soru soracağım. Yalan söylediğini düşündüğümde bunu yapacağım.	[cold, threatening, controlled] Sana birkaç soru soracağım. Yalan söylediğini düşündüğümde bunu yapacağım.
+u000263	R001_20261021	61	65	Kime çalışıyorsun?	[cold, threatening, controlled] Kime çalışıyorsun?
+u000265	R001_20261021	62	66	Ondan bahset.	[cold, threatening, controlled] Ondan bahset.
+u000269	R001_20261021	63	68	Masse kim?	[cold, threatening, controlled] Masse kim?
+u000271	R001_20261021	64	69	Bu toplantının konusu ne?	[cold, threatening, controlled] Bu toplantının konusu ne?
+u000273	R001_20261021	65	70	Hiç konuşmadık, anlaşıldı mı?	[cold, threatening, controlled] Hiç konuşmadık, anlaşıldı mı?
+u000275	R001_20261021	66	71	Güzel.	[cold, threatening, controlled] Güzel.
+u000276	R001_20261021	67	72	Hiç konuşmadığımıza inandır beni.	[cold, threatening, controlled] Hiç konuşmadığımıza inandır beni.
+u000278	R001_20261021	68	73	Demek Grinko'dan korkuyorsun.	[cold, threatening, controlled] Demek Grinko'dan korkuyorsun.
+u000283	R001_20261021	69	74	Oldukça ayrıntılı istihbarat.	[serious, analytical, controlled] Oldukça ayrıntılı istihbarat.
+u000286	R001_20261021	70	75	Kötü adamlardan biriydi.	[dry, sardonic, understated] Kötü adamlardan biriydi.
+u000294	R001_20261021	71	76	Ne buldun?	[serious, analytical, controlled] Ne buldun?
+u000296	R001_20261021	72	77	Neler oluyor?	[serious, analytical, controlled] Neler oluyor?
+u000300	R001_20261021	73	78	Tam olarak neler oluyor?	[serious, analytical, controlled] Tam olarak neler oluyor?
+u000302	R001_20261021	74	79	Ve bizim haberimiz yoktu.	[serious, analytical, controlled] Ve bizim haberimiz yoktu.
+u000304	R001_20261021	75	80	Ne istiyor?	[serious, analytical, controlled] Ne istiyor?
+u000307	R001_20261021	76	81	Ne diyor?	[serious, analytical, controlled] Ne diyor?
+u000315	R001_20261021	77	83	Eyvah...	[dry, sardonic, understated] Eyvah...
+u000335	R001_20261021	78	84	Görevim değişiyor mu?	[focused, analytical, controlled] Görevim değişiyor mu?
+u000337	R001_20261021	79	85	Veriyi o çantaya mı indirdi?	[focused, analytical, controlled] Veriyi o çantaya mı indirdi?
+u000341	R001_20261021	80	86	Bunca riske değen ne?	[firm, interrogative, urgent] Bunca riske değen ne?
+u000343	R001_20261021	81	87	Soru sorma. Sadece cevap ver, çabuk.	[firm, interrogative, urgent] Soru sorma. Sadece cevap ver, çabuk.
+u000345	R001_20261021	82	88	Veriyi savaş bölgesinden elle çıkarmak için neden bu riske girdin?	[firm, interrogative, urgent] Veriyi savaş bölgesinden elle çıkarmak için neden bu riske girdin?
+u000347	R001_20261021	83	89	Veride ne var?	[firm, interrogative, urgent] Veride ne var?
+u000349	R001_20261021	84	90	O ne?	[firm, interrogative, urgent] O ne?
+u000351	R001_20261021	85	91	Çantayı nereye götüreceksin?	[firm, interrogative, urgent] Çantayı nereye götüreceksin?
+u000353	R001_20261021	86	92	Masse?	[firm, interrogative, urgent] Masse?
+u000363	R001_20261021	87	93	Ben burada değilim.	[dry, sardonic, understated] Ben burada değilim.
+u000395	R001_20261021	88	94	Ne güzel.	[dry, sardonic, understated] Ne güzel.
+u000398	R001_20261021	89	95	Tamam Lambert, sisteme girdik.	[focused, quiet, controlled] Tamam Lambert, sisteme girdik.
+u000430	R001_20261021	90	97	Nasıl fark edildiler?	[focused, quiet, controlled] Nasıl fark edildiler?
+u000432	R001_20261021	91	98	Tek sorun ben ve Dougherty.	[focused, quiet, controlled] Tek sorun ben ve Dougherty.
+u000467	R001_20261021	92	100	Daha onu almam gerek.	[focused, quiet, controlled] Daha onu almam gerek.
+u000470	R001_20261021	93	101	Onu alırım.	[focused, quiet, controlled] Onu alırım.
+u000474	R001_20261021	94	102	Memnun oldum.	[polite, dry, understated] Memnun oldum.
+u000476	R001_20261021	95	103	Artık sizin.	[focused, quiet, controlled] Artık sizin.
+u000495	R001_20261021	96	104	Hayır.	[strained, sudden, restrained] Hayır.
+u000497	R001_20261021	97	105	Ah.	[strained, sudden, restrained] Ah.
+u000499	R001_20261021	98	106	Sağ ol, Wilkes.	[warm, restrained, sincere] Sağ ol, Wilkes.
+u000510	R001_20261021	99	107	Hallederim.	[focused, serious, controlled] Hallederim.
+u000512	R001_20261021	100	108	Zaten bir annem var, Wilkes.	[dry, sardonic, understated] Zaten bir annem var, Wilkes.
+u000526	R001_20261021	101	109	Ivan kim?	[focused, serious, controlled] Ivan kim?
+u000528	R001_20261021	102	110	Kendi adamlarını öldürüyorlar.	[focused, serious, controlled] Kendi adamlarını öldürüyorlar.
+u000570	R001_20261021	103	111	Konuşabilir misin?	[concerned, focused, controlled] Konuşabilir misin?
+u000572	R001_20261021	104	112	Sen Ivan mısın?	[concerned, focused, controlled] Sen Ivan mısın?
+u000575	R001_20261021	105	113	Şifreleme anahtarın var mı?	[concerned, focused, controlled] Şifreleme anahtarın var mı?
+u000577	R001_20261021	106	114	Ivan adında birini bulmam gerek. Kendini binanın yangın kapılarının arkasına kilitlemiş.	[concerned, focused, controlled] Ivan adında birini bulmam gerek. Kendini binanın yangın kapılarının arkasına kilitlemiş.
+u000579	R001_20261021	107	115	Bu işime yarar. Sağ ol.	[concerned, focused, controlled] Bu işime yarar. Sağ ol.
+u000582	R001_20261021	108	116	Sen Ivan mısın?	[concerned, focused, controlled] Sen Ivan mısın?
+u000584	R001_20261021	109	117	Hem evet hem hayır. Polis yolda. Gelene kadar tek dostun benim; ben de pek iyi bir dost sayılmam.	[dry, reassuring, controlled] Hem evet hem hayır. Polis yolda. Gelene kadar tek dostun benim; ben de pek iyi bir dost sayılmam.
+u000586	R001_20261021	110	118	O benim işim değil. Şifreleme anahtarın için geldim.	[firm, intimidating, controlled] O benim işim değil. Şifreleme anahtarın için geldim.
+u000588	R001_20261021	111	119	Anlaşma hâlâ geçerli. FBI seni buradan sağ çıkaracak, ama önce anahtarı ver.	[firm, intimidating, controlled] Anlaşma hâlâ geçerli. FBI seni buradan sağ çıkaracak, ama önce anahtarı ver.
+u000590	R001_20261021	112	120	Ben işine karışıp sivilleri nasıl öldüreceğini söylüyor muyum?	[dry, sardonic, understated] Ben işine karışıp sivilleri nasıl öldüreceğini söylüyor muyum?
+u000592	R001_20261021	113	121	Hayır. O zaman sen de bana işimi nasıl yapacağımı söyleme. FBI yolda, belki de geldi. İyi olacaksın. Anahtarı verirsin ya da ben alırım.	[firm, intimidating, controlled] Hayır. O zaman sen de bana işimi nasıl yapacağımı söyleme. FBI yolda, belki de geldi. İyi olacaksın. Anahtarı verirsin ya da ben alırım.
+u000594	R001_20261021	114	122	Kelime dağarcığın epey sınırlı. Dinle, anahtarı ver. Yorgunum ve insanları bağırtmaktan nefret ederim. Moralimi bozuyor.	[dry, sardonic, understated] Kelime dağarcığın epey sınırlı. Dinle, anahtarı ver. Yorgunum ve insanları bağırtmaktan nefret ederim. Moralimi bozuyor.
+u000596	R001_20261021	115	123	Sağ ol. FBI gelene kadar daha iyi bir saklanma yeri bul.	[firm, intimidating, controlled] Sağ ol. FBI gelene kadar daha iyi bir saklanma yeri bul.
+u000604	R001_20261021	116	124	Sence şifreleme anahtarları olabilir mi?	[focused, serious, controlled] Sence şifreleme anahtarları olabilir mi?
+u000608	R001_20261021	117	125	Yoldayım.	[focused, serious, controlled] Yoldayım.
+u000616	R001_20261021	118	126	Ben niye buradayım?	[focused, serious, controlled] Ben niye buradayım?
+u000619	R001_20261021	119	127	Bunu söyleyince geriliyorum.	[dry, sardonic, understated] Bunu söyleyince geriliyorum.
+u000622	R001_20261021	120	128	Artık bir yere gitmiyor.	[focused, serious, controlled] Artık bir yere gitmiyor.
+u000627	R001_20261021	121	129	Şifreleme anahtarı lazım.	[firm, intimidating, controlled] Şifreleme anahtarı lazım.
+u000629	R001_20261021	122	130	Sana neden inanayım?	[firm, intimidating, controlled] Sana neden inanayım?
+u000631	R001_20261021	123	131	Ne?	[firm, intimidating, controlled] Ne?
+u000633	R001_20261021	124	132	Nasıl giderim?	[firm, intimidating, controlled] Nasıl giderim?
+u000636	R001_20261021	125	133	Hayır.	[firm, intimidating, controlled] Hayır.
+u000637	R001_20261021	126	134	Anahtarın olmadığını nereden bileyim?	[firm, intimidating, controlled] Anahtarın olmadığını nereden bileyim?
+u000699	R001_20261021	127	135	Neyse. Onu nerede bulurum?	[focused, subdued, controlled] Neyse. Onu nerede bulurum?
+u000702	R001_20261021	128	136	Bir nükleer sığınak bulup dua ezberlerim.	[dry, sardonic, understated] Bir nükleer sığınak bulup dua ezberlerim.
+u000706	R001_20261021	129	137	Sorun olmaz.	[focused, subdued, controlled] Sorun olmaz.
+u000708	R001_20261021	130	138	İş bitince seni bulurum.	[focused, subdued, controlled] İş bitince seni bulurum.
+u000710	R001_20261021	131	139	İş bitince seni bulurum.	[focused, subdued, controlled] İş bitince seni bulurum.
+u000714	R001_20261021	132	141	Nisan'da aydınlık ve soğuk bir gün.	[calm, coded, understated] Nisan'da aydınlık ve soğuk bir gün.
+u000717	R001_20261021	133	142	Söyle.	[focused, subdued, controlled] Söyle.
+u000719	R001_20261021	134	143	Büyükelçinin ofisi sanıyordum.	[dry, sardonic, understated] Büyükelçinin ofisi sanıyordum.
+u000721	R001_20261021	135	144	Kapı var mı?	[focused, subdued, controlled] Kapı var mı?
+u000723	R001_20261021	136	145	İyi iş.	[focused, subdued, controlled] İyi iş.
+u000725	R001_20261021	137	146	Bu Çinli general kim?	[focused, subdued, controlled] Bu Çinli general kim?
+u000727	R001_20261021	138	147	Yerliler ne biliyor?	[focused, subdued, controlled] Yerliler ne biliyor?
+u000732	R001_20261021	139	148	Bilmediğim bir şey mi var?	[concerned, analytical, controlled] Bilmediğim bir şey mi var?
+u000735	R001_20261021	140	149	Bu da kim?	[dry, sardonic, understated] Bu da kim?
+u000737	R001_20261021	141	150	Çinli bir generalin Nikoladze'yle konuşması iyi haber değil.	[concerned, analytical, controlled] Çinli bir generalin Nikoladze'yle konuşması iyi haber değil.
+u000740	R001_20261021	142	151	Öyle görünüyor.	[concerned, analytical, controlled] Öyle görünüyor.
+u000744	R001_20261021	143	153	Uğurlu bir av sahası.	[calm, deliberate, understated] Uğurlu bir av sahası.
+u000749	R001_20261021	144	154	O zaman gürültülü girerim.	[dry, sardonic, understated] O zaman gürültülü girerim.
+u000783	R001_20261021	145	155	Yayını mı dert ediyoruz, yoksa cinayetleri mi?	[dry, sardonic, understated] Yayını mı dert ediyoruz, yoksa cinayetleri mi?
+u000788	R001_20261021	146	156	Duydum. Başka dikkat dağıtma numaramız var mı?	[focused, tense, controlled] Duydum. Başka dikkat dağıtma numaramız var mı?
+u000791	R001_20261021	147	157	Amerikan askerlerini nerede tutuyorsunuz?	[cold, interrogative, controlled] Amerikan askerlerini nerede tutuyorsunuz?
+u000793	R001_20261021	148	158	O benim kadar yaratıcı değil. Neredeler?	[dry, sardonic, understated] O benim kadar yaratıcı değil. Neredeler?
+u000795	R001_20261021	149	159	Nerede?	[cold, interrogative, controlled] Nerede?
+u000797	R001_20261021	150	160	Grinko nerede?	[cold, interrogative, controlled] Grinko nerede?
+u000799	R001_20261021	151	161	Onu nerede bulurum?	[cold, interrogative, controlled] Onu nerede bulurum?
+u000815	R001_20261021	152	162	Sen Çinlisin.	[serious, probing, controlled] Sen Çinlisin.
+u000817	R001_20261021	153	163	Yaptığım her şeyi duyuyorlar. Anlat.	[serious, probing, controlled] Yaptığım her şeyi duyuyorlar. Anlat.
+u000819	R001_20261021	154	164	Ne istiyor?	[serious, probing, controlled] Ne istiyor?
+u000821	R001_20261021	155	165	Nikoladze bunun neresinde?	[serious, probing, controlled] Nikoladze bunun neresinde?
+u000823	R001_20261021	156	166	Çin biliyor mu?	[serious, probing, controlled] Çin biliyor mu?
+u000825	R001_20261021	157	167	Kanıt ne?	[serious, probing, controlled] Kanıt ne?
+u000827	R001_20261021	158	168	Bilgisayarını açtırıp içeriğini Çin Halk Cumhuriyeti'ne göndertirim. Böylece ülkelerimiz savaşa girmez.	[serious, probing, controlled] Bilgisayarını açtırıp içeriğini Çin Halk Cumhuriyeti'ne göndertirim. Böylece ülkelerimiz savaşa girmez.
+u000830	R001_20261021	159	169	Tamam.	[decisive, cold, controlled] Tamam.
+u000832	R001_20261021	160	170	Yani Grinko ölünce dağılırlar.	[decisive, cold, controlled] Yani Grinko ölünce dağılırlar.
+u000836	R001_20261021	161	171	Üzgünüm.	[subdued, sincere, gentle] Üzgünüm.
+u000839	R001_20261021	162	172	Bu iyi değil.	[concerned, serious, restrained] Bu iyi değil.
+u000841	R001_20261021	163	173	Tamam.	[calm, acknowledging, controlled] Tamam.
+u000867	R001_20261021	164	174	Sadece ben varım.	[reassuring, calm, controlled] Sadece ben varım.
+u000881	R001_20261021	165	175	Hallederiz.	[determined, calm, controlled] Hallederiz.
+u000884	R001_20261021	166	176	Elçilikte hâlâ tasmalı mıyım?	[dry, sardonic, understated] Elçilikte hâlâ tasmalı mıyım?
+u000914	R001_20261021	167	177	Deposu dolu her araç, fitil bekleyen bir bomba. Radyasyon tehlikesi var mı?	[focused, cautious, serious] Deposu dolu her araç, fitil bekleyen bir bomba. Radyasyon tehlikesi var mı?
+u000926	R001_20261021	168	178	Yüze değil.	[dry, sardonic, understated] Yüze değil.
+u000944	R001_20261021	169	179	Sırada General var.	[determined, cold, controlled] Sırada General var.
+u000947	R001_20261021	170	180	Bu işte çok intihar görüyorum...	[dry, sardonic, understated] Bu işte çok intihar görüyorum...
+u000955	R001_20261021	171	181	Bilgisayarındaki verilerin kilidini açacağım, sen de bana yardım edeceksin.	[cold, threatening, controlled] Bilgisayarındaki verilerin kilidini açacağım, sen de bana yardım edeceksin.
+u000957	R001_20261021	172	182	Henüz ölmedin. Elinde kalan tek şey hayatının geri kalanı. Ne kadar acı çekeceğin işbirliğine bağlı.	[cold, threatening, controlled] Henüz ölmedin. Elinde kalan tek şey hayatının geri kalanı. Ne kadar acı çekeceğin işbirliğine bağlı.
+u000959	R001_20261021	173	183	Hımm... Olur.	[dry, sardonic, understated] Hımm... Olur.
+u000960	R001_20261021	174	184	Nikoladze nereye kaçtı?	[cold, threatening, controlled] Nikoladze nereye kaçtı?
+u000962	R001_20261021	175	185	O adama sadakat borcun yok. Kaçtı, sana ihanet etti.	[cold, threatening, controlled] O adama sadakat borcun yok. Kaçtı, sana ihanet etti.
+u000978	R001_20261021	176	187	Ne buldun?	[focused, tactical, controlled] Ne buldun?
+u000980	R001_20261021	177	188	Ne?	[surprised, alarmed, restrained] Ne?
+u000982	R001_20261021	178	189	Ne dedin?	[surprised, alarmed, restrained] Ne dedin?
+u000984	R001_20261021	179	190	Yani bavul tipi bir nükleer bomba.	[surprised, alarmed, restrained] Yani bavul tipi bir nükleer bomba.
+u000987	R001_20261021	180	191	Yani Ark'ı almak için Nikoladze'yi canlı tutmam gerekecek.	[focused, tactical, controlled] Yani Ark'ı almak için Nikoladze'yi canlı tutmam gerekecek.
+u000990	R001_20261021	181	192	Bunlar saray muhafızları değil. Bir tür özel kuvvet.	[alert, suspicious, controlled] Bunlar saray muhafızları değil. Bir tür özel kuvvet.
+u000992	R001_20261021	182	193	Planım değişiyor mu?	[focused, tactical, controlled] Planım değişiyor mu?
+u001006	R001_20261021	183	194	Ark'ın yerini gerçekten biliyor mu?	[focused, tactical, controlled] Ark'ın yerini gerçekten biliyor mu?
+u001018	R001_20261021	184	195	Kombayn Nikoladze'yi öldürdüm.	[flat, professional, controlled] Kombayn Nikoladze'yi öldürdüm.
+u001065	R001_20261021	185	196	Neyin sonuncusu?	[curious, alert, controlled] Neyin sonuncusu?
+u001084	R001_20261021	186	197	Ark'ı anlat.	[cold, interrogative, threatening] Ark'ı anlat.
+u001086	R001_20261021	187	198	Ne olduğunu biliyorum. Nereden geldiğini bilmek istiyorum.	[cold, interrogative, threatening] Ne olduğunu biliyorum. Nereden geldiğini bilmek istiyorum.
+u001088	R001_20261021	188	199	Onunla ne yapacaksın?	[cold, interrogative, threatening] Onunla ne yapacaksın?
+u001090	R001_20261021	189	200	Ark. Nerede patlatacaksın?	[cold, interrogative, threatening] Ark. Nerede patlatacaksın?
+u001092	R001_20261021	190	201	Ark'ı anlat.	[cold, interrogative, threatening] Ark'ı anlat.
+u000034	E001_20261021	1	11	Third Echelon'ın baş programcısı.	[calm, conversational, understated] Third Echelon'ın baş programcısı.
+u000096	E001_20261021	2	27	Sakın söyleme... Gurgenidze içeride, değil mi?	[dry, sardonic, understated] Sakın söyleme... Gurgenidze içeride, değil mi?
+u000158	E001_20261021	3	38	Blaustein ve Madison'ı buldum.	[focused, professional, controlled] Blaustein ve Madison'ı buldum.
+u000267	E001_20261021	4	67	Grinko'yu nerede bulurum?	[cold, threatening, controlled] Grinko'yu nerede bulurum?
+u000312	E001_20261021	5	82	Bu platformu neden hâlâ tutuyorlar? Nikoladze açısından pek akıllıca değil.	[focused, analytical, controlled] Bu platformu neden hâlâ tutuyorlar? Nikoladze açısından pek akıllıca değil.
+u000426	E001_20261021	6	96	Grimsdottir'e ne oldu?	[focused, quiet, controlled] Grimsdottir'e ne oldu?
+u000435	E001_20261021	7	99	Dougherty'yi ne yapacağım?	[focused, quiet, controlled] Dougherty'yi ne yapacağım?
+u000712	E001_20261021	8	140	Beni endişelendirmiyor. Wilkes konusunu bir daha açma.	[restrained grief, firm, subdued] Beni endişelendirmiyor. Wilkes konusunu bir daha açma.
+u000742	E001_20261021	9	152	Mouke Tsoe Bo.	[calm, deliberate, understated] Mouke Tsoe Bo.
+u000970	E001_20261021	10	186	Cristavi yoluma çıkarsa?	[focused, tactical, controlled] Cristavi yoluma çıkarsa?
+u000125	E001_20261021	11	36	CIA'in bunu bilmemesi için bir sebep var mı?	[focused, professional, controlled] CIA'in bunu bilmemesi için bir sebep var mı?
