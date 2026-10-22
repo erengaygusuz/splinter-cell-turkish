@@ -349,55 +349,95 @@ def patch_def(base_def: Path, out_def: Path):
     text = base_def.read_text(encoding="utf-8", errors="replace")
     lines = text.splitlines()
 
-    target_index = None
-    old_line = None
+    candidates = []
 
     for i, line in enumerate(lines):
         stripped = line.strip()
 
-        if not stripped.startswith("SND_fn_vStopSoundRequest"):
+        if not stripped or stripped.startswith(";"):
             continue
 
-        # Avoid prefix collisions if a similarly named export exists.
-        name = stripped.split("=", 1)[0].split(None, 1)[0]
-        if name != "SND_fn_vStopSoundRequest":
-            continue
+        if "stopsoundrequest" in stripped.lower():
+            candidates.append((i, line))
 
-        if target_index is not None:
-            raise SystemExit(
-                "ERROR: duplicate SND_fn_vStopSoundRequest export in base DEF"
-            )
+    if not candidates:
+        print("===== STOP-LIKE DEF EXPORTS =====")
 
-        target_index = i
-        old_line = line
+        stop_like = [
+            line.strip()
+            for line in lines
+            if "stop" in line.lower()
+        ]
 
-    if target_index is None or old_line is None:
+        for line in stop_like[:80]:
+            print(line)
+
         raise SystemExit(
-            "ERROR: SND_fn_vStopSoundRequest export not found in base DEF"
+            "ERROR: no StopSoundRequest-like export found in base DEF"
         )
 
+    if len(candidates) != 1:
+        print("===== STOP SOUND REQUEST DEF CANDIDATES =====")
+
+        for _, line in candidates:
+            print(line.strip())
+
+        raise SystemExit(
+            "ERROR: expected exactly one StopSoundRequest-like export, "
+            f"got {len(candidates)}"
+        )
+
+    target_index, old_line = candidates[0]
+    stripped = old_line.strip()
     indent = old_line[: len(old_line) - len(old_line.lstrip())]
 
-    ordinal_match = re.search(r"(\s+@\d+\b.*)$", old_line)
+    # Keep the exact public export name and ordinal from the existing
+    # proxy DEF. Only replace its implementation target with our wrapper.
+    # This handles plain, decorated and forwarded/aliased source forms.
+    ordinal_match = re.search(r"(\\s+@\\d+\\b.*)$", stripped)
     suffix = ordinal_match.group(1) if ordinal_match else ""
+
+    core = stripped[: ordinal_match.start()] if ordinal_match else stripped
+
+    if "=" in core:
+        public_name = core.split("=", 1)[0].strip()
+    else:
+        public_name = core.split(None, 1)[0].strip()
+
+    if not public_name:
+        raise SystemExit(
+            "ERROR: could not parse StopSoundRequest public export name"
+        )
 
     lines[target_index] = (
         indent
-        + "SND_fn_vStopSoundRequest=_probe_stop_sound_request"
+        + public_name
+        + "=_probe_stop_sound_request"
         + suffix
     )
 
-    out_def.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    out_def.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
 
-    check = out_def.read_text(encoding="utf-8")
-    expected = "SND_fn_vStopSoundRequest=_probe_stop_sound_request"
+    check_lines = out_def.read_text(
+        encoding="utf-8",
+        errors="replace",
+    ).splitlines()
 
-    if expected not in check:
-        raise SystemExit("ERROR: V19 stop export DEF patch failed")
+    routed = [
+        line.strip()
+        for line in check_lines
+        if "_probe_stop_sound_request" in line
+    ]
+
+    if len(routed) != 1:
+        raise SystemExit(
+            "ERROR: V19 stop export DEF patch did not produce exactly "
+            "one routed export"
+        )
 
     print("PASS: stop-request export routed to V19 wrapper")
     print("DEF before:", old_line.strip())
-    print("DEF after :", lines[target_index].strip())
+    print("DEF after :", routed[0])
 
 
 def compile_and_link(v18):
