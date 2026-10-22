@@ -357,8 +357,15 @@ def patch_def(base_def: Path, out_def: Path):
         if not stripped or stripped.startswith(";"):
             continue
 
-        if "stopsoundrequest" in stripped.lower():
-            candidates.append((i, line))
+        # Parse only the public export name on the left-hand side.
+        # The base DEF uses quoted forwarders, e.g.
+        # "SND_fn_vStopSoundRequest"="SNDDSound3DDLL_VBR_orig.#247" @247
+        # Do not let SND_fn_vStopSoundRequestWithFade match this hook.
+        lhs = stripped.split("=", 1)[0].strip()
+        public_name_unquoted = lhs.strip('"')
+
+        if public_name_unquoted == "SND_fn_vStopSoundRequest":
+            candidates.append((i, line, lhs))
 
     if not candidates:
         print("===== STOP-LIKE DEF EXPORTS =====")
@@ -373,40 +380,41 @@ def patch_def(base_def: Path, out_def: Path):
             print(line)
 
         raise SystemExit(
-            "ERROR: no StopSoundRequest-like export found in base DEF"
+            "ERROR: exact SND_fn_vStopSoundRequest export not found in base DEF"
         )
 
     if len(candidates) != 1:
-        print("===== STOP SOUND REQUEST DEF CANDIDATES =====")
+        print("===== EXACT STOP SOUND REQUEST DEF CANDIDATES =====")
 
-        for _, line in candidates:
+        for _, line, _ in candidates:
             print(line.strip())
 
         raise SystemExit(
-            "ERROR: expected exactly one StopSoundRequest-like export, "
-            f"got {len(candidates)}"
+            "ERROR: expected exactly one exact SND_fn_vStopSoundRequest "
+            f"export, got {len(candidates)}"
         )
 
-    target_index, old_line = candidates[0]
+    target_index, old_line, public_name = candidates[0]
     stripped = old_line.strip()
     indent = old_line[: len(old_line) - len(old_line.lstrip())]
 
-    # Keep the exact public export name and ordinal from the existing
-    # proxy DEF. Only replace its implementation target with our wrapper.
-    # This handles plain, decorated and forwarded/aliased source forms.
+    # Keep the exact quoted public name and exact ordinal from the
+    # existing proxy DEF. Only replace the implementation target.
     ordinal_match = re.search(r"(\\s+@\\d+\\b.*)$", stripped)
-    suffix = ordinal_match.group(1) if ordinal_match else ""
 
-    core = stripped[: ordinal_match.start()] if ordinal_match else stripped
-
-    if "=" in core:
-        public_name = core.split("=", 1)[0].strip()
-    else:
-        public_name = core.split(None, 1)[0].strip()
-
-    if not public_name:
+    if not ordinal_match:
         raise SystemExit(
-            "ERROR: could not parse StopSoundRequest public export name"
+            "ERROR: SND_fn_vStopSoundRequest export has no ordinal"
+        )
+
+    suffix = ordinal_match.group(1)
+
+    ordinal_value = re.search(r"@(\\d+)", suffix)
+
+    if not ordinal_value or ordinal_value.group(1) != "247":
+        raise SystemExit(
+            "ERROR: SND_fn_vStopSoundRequest expected ordinal 247, got: "
+            + suffix.strip()
         )
 
     lines[target_index] = (
