@@ -157,29 +157,25 @@ struct RuntimeRequestState
 typedef MMRESULT (WINAPI *WaveOutPauseFn)(HWAVEOUT);
 typedef MMRESULT (WINAPI *WaveOutRestartFn)(HWAVEOUT);
 
-extern "C"
-ExternalVoiceSlot g_voice_slots[8]
+extern "C" {
+extern ExternalVoiceSlot g_voice_slots[8]
     __asm__("_g_voice_slots");
 
-extern "C"
-RuntimeRequestState g_runtime_requests[32]
+extern RuntimeRequestState g_runtime_requests[32]
     __asm__("_g_runtime_requests");
 
-extern "C"
-DWORD g_runtime_pause_active
+extern DWORD g_runtime_pause_active
     __asm__("_g_runtime_pause_active");
 
-extern "C"
-DWORD g_runtime_pause_started
+extern DWORD g_runtime_pause_started
     __asm__("_g_runtime_pause_started");
 
-extern "C"
-WaveOutPauseFn g_wave_out_pause
+extern WaveOutPauseFn g_wave_out_pause
     __asm__("_g_wave_out_pause");
 
-extern "C"
-WaveOutRestartFn g_wave_out_restart
+extern WaveOutRestartFn g_wave_out_restart
     __asm__("_g_wave_out_restart");
+}
 
 typedef char V23AssertVoiceSlotSize[
     sizeof(ExternalVoiceSlot) == 64 ? 1 : -1
