@@ -400,7 +400,7 @@ def patch_def(base_def: Path, out_def: Path):
 
     # Keep the exact quoted public name and exact ordinal from the
     # existing proxy DEF. Only replace the implementation target.
-    ordinal_match = re.search(r"(\\s+@\\d+\\b.*)$", stripped)
+    ordinal_match = re.search(r"(\s+@\d+\b.*)$", stripped)
 
     if not ordinal_match:
         raise SystemExit(
@@ -409,7 +409,7 @@ def patch_def(base_def: Path, out_def: Path):
 
     suffix = ordinal_match.group(1)
 
-    ordinal_value = re.search(r"@(\\d+)", suffix)
+    ordinal_value = re.search(r"@(\d+)", suffix)
 
     if not ordinal_value or ordinal_value.group(1) != "247":
         raise SystemExit(
