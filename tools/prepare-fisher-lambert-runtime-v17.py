@@ -19,6 +19,13 @@ SYSTEM = GAME / "system"
 UAX_CATALOG = PROJECT / "manifests/uax-editor-id-catalog.csv"
 CORPUS = PROJECT / "manifests/corpus.csv"
 AUTHORITATIVE = PROJECT / "manifests/runtime-dub-authoritative.csv"
+
+GAMEPLAY_UID_SOUND_MANIFESTS = [
+    PROJECT / "manifests/full-gameplay-subtitle-ready.csv",
+    PROJECT / "manifests/full-gameplay-subtitle-recovered-section-order.csv",
+    PROJECT / "manifests/full-gameplay-subtitle-still-review-after-section-order.csv",
+]
+
 V16_SOURCE = PROJECT / "gameplay-subtitle-poc/src/snd_waveout_training_v16.cpp"
 
 WORKLIST_CANDIDATES = [
@@ -107,6 +114,50 @@ def full_sound_object(row: dict) -> str:
     return f"{package}.{value}" if package else value
 
 
+def load_direct_uid_sound_mappings(
+    manifests: list[Path],
+    uax_by_sound: dict[str, int],
+):
+    resolved = {}
+    sound_by_uid = {}
+    source_by_uid = {}
+    conflicts = []
+
+    for manifest in manifests:
+        if not manifest.is_file():
+            continue
+
+        for row in load_csv(manifest):
+            uid = (row.get("id") or "").strip()
+            sound = full_sound_object(row)
+
+            if not uid or not sound:
+                continue
+
+            actual = uax_by_sound.get(sound.lower())
+            if actual is None:
+                continue
+
+            previous = resolved.get(uid)
+            if previous is not None and previous != actual:
+                conflicts.append(
+                    (
+                        uid,
+                        previous,
+                        actual,
+                        source_by_uid[uid],
+                        manifest.name,
+                    )
+                )
+                continue
+
+            resolved[uid] = actual
+            sound_by_uid[uid] = sound
+            source_by_uid[uid] = manifest.name
+
+    return resolved, sound_by_uid, source_by_uid, conflicts
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument(
@@ -190,6 +241,34 @@ def main() -> None:
     print(f"PASS: UAX editor IDs: {len(uax_by_id)}")
 
     print()
+    print("===== DIRECT GAMEPLAY UID -> SOUND OBJECT =====")
+
+    direct_ids, direct_sound, direct_source, direct_conflicts = (
+        load_direct_uid_sound_mappings(
+            GAMEPLAY_UID_SOUND_MANIFESTS,
+            uax_by_sound,
+        )
+    )
+
+    if direct_conflicts:
+        print(f"Direct mapping conflicts: {len(direct_conflicts)}")
+        for conflict in direct_conflicts[:20]:
+            print("CONFLICT:", conflict)
+        raise SystemExit(
+            "ERROR: direct gameplay UID -> UAX conflicts found"
+        )
+
+    direct_targets = [
+        uid for uid in work_ids
+        if uid in direct_ids
+    ]
+
+    print(
+        "PASS: direct UAX-resolved Fisher/Lambert targets: "
+        f"{len(direct_targets)}"
+    )
+
+    print()
     print("===== VERIFIED UID -> UAX PAIRS =====")
 
     explicit = {}
@@ -217,6 +296,20 @@ def main() -> None:
 
         explicit[uid] = actual
         explicit_sound[uid] = sound
+
+    # Local gameplay subtitle manifests are stronger for UID coverage than
+    # the deduplicated runtime manifest. They are still verified against
+    # the authoritative UAX catalog before use.
+    for uid, actual in direct_ids.items():
+        previous = explicit.get(uid)
+        if previous is not None and previous != actual:
+            raise SystemExit(
+                f"ERROR: authoritative/direct UID conflict for {uid}: "
+                f"{previous:08X} vs {actual:08X}"
+            )
+
+        explicit[uid] = actual
+        explicit_sound[uid] = direct_sound[uid]
 
     verified_targets = [uid for uid in work_ids if uid in explicit]
     all_verified_corpus_uids = [
@@ -458,7 +551,10 @@ def main() -> None:
 
         if uid in explicit:
             actual = explicit[uid]
-            method = "uax_verified_sound_object"
+            if uid in direct_ids:
+                method = "uax_verified_gameplay_sound_object"
+            else:
+                method = "uax_verified_sound_object"
             sound = explicit_sound[uid]
         else:
             rule = bank_rules.get(bank)
