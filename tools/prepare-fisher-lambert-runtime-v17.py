@@ -22,6 +22,7 @@ AUTHORITATIVE = PROJECT / "manifests/runtime-dub-authoritative.csv"
 
 GAMEPLAY_UID_SOUND_MANIFESTS = [
     PROJECT / "manifests/full-gameplay-subtitle-ready.csv",
+    PROJECT / "manifests/full-gameplay-subtitle-review.csv",
     PROJECT / "manifests/full-gameplay-subtitle-recovered-section-order.csv",
     PROJECT / "manifests/full-gameplay-subtitle-still-review-after-section-order.csv",
 ]
@@ -114,14 +115,22 @@ def full_sound_object(row: dict) -> str:
     return f"{package}.{value}" if package else value
 
 
+def normalize_text(value: str) -> str:
+    value = (value or "").strip().lower()
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+    return " ".join(value.split())
+
+
 def load_direct_uid_sound_mappings(
     manifests: list[Path],
     uax_by_sound: dict[str, int],
+    work_by_id: dict[str, dict],
 ):
     resolved = {}
     sound_by_uid = {}
     source_by_uid = {}
     conflicts = []
+    rejected = []
 
     for manifest in manifests:
         if not manifest.is_file():
@@ -131,7 +140,46 @@ def load_direct_uid_sound_mappings(
             uid = (row.get("id") or "").strip()
             sound = full_sound_object(row)
 
-            if not uid or not sound:
+            if not uid or not sound or uid not in work_by_id:
+                continue
+
+            work = work_by_id[uid]
+
+            # Never trust the legacy editor_id column here.
+            # Accept UID -> sound_object only when the row also identifies
+            # the same physical LS0 asset as the Fisher/Lambert worklist.
+            same_resource = (
+                (row.get("resource_name") or "").strip()
+                == (work.get("resource_name") or "").strip()
+            )
+            same_offset = (
+                str(row.get("stream_offset") or "").strip()
+                == str(work.get("stream_offset") or "").strip()
+            )
+
+            row_text = normalize_text(
+                row.get("english_text")
+                or row.get("canonical_text")
+                or ""
+            )
+            work_text = normalize_text(work.get("english_text") or "")
+
+            same_text = (
+                not row_text
+                or not work_text
+                or row_text == work_text
+            )
+
+            if not (same_resource and same_offset and same_text):
+                rejected.append(
+                    (
+                        uid,
+                        manifest.name,
+                        same_resource,
+                        same_offset,
+                        same_text,
+                    )
+                )
                 continue
 
             actual = uax_by_sound.get(sound.lower())
@@ -155,7 +203,13 @@ def load_direct_uid_sound_mappings(
             sound_by_uid[uid] = sound
             source_by_uid[uid] = manifest.name
 
-    return resolved, sound_by_uid, source_by_uid, conflicts
+    return (
+        resolved,
+        sound_by_uid,
+        source_by_uid,
+        conflicts,
+        rejected,
+    )
 
 
 def main() -> None:
@@ -205,6 +259,11 @@ def main() -> None:
     if len(set(work_ids)) != 408:
         raise SystemExit("ERROR: worklist UID set is not unique")
 
+    work_by_id = {
+        row["id"].strip(): row
+        for row in work
+    }
+
     print("PASS: 408 unique Fisher/Lambert worklist rows")
     print("PASS: Fisher selected cuts 201")
     print("PASS: Lambert selected cuts 207")
@@ -243,11 +302,16 @@ def main() -> None:
     print()
     print("===== DIRECT GAMEPLAY UID -> SOUND OBJECT =====")
 
-    direct_ids, direct_sound, direct_source, direct_conflicts = (
-        load_direct_uid_sound_mappings(
-            GAMEPLAY_UID_SOUND_MANIFESTS,
-            uax_by_sound,
-        )
+    (
+        direct_ids,
+        direct_sound,
+        direct_source,
+        direct_conflicts,
+        direct_rejected,
+    ) = load_direct_uid_sound_mappings(
+        GAMEPLAY_UID_SOUND_MANIFESTS,
+        uax_by_sound,
+        work_by_id,
     )
 
     if direct_conflicts:
@@ -266,6 +330,10 @@ def main() -> None:
     print(
         "PASS: direct UAX-resolved Fisher/Lambert targets: "
         f"{len(direct_targets)}"
+    )
+    print(
+        "Rejected direct rows failing physical/text identity checks: "
+        f"{len(direct_rejected)}"
     )
 
     print()
