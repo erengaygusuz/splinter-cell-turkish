@@ -807,24 +807,176 @@ def globalize_v21_state(out_obj: Path):
     print()
     print("===== EXPOSE V21 PAUSE STATE =====")
 
-    if not shutil.which("llvm-objcopy"):
+    data = bytearray(V21_OBJ.read_bytes())
+
+    # IMAGE_FILE_HEADER is 20 bytes for a COFF object.
+    # PointerToSymbolTable: offset 8, NumberOfSymbols: offset 12.
+    if len(data) < 20:
         raise SystemExit(
-            "ERROR: llvm-objcopy is required for V23"
+            "ERROR: V21 object is too small for a COFF header"
         )
 
-    args = ["llvm-objcopy"]
+    pointer_to_symbols = int.from_bytes(
+        data[8:12],
+        "little",
+    )
+    number_of_symbols = int.from_bytes(
+        data[12:16],
+        "little",
+    )
 
-    for symbol in EXPOSED_SYMBOLS:
-        args.append(
-            f"--globalize-symbol={symbol}"
+    symbol_size = 18
+    symbol_table_end = (
+        pointer_to_symbols
+        + number_of_symbols * symbol_size
+    )
+
+    if (
+        pointer_to_symbols < 20
+        or number_of_symbols == 0
+        or symbol_table_end + 4 > len(data)
+    ):
+        raise SystemExit(
+            "ERROR: invalid V21 COFF symbol-table bounds"
         )
 
-    args.extend([
-        str(V21_OBJ),
-        str(out_obj),
-    ])
+    string_table_size = int.from_bytes(
+        data[symbol_table_end : symbol_table_end + 4],
+        "little",
+    )
 
-    run(args)
+    if (
+        string_table_size < 4
+        or symbol_table_end + string_table_size > len(data)
+    ):
+        raise SystemExit(
+            "ERROR: invalid V21 COFF string-table bounds"
+        )
+
+    def symbol_name(entry_offset: int) -> str:
+        raw_name = data[
+            entry_offset : entry_offset + 8
+        ]
+
+        if raw_name[:4] == b"\\x00\\x00\\x00\\x00":
+            string_offset = int.from_bytes(
+                raw_name[4:8],
+                "little",
+            )
+
+            if (
+                string_offset < 4
+                or string_offset >= string_table_size
+            ):
+                raise SystemExit(
+                    "ERROR: invalid COFF long-name string offset"
+                )
+
+            start = symbol_table_end + string_offset
+            end = data.find(b"\\x00", start)
+
+            if (
+                end < 0
+                or end >= symbol_table_end + string_table_size
+            ):
+                raise SystemExit(
+                    "ERROR: unterminated COFF long symbol name"
+                )
+
+            raw = bytes(data[start:end])
+        else:
+            raw = bytes(raw_name).split(
+                b"\\x00",
+                1,
+            )[0]
+
+        try:
+            return raw.decode("ascii")
+        except UnicodeDecodeError as exc:
+            raise SystemExit(
+                "ERROR: non-ASCII symbol name in V21 COFF object"
+            ) from exc
+
+    found = {
+        symbol: []
+        for symbol in EXPOSED_SYMBOLS
+    }
+
+    index = 0
+
+    while index < number_of_symbols:
+        entry_offset = (
+            pointer_to_symbols
+            + index * symbol_size
+        )
+
+        if entry_offset + symbol_size > symbol_table_end:
+            raise SystemExit(
+                "ERROR: truncated V21 COFF symbol entry"
+            )
+
+        name = symbol_name(entry_offset)
+        storage_class = data[entry_offset + 16]
+        aux_count = data[entry_offset + 17]
+
+        if name in found:
+            section_number = int.from_bytes(
+                data[
+                    entry_offset + 12 : entry_offset + 14
+                ],
+                "little",
+                signed=True,
+            )
+
+            found[name].append(
+                (
+                    entry_offset,
+                    storage_class,
+                    section_number,
+                    aux_count,
+                )
+            )
+
+        index += 1 + aux_count
+
+    for symbol, rows in found.items():
+        if len(rows) != 1:
+            raise SystemExit(
+                f"ERROR: V23 expected exactly one COFF symbol "
+                f"{symbol}, got {len(rows)}"
+            )
+
+        (
+            entry_offset,
+            storage_class,
+            section_number,
+            _aux_count,
+        ) = rows[0]
+
+        if storage_class != 3:
+            raise SystemExit(
+                f"ERROR: V23 expected local STATIC(3) for "
+                f"{symbol}, got {storage_class}"
+            )
+
+        if section_number <= 0:
+            raise SystemExit(
+                f"ERROR: V23 symbol {symbol} is not a defined "
+                f"section symbol: section={section_number}"
+            )
+
+        # IMAGE_SYM_CLASS_STATIC (3) -> IMAGE_SYM_CLASS_EXTERNAL (2).
+        # Only the symbol storage class changes; section/value/name and
+        # all relocation data remain byte-identical.
+        data[entry_offset + 16] = 2
+
+    out_obj.write_bytes(data)
+
+    # Ensure source object was never modified.
+    if V21_OBJ.read_bytes() == out_obj.read_bytes():
+        raise SystemExit(
+            "ERROR: V23 COFF globalization produced no object changes"
+        )
 
     nm = subprocess.check_output(
         ["llvm-nm", str(out_obj)],
@@ -853,7 +1005,30 @@ def globalize_v21_state(out_obj: Path):
                 f"{symbol} type={symbol_type}"
             )
 
-    print("PASS: six V21 pause-state symbols globalized")
+    original_nm = subprocess.check_output(
+        ["llvm-nm", str(V21_OBJ)],
+        text=True,
+    )
+
+    for symbol in EXPOSED_SYMBOLS:
+        rows = [
+            parts
+            for line in original_nm.splitlines()
+            if (parts := line.split())
+            and parts[-1] == symbol
+        ]
+
+        if (
+            len(rows) != 1
+            or not rows[0][-2].islower()
+        ):
+            raise SystemExit(
+                f"ERROR: original accepted V21 object was not "
+                f"left local for {symbol}"
+            )
+
+    print("PASS: six V21 COFF symbols patched STATIC(3) -> EXTERNAL(2)")
+    print("PASS: exposed object relocations/layout left intact")
     print("PASS: original accepted V21 object left untouched")
 
 
