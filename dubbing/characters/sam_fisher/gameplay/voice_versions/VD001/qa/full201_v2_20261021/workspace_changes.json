@@ -1,0 +1,840 @@
+{
+  "observed_date": "2026-10-22",
+  "note": "Observed on continuation before delivery validation. No write to the Lambert directory was performed in this continuation. All 958 existing baseline files still match; one empty .gitkeep is absent and 207 WAVs appeared outside VD001. Origin of changes is not established.",
+  "removed": [
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "added": [
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000001.wav",
+      "sha256": "e9adff66be01f8f17bae2b13f77bc201889165c198382cff31d0b2c5277bbe42"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000002.wav",
+      "sha256": "1cd5a5bc74bbbda07a9618e9425643bb8082c9e186d36c003f157ab143a8bf86"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000003.wav",
+      "sha256": "5bc4b681e668eb4bd13d81b971299c19aef24f4ac5760d2ee44b73bab71820e7"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000004.wav",
+      "sha256": "cad2fcfaee4f2e35facb350e2f0225b2e1b68bb5372493d5660298b5671ac294"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000006.wav",
+      "sha256": "92fd7e999fa5c908e8122825d8cd3029dcf829e05908ddb00f3a6e5342773924"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000007.wav",
+      "sha256": "3315982093402bd77c2dae346980d9432453f9dd37fdef5a896620a7c45811e1"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000008.wav",
+      "sha256": "aa1642fec546c2f0cec038bc4bf85b089ab58b64e4bfcd35adff43a642609028"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000009.wav",
+      "sha256": "215f2d2f1e5d3dc4502914dcecd87d3c1de65ae5b9d982097f4aa2fb33301816"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000010.wav",
+      "sha256": "72e9f7cc30986f731872424d6f5650f504dac6a89cd6b9172320a969b887f306"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000011.wav",
+      "sha256": "7957d4e0991b5688dfae1d9294cedf099f6c4948a1da9bdcb9cf8b71ee6836c0"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000012.wav",
+      "sha256": "81a1ff9a04a3748d05a1d100a46a0777d4b8fe72a8e9b5a14203447327c9232e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000013.wav",
+      "sha256": "3bdf13cf320990d767bb7f7146645a1ad6a17f9014123f82973f879ef737e283"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000015.wav",
+      "sha256": "414e97d06c2d3b34679186390e0f34a4b22929882a4756371b9f2fa6d44ce129"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000017.wav",
+      "sha256": "257270552097f4dfadff7972ac3171c8dafde102cc8cc9ca74b78183c9522e58"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000019.wav",
+      "sha256": "b81abbf7dae61000fdc1155d2f9ea1efa9ef572cd30bf1acbca052b7dfb764b1"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000021.wav",
+      "sha256": "7b89cd4cb85683e11ec8e1b509ba02916554e595f3338fad553a6a76c3101c36"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000023.wav",
+      "sha256": "2bb556b3c5c76d2dbed6b6b26108dfc9c0c540ce13a26c39a1bdf7d38a8abf07"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000025.wav",
+      "sha256": "340dfcfe4d44c787984c293cffaa03262cbd6cbbe96250454ba8d22b7c809660"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000027.wav",
+      "sha256": "48dd113ab2aa6d1534c02de122ae131f3514e3abdeaf1d76baecb2a2de8234ad"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000029.wav",
+      "sha256": "ff92cab966a233ffd31e556d58f1cb5b41a9b75b82c8bbacb93e10001ad1aabd"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000030.wav",
+      "sha256": "8170aa0d6bde7526e2b3b3cff2071bd00894a61f767c35c2cdbe8c45c440e541"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000058.wav",
+      "sha256": "0e140a39a8646fb0b309b78bd7040dd5297f132a5d59d6fd5a9dee14a7e98a5a"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000062.wav",
+      "sha256": "ee640501d6e12a1169bd81a25bb29ef9c12abf9b28a970eb5709ecfd307ed170"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000063.wav",
+      "sha256": "a4eb07516f8a693366c519f8516ef00ccfc133513428f8c2b8265c0f797ab096"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000066.wav",
+      "sha256": "5489254e8510ff34ff5bfdbdee7321c18df15bc5d8915a9d8a2b5b3492821fc7"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000067.wav",
+      "sha256": "005f1200472d65af939a1af39f0464566cb50ea353402d2b05d1f33707858258"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000068.wav",
+      "sha256": "663515fea78d0170d1d4e3cbd6f494b115413bc88ab428526a154966a2f6f355"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000069.wav",
+      "sha256": "5fcf03f332b5228a716b4106f15bb55ed2c67b995fd0f31d5b5c0a0abee17fc2"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000070.wav",
+      "sha256": "12d15deef4d2d90da62f2ac1446c5321de5a4f5b5ea2ebc57c3e721e7ab5a8fb"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000071.wav",
+      "sha256": "f3242a9a2f226121696273673f5098c48e1d21e48e925a1d309995bf58c321d9"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000072.wav",
+      "sha256": "8c22674bc197f3e8785ee44d0458f8e69a9e385f9d4b464bc41b0c6ec7728709"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000073.wav",
+      "sha256": "02014d1c241deae566ade32f13ed203f8312d55ac034eaa28e1a04438ef9992c"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000074.wav",
+      "sha256": "8dcaee4b9eaa75c44417c871f2a0ea8d6eab658c90414f0ab122ce8da4dff1cc"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000075.wav",
+      "sha256": "ebff312f469261e1a0bb8745dbd0f623f79d7b87162f7878d657c65fe73bcbdd"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000076.wav",
+      "sha256": "6a998da06081b156792f8e14355178cdb142dd451263ea0bb8ea42130a6c6d73"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000077.wav",
+      "sha256": "2aa03dbd1305e6cf5841fa7be46b77bda64c2d0129f22344d93dcfadc41ee12e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000079.wav",
+      "sha256": "ab3fd2e7b31e1ffd49df0b26d3d5baf2559882d77995dd22e1c47dd3f7a0a9b9"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000082.wav",
+      "sha256": "47794a39dd79a19bdd6c663365d3c14522401e0edcd5150b99577986db16007d"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000085.wav",
+      "sha256": "ac4cb81354c784e5578e66b713c6e240e173a0647c2d091f44ff6961d7a3549b"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000090.wav",
+      "sha256": "258e16ffb56082dedd74b009298fa1c4c945b6dc63b19ec29afc09af3abdbf8f"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000092.wav",
+      "sha256": "d108cc9af794b8733b69da6fb48876ab0dcc90a627c011ae7364ff4dab9594bb"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000093.wav",
+      "sha256": "b0a0e11e64ba59c22a27b007f37f110e74b5c536efc92a5a914ab27bfe515c27"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000095.wav",
+      "sha256": "7daf3c0dad08c7dc255bdcdbb7b4640cc3d729dcd758e554bebefee08fb65e0f"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000097.wav",
+      "sha256": "dafb1364071087c538ee1212203afecda51305aaaa0da7f1f072070134a41e7c"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000103.wav",
+      "sha256": "a17a560ed71449cd749947958c5bdcfc847e290fbe144d3a81ae81f91277591f"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000106.wav",
+      "sha256": "1ed6c60ced6b6efc67126c2b28a648f5b066279b5e36cac86f61ce40d8955900"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000107.wav",
+      "sha256": "d738f5328a7e06021f06b5bf4173699ce37afbe7017fe3d5e7eb42d77121b4a2"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000108.wav",
+      "sha256": "ac686595eb8ea9c0d939fa32637aecdd5a27119fffda39c3d8d2cc62ceb8f883"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000119.wav",
+      "sha256": "87ae218745faafe0019ab39f11279a31aa2a0b62959985a85de75ee7e9e8eff9"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000121.wav",
+      "sha256": "3b1b65500f380b6c583ede5438431d4ca9f606bb049f8f595284d7b2b0a96cf3"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000122.wav",
+      "sha256": "e010857ed305bbdf352c8a321720459ab9521780bc9f7c13bbda04df0df0da85"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000124.wav",
+      "sha256": "cbeb28c885203bede92602fcbc5d7c5a7dbafc89ab35466fc30f1fb03d4d9d78"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000126.wav",
+      "sha256": "0e987d6e9680474a9587d48ffb1b1ce13954eb488b597a85cb61ba6d239e95f3"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000128.wav",
+      "sha256": "1973a9ab3d7b96ec412b78208f57c0ca83ede14ae80f5ba14c4e4a09dd926f2e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000129.wav",
+      "sha256": "2981d9f8a79a9c1357821a7a0071853a6d520ca1954a71bd123a1055d6374305"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000159.wav",
+      "sha256": "362d53728d9397e832e914081aa0eb131e1d5210c1600d429d8808135ff21354"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000161.wav",
+      "sha256": "2ee8fc85939a5c7ebead784bc3279231453fff8a9e73879b6f282b8246d56aaa"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000163.wav",
+      "sha256": "3e0402e409cef569c22c3317cc4e0e77d91f25f29453d7aa8f976650f8634d10"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000164.wav",
+      "sha256": "30345da6befef0faff78a3e4bbb14726022cdf6b1d5052815ae83dca9811a5ac"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000166.wav",
+      "sha256": "0b08498a46868005bad76b0f202cafe8051d8625a2c0eb8e4e781b46faeaca24"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000168.wav",
+      "sha256": "afe48a468118bad480bb9a2cc8cfa4ad71454c5c473c438e559e78b234b48b1f"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000220.wav",
+      "sha256": "add95b0d8fdecacb4afc1f958d72ee42cb31a516f6c30cc0a07e7147a296b011"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000232.wav",
+      "sha256": "ef924a5cefea01a813a8c5a7b7848d990bfa87a85c9552c8406b8bd6c562c9bb"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000243.wav",
+      "sha256": "c6afbff1fd1029184ff1af911b5456e7e0f3cd7f47c23d2b938f78b2b71f7221"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000245.wav",
+      "sha256": "0ac14f4024d2cd48bb3089c4617f1f3472c9964480da9dcc15ec628b14a7c357"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000247.wav",
+      "sha256": "217def0bd655e5d2a31e9408ab7512e3956d2c746be0d3f784442d4887c23f0d"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000249.wav",
+      "sha256": "28afd34f247522fb4081831f62bb84f8a6e71647c776e44b6a747edc1607d789"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000251.wav",
+      "sha256": "8a5ec47ce30e5a41d1e911f9cc7a426e07a3e12c171bee43a2f5fdde1c5c54db"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000252.wav",
+      "sha256": "89809678e2eac9e3ebfdc3ab3eb2999b19b133d4e327811a54e8f37b9d026dbb"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000254.wav",
+      "sha256": "d527b653c4b9857e2ceaac685ee2d606da43861d0e8f4548db39ffcfc53d4a6e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000255.wav",
+      "sha256": "935fb4d91f62abb3b09ba65228db472d8215f39449d67d83e2c1b74753c6258d"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000257.wav",
+      "sha256": "ac09eb28960c417413026fde5ba37ac4def9e8c8eab03b645858581b7d121c41"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000259.wav",
+      "sha256": "f4502f9d26b7c7c78ee030bba3a76be36dcacbb6822ad3882fe2047c50fc62e8"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000282.wav",
+      "sha256": "54b7d26b9a95c0dd6e6dd9efd955809f1492c4cb940a661cea2d26296119f891"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000284.wav",
+      "sha256": "24516d15bc5009ce0691d199021e0c47a7ddf60da55b7e6ee231ead03d87e4a7"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000285.wav",
+      "sha256": "276257c2778d12127550f4c26a84dc68308447163e9df08bac12d4b6a38f5d2a"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000287.wav",
+      "sha256": "10e197a88c15341feae6f71d1dcb576e399e22beb35d3af81a7880d4a713090b"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000293.wav",
+      "sha256": "e7ee610fd2eee55884c84877debd4d2590537f4bed7c88410985a9c98919c8ff"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000295.wav",
+      "sha256": "7344d6e511c96112a34383c7f2234d89a2f55acf36a7fe1dac55655a82796e74"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000297.wav",
+      "sha256": "e3d3130c1c9cb27f3fe4786aa8c2cf57d0b22334e10eb490672f6ff3775215d9"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000298.wav",
+      "sha256": "fc64650dd5a5d45ab806d9463b40c426e73bff41f1c4721a611c3b406cbbdc67"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000299.wav",
+      "sha256": "3e17513ace00b2eecc4f4621c818d36c46c33398e52f4af6026938e13c9760f3"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000301.wav",
+      "sha256": "7baa25a386b1f950fb21e87632506686b106d69f085a16895153b443258e1c0a"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000303.wav",
+      "sha256": "1576b4a91d0bff2778a7c56ae4a6154b270f6a6e0d93522c93148a1d3ce326ee"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000305.wav",
+      "sha256": "617634ebc27f2e28dd50f484691573450545f0c033d69ae2a7b2a478a43230eb"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000311.wav",
+      "sha256": "1fe48e7f4a2384791a6c6add5cbcc964bcefd059a74143927f8486571506517c"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000313.wav",
+      "sha256": "fe4e64ffee6876d71c4d2339642334a23a44ccac35565627f874983e51261950"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000314.wav",
+      "sha256": "9911bf48267c404b76b70b380dd619c8b2c7791737af251d19e960e4f5172c88"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000316.wav",
+      "sha256": "52936ee84a70cee1334f69c8f8a6098c654aab173ad56b0f4dfd2096cf755ce7"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000331.wav",
+      "sha256": "04501238c959160a604b69647a56d1b24ad7c0c99faa4f185f942683fac61072"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000332.wav",
+      "sha256": "a316f7c5f06c7d983bec56c4f2d16ca75c5e84a13b9ec8f04003c1ec1ba0b8e2"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000333.wav",
+      "sha256": "9c6e03eefc6d3d1fbfabbd0084359beb76c1653cc8094a32f6396bff88af4760"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000334.wav",
+      "sha256": "ce0d1dae2adbf32fd884545f15137915f44d7749fd65df1d3f034194c360e437"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000336.wav",
+      "sha256": "ae0639c4f90ccb479e46edad80fb209b61a43b15db8edfa0e71c506b106a3707"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000338.wav",
+      "sha256": "3e962f4244e7ce8a885e63580f2330879a17a9d75922fa4dd0ecd42cb6e34a70"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000339.wav",
+      "sha256": "0af2c3bc62c4f348ac2cb64cef25e796da2822d6a46c49f29979c028d486f4b7"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000340.wav",
+      "sha256": "ff12d3b726e0076c30ff65c8dd4c8229938dd50f9c3be4562fe1b51b4f266905"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000361.wav",
+      "sha256": "4a630eed9f23d0acec4ee613a1a0372db354b07e5f9490db3741c904adf760b6"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000362.wav",
+      "sha256": "a4c0fca55e4fe581ca7824783b6c9ebbd4e65d83afc8d2fb3233a7c836451175"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000364.wav",
+      "sha256": "3e206df31f57df98d48df59bfae8c3190f3f1a540a9b92d5cd1a80f1ea8e35bc"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000365.wav",
+      "sha256": "82dff5214b83f60a2fc0b7bc921548368eddab2a45e1d77b87ad39ae46bb7b38"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000394.wav",
+      "sha256": "3957870f40f321e4aef2152179c0963300d0dece2ebbf736d85fdf793165b683"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000396.wav",
+      "sha256": "613f443659467552d91b5eecdbceda890def6233d411c431792bb89c58b23b8e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000397.wav",
+      "sha256": "82a4575d168f9bf9faadff5e357961af24d219ee6533369ca071a2d6f4e8a771"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000399.wav",
+      "sha256": "769a10747df284536f9ff5e9ce51595dcc35dd94f2dacbf874eb12c21e4418f3"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000401.wav",
+      "sha256": "e1e1691d9e100672a2880c58f9596dc68b439ab211917fb65be548359a4341c4"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000422.wav",
+      "sha256": "e0a3a9789004c0e99252bdcd8041b658333e8a2ae4792dd2ad6c3357779d8e1f"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000424.wav",
+      "sha256": "eb77c4afa00b962adcec635776f46a71e265b4595255b7687ce7eb1c1cdfd947"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000425.wav",
+      "sha256": "706c5e4a071833e6897a492727937d15adb003f4024bc9384374e2c31f72c1ba"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000427.wav",
+      "sha256": "6772c8a38a3b949955b41a3999c646a9fab2928107815348fb18c8d252db1a1d"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000428.wav",
+      "sha256": "5830905b686968e9aa7ca34e99c0fb232fa7c611b5061e1831b4c798d158a889"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000429.wav",
+      "sha256": "86bc6494902f304791c79ae071a92085b32cc0d0a29a51519aa266d0fa999945"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000431.wav",
+      "sha256": "9f2fdc00700f2bdd43e57fefaaa87733d5918041367ee13f30913d42064c8777"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000433.wav",
+      "sha256": "67277ded8dc8f55016fed74e3be47ffa2886341521fdf4a4e89d65b741e35ecd"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000434.wav",
+      "sha256": "8b7208f9a2a01e0746b0635f7c09d827eb53d29b758e9f7d84f5057aa189f260"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000436.wav",
+      "sha256": "cad303a6e9308f7411b66954cd8e8d1b57095cdff24cd628aea6cb371f13e27a"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000437.wav",
+      "sha256": "de1ad404256bc46c649ab0106b330313ff2247204799bde0a42df5566b0d8e4a"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000501.wav",
+      "sha256": "ac32300e4c1d4fe9db0b4640c05288119358f1dc696112acbcac0b05b4dfd66f"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000525.wav",
+      "sha256": "2aa33dc3cfe34eb3d771dbbf0ab05f8952f8fbb11c061b02ad53ab34e2d0ad81"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000527.wav",
+      "sha256": "a31503df8ff28eb12a71d8ef2f93e2f52ae47bcc9e51845041891900e5a08ca0"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000529.wav",
+      "sha256": "e4b4f5f88ad3ea42bf3d2d7fe176790ae9de7e8b4ff64f56a6f027ed493c651b"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000601.wav",
+      "sha256": "c4c6d9d57bde7b57eafbac2885cc8cee260b4813120a1240e955fc44db3622b9"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000603.wav",
+      "sha256": "05c95e5ccb7fb8d2cedf0ca2ac8be08ebf1c9238b67ff67ff2444a4326f309ee"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000605.wav",
+      "sha256": "4dee48cc10e8024a53088921459b0ba90b24985ee92fedc50fa45a2b809af3ed"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000606.wav",
+      "sha256": "dcd81da328cb20ef9836134e71ac322c858823e00fb388be11086328c176f612"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000607.wav",
+      "sha256": "98190126a5111423e4f95f0c94dd922a9b65c4fc07b238a1403971af5c490cd3"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000609.wav",
+      "sha256": "1e2c575c4b2d5a8b87470daa07428d57221316f59aa42f74782f64f2af980c8e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000610.wav",
+      "sha256": "3a77572c8cdc9b3ec2c25ef7f4961ec4399d114843fcd6dfa3de3400064cb70a"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000612.wav",
+      "sha256": "913a3268c440b1f8c62ef9335ed22fefb8d1c8e70f8b67d16531b7065a196d9f"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000613.wav",
+      "sha256": "be6567390d5b92c6c540a9604cce17f60f1f4025caf79719c80155ed2c6ae345"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000614.wav",
+      "sha256": "3c109cbd3864d6f08d0d478d41022522ee940210a02b5b3d4508dd41f187acfe"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000615.wav",
+      "sha256": "bc95d4b4194915279a316dc36c9559b4b4145f7869380a07ae385d260ac9ee45"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000617.wav",
+      "sha256": "0a33c603b543cc9cd80fc09eda944396455608c5e7ea9fd45aa4cca19731a45d"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000618.wav",
+      "sha256": "71cedd01e37d9992a5a1bd559e288611a4eb9851f7e2a060018b4ff930050615"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000620.wav",
+      "sha256": "f66649b18bf239e9e78345812e1df9dc836383a57f4aa750f0f81d2225a4904c"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000621.wav",
+      "sha256": "15188273e0c0bea551d0de4eb4b4d4e97aa678654c575c82600c9dd25991c9c2"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000623.wav",
+      "sha256": "5edd4ffd39473b51de72515b3bc560fd30133da37fa06def2b7dba443c07c824"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000698.wav",
+      "sha256": "88c46f706f5f5c6312c10774a0e3d58d12d05438e021318ee9b7f8a3f716076d"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000700.wav",
+      "sha256": "d042da9d0cef9ef01a0f7ebe651e42688f486c21dc09cc6f6dc54a635e49d4dc"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000701.wav",
+      "sha256": "d272a802a010ba1302fdec5bbcc81967f03a2d56b121dbb95838d0ee1e9a66ef"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000703.wav",
+      "sha256": "7053eec1ed8a92dda94d5cb797483618704ab2ccc3f5ea662dbe5bcc974be129"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000731.wav",
+      "sha256": "28182f5a84dd8f3ae16e0e8bc5261884290e2e0aba5c5536292e639daf3d8733"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000733.wav",
+      "sha256": "3b0e3edb73fd91eff2f077556d272bf5f12d27e41314d628a071854c7bdbcde1"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000734.wav",
+      "sha256": "cb8c6c1f460a25e7e411e46dacc5572a6ad3a2a6fd6d0771ef2ccb51e27f0eee"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000736.wav",
+      "sha256": "5ddabd0955e54741adb85d96b05665e92dfb3d05c8623c12f82ec224eeafea8e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000738.wav",
+      "sha256": "458cf4f691875d5aec42a619f4d65b59b0740ddb5d59130da1a44d3ce5049272"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000739.wav",
+      "sha256": "02a799c348ed856b8e1bfb6176b9b11e215d25ffc8fe0e3256370bbe9a0bbc33"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000741.wav",
+      "sha256": "d42ecc299e95e1d489c56559aa436fd6e9a2fa6f7bc943b2425814957f2f6532"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000743.wav",
+      "sha256": "1bcaf0630749cd39e59ee13861245c9662f4405df65526101cebbd6bddce92e1"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000745.wav",
+      "sha256": "d7ac2520fec5ae145ef57d8556f102fc964453850e5a2eab8ce8983f6cb883ac"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000746.wav",
+      "sha256": "8bfc94858660b3a94eb647ad1911cfed0c0f608b2086862219a1faefa040d4fc"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000747.wav",
+      "sha256": "9da0dc885d6161cfc409fc12b9e2d20df791ec2616e37f51166ba5887f07d5e7"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000748.wav",
+      "sha256": "729ad168aaee57712fbd42a3978e21809b2d8da085a46ea2ad2d99404c17a806"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000750.wav",
+      "sha256": "7906186b675f2efd0115fe93c2aacde71aa006d99389a1c63f6dff476e70ba8c"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000782.wav",
+      "sha256": "d05f5ce3799b7a9e0c8f00f0d63431f4d46ff2ad365dd6d97d10d5d9205f3332"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000784.wav",
+      "sha256": "4fd9ef3dd03c2a60e818626725f5e76e5d395a926d57c245b91e125490f55a15"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000785.wav",
+      "sha256": "a4d0df7565726c5dff3b9f61e24ad15cfdcc692830d85739326120b64ed12452"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000786.wav",
+      "sha256": "9f280d6a63592beec9b5c63cee1b200b90433933f79ca450c861b48ba26a8bcb"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000787.wav",
+      "sha256": "a09d83b02486ce7153d29a6c929a87e5eb40858e5f6df8089033be2c8dd79b4e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000789.wav",
+      "sha256": "e78056e8af1f2ff2d8d3761265d0b6e4f75e588cb607a46acfd875523dcb89ca"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000829.wav",
+      "sha256": "b1f081a04c4b4332edd485c0559e3ce9a34d4671e9c948ea503ed72dd58055c2"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000831.wav",
+      "sha256": "fd93ddbeaf92a57c4f0d03a9a5a0bf5ac8de82ac3e6e90b7ce1111f917dc4e87"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000833.wav",
+      "sha256": "870d73f343ab58102e4bd7eddfb131b918bd158f7b05e4c6079424bd1e6edbd9"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000834.wav",
+      "sha256": "d96248a63002aaa32ae76eacdebc17a8ac7dc1f3a66de3cf64b06d883f557502"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000835.wav",
+      "sha256": "5935632afb40b029474265dd107f52b90e305a9b4ef209bd19106057cfdd93da"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000837.wav",
+      "sha256": "6662a97fba4ca74bab30ea13fde94847ffcd02e8161f85d72ceb40167fc3060f"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000838.wav",
+      "sha256": "496d02d39a9dfae37867edd2b39b01a6dfd7044f3a79f97c002e442f5bcfd00f"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000840.wav",
+      "sha256": "468047c4def867c77425c15d3383ae1f0446cd6b665bd954f10904a14d3ac707"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000883.wav",
+      "sha256": "228f7cf8a35e16aa40e347ee6704f30d0e535c3ec33638a8c3c98affe05dfd3e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000885.wav",
+      "sha256": "f567decdf694c71f171a9c0d2218b41a902fc530d03c24291ad2ff7121cfed1e"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000886.wav",
+      "sha256": "722ec2df326be0ef6262d9170af29707475e89561db7b9d4e559ac8b3f1390ba"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000910.wav",
+      "sha256": "f8d35a303fda7174190d9cebd20a64e38b62da1fd0092a2d6eb1beeba6afbeac"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000912.wav",
+      "sha256": "a38e9d06f3a57e73522b719589e6f67ed676a4c50c3cba7e0a27051a39b54359"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000913.wav",
+      "sha256": "922bfbdafe254de580524a8dbe73c1b2ea70f4129bd96871994640362382a2e1"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000915.wav",
+      "sha256": "7e1badaf0a7c388ae523eca62a0797405a91bdaec17db5a0e7a432625197caa9"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000916.wav",
+      "sha256": "2627126f57e1ed5476e6c635f680514a023a351024ca5f6b31ee3b0aff56056b"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000917.wav",
+      "sha256": "c1ead80eb7073fd09351d20ad9f70151a14ed79b359f7d5a34b6e82f264fc53c"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000918.wav",
+      "sha256": "974445da1682360fe818410127625509cb67d9c7d71de619a7f3b4b8ad29f6e0"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000919.wav",
+      "sha256": "1c7665ee58006371abd7fe58964c897f1411423e92cbcc2a077c024878dcbcdf"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000921.wav",
+      "sha256": "bc214266388b1c175f380eb9a7b9b447a9b4c45432a0f5384e336f1e941e8b91"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000942.wav",
+      "sha256": "b921669af6011fba6bab0ea152c82a9d9d47c1b13e9e5f498b3622347e776412"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000943.wav",
+      "sha256": "3707d119cf99e78a0ca92ec3e8dffd06b08383f707948368a15662a1c90b1b43"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000945.wav",
+      "sha256": "3f9816d6658d25bc8e0c08e7e002bf605c9b09c4fb555d6ebb32935bd8b8d488"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000946.wav",
+      "sha256": "a0d712b181fc18734d7f86b3c11e4aa199b171bf1a2448d0893f5e53a56909d5"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000948.wav",
+      "sha256": "9579b80de4771eb3e72cc92377bef761330cb4a3f0803eecdb5df03c5d1037a3"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000950.wav",
+      "sha256": "f9dec3d22d8b52c296cf696dd1e4955c1488cec3ca421e53be6b6a0199aaf9bd"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000969.wav",
+      "sha256": "75a95fca4b6ed0e1005129bac53c9a9a0378a8c8558db4c02f5901fccd5bee73"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000971.wav",
+      "sha256": "3549c2bae1570ee5eb5dfba6293e2771e36b287a0519c53fc0338078d70cca2c"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000977.wav",
+      "sha256": "7151f4e863e37c3d08ddb501a4a2ccfac99c02197e4df7429d8f33dd643e01d9"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000979.wav",
+      "sha256": "be5dec78053b8d6ec5f0d4e3864353a9865d1b22bc843e3e297c401d72a47e0b"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000981.wav",
+      "sha256": "29c61c5c990487a936d94777e94c97107629e377ef30e7d0680fa222855ebd04"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000983.wav",
+      "sha256": "b1be41929957b5535e4168da38debf6c5c57ed381b8cdeae81b38f814bd6d450"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000985.wav",
+      "sha256": "a97f634cd6f617a3d4b2c688155529b1fa0a47bbecf3ca77269939b4ae531903"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000986.wav",
+      "sha256": "4729f4e056fc81a7ba8b82c70e24b10915f3b8efc5d479372a4eb6ade6ca6c15"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000988.wav",
+      "sha256": "3f2a9912f14d5c8a3979cb5bc12b003cf26a608873f550c58f217e4c892d9f0c"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000991.wav",
+      "sha256": "19d44a0eaf76e25b2e41b4050cbc08ba72ee6598ca06551cb2fdf033f20b2128"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u000993.wav",
+      "sha256": "447201203610df410fcfbf97cccc9a788de63e4d52c2da8553aef421cd6004ed"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001005.wav",
+      "sha256": "cd0d3ebc3549cd77c94d892b967af7e42a2c32cd4e9bacb40321976138ae6f94"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001007.wav",
+      "sha256": "8ba80a1ffec37dae2608637a7ed07c06b06a5983ec753b1bb5356fdb17890571"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001008.wav",
+      "sha256": "f1794e6e66205ded513f981e9105b0e338151312d23f6d3d89c51e1469e230f8"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001017.wav",
+      "sha256": "1af183d58a2bd69e73702b3ad52516f869c8d44af2f5723ffa95ef2c271faf3b"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001019.wav",
+      "sha256": "da0458f99b735b269c8f457fc418dff6c97c94c49910ad3fa04c60733d495d50"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001039.wav",
+      "sha256": "38423f4b45ff1fa37921cba62241751d494e2404573aa966e7654bf770be3b26"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001042.wav",
+      "sha256": "8cf0eb3345e51d7682dae45568c0b60929bcd11d1ce7cde5422c3eadb677dad9"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001064.wav",
+      "sha256": "a2c198fa2f2ca4c998b223155711404b5fc38e705228d038a3aec8a5d58dcd9c"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001066.wav",
+      "sha256": "3ea0dfebb6cdadc9e4ee3a9c19e160b72a5e017fe43637e0c2359edfb434d102"
+    },
+    {
+      "path": "dubbing/characters/irving_lambert/gameplay/game_ready/u001080.wav",
+      "sha256": "0ce518cea278b9b5a33435161d5068ab6f0339d0d8a65c040b0373febb4b13ea"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "u000125": {
+    "start_sec": 24.499319727891155,
+    "end_sec": 27.28548752834467,
+    "rationale": "Preserve the complete CIA sentence and trailing quiet; remove a separate short active burst at the very end of the source after silence. Keep v01 and original MP3 unchanged. No fade or synthesis."
+  }
+}

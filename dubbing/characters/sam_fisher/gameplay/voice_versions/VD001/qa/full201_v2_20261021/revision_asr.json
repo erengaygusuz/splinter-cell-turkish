@@ -1,0 +1,58 @@
+{
+  "u000125": {
+    "sha256": "d95e8a5f8dfa3e4f62806707c2afb6b6b12ca83461e0cd3b26a99f474bd074dd",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "CIA'ın bunu bilmemesi için bir sebep var mı?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.68,
+        "text": " CIA"
+      },
+      {
+        "start": 0.68,
+        "end": 0.88,
+        "text": "'ın"
+      },
+      {
+        "start": 0.88,
+        "end": 1.12,
+        "text": " bunu"
+      },
+      {
+        "start": 1.12,
+        "end": 1.68,
+        "text": " bilmemesi"
+      },
+      {
+        "start": 1.68,
+        "end": 1.88,
+        "text": " için"
+      },
+      {
+        "start": 1.88,
+        "end": 2.14,
+        "text": " bir"
+      },
+      {
+        "start": 2.14,
+        "end": 2.36,
+        "text": " sebep"
+      },
+      {
+        "start": 2.36,
+        "end": 2.54,
+        "text": " var"
+      },
+      {
+        "start": 2.54,
+        "end": 2.68,
+        "text": " mı?"
+      }
+    ]
+  }
+}

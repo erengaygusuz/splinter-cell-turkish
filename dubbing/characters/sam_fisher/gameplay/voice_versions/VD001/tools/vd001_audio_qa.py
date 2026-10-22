@@ -138,10 +138,22 @@ def decode(path):
 
 def check_protected():
     snapshot = tsv(QA / 'input_snapshot.tsv')
+    # Record an observed external removal without rewriting the original baseline.
+    changes_path = QA / 'workspace_changes.json'
+    changes = json.loads(changes_path.read_text()) if changes_path.exists() else {}
+    removed = {r['path']: r for r in changes.get('removed', [])}
+    verified = 0
     for r in snapshot:
+        if r['path'] in removed:
+            assert Path(r['path']).name == '.gitkeep'
+            assert r['sha256'] == removed[r['path']]['sha256'] == hashlib.sha256(b'').hexdigest()
+            assert not Path(r['path']).exists()
+            continue
         if not Path(r['path']).is_file() or sha(r['path']) != r['sha256']:
             raise RuntimeError('Protected input changed: ' + r['path'])
-    return len(snapshot)
+        verified += 1
+    assert set(removed) <= {r['path'] for r in snapshot}
+    return verified
 
 
 def source_asr():

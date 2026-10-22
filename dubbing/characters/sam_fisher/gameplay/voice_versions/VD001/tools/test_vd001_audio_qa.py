@@ -1,6 +1,9 @@
 import tempfile
 import unittest
+import hashlib
+import json
 from pathlib import Path
+from unittest.mock import patch
 
 import numpy as np
 import vd001_audio_qa as qa
@@ -8,6 +11,20 @@ from vd001_delivery import validate_partition
 
 
 class VD001SafetyTests(unittest.TestCase):
+    def test_external_change_record_cannot_exempt_audio_from_protection(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            for name,allowed in [('.gitkeep',True),('original.wav',False)]:
+                entry=dict(path=str(root/name),sha256=hashlib.sha256(b'').hexdigest())
+                qa.write_tsv(root/'input_snapshot.tsv',[entry])
+                (root/'workspace_changes.json').write_text(json.dumps(dict(removed=[entry])))
+                with patch.object(qa,'QA',root):
+                    if allowed:
+                        self.assertEqual(qa.check_protected(),0)
+                    else:
+                        with self.assertRaises(AssertionError):
+                            qa.check_protected()
+
     def test_pilot_order_is_not_catalog_order(self):
         rows = [dict(id='u000314', expected_text='Kötü haber Fisher.'),
                 dict(id='u000030', expected_text='Kahretsin Fisher.')]
@@ -83,6 +100,22 @@ class VD001SafetyTests(unittest.TestCase):
         rows[1]['group_order']=3
         with self.assertRaises(AssertionError):
             validate_partition(rows,lengths,ids)
+
+    def test_trimmed_source_tail_requires_explicit_evidence(self):
+        rows,lengths,ids=self.partition_fixture()
+        rows[-1]['end_sample_exclusive']=190
+        with self.assertRaises(AssertionError):
+            validate_partition(rows,lengths,ids)
+        tail={'two':dict(id='u4',start_sample=190,end_sample_exclusive=200)}
+        self.assertEqual(len(validate_partition(rows,lengths,ids,tail)),3)
+
+    def test_tail_evidence_cannot_hide_missing_samples_or_wrong_id(self):
+        for ident,start,end in [('u3',190,200),('u4',191,200),('u4',190,199)]:
+            rows,lengths,ids=self.partition_fixture()
+            rows[-1]['end_sample_exclusive']=190
+            tail={'two':dict(id=ident,start_sample=start,end_sample_exclusive=end)}
+            with self.assertRaises(AssertionError):
+                validate_partition(rows,lengths,ids,tail)
 
 
 if __name__ == '__main__':

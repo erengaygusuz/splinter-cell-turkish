@@ -1,0 +1,8 @@
+{
+  "E001_20261021_part01": {
+    "start_sample": 1203290,
+    "end_sample_exclusive": 1206576,
+    "reason": "After final expected sentence and quiet, the last source milliseconds rise abruptly; preserve as original/v01 evidence, exclude from selected v02.",
+    "id": "u000125"
+  }
+}
