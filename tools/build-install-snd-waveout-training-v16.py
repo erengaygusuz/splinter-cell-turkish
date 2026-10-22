@@ -70,16 +70,17 @@ shutil.copy2(
 obj = OUT / "snd_waveout_training_v16.obj"
 dll = OUT / "SNDDSound3DDLL_VBR.dll"
 
-for path in [
-    obj,
-    dll,
-    OUT / "SNDDSound3DDLL_VBR.lib",
-    OUT / "SNDDSound3DDLL_VBR.exp",
-]:
-    try:
-        path.unlink()
-    except FileNotFoundError:
-        pass
+if not args.resume:
+    for path in [
+        obj,
+        dll,
+        OUT / "SNDDSound3DDLL_VBR.lib",
+        OUT / "SNDDSound3DDLL_VBR.exp",
+    ]:
+        try:
+            path.unlink()
+        except FileNotFoundError:
+            pass
 
 if args.resume:
     if not dll.is_file():
