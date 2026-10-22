@@ -437,11 +437,18 @@ def patch_def(base_def: Path, out_def: Path):
             "LIBRARY/EXPORTS plus 291 export lines"
         )
 
-    export_lines = [
-        line.strip()
-        for line in check_lines
-        if re.search(r"\\s@\\d+\\s*$", line)
-    ]
+    export_lines = []
+
+    for line in check_lines:
+        stripped_line = line.strip()
+        parts = stripped_line.rsplit(None, 1)
+
+        if (
+            len(parts) == 2
+            and parts[1].startswith("@")
+            and parts[1][1:].isdigit()
+        ):
+            export_lines.append(stripped_line)
 
     if len(export_lines) != 291:
         raise SystemExit(
