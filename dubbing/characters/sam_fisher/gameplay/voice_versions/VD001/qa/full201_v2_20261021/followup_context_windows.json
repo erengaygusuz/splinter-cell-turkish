@@ -1,0 +1,14 @@
+{
+  "u000723": {
+    "source_key": "R001_20261021_part01",
+    "start_sec": 247.95714285714286,
+    "end_sec": 250.5448979591837,
+    "reason": "Persistent isolated ASR uncertainty; compare full source context without prompting."
+  },
+  "u001065": {
+    "source_key": "R001_20261021_part02",
+    "start_sec": 39.37369614512472,
+    "end_sec": 42.215873015873015,
+    "reason": "Persistent isolated ASR uncertainty; compare full source context without prompting."
+  }
+}

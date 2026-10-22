@@ -1,0 +1,815 @@
+{
+  "source": "dubbing/characters/sam_fisher/gameplay/voice_versions/VD001/batches/R001_20261021/sam_fisher_vd001_remaining190_part02_20261021_184106.mp3",
+  "source_sha256": "cca8bac9d94070c67a2ddc751c3071f1d899a478f2cd2bd00ae49694f61cdd39",
+  "model": "medium",
+  "language": "tr",
+  "device": "cuda",
+  "compute_type": "int8_float16",
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.58,
+      "text": "Yüze değil, sırada general var."
+    },
+    {
+      "start": 3.06,
+      "end": 4.86,
+      "text": "Bu işte çok intihar görüyorum."
+    },
+    {
+      "start": 5.14,
+      "end": 8.86,
+      "text": "Bilgisayarındaki verilerin kilidini açacağım, sen de bana yardım edeceksin."
+    },
+    {
+      "start": 9.38,
+      "end": 10.24,
+      "text": "Henüz ölmedin."
+    },
+    {
+      "start": 10.5,
+      "end": 12.82,
+      "text": "Elinde kalan tek şey hayatının geri kalanı."
+    },
+    {
+      "start": 13.26,
+      "end": 15.74,
+      "text": "Ne kadar acı çekeceğin işbirliğine bağlı."
+    },
+    {
+      "start": 15.96,
+      "end": 17.1,
+      "text": "Hmm, olur."
+    },
+    {
+      "start": 17.64,
+      "end": 18.88,
+      "text": "Nikoladze nereye kaçtı?"
+    },
+    {
+      "start": 19.26,
+      "end": 20.94,
+      "text": "O adama sadakat borcun yok."
+    },
+    {
+      "start": 21.26,
+      "end": 22.96,
+      "text": "Kaçtı, sana ihanet etti."
+    },
+    {
+      "start": 23.36,
+      "end": 24.06,
+      "text": "Ne buldun?"
+    },
+    {
+      "start": 24.24,
+      "end": 25.46,
+      "text": "Ne? Ne dedin?"
+    },
+    {
+      "start": 25.84,
+      "end": 28.06,
+      "text": "Yani bavul tipi bir nükleer bomba."
+    },
+    {
+      "start": 28.06,
+      "end": 31.66,
+      "text": "Yani Ark'ı almak için Nikoladze'yi canlı tutmam gerekecek."
+    },
+    {
+      "start": 31.98,
+      "end": 33.36,
+      "text": "Bunlar saray muhafızları değil."
+    },
+    {
+      "start": 33.76,
+      "end": 34.92,
+      "text": "Bir tür özel kuvvet."
+    },
+    {
+      "start": 35.18,
+      "end": 36.2,
+      "text": "Planım değişiyor mu?"
+    },
+    {
+      "start": 36.4,
+      "end": 38.12,
+      "text": "Ark'ın yerini gerçekten biliyor mu?"
+    },
+    {
+      "start": 38.48,
+      "end": 40.18,
+      "text": "Combine Nikoladze'yi öldürdüm."
+    },
+    {
+      "start": 40.46,
+      "end": 41.4,
+      "text": "Neyin sonuncusu?"
+    },
+    {
+      "start": 41.66,
+      "end": 42.36,
+      "text": "Ark'ı anlat."
+    },
+    {
+      "start": 42.8,
+      "end": 43.88,
+      "text": "Ne olduğunu biliyorum."
+    },
+    {
+      "start": 44.2,
+      "end": 45.6,
+      "text": "Nereden geldiğini bilmek istiyorum."
+    },
+    {
+      "start": 46.1,
+      "end": 46.96,
+      "text": "Onunla ne yapacaksın?"
+    },
+    {
+      "start": 47.4,
+      "end": 47.82,
+      "text": "Ark."
+    },
+    {
+      "start": 48.1,
+      "end": 49.02,
+      "text": "Nerede patlatacaksın?"
+    },
+    {
+      "start": 49.44,
+      "end": 50.14,
+      "text": "Ark'ı anlat."
+    }
+  ],
+  "words": [
+    {
+      "start": 0.0,
+      "end": 0.46,
+      "text": "Yüze",
+      "probability": 0.7861328125
+    },
+    {
+      "start": 0.46,
+      "end": 1.02,
+      "text": "değil,",
+      "probability": 0.99267578125
+    },
+    {
+      "start": 1.5,
+      "end": 1.78,
+      "text": "sırada",
+      "probability": 0.989990234375
+    },
+    {
+      "start": 1.78,
+      "end": 2.22,
+      "text": "general",
+      "probability": 0.494384765625
+    },
+    {
+      "start": 2.22,
+      "end": 2.58,
+      "text": "var.",
+      "probability": 0.9951171875
+    },
+    {
+      "start": 3.06,
+      "end": 3.08,
+      "text": "Bu",
+      "probability": 0.97607421875
+    },
+    {
+      "start": 3.08,
+      "end": 3.42,
+      "text": "işte",
+      "probability": 0.89794921875
+    },
+    {
+      "start": 3.42,
+      "end": 3.72,
+      "text": "çok",
+      "probability": 0.97998046875
+    },
+    {
+      "start": 3.72,
+      "end": 4.14,
+      "text": "intihar",
+      "probability": 0.9962565104166666
+    },
+    {
+      "start": 4.14,
+      "end": 4.86,
+      "text": "görüyorum.",
+      "probability": 0.983154296875
+    },
+    {
+      "start": 5.14,
+      "end": 5.82,
+      "text": "Bilgisayarındaki",
+      "probability": 0.9798990885416666
+    },
+    {
+      "start": 5.82,
+      "end": 6.34,
+      "text": "verilerin",
+      "probability": 0.9954427083333334
+    },
+    {
+      "start": 6.34,
+      "end": 6.7,
+      "text": "kilidini",
+      "probability": 0.9905598958333334
+    },
+    {
+      "start": 6.7,
+      "end": 7.24,
+      "text": "açacağım,",
+      "probability": 0.989501953125
+    },
+    {
+      "start": 7.5,
+      "end": 7.68,
+      "text": "sen",
+      "probability": 0.90283203125
+    },
+    {
+      "start": 7.68,
+      "end": 7.86,
+      "text": "de",
+      "probability": 0.998046875
+    },
+    {
+      "start": 7.86,
+      "end": 8.0,
+      "text": "bana",
+      "probability": 0.99951171875
+    },
+    {
+      "start": 8.0,
+      "end": 8.32,
+      "text": "yardım",
+      "probability": 0.9990234375
+    },
+    {
+      "start": 8.32,
+      "end": 8.86,
+      "text": "edeceksin.",
+      "probability": 0.997802734375
+    },
+    {
+      "start": 9.38,
+      "end": 9.62,
+      "text": "Henüz",
+      "probability": 0.975341796875
+    },
+    {
+      "start": 9.62,
+      "end": 10.24,
+      "text": "ölmedin.",
+      "probability": 0.9951171875
+    },
+    {
+      "start": 10.5,
+      "end": 10.84,
+      "text": "Elinde",
+      "probability": 0.990966796875
+    },
+    {
+      "start": 10.84,
+      "end": 11.14,
+      "text": "kalan",
+      "probability": 0.99755859375
+    },
+    {
+      "start": 11.14,
+      "end": 11.42,
+      "text": "tek",
+      "probability": 0.9970703125
+    },
+    {
+      "start": 11.42,
+      "end": 11.6,
+      "text": "şey",
+      "probability": 0.99853515625
+    },
+    {
+      "start": 11.6,
+      "end": 12.22,
+      "text": "hayatının",
+      "probability": 0.917236328125
+    },
+    {
+      "start": 12.22,
+      "end": 12.52,
+      "text": "geri",
+      "probability": 0.99365234375
+    },
+    {
+      "start": 12.52,
+      "end": 12.82,
+      "text": "kalanı.",
+      "probability": 0.99853515625
+    },
+    {
+      "start": 13.26,
+      "end": 13.42,
+      "text": "Ne",
+      "probability": 0.99462890625
+    },
+    {
+      "start": 13.42,
+      "end": 13.62,
+      "text": "kadar",
+      "probability": 0.99951171875
+    },
+    {
+      "start": 13.62,
+      "end": 13.86,
+      "text": "acı",
+      "probability": 0.99755859375
+    },
+    {
+      "start": 13.86,
+      "end": 14.36,
+      "text": "çekeceğin",
+      "probability": 0.99619140625
+    },
+    {
+      "start": 14.36,
+      "end": 15.06,
+      "text": "işbirliğine",
+      "probability": 0.871240234375
+    },
+    {
+      "start": 15.06,
+      "end": 15.74,
+      "text": "bağlı.",
+      "probability": 0.998291015625
+    },
+    {
+      "start": 15.96,
+      "end": 16.34,
+      "text": "Hmm,",
+      "probability": 0.337158203125
+    },
+    {
+      "start": 16.86,
+      "end": 17.1,
+      "text": "olur.",
+      "probability": 0.998046875
+    },
+    {
+      "start": 17.64,
+      "end": 18.12,
+      "text": "Nikoladze",
+      "probability": 0.8004150390625
+    },
+    {
+      "start": 18.12,
+      "end": 18.44,
+      "text": "nereye",
+      "probability": 0.98876953125
+    },
+    {
+      "start": 18.44,
+      "end": 18.88,
+      "text": "kaçtı?",
+      "probability": 0.9990234375
+    },
+    {
+      "start": 19.26,
+      "end": 19.46,
+      "text": "O",
+      "probability": 0.994140625
+    },
+    {
+      "start": 19.46,
+      "end": 19.68,
+      "text": "adama",
+      "probability": 0.99853515625
+    },
+    {
+      "start": 19.68,
+      "end": 20.2,
+      "text": "sadakat",
+      "probability": 0.93994140625
+    },
+    {
+      "start": 20.2,
+      "end": 20.66,
+      "text": "borcun",
+      "probability": 0.9954427083333334
+    },
+    {
+      "start": 20.66,
+      "end": 20.94,
+      "text": "yok.",
+      "probability": 1.0
+    },
+    {
+      "start": 21.26,
+      "end": 21.82,
+      "text": "Kaçtı,",
+      "probability": 0.9970703125
+    },
+    {
+      "start": 22.02,
+      "end": 22.2,
+      "text": "sana",
+      "probability": 0.99267578125
+    },
+    {
+      "start": 22.2,
+      "end": 22.74,
+      "text": "ihanet",
+      "probability": 0.99755859375
+    },
+    {
+      "start": 22.74,
+      "end": 22.96,
+      "text": "etti.",
+      "probability": 0.998046875
+    },
+    {
+      "start": 23.36,
+      "end": 23.52,
+      "text": "Ne",
+      "probability": 0.94384765625
+    },
+    {
+      "start": 23.52,
+      "end": 24.06,
+      "text": "buldun?",
+      "probability": 0.987060546875
+    },
+    {
+      "start": 24.24,
+      "end": 24.6,
+      "text": "Ne?",
+      "probability": 0.92041015625
+    },
+    {
+      "start": 24.86,
+      "end": 25.16,
+      "text": "Ne",
+      "probability": 0.99072265625
+    },
+    {
+      "start": 25.16,
+      "end": 25.46,
+      "text": "dedin?",
+      "probability": 0.996826171875
+    },
+    {
+      "start": 25.84,
+      "end": 26.24,
+      "text": "Yani",
+      "probability": 0.9921875
+    },
+    {
+      "start": 26.24,
+      "end": 26.64,
+      "text": "bavul",
+      "probability": 0.9488932291666666
+    },
+    {
+      "start": 26.64,
+      "end": 26.92,
+      "text": "tipi",
+      "probability": 0.984130859375
+    },
+    {
+      "start": 26.92,
+      "end": 27.06,
+      "text": "bir",
+      "probability": 0.97900390625
+    },
+    {
+      "start": 27.06,
+      "end": 27.46,
+      "text": "nükleer",
+      "probability": 0.9886474609375
+    },
+    {
+      "start": 27.46,
+      "end": 28.06,
+      "text": "bomba.",
+      "probability": 0.993408203125
+    },
+    {
+      "start": 28.06,
+      "end": 28.58,
+      "text": "Yani",
+      "probability": 0.8759765625
+    },
+    {
+      "start": 28.58,
+      "end": 28.84,
+      "text": "Ark",
+      "probability": 0.63720703125
+    },
+    {
+      "start": 28.84,
+      "end": 29.0,
+      "text": "'ı",
+      "probability": 0.9833984375
+    },
+    {
+      "start": 29.0,
+      "end": 29.32,
+      "text": "almak",
+      "probability": 0.9873046875
+    },
+    {
+      "start": 29.32,
+      "end": 29.52,
+      "text": "için",
+      "probability": 0.9990234375
+    },
+    {
+      "start": 29.52,
+      "end": 30.08,
+      "text": "Nikoladze",
+      "probability": 0.72381591796875
+    },
+    {
+      "start": 30.08,
+      "end": 30.18,
+      "text": "'yi",
+      "probability": 0.964599609375
+    },
+    {
+      "start": 30.18,
+      "end": 30.56,
+      "text": "canlı",
+      "probability": 0.997802734375
+    },
+    {
+      "start": 30.56,
+      "end": 30.88,
+      "text": "tutmam",
+      "probability": 0.998779296875
+    },
+    {
+      "start": 30.88,
+      "end": 31.66,
+      "text": "gerekecek.",
+      "probability": 0.9910481770833334
+    },
+    {
+      "start": 31.98,
+      "end": 32.2,
+      "text": "Bunlar",
+      "probability": 0.991943359375
+    },
+    {
+      "start": 32.2,
+      "end": 32.52,
+      "text": "saray",
+      "probability": 0.935302734375
+    },
+    {
+      "start": 32.52,
+      "end": 33.1,
+      "text": "muhafızları",
+      "probability": 0.99599609375
+    },
+    {
+      "start": 33.1,
+      "end": 33.36,
+      "text": "değil.",
+      "probability": 0.99560546875
+    },
+    {
+      "start": 33.76,
+      "end": 33.86,
+      "text": "Bir",
+      "probability": 0.9716796875
+    },
+    {
+      "start": 33.86,
+      "end": 34.0,
+      "text": "tür",
+      "probability": 0.99462890625
+    },
+    {
+      "start": 34.0,
+      "end": 34.4,
+      "text": "özel",
+      "probability": 0.99169921875
+    },
+    {
+      "start": 34.4,
+      "end": 34.92,
+      "text": "kuvvet.",
+      "probability": 0.9990234375
+    },
+    {
+      "start": 35.18,
+      "end": 35.44,
+      "text": "Planım",
+      "probability": 0.9921875
+    },
+    {
+      "start": 35.44,
+      "end": 35.9,
+      "text": "değişiyor",
+      "probability": 0.999267578125
+    },
+    {
+      "start": 35.9,
+      "end": 36.2,
+      "text": "mu?",
+      "probability": 0.99951171875
+    },
+    {
+      "start": 36.4,
+      "end": 36.6,
+      "text": "Ark",
+      "probability": 0.99072265625
+    },
+    {
+      "start": 36.6,
+      "end": 36.72,
+      "text": "'ın",
+      "probability": 0.997802734375
+    },
+    {
+      "start": 36.72,
+      "end": 37.06,
+      "text": "yerini",
+      "probability": 0.998779296875
+    },
+    {
+      "start": 37.06,
+      "end": 37.6,
+      "text": "gerçekten",
+      "probability": 0.9931640625
+    },
+    {
+      "start": 37.6,
+      "end": 37.88,
+      "text": "biliyor",
+      "probability": 0.9990234375
+    },
+    {
+      "start": 37.88,
+      "end": 38.12,
+      "text": "mu?",
+      "probability": 0.99658203125
+    },
+    {
+      "start": 38.48,
+      "end": 38.9,
+      "text": "Combine",
+      "probability": 0.906494140625
+    },
+    {
+      "start": 38.9,
+      "end": 39.42,
+      "text": "Nikoladze",
+      "probability": 0.960693359375
+    },
+    {
+      "start": 39.42,
+      "end": 39.54,
+      "text": "'yi",
+      "probability": 0.985595703125
+    },
+    {
+      "start": 39.54,
+      "end": 40.18,
+      "text": "öldürdüm.",
+      "probability": 0.9884440104166666
+    },
+    {
+      "start": 40.46,
+      "end": 40.76,
+      "text": "Neyin",
+      "probability": 0.953125
+    },
+    {
+      "start": 40.76,
+      "end": 41.4,
+      "text": "sonuncusu?",
+      "probability": 0.980712890625
+    },
+    {
+      "start": 41.66,
+      "end": 41.92,
+      "text": "Ark",
+      "probability": 0.982421875
+    },
+    {
+      "start": 41.92,
+      "end": 42.08,
+      "text": "'ı",
+      "probability": 0.993408203125
+    },
+    {
+      "start": 42.08,
+      "end": 42.36,
+      "text": "anlat.",
+      "probability": 0.99462890625
+    },
+    {
+      "start": 42.8,
+      "end": 42.96,
+      "text": "Ne",
+      "probability": 0.98388671875
+    },
+    {
+      "start": 42.96,
+      "end": 43.26,
+      "text": "olduğunu",
+      "probability": 0.9970703125
+    },
+    {
+      "start": 43.26,
+      "end": 43.88,
+      "text": "biliyorum.",
+      "probability": 0.9970703125
+    },
+    {
+      "start": 44.2,
+      "end": 44.58,
+      "text": "Nereden",
+      "probability": 0.959716796875
+    },
+    {
+      "start": 44.58,
+      "end": 44.88,
+      "text": "geldiğini",
+      "probability": 0.993408203125
+    },
+    {
+      "start": 44.88,
+      "end": 45.24,
+      "text": "bilmek",
+      "probability": 0.99755859375
+    },
+    {
+      "start": 45.24,
+      "end": 45.6,
+      "text": "istiyorum.",
+      "probability": 0.99853515625
+    },
+    {
+      "start": 46.1,
+      "end": 46.34,
+      "text": "Onunla",
+      "probability": 0.995361328125
+    },
+    {
+      "start": 46.34,
+      "end": 46.5,
+      "text": "ne",
+      "probability": 0.97314453125
+    },
+    {
+      "start": 46.5,
+      "end": 46.96,
+      "text": "yapacaksın?",
+      "probability": 0.99755859375
+    },
+    {
+      "start": 47.4,
+      "end": 47.82,
+      "text": "Ark.",
+      "probability": 0.92236328125
+    },
+    {
+      "start": 48.1,
+      "end": 48.34,
+      "text": "Nerede",
+      "probability": 0.984130859375
+    },
+    {
+      "start": 48.34,
+      "end": 49.02,
+      "text": "patlatacaksın?",
+      "probability": 0.9973958333333334
+    },
+    {
+      "start": 49.44,
+      "end": 49.7,
+      "text": "Ark",
+      "probability": 0.9873046875
+    },
+    {
+      "start": 49.7,
+      "end": 49.92,
+      "text": "'ı",
+      "probability": 0.9990234375
+    },
+    {
+      "start": 49.92,
+      "end": 50.14,
+      "text": "anlat.",
+      "probability": 0.9990234375
+    }
+  ],
+  "text": "Yüze değil, sırada general var. Bu işte çok intihar görüyorum. Bilgisayarındaki verilerin kilidini açacağım, sen de bana yardım edeceksin. Henüz ölmedin. Elinde kalan tek şey hayatının geri kalanı. Ne kadar acı çekeceğin işbirliğine bağlı. Hmm, olur. Nikoladze nereye kaçtı? O adama sadakat borcun yok. Kaçtı, sana ihanet etti. Ne buldun? Ne? Ne dedin? Yani bavul tipi bir nükleer bomba. Yani Ark'ı almak için Nikoladze'yi canlı tutmam gerekecek. Bunlar saray muhafızları değil. Bir tür özel kuvvet. Planım değişiyor mu? Ark'ın yerini gerçekten biliyor mu? Combine Nikoladze'yi öldürdüm. Neyin sonuncusu? Ark'ı anlat. Ne olduğunu biliyorum. Nereden geldiğini bilmek istiyorum. Onunla ne yapacaksın? Ark. Nerede patlatacaksın? Ark'ı anlat."
+}

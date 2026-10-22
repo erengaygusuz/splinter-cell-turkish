@@ -1,0 +1,18 @@
+{
+  "u000047": {
+    "source_key": "R001_20261021_part01",
+    "first_word_start": 29.0,
+    "last_word_end": 31.96,
+    "first_word": "Hmm [large-v3 context]",
+    "last_word": "mıydın?",
+    "reason": "Large-v3 recovers Hmm. Source waveform has a separate vocal onset at 29.0 before the number phrase at 29.9. Preserve both inside u000047. Unassigned source ASR token 2 at 29.42 belongs to this line. No listening approval."
+  },
+  "u000497": {
+    "source_key": "R001_20261021_part01",
+    "first_word_start": 156.2,
+    "last_word_end": 156.76,
+    "first_word": "[untranscribed vocalization]",
+    "last_word": "[untranscribed vocalization]",
+    "reason": "Ordered catalog has Ah between Hayır and Sağ ol Wilkes. Source waveform has an isolated vocal event at 156.20–156.76; both contextual ASR passes omit it. Assign using order and waveform, then independently transcribe the isolated cut; not auditory-approved."
+  }
+}

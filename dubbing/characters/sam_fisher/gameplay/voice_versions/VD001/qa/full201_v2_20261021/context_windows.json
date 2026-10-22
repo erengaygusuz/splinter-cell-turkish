@@ -1,0 +1,14 @@
+{
+  "u000047": {
+    "source_key": "R001_20261021_part01",
+    "start_sec": 27.8,
+    "end_sec": 32.2,
+    "reason": "Recover omitted initial interjection and number."
+  },
+  "u000497": {
+    "source_key": "R001_20261021_part01",
+    "start_sec": 154.9,
+    "end_sec": 158.5,
+    "reason": "Recover short interjection omitted by source ASR."
+  }
+}

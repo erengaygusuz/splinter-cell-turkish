@@ -1,0 +1,6610 @@
+{
+  "u000005": {
+    "sha256": "ccbf1b315b2b6f2033a8824fa23762d02e4b192c1751bbf02ac754b81126ec5b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Selam.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Selam.",
+        "probability": 0.944580078125
+      }
+    ]
+  },
+  "u000014": {
+    "sha256": "19056e65a6915e34aa962111839c15ff4b9de53bfdd3a4b24b325410d7f9dfde",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Erken gelmeyi severim. Merhaba Albay.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Erken",
+        "probability": 0.956787109375
+      },
+      {
+        "start": 0.62,
+        "end": 1.08,
+        "text": " gelmeyi",
+        "probability": 0.99658203125
+      },
+      {
+        "start": 1.08,
+        "end": 1.72,
+        "text": " severim.",
+        "probability": 0.99658203125
+      },
+      {
+        "start": 2.0,
+        "end": 2.2,
+        "text": " Merhaba",
+        "probability": 0.975830078125
+      },
+      {
+        "start": 2.2,
+        "end": 2.5,
+        "text": " Albay.",
+        "probability": 0.69580078125
+      }
+    ]
+  },
+  "u000016": {
+    "sha256": "0dea5397f316ade693e8b57e800a38e70f1d6ad822cb38d85d0efb319e90c0eb",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Lambert",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.7,
+        "text": " Lambert",
+        "probability": 0.94482421875
+      }
+    ]
+  },
+  "u000018": {
+    "sha256": "8c299da3f82376f0fe5c2e3564476decb5267307eb9e00d8e160d97a4b4baade",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Fena değil. Neyi bilmeme izin var, kimse açık konuşmuyor.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Fena",
+        "probability": 0.95263671875
+      },
+      {
+        "start": 0.54,
+        "end": 0.92,
+        "text": " değil.",
+        "probability": 0.998046875
+      },
+      {
+        "start": 1.4,
+        "end": 1.64,
+        "text": " Neyi",
+        "probability": 0.966064453125
+      },
+      {
+        "start": 1.64,
+        "end": 1.94,
+        "text": " bilmeme",
+        "probability": 0.9977213541666666
+      },
+      {
+        "start": 1.94,
+        "end": 2.24,
+        "text": " izin",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 2.24,
+        "end": 2.54,
+        "text": " var,",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 2.76,
+        "end": 2.94,
+        "text": " kimse",
+        "probability": 0.94921875
+      },
+      {
+        "start": 2.94,
+        "end": 3.18,
+        "text": " açık",
+        "probability": 0.998046875
+      },
+      {
+        "start": 3.18,
+        "end": 3.78,
+        "text": " konuşmuyor.",
+        "probability": 0.9931640625
+      }
+    ]
+  },
+  "u000020": {
+    "sha256": "66affac356c0682482e8ee2b5817e3fbc4eee24e3baa8910a72885b54041ed65",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ama sahada yalnız olacağım.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Ama",
+        "probability": 0.6083984375
+      },
+      {
+        "start": 0.48,
+        "end": 0.82,
+        "text": " sahada",
+        "probability": 0.9765625
+      },
+      {
+        "start": 0.82,
+        "end": 1.16,
+        "text": " yalnız",
+        "probability": 0.99267578125
+      },
+      {
+        "start": 1.16,
+        "end": 1.58,
+        "text": " olacağım.",
+        "probability": 0.9921875
+      }
+    ]
+  },
+  "u000022": {
+    "sha256": "8219a0ca006be74a112df88514a50a1ce1913345ab742f73e492363c95211294",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Eğitim de böyle mi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Eğitim",
+        "probability": 0.9532470703125
+      },
+      {
+        "start": 0.62,
+        "end": 0.76,
+        "text": " de",
+        "probability": 0.9560546875
+      },
+      {
+        "start": 0.76,
+        "end": 0.98,
+        "text": " böyle",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 0.98,
+        "end": 1.14,
+        "text": " mi?",
+        "probability": 0.9970703125
+      }
+    ]
+  },
+  "u000024": {
+    "sha256": "214684352621e767827c7aa940d1f61414c9e15df0ddda201e0096230d5b55b2",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yıllardır sahada değilim.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.78,
+        "text": " Yıllardır",
+        "probability": 0.9627685546875
+      },
+      {
+        "start": 0.78,
+        "end": 1.16,
+        "text": " sahada",
+        "probability": 0.974365234375
+      },
+      {
+        "start": 1.16,
+        "end": 1.52,
+        "text": " değilim.",
+        "probability": 0.993896484375
+      }
+    ]
+  },
+  "u000026": {
+    "sha256": "5ca79a3614466246d8a71041bc022935c8507075cde7dc8dcef993db3ed7c4a2",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "ya da topuklu giymek.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " ya",
+        "probability": 0.7607421875
+      },
+      {
+        "start": 0.4,
+        "end": 0.6,
+        "text": " da",
+        "probability": 0.998046875
+      },
+      {
+        "start": 0.6,
+        "end": 1.02,
+        "text": " topuklu",
+        "probability": 0.9869791666666666
+      },
+      {
+        "start": 1.02,
+        "end": 1.48,
+        "text": " giymek.",
+        "probability": 0.982421875
+      }
+    ]
+  },
+  "u000028": {
+    "sha256": "f96ae1f0fb92c3bc505c1570680640d925b6cc5002f1da883ef5dccbfc9f535e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Uslu dururum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Uslu",
+        "probability": 0.743408203125
+      },
+      {
+        "start": 0.54,
+        "end": 0.92,
+        "text": " dururum.",
+        "probability": 0.95263671875
+      }
+    ]
+  },
+  "u000031": {
+    "sha256": "df7d98d1e44b2d5bcc72bd0a279d757f160d10bf8c53b36642d7f1e0e5c5b364",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sen kimsin?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Sen",
+        "probability": 0.9052734375
+      },
+      {
+        "start": 0.52,
+        "end": 0.82,
+        "text": " kimsin?",
+        "probability": 0.983642578125
+      }
+    ]
+  },
+  "u000036": {
+    "sha256": "53334aa31d96f135c8c4a6886c92be25a0a526669416e7407e59b45fd927ce7b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bir kısmını. Opsat konusunda hâlâ biraz kafam karışık.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Bir",
+        "probability": 0.66357421875
+      },
+      {
+        "start": 0.42,
+        "end": 1.12,
+        "text": " kısmını.",
+        "probability": 0.9905598958333334
+      },
+      {
+        "start": 1.38,
+        "end": 1.66,
+        "text": " Opsat",
+        "probability": 0.6105143229166666
+      },
+      {
+        "start": 1.66,
+        "end": 2.18,
+        "text": " konusunda",
+        "probability": 0.9969075520833334
+      },
+      {
+        "start": 2.18,
+        "end": 2.84,
+        "text": " hâlâ",
+        "probability": 0.84765625
+      },
+      {
+        "start": 2.84,
+        "end": 2.88,
+        "text": " biraz",
+        "probability": 0.990234375
+      },
+      {
+        "start": 2.88,
+        "end": 3.2,
+        "text": " kafam",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 3.2,
+        "end": 3.66,
+        "text": " karışık.",
+        "probability": 0.999267578125
+      }
+    ]
+  },
+  "u000039": {
+    "sha256": "c283caafb63c967501a6e15fa9ee8b5a9a88b9ecb94aa5e80dcb57f7aa844493",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Anlattığı kadar kötü değilim.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.78,
+        "text": " Anlattığı",
+        "probability": 0.967041015625
+      },
+      {
+        "start": 0.78,
+        "end": 1.02,
+        "text": " kadar",
+        "probability": 0.998046875
+      },
+      {
+        "start": 1.02,
+        "end": 1.3,
+        "text": " kötü",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 1.3,
+        "end": 1.64,
+        "text": " değilim.",
+        "probability": 0.99755859375
+      }
+    ]
+  },
+  "u000041": {
+    "sha256": "9384f6b07f398fc470342dcf4741f27af6b683a6aeb1f08cdafe41e71c0d912b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hah! Ne? Karanlık işlerin azizi mi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.58,
+        "text": " Hah!",
+        "probability": 0.5126953125
+      },
+      {
+        "start": 0.96,
+        "end": 1.14,
+        "text": " Ne?",
+        "probability": 0.96826171875
+      },
+      {
+        "start": 1.48,
+        "end": 1.86,
+        "text": " Karanlık",
+        "probability": 0.9912109375
+      },
+      {
+        "start": 1.86,
+        "end": 2.22,
+        "text": " işlerin",
+        "probability": 0.956787109375
+      },
+      {
+        "start": 2.22,
+        "end": 2.6,
+        "text": " azizi",
+        "probability": 0.728515625
+      },
+      {
+        "start": 2.6,
+        "end": 2.74,
+        "text": " mi?",
+        "probability": 0.9951171875
+      }
+    ]
+  },
+  "u000043": {
+    "sha256": "18dcb8f08c2133e29f7b77611a7cc867bf67491b1e7ffe954584d08223603503",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Second Echelon'da çalışmıştın, değil mi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Second",
+        "probability": 0.71337890625
+      },
+      {
+        "start": 0.6,
+        "end": 1.12,
+        "text": " Echelon'da",
+        "probability": 0.94384765625
+      },
+      {
+        "start": 1.12,
+        "end": 1.74,
+        "text": " çalışmıştın,",
+        "probability": 0.9910888671875
+      },
+      {
+        "start": 1.84,
+        "end": 1.9,
+        "text": " değil",
+        "probability": 0.98681640625
+      },
+      {
+        "start": 1.9,
+        "end": 2.04,
+        "text": " mi?",
+        "probability": 0.99951171875
+      }
+    ]
+  },
+  "u000045": {
+    "sha256": "f938f5509d91910dc55df75db83225182070e1990f9ba568f2a46d2d3901b4f0",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne gibi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ne",
+        "probability": 0.86865234375
+      },
+      {
+        "start": 0.4,
+        "end": 0.6,
+        "text": " gibi?",
+        "probability": 0.96533203125
+      }
+    ]
+  },
+  "u000047": {
+    "sha256": "618d8e3ae48c90b5cc72f4d2b8d19322c022bdfca9d99af89946c60a7e49c99a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hmm, 2000'lerdeki çöküşte orada mıydı?",
+    "match": 93.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.74,
+        "text": " Hmm,",
+        "probability": 0.35693359375
+      },
+      {
+        "start": 1.16,
+        "end": 1.36,
+        "text": " 2000",
+        "probability": 0.78857421875
+      },
+      {
+        "start": 1.36,
+        "end": 1.78,
+        "text": "'lerdeki",
+        "probability": 0.9140625
+      },
+      {
+        "start": 1.78,
+        "end": 2.28,
+        "text": " çöküşte",
+        "probability": 0.86962890625
+      },
+      {
+        "start": 2.28,
+        "end": 2.58,
+        "text": " orada",
+        "probability": 0.93896484375
+      },
+      {
+        "start": 2.58,
+        "end": 2.84,
+        "text": " mıydı?",
+        "probability": 0.9775390625
+      }
+    ]
+  },
+  "u000052": {
+    "sha256": "39427ad4896ef65a0da78b1e22b5dcae5d926a9c785253835c106ba4c21d4e76",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bana torpil yok değil mi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "text": " Bana",
+        "probability": 0.873046875
+      },
+      {
+        "start": 0.44,
+        "end": 0.82,
+        "text": " torpil",
+        "probability": 0.96484375
+      },
+      {
+        "start": 0.82,
+        "end": 0.98,
+        "text": " yok",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 0.98,
+        "end": 1.18,
+        "text": " değil",
+        "probability": 0.6455078125
+      },
+      {
+        "start": 1.18,
+        "end": 1.32,
+        "text": " mi?",
+        "probability": 0.99755859375
+      }
+    ]
+  },
+  "u000054": {
+    "sha256": "6149bfdec60405cd79c31c2caa39586cebdc61a10762def0947ef5f658d6323e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Kusura bakma, kapının kodu ne?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Kusura",
+        "probability": 0.9065755208333334
+      },
+      {
+        "start": 0.54,
+        "end": 1.0,
+        "text": " bakma,",
+        "probability": 0.993408203125
+      },
+      {
+        "start": 1.24,
+        "end": 1.46,
+        "text": " kapının",
+        "probability": 0.954345703125
+      },
+      {
+        "start": 1.46,
+        "end": 1.72,
+        "text": " kodu",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 1.72,
+        "end": 1.84,
+        "text": " ne?",
+        "probability": 0.9951171875
+      }
+    ]
+  },
+  "u000056": {
+    "sha256": "c3fbb3732eba1e349e4a47258705641296901d4e8ec28a8d79f1b546fe0662af",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Seninle çalışmak zevkti.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Seninle",
+        "probability": 0.950439453125
+      },
+      {
+        "start": 0.62,
+        "end": 1.08,
+        "text": " çalışmak",
+        "probability": 0.994873046875
+      },
+      {
+        "start": 1.08,
+        "end": 1.58,
+        "text": " zevkti.",
+        "probability": 0.9903564453125
+      }
+    ]
+  },
+  "u000080": {
+    "sha256": "0f690f9d915fc6d00a673c3b1ae0f65da1bf24d790bc7bb8bacb0f1d00d30bba",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Merhaba.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.66,
+        "text": " Merhaba.",
+        "probability": 0.966064453125
+      }
+    ]
+  },
+  "u000083": {
+    "sha256": "9803d8a747341285f4e449b81dd3327acee2af13c607c1a21a8fd2f65421ada8",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hepimiz dostuz.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Hepimiz",
+        "probability": 0.976318359375
+      },
+      {
+        "start": 0.62,
+        "end": 1.12,
+        "text": " dostuz.",
+        "probability": 0.97216796875
+      }
+    ]
+  },
+  "u000086": {
+    "sha256": "192fc55b668c30215c062703efe0a3cbb1e0666b2a787dc579242760ade8854c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Harika.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.66,
+        "text": " Harika.",
+        "probability": 0.873779296875
+      }
+    ]
+  },
+  "u000088": {
+    "sha256": "5c8f70d39ebb92dfff298a9fb5104ab574af6e32e06afbcdd3edbdebafdd8d05",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Zaten tek becerdiğim bu.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Zaten",
+        "probability": 0.95654296875
+      },
+      {
+        "start": 0.62,
+        "end": 0.88,
+        "text": " tek",
+        "probability": 0.95849609375
+      },
+      {
+        "start": 0.88,
+        "end": 1.48,
+        "text": " becerdiğim",
+        "probability": 0.9859619140625
+      },
+      {
+        "start": 1.48,
+        "end": 1.62,
+        "text": " bu.",
+        "probability": 0.984375
+      }
+    ]
+  },
+  "u000091": {
+    "sha256": "9816969f26c65db0e6a31d4c03ff04437a18cd3ddd373847d21504b1c6328789",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Doğru.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.58,
+        "text": " Doğru.",
+        "probability": 0.869140625
+      }
+    ]
+  },
+  "u000094": {
+    "sha256": "817ad286cfec1834242bea2032635e77927d54facad5158fe435b33bd33b930d",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yoldayım.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.64,
+        "text": " Yoldayım.",
+        "probability": 0.85302734375
+      }
+    ]
+  },
+  "u000102": {
+    "sha256": "48fa4df0c7a88855aa9b67e4ce85d45dbfc5bbdc9221ad26b8c4d0b50d3f964e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Guggenitze öldü.",
+    "match": 86.7,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.84,
+        "text": " Guggenitze",
+        "probability": 0.756787109375
+      },
+      {
+        "start": 0.84,
+        "end": 1.22,
+        "text": " öldü.",
+        "probability": 0.95947265625
+      }
+    ]
+  },
+  "u000109": {
+    "sha256": "9d9331fb7702899333d87bf903359d6fe5853a5bbad174da859b0ec1e5f539b1",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Gurgenitze?",
+    "match": 90.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "text": " Gurgenitze?",
+        "probability": 0.7109375
+      }
+    ]
+  },
+  "u000111": {
+    "sha256": "dde5eba42c39dacb357783ee257aa8b7c722169be0633b0188c820ba054dc1db",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "N.S.A.D'in seni buradan çıkaracağız.",
+    "match": 89.9,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " N",
+        "probability": 0.74267578125
+      },
+      {
+        "start": 0.54,
+        "end": 0.7,
+        "text": ".S",
+        "probability": 0.794921875
+      },
+      {
+        "start": 0.7,
+        "end": 0.88,
+        "text": ".A",
+        "probability": 0.858154296875
+      },
+      {
+        "start": 0.88,
+        "end": 1.0,
+        "text": ".D",
+        "probability": 0.63330078125
+      },
+      {
+        "start": 1.0,
+        "end": 1.08,
+        "text": "'in",
+        "probability": 0.4119873046875
+      },
+      {
+        "start": 1.08,
+        "end": 1.52,
+        "text": " seni",
+        "probability": 0.78369140625
+      },
+      {
+        "start": 1.52,
+        "end": 1.84,
+        "text": " buradan",
+        "probability": 0.97314453125
+      },
+      {
+        "start": 1.84,
+        "end": 2.46,
+        "text": " çıkaracağız.",
+        "probability": 0.978271484375
+      }
+    ]
+  },
+  "u000113": {
+    "sha256": "740eee680de6f2e3c05c71db09089967d0d65c2724bac4fbbbae25e5b25220bf",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Evet.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Evet.",
+        "probability": 0.94140625
+      }
+    ]
+  },
+  "u000115": {
+    "sha256": "9b1d0d2621b2308f47980c86bb71507c5cefd14d5f5ae7668dcf42c2bce201c0",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Onu nasıl bulurum?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.38,
+        "text": " Onu",
+        "probability": 0.81298828125
+      },
+      {
+        "start": 0.38,
+        "end": 0.72,
+        "text": " nasıl",
+        "probability": 0.990234375
+      },
+      {
+        "start": 0.72,
+        "end": 1.1,
+        "text": " bulurum?",
+        "probability": 0.9900716145833334
+      }
+    ]
+  },
+  "u000117": {
+    "sha256": "6882a1291e4a0ded761bd935ba605d76806cef02a8673891d67c04e2e663ce6b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Lambert, bu adamı tahliye edebilir miyiz?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.66,
+        "text": " Lambert,",
+        "probability": 0.950439453125
+      },
+      {
+        "start": 0.88,
+        "end": 0.98,
+        "text": " bu",
+        "probability": 0.984375
+      },
+      {
+        "start": 0.98,
+        "end": 1.28,
+        "text": " adamı",
+        "probability": 0.98681640625
+      },
+      {
+        "start": 1.28,
+        "end": 1.58,
+        "text": " tahliye",
+        "probability": 0.94677734375
+      },
+      {
+        "start": 1.58,
+        "end": 1.96,
+        "text": " edebilir",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 1.96,
+        "end": 2.2,
+        "text": " miyiz?",
+        "probability": 0.9969075520833334
+      }
+    ]
+  },
+  "u000120": {
+    "sha256": "5817647ab6482fa24b7ccf43563f012d203ed613e5a337abceb8ea8b0e86590d",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Uğraşıyorum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.74,
+        "text": " Uğraşıyorum.",
+        "probability": 0.8869140625
+      }
+    ]
+  },
+  "u000123": {
+    "sha256": "9ee1a727242b4eabd1261e932a491c2835ed676c920a7980c9718007c510a5a6",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Naber?",
+    "match": 76.9,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Naber?",
+        "probability": 0.69580078125
+      }
+    ]
+  },
+  "u000127": {
+    "sha256": "8ff8a7a6d094c0e86be053a798ac6186aa489b33594ae76e6aff1c91ed67daf0",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Paylaşmaları ne hoş!",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.54,
+        "end": 0.96,
+        "text": " Paylaşmaları",
+        "probability": 0.863037109375
+      },
+      {
+        "start": 0.96,
+        "end": 1.12,
+        "text": " ne",
+        "probability": 0.94775390625
+      },
+      {
+        "start": 1.12,
+        "end": 1.32,
+        "text": " hoş!",
+        "probability": 0.99755859375
+      }
+    ]
+  },
+  "u000160": {
+    "sha256": "25dd061ac147f2d93f603e7bd1c8d6eb86b3e30294677ceaebfa39e719c90d3e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Şimdi ne yapıyoruz?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.46,
+        "text": " Şimdi",
+        "probability": 0.939453125
+      },
+      {
+        "start": 0.46,
+        "end": 0.64,
+        "text": " ne",
+        "probability": 0.91650390625
+      },
+      {
+        "start": 0.64,
+        "end": 0.94,
+        "text": " yapıyoruz?",
+        "probability": 0.994384765625
+      }
+    ]
+  },
+  "u000162": {
+    "sha256": "12bfe2d4d7cbe5945de74cb199d5daccd85750572093fb7ed119bb7177903f7d",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Burada bir güvenlik kamerası var.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Burada",
+        "probability": 0.96337890625
+      },
+      {
+        "start": 0.54,
+        "end": 0.74,
+        "text": " bir",
+        "probability": 0.98681640625
+      },
+      {
+        "start": 0.74,
+        "end": 1.14,
+        "text": " güvenlik",
+        "probability": 0.96435546875
+      },
+      {
+        "start": 1.14,
+        "end": 1.6,
+        "text": " kamerası",
+        "probability": 0.9680989583333334
+      },
+      {
+        "start": 1.6,
+        "end": 1.7,
+        "text": " var.",
+        "probability": 0.9990234375
+      }
+    ]
+  },
+  "u000169": {
+    "sha256": "b23787e1f101b190f4b7af55de36e4cd5f10736e09e87764bb28b356d2cf0545",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yanlış bir hareket yaparsan ölürsün. Bilgi istiyorum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.58,
+        "text": " Yanlış",
+        "probability": 0.90625
+      },
+      {
+        "start": 0.58,
+        "end": 0.76,
+        "text": " bir",
+        "probability": 0.99267578125
+      },
+      {
+        "start": 0.76,
+        "end": 1.04,
+        "text": " hareket",
+        "probability": 0.996337890625
+      },
+      {
+        "start": 1.04,
+        "end": 1.5,
+        "text": " yaparsan",
+        "probability": 0.9982096354166666
+      },
+      {
+        "start": 1.5,
+        "end": 2.22,
+        "text": " ölürsün.",
+        "probability": 0.99609375
+      },
+      {
+        "start": 2.32,
+        "end": 2.62,
+        "text": " Bilgi",
+        "probability": 0.992431640625
+      },
+      {
+        "start": 2.62,
+        "end": 2.96,
+        "text": " istiyorum.",
+        "probability": 0.99853515625
+      }
+    ]
+  },
+  "u000171": {
+    "sha256": "4899614b4d9143dfa01f1efa7ee23069779da391142a659924e3351030e0dbba",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "İki Amerikalı arıyorum. Muhtemelen ölüler.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.46,
+        "text": " İki",
+        "probability": 0.768310546875
+      },
+      {
+        "start": 0.46,
+        "end": 0.9,
+        "text": " Amerikalı",
+        "probability": 0.94482421875
+      },
+      {
+        "start": 0.9,
+        "end": 1.42,
+        "text": " arıyorum.",
+        "probability": 0.91796875
+      },
+      {
+        "start": 1.62,
+        "end": 2.14,
+        "text": " Muhtemelen",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 2.14,
+        "end": 2.56,
+        "text": " ölüler.",
+        "probability": 0.9650065104166666
+      }
+    ]
+  },
+  "u000173": {
+    "sha256": "c5ba3bb0e0be33c726b982af530c005c800ed03e39f061ff59628e555ee136a6",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Neredeler?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.64,
+        "text": " Neredeler?",
+        "probability": 0.8056640625
+      }
+    ]
+  },
+  "u000175": {
+    "sha256": "ed9c2f636fcc385fc7b744777866fac1e28992909a7ef2e16d4e3b2aa272eb39",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Deri Altıvericiler",
+    "match": 97.3,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Deri",
+        "probability": 0.786865234375
+      },
+      {
+        "start": 0.48,
+        "end": 1.2,
+        "text": " Altıvericiler",
+        "probability": 0.89658203125
+      }
+    ]
+  },
+  "u000177": {
+    "sha256": "a771e4bb4f3a8477331a7742c200e161ec9dbe97e873521630d9c6a3b96919da",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sakin ol, sorularıma cevap vereceksin.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.58,
+        "text": " Sakin",
+        "probability": 0.940673828125
+      },
+      {
+        "start": 0.58,
+        "end": 0.86,
+        "text": " ol,",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 1.14,
+        "end": 1.5,
+        "text": " sorularıma",
+        "probability": 0.9944661458333334
+      },
+      {
+        "start": 1.5,
+        "end": 1.84,
+        "text": " cevap",
+        "probability": 0.998046875
+      },
+      {
+        "start": 1.84,
+        "end": 2.32,
+        "text": " vereceksin.",
+        "probability": 0.993896484375
+      }
+    ]
+  },
+  "u000179": {
+    "sha256": "5ab02f5b2cc895bb9b4606dfd2ba9a9b3552a869037beacbe6057f46121262b2",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bunlar kim?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.28000000000000025,
+        "end": 0.56,
+        "text": " Bunlar",
+        "probability": 0.95068359375
+      },
+      {
+        "start": 0.56,
+        "end": 0.68,
+        "text": " kim?",
+        "probability": 0.97802734375
+      }
+    ]
+  },
+  "u000181": {
+    "sha256": "ba35ba384bac552e214eaff6f7596e43b8c82ac792e03053ba339c8ac2ad0842",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yalanlar keyfimi kaçırır.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.74,
+        "text": " Yalanlar",
+        "probability": 0.9226888020833334
+      },
+      {
+        "start": 0.74,
+        "end": 1.18,
+        "text": " keyfimi",
+        "probability": 0.9915364583333334
+      },
+      {
+        "start": 1.18,
+        "end": 1.82,
+        "text": " kaçırır.",
+        "probability": 0.99853515625
+      }
+    ]
+  },
+  "u000183": {
+    "sha256": "77c50d121559d1bf773c3da36ca42e444a2604beb24a7531fdb721f24d026747",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Cesetler",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.94,
+        "text": " Cesetler",
+        "probability": 0.793212890625
+      }
+    ]
+  },
+  "u000185": {
+    "sha256": "a3f4557e1a5980a5e06b41038ea2ba8d420aeeab138c992615d89c7525b7303e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bu işte senin rolün ne?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.36,
+        "text": " Bu",
+        "probability": 0.86376953125
+      },
+      {
+        "start": 0.36,
+        "end": 0.6,
+        "text": " işte",
+        "probability": 0.958984375
+      },
+      {
+        "start": 0.6,
+        "end": 0.88,
+        "text": " senin",
+        "probability": 0.97607421875
+      },
+      {
+        "start": 0.88,
+        "end": 1.22,
+        "text": " rolün",
+        "probability": 0.965087890625
+      },
+      {
+        "start": 1.22,
+        "end": 1.34,
+        "text": " ne?",
+        "probability": 0.994140625
+      }
+    ]
+  },
+  "u000187": {
+    "sha256": "251865a9a9214e2db5c1d9911366dee50beb08ee97ba587236a87f96d2bc38e3",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Derealtıvericiler?",
+    "match": 88.9,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 1.22,
+        "text": " Derealtıvericiler?",
+        "probability": 0.7813895089285714
+      }
+    ]
+  },
+  "u000189": {
+    "sha256": "f6a9c77472094838eb8d0696e566f87414d36b861a455bf5cc75840b104fe33a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Neredeler?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.66,
+        "text": " Neredeler?",
+        "probability": 0.833984375
+      }
+    ]
+  },
+  "u000191": {
+    "sha256": "0f9dcf992c16f4d03ab4193c02c606225ce6ed443812c7c89891f4a8c826bb07",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne zaman ayrıldı?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Ne",
+        "probability": 0.76171875
+      },
+      {
+        "start": 0.42,
+        "end": 0.66,
+        "text": " zaman",
+        "probability": 0.83544921875
+      },
+      {
+        "start": 0.66,
+        "end": 1.02,
+        "text": " ayrıldı?",
+        "probability": 0.98193359375
+      }
+    ]
+  },
+  "u000193": {
+    "sha256": "e6cb4c28b4f02bf16460698304750e4e5ea68c55b54a80480315b7806664ecb5",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ölümüne yemin et!",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Ölümüne",
+        "probability": 0.9700927734375
+      },
+      {
+        "start": 0.72,
+        "end": 1.14,
+        "text": " yemin",
+        "probability": 0.826904296875
+      },
+      {
+        "start": 1.14,
+        "end": 1.34,
+        "text": " et!",
+        "probability": 0.99560546875
+      }
+    ]
+  },
+  "u000195": {
+    "sha256": "144c8942b98fdeb92bffe6dcfc4fdcacdf8e938d1e93ad3106198845488a627b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Boş ver.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.58,
+        "text": " Boş",
+        "probability": 0.91748046875
+      },
+      {
+        "start": 0.58,
+        "end": 0.7,
+        "text": " ver.",
+        "probability": 0.66455078125
+      }
+    ]
+  },
+  "u000198": {
+    "sha256": "27746458987627da15968147511c9e39177aa5ab795377645e486b4ff9d2eafc",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Grinko'yu anlat.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Grinko",
+        "probability": 0.6759440104166666
+      },
+      {
+        "start": 0.56,
+        "end": 0.74,
+        "text": "'yu",
+        "probability": 0.974853515625
+      },
+      {
+        "start": 0.74,
+        "end": 1.0,
+        "text": " anlat.",
+        "probability": 0.9755859375
+      }
+    ]
+  },
+  "u000200": {
+    "sha256": "9f21a4ba83ab88ef833231e543ce37fb47194faedc0cc173d99e61819d20a25a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Öyle mi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Öyle",
+        "probability": 0.8935546875
+      },
+      {
+        "start": 0.48,
+        "end": 0.62,
+        "text": " mi?",
+        "probability": 0.9951171875
+      }
+    ]
+  },
+  "u000244": {
+    "sha256": "77dc7be0a5bdaf433554d44c5893215f67a797beccc58db07702f51bb65896fe",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Onu nasıl bulurum?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Onu",
+        "probability": 0.78173828125
+      },
+      {
+        "start": 0.4,
+        "end": 0.7,
+        "text": " nasıl",
+        "probability": 0.97705078125
+      },
+      {
+        "start": 0.7,
+        "end": 1.08,
+        "text": " bulurum?",
+        "probability": 0.9871419270833334
+      }
+    ]
+  },
+  "u000246": {
+    "sha256": "c8a4ce9964ab2dddcbc9fcb32fe1d6006b4ed0d70001228e6c1f2f83a08184e7",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ya arabasının yanında değilse?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.38,
+        "text": " Ya",
+        "probability": 0.580078125
+      },
+      {
+        "start": 0.38,
+        "end": 0.9,
+        "text": " arabasının",
+        "probability": 0.9602864583333334
+      },
+      {
+        "start": 0.9,
+        "end": 1.28,
+        "text": " yanında",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 1.28,
+        "end": 1.64,
+        "text": " değilse?",
+        "probability": 0.977294921875
+      }
+    ]
+  },
+  "u000248": {
+    "sha256": "e767754aedc02a8ccb3c960910ae06591c93f9f096667556e68da6048bcc42c8",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ben mi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Ben",
+        "probability": 0.9296875
+      },
+      {
+        "start": 0.48,
+        "end": 0.6,
+        "text": " mi?",
+        "probability": 0.99609375
+      }
+    ]
+  },
+  "u000250": {
+    "sha256": "2d6387d7f88b320af8a4a75e7170f8e29d55c51f8a609e2d4872952da53e6add",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "O zaman avludan uzak dururum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " O",
+        "probability": 0.68994140625
+      },
+      {
+        "start": 0.4,
+        "end": 0.66,
+        "text": " zaman",
+        "probability": 0.9853515625
+      },
+      {
+        "start": 0.66,
+        "end": 1.18,
+        "text": " avludan",
+        "probability": 0.96533203125
+      },
+      {
+        "start": 1.18,
+        "end": 1.46,
+        "text": " uzak",
+        "probability": 0.997802734375
+      },
+      {
+        "start": 1.46,
+        "end": 1.78,
+        "text": " dururum.",
+        "probability": 0.98291015625
+      }
+    ]
+  },
+  "u000253": {
+    "sha256": "b307b640b15550698ae8eb5d2b8b0e28aec2436e4510f32dd4526cbdde57ed10",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Konuma geçmek için avludaki lazerağını kapatmam gerekecek.",
+    "match": 99.1,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Konuma",
+        "probability": 0.974853515625
+      },
+      {
+        "start": 0.56,
+        "end": 0.96,
+        "text": " geçmek",
+        "probability": 0.997802734375
+      },
+      {
+        "start": 0.96,
+        "end": 1.2,
+        "text": " için",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 1.2,
+        "end": 1.7,
+        "text": " avludaki",
+        "probability": 0.9563802083333334
+      },
+      {
+        "start": 1.7,
+        "end": 2.24,
+        "text": " lazerağını",
+        "probability": 0.7677001953125
+      },
+      {
+        "start": 2.24,
+        "end": 2.76,
+        "text": " kapatmam",
+        "probability": 0.9988606770833334
+      },
+      {
+        "start": 2.76,
+        "end": 3.28,
+        "text": " gerekecek.",
+        "probability": 0.9651692708333334
+      }
+    ]
+  },
+  "u000256": {
+    "sha256": "7a6f724ca6c394b4d355723a71b3f50ff0ba4a3f86c07c1877674ead95d9097c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Kötü adamlar kan şakaları yapınca geriliyorum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Kötü",
+        "probability": 0.8435872395833334
+      },
+      {
+        "start": 0.6,
+        "end": 1.08,
+        "text": " adamlar",
+        "probability": 0.90283203125
+      },
+      {
+        "start": 1.08,
+        "end": 1.46,
+        "text": " kan",
+        "probability": 0.9638671875
+      },
+      {
+        "start": 1.46,
+        "end": 1.92,
+        "text": " şakaları",
+        "probability": 0.9962565104166666
+      },
+      {
+        "start": 1.92,
+        "end": 2.4,
+        "text": " yapınca",
+        "probability": 0.9977213541666666
+      },
+      {
+        "start": 2.4,
+        "end": 2.96,
+        "text": " geriliyorum.",
+        "probability": 0.99658203125
+      }
+    ]
+  },
+  "u000258": {
+    "sha256": "de71fe4a565931f6c95bf1001a02277402ee830df1a3edff50abfc05160b9a3c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Nikoladzen'in bilgisayarı",
+    "match": 96.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "text": " Nikoladzen",
+        "probability": 0.448089599609375
+      },
+      {
+        "start": 0.8,
+        "end": 0.92,
+        "text": "'in",
+        "probability": 0.9453125
+      },
+      {
+        "start": 0.92,
+        "end": 1.46,
+        "text": " bilgisayarı",
+        "probability": 0.96279296875
+      }
+    ]
+  },
+  "u000261": {
+    "sha256": "4bd2d00e9d34dc17b90d1f6e1f25b17cb5c3fa5484ed20c2b00a8c40c7bd1351",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sana birkaç soru soracağım. Yalan söylediğini düşündüğümde bunu yapacağım.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Sana",
+        "probability": 0.73291015625
+      },
+      {
+        "start": 0.48,
+        "end": 0.86,
+        "text": " birkaç",
+        "probability": 0.8347981770833334
+      },
+      {
+        "start": 0.86,
+        "end": 1.12,
+        "text": " soru",
+        "probability": 0.998291015625
+      },
+      {
+        "start": 1.12,
+        "end": 1.62,
+        "text": " soracağım.",
+        "probability": 0.98974609375
+      },
+      {
+        "start": 1.96,
+        "end": 2.24,
+        "text": " Yalan",
+        "probability": 0.97265625
+      },
+      {
+        "start": 2.24,
+        "end": 2.76,
+        "text": " söylediğini",
+        "probability": 0.994140625
+      },
+      {
+        "start": 2.76,
+        "end": 3.36,
+        "text": " düşündüğümde",
+        "probability": 0.99072265625
+      },
+      {
+        "start": 3.36,
+        "end": 3.54,
+        "text": " bunu",
+        "probability": 0.97705078125
+      },
+      {
+        "start": 3.54,
+        "end": 4.02,
+        "text": " yapacağım.",
+        "probability": 0.99658203125
+      }
+    ]
+  },
+  "u000263": {
+    "sha256": "146f61871eedc8f3d545ae2bb6d3a0b84c988bcbdd239a8b795d193d37ba7045",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Kime çalışıyorsun?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Kime",
+        "probability": 0.94189453125
+      },
+      {
+        "start": 0.54,
+        "end": 1.08,
+        "text": " çalışıyorsun?",
+        "probability": 0.974853515625
+      }
+    ]
+  },
+  "u000265": {
+    "sha256": "060010c241b6498229d861bfd52d11e321e2f5400b5afc8b63c353030f4a0b95",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ondan bahset.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.64,
+        "text": " Ondan",
+        "probability": 0.909912109375
+      },
+      {
+        "start": 0.64,
+        "end": 0.98,
+        "text": " bahset.",
+        "probability": 0.94873046875
+      }
+    ]
+  },
+  "u000269": {
+    "sha256": "72621516e7653f27fd9ffc163f02a158510796931de133b9aeb34dd208520179",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Masse kim?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Masse",
+        "probability": 0.39141845703125
+      },
+      {
+        "start": 0.72,
+        "end": 0.8,
+        "text": " kim?",
+        "probability": 0.499755859375
+      }
+    ]
+  },
+  "u000271": {
+    "sha256": "9d25e10e073eaea0ad1d42ac515fda1280ff49161e7639a36d22ea1d500c98b2",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bu toplantının konusu ne?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Bu",
+        "probability": 0.92724609375
+      },
+      {
+        "start": 0.4,
+        "end": 0.88,
+        "text": " toplantının",
+        "probability": 0.9669596354166666
+      },
+      {
+        "start": 0.88,
+        "end": 1.28,
+        "text": " konusu",
+        "probability": 0.99365234375
+      },
+      {
+        "start": 1.28,
+        "end": 1.38,
+        "text": " ne?",
+        "probability": 0.9970703125
+      }
+    ]
+  },
+  "u000273": {
+    "sha256": "a1a36f3ef017dcfba9f8f7edaa44d9545200d5b6fe459f860b84e7c330aea534",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hiç konuşmadık, anlaşıldı mı?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.46,
+        "text": " Hiç",
+        "probability": 0.83203125
+      },
+      {
+        "start": 0.46,
+        "end": 0.98,
+        "text": " konuşmadık,",
+        "probability": 0.9967447916666666
+      },
+      {
+        "start": 1.1,
+        "end": 1.44,
+        "text": " anlaşıldı",
+        "probability": 0.9757486979166666
+      },
+      {
+        "start": 1.44,
+        "end": 1.56,
+        "text": " mı?",
+        "probability": 0.99755859375
+      }
+    ]
+  },
+  "u000275": {
+    "sha256": "96575f25625a2b0e71ed8bcca590e52ed9b4481125134358fec6db22d0b607a2",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Güzel.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Güzel.",
+        "probability": 0.91650390625
+      }
+    ]
+  },
+  "u000276": {
+    "sha256": "1458ca975e3db1665494e6ab3a076184c48ed52d6d2cefefc19255f8384754d8",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hiç konuşmadığımıza inandır beni.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.5,
+        "text": " Hiç",
+        "probability": 0.75830078125
+      },
+      {
+        "start": 0.5,
+        "end": 1.3,
+        "text": " konuşmadığımıza",
+        "probability": 0.9283203125
+      },
+      {
+        "start": 1.3,
+        "end": 1.64,
+        "text": " inandır",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 1.64,
+        "end": 1.88,
+        "text": " beni.",
+        "probability": 0.9990234375
+      }
+    ]
+  },
+  "u000278": {
+    "sha256": "7ae15dc0ff0d57650b5e4443a867983a4b7a42d26f07b8d55eb04decb727a829",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Demek Grinko'dan korkuyorsun.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Demek",
+        "probability": 0.9423828125
+      },
+      {
+        "start": 0.56,
+        "end": 1.12,
+        "text": " Grinko'dan",
+        "probability": 0.76865234375
+      },
+      {
+        "start": 1.12,
+        "end": 1.68,
+        "text": " korkuyorsun.",
+        "probability": 0.9755859375
+      }
+    ]
+  },
+  "u000283": {
+    "sha256": "6ac0440b5a7c0fe55eb71ae5021bdc8801d534a292673ac6a1890afa4fd6bbe6",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Oldukça ayrıntılı istihbarat.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.94,
+        "text": " Oldukça",
+        "probability": 0.8995768229166666
+      },
+      {
+        "start": 0.94,
+        "end": 1.44,
+        "text": " ayrıntılı",
+        "probability": 0.9768880208333334
+      },
+      {
+        "start": 1.44,
+        "end": 2.18,
+        "text": " istihbarat.",
+        "probability": 0.94580078125
+      }
+    ]
+  },
+  "u000286": {
+    "sha256": "e75cb9c81cccdddddc398b7626df225e0df0328ede3e485648e56297e0abc633",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "kötü adamlardan biriydi.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.5,
+        "text": " kötü",
+        "probability": 0.765625
+      },
+      {
+        "start": 0.5,
+        "end": 1.12,
+        "text": " adamlardan",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 1.12,
+        "end": 1.6,
+        "text": " biriydi.",
+        "probability": 0.9939778645833334
+      }
+    ]
+  },
+  "u000294": {
+    "sha256": "b59fe3af5c69eb5e7fb01ab6ef404ac9048422dc4ff1e1745e69122edda9e6f6",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne buldun?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ne",
+        "probability": 0.814453125
+      },
+      {
+        "start": 0.4,
+        "end": 0.7,
+        "text": " buldun?",
+        "probability": 0.98779296875
+      }
+    ]
+  },
+  "u000296": {
+    "sha256": "48955e3d4de4b47e9a8a9812ff6b4ea297d4cd6470d215f31d304b1c9c42dcdc",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Neler oluyor?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Neler",
+        "probability": 0.917236328125
+      },
+      {
+        "start": 0.54,
+        "end": 0.74,
+        "text": " oluyor?",
+        "probability": 0.75146484375
+      }
+    ]
+  },
+  "u000300": {
+    "sha256": "ab1f772d9b44e1a3da9265a4481f6b7f2187e6bc7b149c525d47c3cd38b3a45b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Tam olarak neler oluyor?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Tam",
+        "probability": 0.80615234375
+      },
+      {
+        "start": 0.42,
+        "end": 0.8,
+        "text": " olarak",
+        "probability": 0.99951171875
+      },
+      {
+        "start": 0.8,
+        "end": 1.12,
+        "text": " neler",
+        "probability": 0.991943359375
+      },
+      {
+        "start": 1.12,
+        "end": 1.34,
+        "text": " oluyor?",
+        "probability": 0.9951171875
+      }
+    ]
+  },
+  "u000302": {
+    "sha256": "551894d58c3034f1536462819e7eada46846b3ec909c6d2552b4671c9fd73f82",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "ve bizim haberimiz yoktu.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " ve",
+        "probability": 0.63427734375
+      },
+      {
+        "start": 0.4,
+        "end": 0.66,
+        "text": " bizim",
+        "probability": 0.990234375
+      },
+      {
+        "start": 0.66,
+        "end": 1.14,
+        "text": " haberimiz",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 1.14,
+        "end": 1.54,
+        "text": " yoktu.",
+        "probability": 0.99658203125
+      }
+    ]
+  },
+  "u000304": {
+    "sha256": "8e44fbeabe2692c6559359687ea304fe8526a2180a3918531e55417b706b745d",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne istiyor?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ne",
+        "probability": 0.75732421875
+      },
+      {
+        "start": 0.4,
+        "end": 0.74,
+        "text": " istiyor?",
+        "probability": 0.95654296875
+      }
+    ]
+  },
+  "u000307": {
+    "sha256": "77685e964ebfb84e6834e75208f4486a2a045d993c9a9ece354ef3714f053d93",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne diyor?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ne",
+        "probability": 0.76025390625
+      },
+      {
+        "start": 0.4,
+        "end": 0.54,
+        "text": " diyor?",
+        "probability": 0.95849609375
+      }
+    ]
+  },
+  "u000315": {
+    "sha256": "968c9bde201c3217710b71ec56f6fb27d1122216cf31b6f42ed825171ccd6012",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Eyvah!",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.96,
+        "text": " Eyvah!",
+        "probability": 0.9134114583333334
+      }
+    ]
+  },
+  "u000335": {
+    "sha256": "b2baa6b8718254cf5d7773382ecf9f33294f3c669f2983a878c0baf3ecc947e1",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Görevim değişiyor mu?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Görevim",
+        "probability": 0.8531901041666666
+      },
+      {
+        "start": 0.62,
+        "end": 0.98,
+        "text": " değişiyor",
+        "probability": 0.988037109375
+      },
+      {
+        "start": 0.98,
+        "end": 1.1,
+        "text": " mu?",
+        "probability": 0.99853515625
+      }
+    ]
+  },
+  "u000337": {
+    "sha256": "a00324d34974f2365c1e91548696d73c442569f5cec0bbe11b6c354a9079caa5",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Veriyi o çantaya mı indirdi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.5,
+        "text": " Veriyi",
+        "probability": 0.645751953125
+      },
+      {
+        "start": 0.5,
+        "end": 0.66,
+        "text": " o",
+        "probability": 0.9833984375
+      },
+      {
+        "start": 0.66,
+        "end": 1.02,
+        "text": " çantaya",
+        "probability": 0.9957682291666666
+      },
+      {
+        "start": 1.02,
+        "end": 1.16,
+        "text": " mı",
+        "probability": 0.99951171875
+      },
+      {
+        "start": 1.16,
+        "end": 1.48,
+        "text": " indirdi?",
+        "probability": 0.9931640625
+      }
+    ]
+  },
+  "u000341": {
+    "sha256": "09d69252896959d441d8f56349ab94a52a9f41046989c3060517c0927794c2ef",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bunca riske değen ne?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Bunca",
+        "probability": 0.867919921875
+      },
+      {
+        "start": 0.56,
+        "end": 0.82,
+        "text": " riske",
+        "probability": 0.981201171875
+      },
+      {
+        "start": 0.82,
+        "end": 1.1,
+        "text": " değen",
+        "probability": 0.787353515625
+      },
+      {
+        "start": 1.1,
+        "end": 1.3,
+        "text": " ne?",
+        "probability": 0.9912109375
+      }
+    ]
+  },
+  "u000343": {
+    "sha256": "b1f0abebc1e7b930b4ca77859eaf62a7ad330d8351ee2123f3c1309b483207f7",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Soru sorma. Sadece cevap ver. Çabuk!",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Soru",
+        "probability": 0.844482421875
+      },
+      {
+        "start": 0.54,
+        "end": 0.98,
+        "text": " sorma.",
+        "probability": 0.9938151041666666
+      },
+      {
+        "start": 1.18,
+        "end": 1.44,
+        "text": " Sadece",
+        "probability": 0.963134765625
+      },
+      {
+        "start": 1.44,
+        "end": 1.82,
+        "text": " cevap",
+        "probability": 0.99658203125
+      },
+      {
+        "start": 1.82,
+        "end": 1.92,
+        "text": " ver.",
+        "probability": 0.998046875
+      },
+      {
+        "start": 2.0,
+        "end": 2.3,
+        "text": " Çabuk!",
+        "probability": 0.998046875
+      }
+    ]
+  },
+  "u000345": {
+    "sha256": "cd19707e244b33afdaf07f53f807222ef3e7639ad7709ad0ce917c684755d25c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Veriyi savaş bölgesinden elle çıkarmak için neden bu riske girdin?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Veriyi",
+        "probability": 0.718017578125
+      },
+      {
+        "start": 0.52,
+        "end": 0.92,
+        "text": " savaş",
+        "probability": 0.98583984375
+      },
+      {
+        "start": 0.92,
+        "end": 1.48,
+        "text": " bölgesinden",
+        "probability": 0.9954427083333334
+      },
+      {
+        "start": 1.48,
+        "end": 1.78,
+        "text": " elle",
+        "probability": 0.896484375
+      },
+      {
+        "start": 1.78,
+        "end": 2.3,
+        "text": " çıkarmak",
+        "probability": 0.9894205729166666
+      },
+      {
+        "start": 2.3,
+        "end": 2.48,
+        "text": " için",
+        "probability": 0.99609375
+      },
+      {
+        "start": 2.48,
+        "end": 2.8,
+        "text": " neden",
+        "probability": 0.99462890625
+      },
+      {
+        "start": 2.8,
+        "end": 3.0,
+        "text": " bu",
+        "probability": 0.99365234375
+      },
+      {
+        "start": 3.0,
+        "end": 3.22,
+        "text": " riske",
+        "probability": 0.986572265625
+      },
+      {
+        "start": 3.22,
+        "end": 3.54,
+        "text": " girdin?",
+        "probability": 0.993408203125
+      }
+    ]
+  },
+  "u000347": {
+    "sha256": "dc7008af90afce0f5a664940693328fce513ac8efeb9a8dada7ada7174da2aec",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Veride ne var?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Veride",
+        "probability": 0.7978515625
+      },
+      {
+        "start": 0.54,
+        "end": 0.7,
+        "text": " ne",
+        "probability": 0.900390625
+      },
+      {
+        "start": 0.7,
+        "end": 0.84,
+        "text": " var?",
+        "probability": 0.9970703125
+      }
+    ]
+  },
+  "u000349": {
+    "sha256": "38e9dab2cf74f1b1ab0000f217a1dc1d37f34a63d6356753365dd92babcef895",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "O ne?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " O",
+        "probability": 0.4638671875
+      },
+      {
+        "start": 0.4,
+        "end": 0.42,
+        "text": " ne?",
+        "probability": 0.96044921875
+      }
+    ]
+  },
+  "u000351": {
+    "sha256": "c8d32afc5f7f273b32d109d08d68f48ad74a73c00ccb098a30a039377a77deae",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Çantayı nereye götüreceksin?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Çantayı",
+        "probability": 0.9767252604166666
+      },
+      {
+        "start": 0.56,
+        "end": 0.84,
+        "text": " nereye",
+        "probability": 0.992919921875
+      },
+      {
+        "start": 0.84,
+        "end": 1.38,
+        "text": " götüreceksin?",
+        "probability": 0.9962565104166666
+      }
+    ]
+  },
+  "u000353": {
+    "sha256": "99e5a97c07f05b166819fbfbc6bb86ea349c61e550f7f2de6dd8baacd3564b94",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Masse!",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Masse!",
+        "probability": 0.757568359375
+      }
+    ]
+  },
+  "u000363": {
+    "sha256": "72b0c4b224e1ab8d3e9fd3a6870a86bb7167a7632bf55fee59f59fd1d39b719d",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ben burada değilim.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ben",
+        "probability": 0.8076171875
+      },
+      {
+        "start": 0.4,
+        "end": 0.72,
+        "text": " burada",
+        "probability": 0.86279296875
+      },
+      {
+        "start": 0.72,
+        "end": 1.14,
+        "text": " değilim.",
+        "probability": 0.997802734375
+      }
+    ]
+  },
+  "u000395": {
+    "sha256": "c40a05718a8fc37d449f8d5f8147981fcbda8c2f2001bff2878d888eeca46f1c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne güzel.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "text": " Ne",
+        "probability": 0.8173828125
+      },
+      {
+        "start": 0.44,
+        "end": 0.78,
+        "text": " güzel.",
+        "probability": 0.99169921875
+      }
+    ]
+  },
+  "u000398": {
+    "sha256": "c59d64b161b001d5531afd19e7c635f35618f34eda78c514884419714c9d5923",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Tamam Lambert, sisteme girdik.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.68,
+        "text": " Tamam",
+        "probability": 0.9267578125
+      },
+      {
+        "start": 0.68,
+        "end": 1.26,
+        "text": " Lambert,",
+        "probability": 0.898193359375
+      },
+      {
+        "start": 1.58,
+        "end": 1.84,
+        "text": " sisteme",
+        "probability": 0.99365234375
+      },
+      {
+        "start": 1.84,
+        "end": 2.36,
+        "text": " girdik.",
+        "probability": 0.99658203125
+      }
+    ]
+  },
+  "u000430": {
+    "sha256": "eeedd968a4ddcc8715a38a78fccbbe22b8a3f72b4f8bfdd42ec4116f9ef2d75c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Nasıl fark edildiler?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.5,
+        "text": " Nasıl",
+        "probability": 0.78955078125
+      },
+      {
+        "start": 0.5,
+        "end": 0.84,
+        "text": " fark",
+        "probability": 0.9931640625
+      },
+      {
+        "start": 0.84,
+        "end": 1.26,
+        "text": " edildiler?",
+        "probability": 0.9754231770833334
+      }
+    ]
+  },
+  "u000432": {
+    "sha256": "90fa7bd787a3e04abf30c5f46eeb1384ae4143218a58f91415497666b2637a90",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Tek sorun ben ve Dorothy.",
+    "match": 88.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Tek",
+        "probability": 0.8916015625
+      },
+      {
+        "start": 0.42,
+        "end": 0.82,
+        "text": " sorun",
+        "probability": 0.946533203125
+      },
+      {
+        "start": 0.82,
+        "end": 1.08,
+        "text": " ben",
+        "probability": 0.626953125
+      },
+      {
+        "start": 1.08,
+        "end": 1.34,
+        "text": " ve",
+        "probability": 0.99658203125
+      },
+      {
+        "start": 1.34,
+        "end": 1.68,
+        "text": " Dorothy.",
+        "probability": 0.71728515625
+      }
+    ]
+  },
+  "u000467": {
+    "sha256": "f03c1f1d78ba5455de80d9c396f6fa87de68c4ddc14088b8e271a7b3361803bb",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Daha onu almam gerek.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.46,
+        "text": " Daha",
+        "probability": 0.75
+      },
+      {
+        "start": 0.46,
+        "end": 0.66,
+        "text": " onu",
+        "probability": 0.98876953125
+      },
+      {
+        "start": 0.66,
+        "end": 1.02,
+        "text": " almam",
+        "probability": 0.992919921875
+      },
+      {
+        "start": 1.02,
+        "end": 1.28,
+        "text": " gerek.",
+        "probability": 0.9892578125
+      }
+    ]
+  },
+  "u000470": {
+    "sha256": "1a83dbd78b0967eb42a731221ee8a1f5ba962244ff3894f21036889377caef55",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Onu alırım.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Onu",
+        "probability": 0.78173828125
+      },
+      {
+        "start": 0.4,
+        "end": 0.72,
+        "text": " alırım.",
+        "probability": 0.981689453125
+      }
+    ]
+  },
+  "u000474": {
+    "sha256": "23833013bd88ed1a2c8f3a7d5be34a434affa202052ac7a45ac12dd3dd2550de",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Memnun oldum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Memnun",
+        "probability": 0.94873046875
+      },
+      {
+        "start": 0.62,
+        "end": 0.94,
+        "text": " oldum.",
+        "probability": 0.9853515625
+      }
+    ]
+  },
+  "u000476": {
+    "sha256": "c5161da3cd8a3be8a2833faaf40e486d252063bafb9f98e0ebb2a4d480fa21aa",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Artık sizin.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Artık",
+        "probability": 0.8671875
+      },
+      {
+        "start": 0.6,
+        "end": 0.82,
+        "text": " sizin.",
+        "probability": 0.96142578125
+      }
+    ]
+  },
+  "u000495": {
+    "sha256": "b035a13c3adfdb54e9ea42d28fbcbcac8f8ce10d196fb5bce38b0ad1ab92990d",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hayır.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Hayır.",
+        "probability": 0.90576171875
+      }
+    ]
+  },
+  "u000497": {
+    "sha256": "8633a8caa38186d548a0fec274956e57ad879ef03588536289dfca67ebe6ef73",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ah!",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Ah!",
+        "probability": 0.327880859375
+      }
+    ]
+  },
+  "u000499": {
+    "sha256": "bc2a8ac8d43bbd7ba77f2eb944971e6b17ec650bb821ba995fd789db4b8a3e7d",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sağ ol Wilkes.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Sağ",
+        "probability": 0.863037109375
+      },
+      {
+        "start": 0.62,
+        "end": 0.74,
+        "text": " ol",
+        "probability": 0.59130859375
+      },
+      {
+        "start": 0.74,
+        "end": 1.1,
+        "text": " Wilkes.",
+        "probability": 0.769287109375
+      }
+    ]
+  },
+  "u000510": {
+    "sha256": "5d0aa51f074c97a70c8d77ca7990a7cd09fbc82a6047c0cb020d91bd75d5fc0b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hallederim.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "text": " Hallederim.",
+        "probability": 0.9220377604166666
+      }
+    ]
+  },
+  "u000512": {
+    "sha256": "cfb4156ec98ef222781e6bbdb64da9d83e8de5090ebbefb7fea7b0d557ff3209",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Zaten bir annem var, Wilkes.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.66,
+        "text": " Zaten",
+        "probability": 0.953125
+      },
+      {
+        "start": 0.66,
+        "end": 0.86,
+        "text": " bir",
+        "probability": 0.89501953125
+      },
+      {
+        "start": 0.86,
+        "end": 1.2,
+        "text": " annem",
+        "probability": 0.977783203125
+      },
+      {
+        "start": 1.2,
+        "end": 1.52,
+        "text": " var,",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 1.74,
+        "end": 1.98,
+        "text": " Wilkes.",
+        "probability": 0.71142578125
+      }
+    ]
+  },
+  "u000526": {
+    "sha256": "6f7f36de1a19f6150836c189a7eca2d84f5dc12a6c6a2c7c6dc13ccb1e92ffe3",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ivan kim?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Ivan",
+        "probability": 0.441650390625
+      },
+      {
+        "start": 0.52,
+        "end": 0.72,
+        "text": " kim?",
+        "probability": 0.93896484375
+      }
+    ]
+  },
+  "u000528": {
+    "sha256": "f9e64926b3a81ee0aac4f86802a155e0cbf45cb69d655c2ae1955203c13ce4ac",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "kendi adamlarını öldürüyorlar.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.5,
+        "text": " kendi",
+        "probability": 0.80419921875
+      },
+      {
+        "start": 0.5,
+        "end": 0.98,
+        "text": " adamlarını",
+        "probability": 0.99658203125
+      },
+      {
+        "start": 0.98,
+        "end": 1.68,
+        "text": " öldürüyorlar.",
+        "probability": 0.997314453125
+      }
+    ]
+  },
+  "u000570": {
+    "sha256": "77e43eaf22e4b40e11f96a45bfb76cfc2e39436abd8fd7905d3ffbe3fbc71c43",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Konuşabilir misin?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Konuşabilir",
+        "probability": 0.96533203125
+      },
+      {
+        "start": 0.72,
+        "end": 0.96,
+        "text": " misin?",
+        "probability": 0.99853515625
+      }
+    ]
+  },
+  "u000572": {
+    "sha256": "4a355a3a05b3e22f9302846f1f1e1886de7f09397a1130ba5c2669f15cf13789",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sen İvan mısın?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Sen",
+        "probability": 0.8876953125
+      },
+      {
+        "start": 0.56,
+        "end": 0.9,
+        "text": " İvan",
+        "probability": 0.54876708984375
+      },
+      {
+        "start": 0.9,
+        "end": 1.16,
+        "text": " mısın?",
+        "probability": 0.989501953125
+      }
+    ]
+  },
+  "u000575": {
+    "sha256": "ef0e7a2c4b35dd4080af26f24723b7849e93d65d3625a0b0890154b52cbe983d",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Şifreleme anahtarın var mı?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.74,
+        "text": " Şifreleme",
+        "probability": 0.921630859375
+      },
+      {
+        "start": 0.74,
+        "end": 1.22,
+        "text": " anahtarın",
+        "probability": 0.9888916015625
+      },
+      {
+        "start": 1.22,
+        "end": 1.42,
+        "text": " var",
+        "probability": 0.99853515625
+      },
+      {
+        "start": 1.42,
+        "end": 1.54,
+        "text": " mı?",
+        "probability": 0.9990234375
+      }
+    ]
+  },
+  "u000577": {
+    "sha256": "45ebd449d3c191acf43116c26a9abac413625095472267fdad3b644ef6289696",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ivan adında birini bulmam gerek. Kendini binanın yangın kapılarının arkasına kilitlemiş.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "text": " Ivan",
+        "probability": 0.7333984375
+      },
+      {
+        "start": 0.44,
+        "end": 0.8,
+        "text": " adında",
+        "probability": 0.97265625
+      },
+      {
+        "start": 0.8,
+        "end": 1.12,
+        "text": " birini",
+        "probability": 0.9921875
+      },
+      {
+        "start": 1.12,
+        "end": 1.48,
+        "text": " bulmam",
+        "probability": 0.998779296875
+      },
+      {
+        "start": 1.48,
+        "end": 1.9,
+        "text": " gerek.",
+        "probability": 0.9873046875
+      },
+      {
+        "start": 2.3,
+        "end": 2.48,
+        "text": " Kendini",
+        "probability": 0.953369140625
+      },
+      {
+        "start": 2.48,
+        "end": 2.9,
+        "text": " binanın",
+        "probability": 0.916015625
+      },
+      {
+        "start": 2.9,
+        "end": 3.36,
+        "text": " yangın",
+        "probability": 0.976806640625
+      },
+      {
+        "start": 3.36,
+        "end": 3.96,
+        "text": " kapılarının",
+        "probability": 0.9783935546875
+      },
+      {
+        "start": 3.96,
+        "end": 4.3,
+        "text": " arkasına",
+        "probability": 0.992919921875
+      },
+      {
+        "start": 4.3,
+        "end": 4.88,
+        "text": " kilitlemiş.",
+        "probability": 0.997802734375
+      }
+    ]
+  },
+  "u000579": {
+    "sha256": "8ae505f4e0b66d86458a39ccf5dd6d27ad6ab968037bfc75a5d4a55b9a321150",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bu işime yarar. Sağ ol.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.46,
+        "text": " Bu",
+        "probability": 0.783203125
+      },
+      {
+        "start": 0.46,
+        "end": 0.78,
+        "text": " işime",
+        "probability": 0.996826171875
+      },
+      {
+        "start": 0.78,
+        "end": 1.3,
+        "text": " yarar.",
+        "probability": 0.95947265625
+      },
+      {
+        "start": 1.52,
+        "end": 1.7,
+        "text": " Sağ",
+        "probability": 0.972412109375
+      },
+      {
+        "start": 1.7,
+        "end": 1.8,
+        "text": " ol.",
+        "probability": 0.82373046875
+      }
+    ]
+  },
+  "u000582": {
+    "sha256": "cd9af71803347d55293240937453d7ce9bc904501a40fa32892e793facee2ba1",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sen Ivan mısın?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Sen",
+        "probability": 0.8857421875
+      },
+      {
+        "start": 0.54,
+        "end": 0.86,
+        "text": " Ivan",
+        "probability": 0.491455078125
+      },
+      {
+        "start": 0.86,
+        "end": 1.14,
+        "text": " mısın?",
+        "probability": 0.988525390625
+      }
+    ]
+  },
+  "u000584": {
+    "sha256": "66053c415d0abbc2bf26834467eea8fff4a47eb2a9070a638af26fdca21d1a94",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hem evet hem hayır. Polis yolda. Gelene kadar tek dostun benim. Ben de pek iyi bir dost sayılmam.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.46,
+        "text": " Hem",
+        "probability": 0.640625
+      },
+      {
+        "start": 0.46,
+        "end": 0.74,
+        "text": " evet",
+        "probability": 0.9345703125
+      },
+      {
+        "start": 0.74,
+        "end": 1.02,
+        "text": " hem",
+        "probability": 0.705078125
+      },
+      {
+        "start": 1.02,
+        "end": 1.58,
+        "text": " hayır.",
+        "probability": 0.998046875
+      },
+      {
+        "start": 1.84,
+        "end": 2.16,
+        "text": " Polis",
+        "probability": 0.92626953125
+      },
+      {
+        "start": 2.16,
+        "end": 2.68,
+        "text": " yolda.",
+        "probability": 0.9811197916666666
+      },
+      {
+        "start": 2.94,
+        "end": 3.14,
+        "text": " Gelene",
+        "probability": 0.97021484375
+      },
+      {
+        "start": 3.14,
+        "end": 3.44,
+        "text": " kadar",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 3.44,
+        "end": 3.7,
+        "text": " tek",
+        "probability": 0.9931640625
+      },
+      {
+        "start": 3.7,
+        "end": 4.18,
+        "text": " dostun",
+        "probability": 0.822265625
+      },
+      {
+        "start": 4.18,
+        "end": 4.4,
+        "text": " benim.",
+        "probability": 0.98291015625
+      },
+      {
+        "start": 4.8,
+        "end": 4.9,
+        "text": " Ben",
+        "probability": 0.8564453125
+      },
+      {
+        "start": 4.9,
+        "end": 5.06,
+        "text": " de",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 5.06,
+        "end": 5.3,
+        "text": " pek",
+        "probability": 0.954833984375
+      },
+      {
+        "start": 5.3,
+        "end": 5.38,
+        "text": " iyi",
+        "probability": 0.99951171875
+      },
+      {
+        "start": 5.38,
+        "end": 5.56,
+        "text": " bir",
+        "probability": 0.98046875
+      },
+      {
+        "start": 5.56,
+        "end": 5.7,
+        "text": " dost",
+        "probability": 0.99853515625
+      },
+      {
+        "start": 5.7,
+        "end": 6.22,
+        "text": " sayılmam.",
+        "probability": 0.9934895833333334
+      }
+    ]
+  },
+  "u000586": {
+    "sha256": "547eba656e2073650fc1316781256dc04ca88944b8684402f61193105506095a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "O benim işim değil, şifreleme anahtarın için geldim.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.34,
+        "text": " O",
+        "probability": 0.83544921875
+      },
+      {
+        "start": 0.34,
+        "end": 0.58,
+        "text": " benim",
+        "probability": 0.97216796875
+      },
+      {
+        "start": 0.58,
+        "end": 0.98,
+        "text": " işim",
+        "probability": 0.994873046875
+      },
+      {
+        "start": 0.98,
+        "end": 1.22,
+        "text": " değil,",
+        "probability": 0.994140625
+      },
+      {
+        "start": 1.5,
+        "end": 1.96,
+        "text": " şifreleme",
+        "probability": 0.976318359375
+      },
+      {
+        "start": 1.96,
+        "end": 2.48,
+        "text": " anahtarın",
+        "probability": 0.9898681640625
+      },
+      {
+        "start": 2.48,
+        "end": 2.64,
+        "text": " için",
+        "probability": 0.998046875
+      },
+      {
+        "start": 2.64,
+        "end": 3.04,
+        "text": " geldim.",
+        "probability": 0.99853515625
+      }
+    ]
+  },
+  "u000588": {
+    "sha256": "210248265e9b800eb211ded56b22f0f608c989f691f184b599c919eea9df91ee",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Anlaşma hâlâ geçerli. FBi seni buradan sağ çıkaracak. Ama önce anahtarı ver.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Anlaşma",
+        "probability": 0.9754231770833334
+      },
+      {
+        "start": 0.72,
+        "end": 1.12,
+        "text": " hâlâ",
+        "probability": 0.8114420572916666
+      },
+      {
+        "start": 1.12,
+        "end": 1.8,
+        "text": " geçerli.",
+        "probability": 0.99951171875
+      },
+      {
+        "start": 2.12,
+        "end": 2.6,
+        "text": " FBi",
+        "probability": 0.62109375
+      },
+      {
+        "start": 2.6,
+        "end": 2.82,
+        "text": " seni",
+        "probability": 0.92822265625
+      },
+      {
+        "start": 2.82,
+        "end": 3.2,
+        "text": " buradan",
+        "probability": 0.9921875
+      },
+      {
+        "start": 3.2,
+        "end": 3.44,
+        "text": " sağ",
+        "probability": 0.9892578125
+      },
+      {
+        "start": 3.44,
+        "end": 4.04,
+        "text": " çıkaracak.",
+        "probability": 0.818603515625
+      },
+      {
+        "start": 4.36,
+        "end": 4.44,
+        "text": " Ama",
+        "probability": 0.99462890625
+      },
+      {
+        "start": 4.44,
+        "end": 4.78,
+        "text": " önce",
+        "probability": 0.994140625
+      },
+      {
+        "start": 4.78,
+        "end": 5.26,
+        "text": " anahtarı",
+        "probability": 0.9973958333333334
+      },
+      {
+        "start": 5.26,
+        "end": 5.44,
+        "text": " ver.",
+        "probability": 0.99755859375
+      }
+    ]
+  },
+  "u000590": {
+    "sha256": "f94109af1ecebe0af05371f3dcd40c4bd16fdf4f58e6198037b5ee51ddec7d8a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ben işine karışıp sivilleri nasıl öldüreceğini söylüyor muyum?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.38,
+        "text": " Ben",
+        "probability": 0.90625
+      },
+      {
+        "start": 0.38,
+        "end": 0.72,
+        "text": " işine",
+        "probability": 0.990234375
+      },
+      {
+        "start": 0.72,
+        "end": 1.12,
+        "text": " karışıp",
+        "probability": 0.996826171875
+      },
+      {
+        "start": 1.12,
+        "end": 1.68,
+        "text": " sivilleri",
+        "probability": 0.9447021484375
+      },
+      {
+        "start": 1.68,
+        "end": 1.9,
+        "text": " nasıl",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 1.9,
+        "end": 2.58,
+        "text": " öldüreceğini",
+        "probability": 0.99267578125
+      },
+      {
+        "start": 2.58,
+        "end": 2.96,
+        "text": " söylüyor",
+        "probability": 0.994384765625
+      },
+      {
+        "start": 2.96,
+        "end": 3.16,
+        "text": " muyum?",
+        "probability": 0.994873046875
+      }
+    ]
+  },
+  "u000592": {
+    "sha256": "89af0fb3ef58d0007f4d61fbae35acef640010565ebab037564081bab46a46b0",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hayır, o zaman sen de bana işimi nasıl yapacağımı söyleme. FBI yolda, belki de geldi. İyi olacaksın. Anahtarı verirsin ya da ben alırım.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Hayır,",
+        "probability": 0.88427734375
+      },
+      {
+        "start": 1.0,
+        "end": 1.06,
+        "text": " o",
+        "probability": 0.90380859375
+      },
+      {
+        "start": 1.06,
+        "end": 1.3,
+        "text": " zaman",
+        "probability": 0.98974609375
+      },
+      {
+        "start": 1.3,
+        "end": 1.52,
+        "text": " sen",
+        "probability": 0.90087890625
+      },
+      {
+        "start": 1.52,
+        "end": 1.76,
+        "text": " de",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 1.76,
+        "end": 1.88,
+        "text": " bana",
+        "probability": 0.99853515625
+      },
+      {
+        "start": 1.88,
+        "end": 2.24,
+        "text": " işimi",
+        "probability": 0.97412109375
+      },
+      {
+        "start": 2.24,
+        "end": 2.52,
+        "text": " nasıl",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 2.52,
+        "end": 3.18,
+        "text": " yapacağımı",
+        "probability": 0.9874674479166666
+      },
+      {
+        "start": 3.18,
+        "end": 3.72,
+        "text": " söyleme.",
+        "probability": 0.99951171875
+      },
+      {
+        "start": 4.02,
+        "end": 4.4,
+        "text": " FBI",
+        "probability": 0.299560546875
+      },
+      {
+        "start": 4.4,
+        "end": 5.12,
+        "text": " yolda,",
+        "probability": 0.9689127604166666
+      },
+      {
+        "start": 5.26,
+        "end": 5.44,
+        "text": " belki",
+        "probability": 0.97802734375
+      },
+      {
+        "start": 5.44,
+        "end": 5.7,
+        "text": " de",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 5.7,
+        "end": 5.98,
+        "text": " geldi.",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 6.36,
+        "end": 6.52,
+        "text": " İyi",
+        "probability": 0.994140625
+      },
+      {
+        "start": 6.52,
+        "end": 7.08,
+        "text": " olacaksın.",
+        "probability": 0.9931640625
+      },
+      {
+        "start": 7.4,
+        "end": 7.84,
+        "text": " Anahtarı",
+        "probability": 0.9742838541666666
+      },
+      {
+        "start": 7.84,
+        "end": 8.38,
+        "text": " verirsin",
+        "probability": 0.995361328125
+      },
+      {
+        "start": 8.38,
+        "end": 8.68,
+        "text": " ya",
+        "probability": 0.70654296875
+      },
+      {
+        "start": 8.68,
+        "end": 8.84,
+        "text": " da",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 8.84,
+        "end": 8.98,
+        "text": " ben",
+        "probability": 0.99365234375
+      },
+      {
+        "start": 8.98,
+        "end": 9.22,
+        "text": " alırım.",
+        "probability": 0.997802734375
+      }
+    ]
+  },
+  "u000594": {
+    "sha256": "1e8ffeb823b55371da5de4fc050dc4bb9fda39d988c49b0dfd27db9d114b20c0",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Kelime dağarcığın epey sınırlı. Dinle, anahtarı ver. Yorgunum ve insanları bağırtmaktan nefret ederim. Moralimi bozuyor.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.66,
+        "text": " Kelime",
+        "probability": 0.7529296875
+      },
+      {
+        "start": 0.66,
+        "end": 1.14,
+        "text": " dağarcığın",
+        "probability": 0.82904052734375
+      },
+      {
+        "start": 1.14,
+        "end": 1.66,
+        "text": " epey",
+        "probability": 0.9773763020833334
+      },
+      {
+        "start": 1.66,
+        "end": 2.24,
+        "text": " sınırlı.",
+        "probability": 0.998291015625
+      },
+      {
+        "start": 2.46,
+        "end": 2.9,
+        "text": " Dinle,",
+        "probability": 0.979248046875
+      },
+      {
+        "start": 3.12,
+        "end": 3.5,
+        "text": " anahtarı",
+        "probability": 0.99365234375
+      },
+      {
+        "start": 3.5,
+        "end": 3.76,
+        "text": " ver.",
+        "probability": 0.994140625
+      },
+      {
+        "start": 4.08,
+        "end": 4.58,
+        "text": " Yorgunum",
+        "probability": 0.9913330078125
+      },
+      {
+        "start": 4.58,
+        "end": 4.98,
+        "text": " ve",
+        "probability": 0.974609375
+      },
+      {
+        "start": 4.98,
+        "end": 5.44,
+        "text": " insanları",
+        "probability": 0.996826171875
+      },
+      {
+        "start": 5.44,
+        "end": 6.1,
+        "text": " bağırtmaktan",
+        "probability": 0.9862467447916666
+      },
+      {
+        "start": 6.1,
+        "end": 6.5,
+        "text": " nefret",
+        "probability": 0.9982096354166666
+      },
+      {
+        "start": 6.5,
+        "end": 6.78,
+        "text": " ederim.",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 7.12,
+        "end": 7.44,
+        "text": " Moralimi",
+        "probability": 0.9703776041666666
+      },
+      {
+        "start": 7.44,
+        "end": 7.92,
+        "text": " bozuyor.",
+        "probability": 0.9514973958333334
+      }
+    ]
+  },
+  "u000596": {
+    "sha256": "96463d8089c2716cea6f1ac13cc4f6ae4e9a188dd37b3dbec3c46ed207908ab1",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sağ ol. FBi gelene kadar daha iyi bir saklanma yeri bul.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Sağ",
+        "probability": 0.977783203125
+      },
+      {
+        "start": 0.54,
+        "end": 0.74,
+        "text": " ol.",
+        "probability": 0.9033203125
+      },
+      {
+        "start": 1.12,
+        "end": 1.56,
+        "text": " FBi",
+        "probability": 0.4728190104166667
+      },
+      {
+        "start": 1.56,
+        "end": 1.9,
+        "text": " gelene",
+        "probability": 0.98974609375
+      },
+      {
+        "start": 1.9,
+        "end": 2.22,
+        "text": " kadar",
+        "probability": 1.0
+      },
+      {
+        "start": 2.22,
+        "end": 2.56,
+        "text": " daha",
+        "probability": 0.986328125
+      },
+      {
+        "start": 2.56,
+        "end": 2.72,
+        "text": " iyi",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 2.72,
+        "end": 2.9,
+        "text": " bir",
+        "probability": 0.98974609375
+      },
+      {
+        "start": 2.9,
+        "end": 3.36,
+        "text": " saklanma",
+        "probability": 0.9899088541666666
+      },
+      {
+        "start": 3.36,
+        "end": 3.58,
+        "text": " yeri",
+        "probability": 0.998291015625
+      },
+      {
+        "start": 3.58,
+        "end": 3.64,
+        "text": " bul.",
+        "probability": 0.99853515625
+      }
+    ]
+  },
+  "u000604": {
+    "sha256": "fc0d2234074fa1a8571d2983155c5962e7426b04d8733261a898369e40abd897",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sence şifreleme anahtarları olabilir mi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Sence",
+        "probability": 0.96044921875
+      },
+      {
+        "start": 0.56,
+        "end": 1.1,
+        "text": " şifreleme",
+        "probability": 0.974365234375
+      },
+      {
+        "start": 1.1,
+        "end": 1.7,
+        "text": " anahtarları",
+        "probability": 0.99267578125
+      },
+      {
+        "start": 1.7,
+        "end": 2.06,
+        "text": " olabilir",
+        "probability": 0.99853515625
+      },
+      {
+        "start": 2.06,
+        "end": 2.26,
+        "text": " mi?",
+        "probability": 0.9990234375
+      }
+    ]
+  },
+  "u000608": {
+    "sha256": "336735083020b90c41d9f3871aa8c2660fd52396f78813f6eabf3357e1d2b181",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yoldayım.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Yoldayım.",
+        "probability": 0.93408203125
+      }
+    ]
+  },
+  "u000616": {
+    "sha256": "28082d661f603a6e85827004b3ff4aef23599e8fe5e8727429a8a0a9166a2952",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ben niye buradayım?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ben",
+        "probability": 0.84423828125
+      },
+      {
+        "start": 0.4,
+        "end": 0.64,
+        "text": " niye",
+        "probability": 0.98681640625
+      },
+      {
+        "start": 0.64,
+        "end": 1.0,
+        "text": " buradayım?",
+        "probability": 0.98486328125
+      }
+    ]
+  },
+  "u000619": {
+    "sha256": "fb3bc3ba533a798c6a365611529269087bd5994551063360d745d6e60846e647",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bunu söyleyince geriliyorum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Bunu",
+        "probability": 0.9287109375
+      },
+      {
+        "start": 0.48,
+        "end": 1.0,
+        "text": " söyleyince",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 1.0,
+        "end": 1.6,
+        "text": " geriliyorum.",
+        "probability": 0.9962565104166666
+      }
+    ]
+  },
+  "u000622": {
+    "sha256": "204d8b864f92501d8c5e876136859ac234014a693f0dc623984756c2e509c58e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "artık bir yere gitmiyor.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " artık",
+        "probability": 0.50634765625
+      },
+      {
+        "start": 0.52,
+        "end": 0.7,
+        "text": " bir",
+        "probability": 0.9794921875
+      },
+      {
+        "start": 0.7,
+        "end": 0.82,
+        "text": " yere",
+        "probability": 0.998046875
+      },
+      {
+        "start": 0.82,
+        "end": 1.28,
+        "text": " gitmiyor.",
+        "probability": 0.9990234375
+      }
+    ]
+  },
+  "u000627": {
+    "sha256": "c0843f8789a0995ee00dbf24816992a87a9c93c8df0ea89db8d3f3f79d7b6602",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Şifreleme anahtarı lazım.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Şifreleme",
+        "probability": 0.9454345703125
+      },
+      {
+        "start": 0.72,
+        "end": 1.16,
+        "text": " anahtarı",
+        "probability": 0.99169921875
+      },
+      {
+        "start": 1.16,
+        "end": 1.48,
+        "text": " lazım.",
+        "probability": 0.99609375
+      }
+    ]
+  },
+  "u000629": {
+    "sha256": "db46d9e2335d401cbc04173daedbdc3cbeb6f6f35684a5d48bda15333cecbf1e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sana neden inanayım?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.5,
+        "text": " Sana",
+        "probability": 0.91552734375
+      },
+      {
+        "start": 0.5,
+        "end": 0.82,
+        "text": " neden",
+        "probability": 0.9775390625
+      },
+      {
+        "start": 0.82,
+        "end": 1.22,
+        "text": " inanayım?",
+        "probability": 0.95849609375
+      }
+    ]
+  },
+  "u000631": {
+    "sha256": "e5f12599bfd214c28f5e1fd2c928dbd46c0f89870e28805979315b62def0a3f2",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.38,
+        "text": " Ne?",
+        "probability": 0.85546875
+      }
+    ]
+  },
+  "u000633": {
+    "sha256": "f175355f4db2eec87905ae0513152fce7dacd4004479c807bb700745c42c125e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Nasıl giderim?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Nasıl",
+        "probability": 0.76611328125
+      },
+      {
+        "start": 0.56,
+        "end": 0.94,
+        "text": " giderim?",
+        "probability": 0.987060546875
+      }
+    ]
+  },
+  "u000636": {
+    "sha256": "bafd7d5ba176e29acc0fe1ca62d385953f38dd18707a1ed77d23da58a64e959a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hayır.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Hayır.",
+        "probability": 0.76904296875
+      }
+    ]
+  },
+  "u000637": {
+    "sha256": "847d04831c77d0a95ababbd7b9f069735f5421dfcefd6e2a3cd3b23386000518",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Anahtarın olmadığını nereden bileyim?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.76,
+        "text": " Anahtarın",
+        "probability": 0.9361572265625
+      },
+      {
+        "start": 0.76,
+        "end": 1.16,
+        "text": " olmadığını",
+        "probability": 0.9986979166666666
+      },
+      {
+        "start": 1.16,
+        "end": 1.62,
+        "text": " nereden",
+        "probability": 0.967529296875
+      },
+      {
+        "start": 1.62,
+        "end": 1.86,
+        "text": " bileyim?",
+        "probability": 0.9700520833333334
+      }
+    ]
+  },
+  "u000699": {
+    "sha256": "ea4944e3b451dde9dca8e527b3daad164fcc6d9d581fe1ed214a70f4e5373aef",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Neyse, onu nerede bulurum?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 1.06,
+        "text": " Neyse,",
+        "probability": 0.8818359375
+      },
+      {
+        "start": 1.34,
+        "end": 1.42,
+        "text": " onu",
+        "probability": 0.962890625
+      },
+      {
+        "start": 1.42,
+        "end": 1.76,
+        "text": " nerede",
+        "probability": 0.85986328125
+      },
+      {
+        "start": 1.76,
+        "end": 2.1,
+        "text": " bulurum?",
+        "probability": 0.99365234375
+      }
+    ]
+  },
+  "u000702": {
+    "sha256": "969aca382f19f5a995cfa79e3081511edee51f934ea2f03b0a2b0236d03743f2",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bir nükleer sığınak bulup dua ezberlerim.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.46,
+        "text": " Bir",
+        "probability": 0.65966796875
+      },
+      {
+        "start": 0.46,
+        "end": 0.94,
+        "text": " nükleer",
+        "probability": 0.971435546875
+      },
+      {
+        "start": 0.94,
+        "end": 1.34,
+        "text": " sığınak",
+        "probability": 0.98828125
+      },
+      {
+        "start": 1.34,
+        "end": 1.6,
+        "text": " bulup",
+        "probability": 0.996337890625
+      },
+      {
+        "start": 1.6,
+        "end": 1.9,
+        "text": " dua",
+        "probability": 0.984375
+      },
+      {
+        "start": 1.9,
+        "end": 2.58,
+        "text": " ezberlerim.",
+        "probability": 0.9425048828125
+      }
+    ]
+  },
+  "u000706": {
+    "sha256": "bc448d7da33c871fb4cd0c0385a9e590984238bc5f14a7ec295152433cf06879",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sorun olmaz.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.64,
+        "text": " Sorun",
+        "probability": 0.8203125
+      },
+      {
+        "start": 0.64,
+        "end": 0.94,
+        "text": " olmaz.",
+        "probability": 0.9677734375
+      }
+    ]
+  },
+  "u000708": {
+    "sha256": "fef3ae13ab926c007d19685d54ad0418f949a7874c195ac5c77fa2f30744abc1",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "İş bitince seni bulurum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " İş",
+        "probability": 0.4462890625
+      },
+      {
+        "start": 0.4,
+        "end": 0.8,
+        "text": " bitince",
+        "probability": 0.99609375
+      },
+      {
+        "start": 0.8,
+        "end": 1.02,
+        "text": " seni",
+        "probability": 0.9873046875
+      },
+      {
+        "start": 1.02,
+        "end": 1.4,
+        "text": " bulurum.",
+        "probability": 0.99462890625
+      }
+    ]
+  },
+  "u000710": {
+    "sha256": "31dc953ccff6252c3453f6174d88c1a89eeedf580591f3c93661e7826d9b4861",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "İş bitince seni bulurum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "text": " İş",
+        "probability": 0.424560546875
+      },
+      {
+        "start": 0.44,
+        "end": 0.88,
+        "text": " bitince",
+        "probability": 0.9921875
+      },
+      {
+        "start": 0.88,
+        "end": 1.12,
+        "text": " seni",
+        "probability": 0.97021484375
+      },
+      {
+        "start": 1.12,
+        "end": 1.54,
+        "text": " bulurum.",
+        "probability": 0.9939778645833334
+      }
+    ]
+  },
+  "u000714": {
+    "sha256": "8209098fb25798e85f1d93a957efce04e399256edac2171ad9b3e788819bdb6e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Nisan'da aydınlık ve soğuk bir gün.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.98,
+        "text": " Nisan'da",
+        "probability": 0.886962890625
+      },
+      {
+        "start": 0.98,
+        "end": 1.58,
+        "text": " aydınlık",
+        "probability": 0.96826171875
+      },
+      {
+        "start": 1.58,
+        "end": 1.9,
+        "text": " ve",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 1.9,
+        "end": 2.26,
+        "text": " soğuk",
+        "probability": 0.9993489583333334
+      },
+      {
+        "start": 2.26,
+        "end": 2.38,
+        "text": " bir",
+        "probability": 0.98291015625
+      },
+      {
+        "start": 2.38,
+        "end": 2.5,
+        "text": " gün.",
+        "probability": 0.98583984375
+      }
+    ]
+  },
+  "u000717": {
+    "sha256": "9770fb92324afe700f9b4d1dc7a608dd0a643fcb7d87ac7a6a3d00ad28b3897a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Söyle!",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Söyle!",
+        "probability": 0.85546875
+      }
+    ]
+  },
+  "u000719": {
+    "sha256": "2749dcce3f3ffa6d509d9e7276adae1857fe13965912945c79125166f6f5ea8e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Büyükelçinin ofisi sanıyordum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.9,
+        "text": " Büyükelçinin",
+        "probability": 0.8976236979166666
+      },
+      {
+        "start": 0.9,
+        "end": 1.26,
+        "text": " ofisi",
+        "probability": 0.948486328125
+      },
+      {
+        "start": 1.26,
+        "end": 1.76,
+        "text": " sanıyordum.",
+        "probability": 0.9923502604166666
+      }
+    ]
+  },
+  "u000721": {
+    "sha256": "c2afac8f1e39de9532875e3a0a44e92990895c914a788cd0c739af41a770e5f3",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Kapı var mı?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Kapı",
+        "probability": 0.98583984375
+      },
+      {
+        "start": 0.56,
+        "end": 0.7,
+        "text": " var",
+        "probability": 0.978515625
+      },
+      {
+        "start": 0.7,
+        "end": 0.82,
+        "text": " mı?",
+        "probability": 0.99951171875
+      }
+    ]
+  },
+  "u000723": {
+    "sha256": "d8d50f642a581ecd7b8a14e878634daa782320fc26d0e0410cc4cc81d414335a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Işşş",
+    "match": 40.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.92,
+        "text": " Işşş",
+        "probability": 0.5389404296875
+      }
+    ]
+  },
+  "u000725": {
+    "sha256": "7362c123bcde3440929d05991c3e3c488145446c94e76a8cc00e83755317b44f",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bu Çinli general kim?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Bu",
+        "probability": 0.89306640625
+      },
+      {
+        "start": 0.42,
+        "end": 0.72,
+        "text": " Çinli",
+        "probability": 0.9708658854166666
+      },
+      {
+        "start": 0.72,
+        "end": 1.1,
+        "text": " general",
+        "probability": 0.381591796875
+      },
+      {
+        "start": 1.1,
+        "end": 1.3,
+        "text": " kim?",
+        "probability": 0.9921875
+      }
+    ]
+  },
+  "u000727": {
+    "sha256": "b85a87fe880c40e0732854d7de67ccfc87b6420fea333ffdac07278b25439b61",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yerliler ne biliyor?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.74,
+        "text": " Yerliler",
+        "probability": 0.9755859375
+      },
+      {
+        "start": 0.74,
+        "end": 0.96,
+        "text": " ne",
+        "probability": 0.98974609375
+      },
+      {
+        "start": 0.96,
+        "end": 1.18,
+        "text": " biliyor?",
+        "probability": 0.99755859375
+      }
+    ]
+  },
+  "u000732": {
+    "sha256": "817eddd0b38abebc23c85898c2f4f601a93b5b9ef9f61dbc867b86a24d3e233a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bilmediğin bir şey mi var?",
+    "match": 96.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Bilmediğin",
+        "probability": 0.8746744791666666
+      },
+      {
+        "start": 0.72,
+        "end": 0.92,
+        "text": " bir",
+        "probability": 0.9921875
+      },
+      {
+        "start": 0.92,
+        "end": 0.96,
+        "text": " şey",
+        "probability": 0.99658203125
+      },
+      {
+        "start": 0.96,
+        "end": 1.16,
+        "text": " mi",
+        "probability": 0.99853515625
+      },
+      {
+        "start": 1.16,
+        "end": 1.32,
+        "text": " var?",
+        "probability": 0.99658203125
+      }
+    ]
+  },
+  "u000735": {
+    "sha256": "552c9602b394307a8713e529068ad87a06abc598cfdfc59ac3b9a9612d215e0b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bu da kim?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "text": " Bu",
+        "probability": 0.759765625
+      },
+      {
+        "start": 0.44,
+        "end": 0.6,
+        "text": " da",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 0.6,
+        "end": 0.74,
+        "text": " kim?",
+        "probability": 0.9853515625
+      }
+    ]
+  },
+  "u000737": {
+    "sha256": "39712f1fb3b55ffc992f5ec2aa8ff931e007891103a1aa26a22343ed2186ea8b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Çinli bir generalin Nikoladze ile konuşması iyi haber değil.",
+    "match": 98.3,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.66,
+        "text": " Çinli",
+        "probability": 0.9757486979166666
+      },
+      {
+        "start": 0.66,
+        "end": 0.82,
+        "text": " bir",
+        "probability": 0.95263671875
+      },
+      {
+        "start": 0.82,
+        "end": 1.28,
+        "text": " generalin",
+        "probability": 0.882568359375
+      },
+      {
+        "start": 1.28,
+        "end": 1.8,
+        "text": " Nikoladze",
+        "probability": 0.7252197265625
+      },
+      {
+        "start": 1.8,
+        "end": 1.96,
+        "text": " ile",
+        "probability": 0.734375
+      },
+      {
+        "start": 1.96,
+        "end": 2.54,
+        "text": " konuşması",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 2.54,
+        "end": 2.82,
+        "text": " iyi",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 2.82,
+        "end": 3.1,
+        "text": " haber",
+        "probability": 0.98828125
+      },
+      {
+        "start": 3.1,
+        "end": 3.38,
+        "text": " değil.",
+        "probability": 0.9892578125
+      }
+    ]
+  },
+  "u000740": {
+    "sha256": "3900da6ef5b2eda4956327bad9866e53d886691b24e065238247873c5d9c0bda",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Öyle görünüyor.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.54,
+        "text": " Öyle",
+        "probability": 0.8720703125
+      },
+      {
+        "start": 0.54,
+        "end": 1.04,
+        "text": " görünüyor.",
+        "probability": 0.986328125
+      }
+    ]
+  },
+  "u000744": {
+    "sha256": "35710d8465b11075a2bdbe6f4565b3983510be51e94619da3275b1ed65663fd4",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Uğurlu bir av sahası.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.7,
+        "text": " Uğurlu",
+        "probability": 0.873779296875
+      },
+      {
+        "start": 0.7,
+        "end": 0.86,
+        "text": " bir",
+        "probability": 0.7626953125
+      },
+      {
+        "start": 0.86,
+        "end": 1.1,
+        "text": " av",
+        "probability": 0.4677734375
+      },
+      {
+        "start": 1.1,
+        "end": 1.52,
+        "text": " sahası.",
+        "probability": 0.8837890625
+      }
+    ]
+  },
+  "u000749": {
+    "sha256": "fd3e7e4c258e1d156a6eb1d3b1d765e57f1fef6e31cd14113af8fe77fb630032",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "O zaman gürültülü girerim.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "text": " O",
+        "probability": 0.7060546875
+      },
+      {
+        "start": 0.44,
+        "end": 0.74,
+        "text": " zaman",
+        "probability": 0.982421875
+      },
+      {
+        "start": 0.74,
+        "end": 1.32,
+        "text": " gürültülü",
+        "probability": 0.97197265625
+      },
+      {
+        "start": 1.32,
+        "end": 1.68,
+        "text": " girerim.",
+        "probability": 0.9931640625
+      }
+    ]
+  },
+  "u000783": {
+    "sha256": "78741cac6d0fe9de8a4ad3a9f6af9892622378d463099e3e2fa20d049601e3ec",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yayını mı dert ediyoruz, yoksa cinayetleri mi?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Yayını",
+        "probability": 0.763671875
+      },
+      {
+        "start": 0.6,
+        "end": 0.76,
+        "text": " mı",
+        "probability": 0.99609375
+      },
+      {
+        "start": 0.76,
+        "end": 1.0,
+        "text": " dert",
+        "probability": 0.997802734375
+      },
+      {
+        "start": 1.0,
+        "end": 1.5,
+        "text": " ediyoruz,",
+        "probability": 0.996337890625
+      },
+      {
+        "start": 1.76,
+        "end": 2.0,
+        "text": " yoksa",
+        "probability": 0.996337890625
+      },
+      {
+        "start": 2.0,
+        "end": 2.64,
+        "text": " cinayetleri",
+        "probability": 0.9888916015625
+      },
+      {
+        "start": 2.64,
+        "end": 2.76,
+        "text": " mi?",
+        "probability": 0.99169921875
+      }
+    ]
+  },
+  "u000788": {
+    "sha256": "875dcfbbd156a5cfb32a9c32b7f3e3d38883b1baf0d80b574f6178b3dd152af7",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Duydum. Başka dikkat dağıtma numaramız var mı?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.86,
+        "text": " Duydum.",
+        "probability": 0.9736328125
+      },
+      {
+        "start": 0.98,
+        "end": 1.3,
+        "text": " Başka",
+        "probability": 0.995361328125
+      },
+      {
+        "start": 1.3,
+        "end": 1.66,
+        "text": " dikkat",
+        "probability": 0.988525390625
+      },
+      {
+        "start": 1.66,
+        "end": 1.98,
+        "text": " dağıtma",
+        "probability": 0.9766845703125
+      },
+      {
+        "start": 1.98,
+        "end": 2.42,
+        "text": " numaramız",
+        "probability": 0.9640299479166666
+      },
+      {
+        "start": 2.42,
+        "end": 2.62,
+        "text": " var",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 2.62,
+        "end": 2.7,
+        "text": " mı?",
+        "probability": 0.9970703125
+      }
+    ]
+  },
+  "u000791": {
+    "sha256": "4967885998fc9601007c992a214cca09541684b0dab5289eaf23b13817bdb994",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Amerikan askerlerini nerede tutuyorsunuz?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.68,
+        "text": " Amerikan",
+        "probability": 0.847900390625
+      },
+      {
+        "start": 0.68,
+        "end": 1.22,
+        "text": " askerlerini",
+        "probability": 0.990234375
+      },
+      {
+        "start": 1.22,
+        "end": 1.52,
+        "text": " nerede",
+        "probability": 0.85205078125
+      },
+      {
+        "start": 1.52,
+        "end": 2.26,
+        "text": " tutuyorsunuz?",
+        "probability": 0.9969075520833334
+      }
+    ]
+  },
+  "u000793": {
+    "sha256": "2ea4e370d2aefc20d872a05110f269b4a0aa5ddc8d74a990c0e794c4da81dfc9",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "O benim kadar yaratıcı değil. Neredeler?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " O",
+        "probability": 0.880859375
+      },
+      {
+        "start": 0.4,
+        "end": 0.68,
+        "text": " benim",
+        "probability": 0.98291015625
+      },
+      {
+        "start": 0.68,
+        "end": 1.0,
+        "text": " kadar",
+        "probability": 0.990234375
+      },
+      {
+        "start": 1.0,
+        "end": 1.54,
+        "text": " yaratıcı",
+        "probability": 0.9957275390625
+      },
+      {
+        "start": 1.54,
+        "end": 1.86,
+        "text": " değil.",
+        "probability": 0.9931640625
+      },
+      {
+        "start": 2.32,
+        "end": 2.62,
+        "text": " Neredeler?",
+        "probability": 0.913330078125
+      }
+    ]
+  },
+  "u000795": {
+    "sha256": "6e0995f9d90313dcee52893a9e91cc8a0c980da4ae34b58cc30ed63d5480590a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Nerede?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.7,
+        "text": " Nerede?",
+        "probability": 0.77783203125
+      }
+    ]
+  },
+  "u000797": {
+    "sha256": "5af834af0e3329746db1e05ef624b0f9608ddc45fb2f23450eeb5728678e6b06",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Grinko nerede?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.7,
+        "text": " Grinko",
+        "probability": 0.6978352864583334
+      },
+      {
+        "start": 0.7,
+        "end": 0.92,
+        "text": " nerede?",
+        "probability": 0.84619140625
+      }
+    ]
+  },
+  "u000799": {
+    "sha256": "f6000b4fe898cb95f4717924911b732d3c4c343313682ce1529fccc681103939",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Onu nerede bulurum?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Onu",
+        "probability": 0.7841796875
+      },
+      {
+        "start": 0.42,
+        "end": 0.74,
+        "text": " nerede",
+        "probability": 0.89794921875
+      },
+      {
+        "start": 0.74,
+        "end": 1.1,
+        "text": " bulurum?",
+        "probability": 0.9938151041666666
+      }
+    ]
+  },
+  "u000815": {
+    "sha256": "403d11073f36dd9c99b26f68473bf5013ddf2adbdf378d07332a99ec3833a469",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sen Çinlisin.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Sen",
+        "probability": 0.81396484375
+      },
+      {
+        "start": 0.52,
+        "end": 1.04,
+        "text": " Çinlisin.",
+        "probability": 0.9561767578125
+      }
+    ]
+  },
+  "u000817": {
+    "sha256": "9faccae858d95413ae3a3f712e0979a70c11b67df0e7bc8dd3d2a30638932710",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yaptığım her şeyi duyuyorlar. Anlat.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.7,
+        "text": " Yaptığım",
+        "probability": 0.9453125
+      },
+      {
+        "start": 0.7,
+        "end": 1.02,
+        "text": " her",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 1.02,
+        "end": 1.16,
+        "text": " şeyi",
+        "probability": 0.97412109375
+      },
+      {
+        "start": 1.16,
+        "end": 1.92,
+        "text": " duyuyorlar.",
+        "probability": 0.9947916666666666
+      },
+      {
+        "start": 2.18,
+        "end": 2.42,
+        "text": " Anlat.",
+        "probability": 0.946533203125
+      }
+    ]
+  },
+  "u000819": {
+    "sha256": "c59fe9bbb92b0aa627689c6121782a57a1ea006e6177b5cfabd2217659585e7b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne istiyor?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Ne",
+        "probability": 0.751953125
+      },
+      {
+        "start": 0.42,
+        "end": 0.8,
+        "text": " istiyor?",
+        "probability": 0.95703125
+      }
+    ]
+  },
+  "u000821": {
+    "sha256": "2e45f1f37c7ec3fbfddb658022402d47a4d6e3236231a723201f802ab9d0a312",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Nikolaç'a bunun neresinde?",
+    "match": 88.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Nikolaç",
+        "probability": 0.5988362630208334
+      },
+      {
+        "start": 0.72,
+        "end": 0.8,
+        "text": "'a",
+        "probability": 0.6317138671875
+      },
+      {
+        "start": 0.8,
+        "end": 1.0,
+        "text": " bunun",
+        "probability": 0.9541015625
+      },
+      {
+        "start": 1.0,
+        "end": 1.56,
+        "text": " neresinde?",
+        "probability": 0.9964192708333334
+      }
+    ]
+  },
+  "u000823": {
+    "sha256": "7d3fbc5f95b978c5c9bc7b5dcdb448b88da91b65d58ce0f7ff3c566c011496cc",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Çin biliyor mu?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.46,
+        "text": " Çin",
+        "probability": 0.958984375
+      },
+      {
+        "start": 0.46,
+        "end": 0.72,
+        "text": " biliyor",
+        "probability": 0.9697265625
+      },
+      {
+        "start": 0.72,
+        "end": 0.94,
+        "text": " mu?",
+        "probability": 0.99853515625
+      }
+    ]
+  },
+  "u000825": {
+    "sha256": "54cef881916fd6c7815a732c598612033c766e7c3acb8cac125672839314e889",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Kanıt ne?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Kanıt",
+        "probability": 0.760009765625
+      },
+      {
+        "start": 0.56,
+        "end": 0.7,
+        "text": " ne?",
+        "probability": 0.8466796875
+      }
+    ]
+  },
+  "u000827": {
+    "sha256": "9abe05210128470572243382b278ea2910b59ae5567a7c60a8f4b66a80720745",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bilgisayarını açtırıp içeriğini Çin Halk Cumhuriyeti'ne göndertirim, böylece ülkelerimiz savaşa girmez.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.84,
+        "text": " Bilgisayarını",
+        "probability": 0.9734700520833334
+      },
+      {
+        "start": 0.84,
+        "end": 1.3,
+        "text": " açtırıp",
+        "probability": 0.9908854166666666
+      },
+      {
+        "start": 1.3,
+        "end": 1.76,
+        "text": " içeriğini",
+        "probability": 0.9332682291666666
+      },
+      {
+        "start": 1.76,
+        "end": 2.1,
+        "text": " Çin",
+        "probability": 0.955322265625
+      },
+      {
+        "start": 2.1,
+        "end": 2.28,
+        "text": " Halk",
+        "probability": 0.904296875
+      },
+      {
+        "start": 2.28,
+        "end": 2.82,
+        "text": " Cumhuriyeti",
+        "probability": 0.984375
+      },
+      {
+        "start": 2.82,
+        "end": 3.0,
+        "text": "'ne",
+        "probability": 0.767578125
+      },
+      {
+        "start": 3.0,
+        "end": 3.72,
+        "text": " göndertirim,",
+        "probability": 0.8477783203125
+      },
+      {
+        "start": 4.0,
+        "end": 4.32,
+        "text": " böylece",
+        "probability": 0.95166015625
+      },
+      {
+        "start": 4.32,
+        "end": 4.88,
+        "text": " ülkelerimiz",
+        "probability": 0.996826171875
+      },
+      {
+        "start": 4.88,
+        "end": 5.26,
+        "text": " savaşa",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 5.26,
+        "end": 5.68,
+        "text": " girmez.",
+        "probability": 0.98974609375
+      }
+    ]
+  },
+  "u000830": {
+    "sha256": "980427d37a51c19cea203d52f3045a414ecf531a73bc165ca8e60ea9b90fb89b",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Tamam.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "text": " Tamam.",
+        "probability": 0.85400390625
+      }
+    ]
+  },
+  "u000832": {
+    "sha256": "0a0933f0b5ee676accb8493dde239cbc3c9646c681352608d29ab2832cb584f7",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yani Grinko ölünce dağılırlar.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Yani",
+        "probability": 0.75830078125
+      },
+      {
+        "start": 0.56,
+        "end": 1.04,
+        "text": " Grinko",
+        "probability": 0.8024088541666666
+      },
+      {
+        "start": 1.04,
+        "end": 1.46,
+        "text": " ölünce",
+        "probability": 0.97119140625
+      },
+      {
+        "start": 1.46,
+        "end": 2.04,
+        "text": " dağılırlar.",
+        "probability": 0.9931640625
+      }
+    ]
+  },
+  "u000836": {
+    "sha256": "ad528884b7c88a491b3abdb2f699d3f71b1743321e54fde5b5a38456f313bd16",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Üzgünüm.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Üzgünüm.",
+        "probability": 0.94736328125
+      }
+    ]
+  },
+  "u000839": {
+    "sha256": "06b542f336d2d277d29c29758018f30c3b018ca6a3f8893fb00028a8854a38c0",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bu iyi değil.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Bu",
+        "probability": 0.4736328125
+      },
+      {
+        "start": 0.4,
+        "end": 0.64,
+        "text": " iyi",
+        "probability": 0.974609375
+      },
+      {
+        "start": 0.64,
+        "end": 0.9,
+        "text": " değil.",
+        "probability": 0.9970703125
+      }
+    ]
+  },
+  "u000841": {
+    "sha256": "b7649cee41b257bea774c4d844ad8621f1128167a75517b29f0d262fe7858e02",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Tamam.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "text": " Tamam.",
+        "probability": 0.8544921875
+      }
+    ]
+  },
+  "u000867": {
+    "sha256": "f73ae13c0e58b21afc98c896ec7e6331056a1090a26672fcfe0e818cdc0c4f24",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sadece ben varım.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Sadece",
+        "probability": 0.870849609375
+      },
+      {
+        "start": 0.72,
+        "end": 0.94,
+        "text": " ben",
+        "probability": 0.89453125
+      },
+      {
+        "start": 0.94,
+        "end": 1.26,
+        "text": " varım.",
+        "probability": 0.994384765625
+      }
+    ]
+  },
+  "u000881": {
+    "sha256": "489c0f7930751bc2d9bc439317f1b2644bc28ff000b9bf5052557169ee977d49",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hallederiz.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.94,
+        "text": " Hallederiz.",
+        "probability": 0.9212239583333334
+      }
+    ]
+  },
+  "u000884": {
+    "sha256": "cdb0169a72246dc9413cd89b11ddcd34af37fc6651bc0724543a40279090f0ae",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Elçilikte hâlâ tasmalı mıyım?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "text": " Elçilikte",
+        "probability": 0.8353271484375
+      },
+      {
+        "start": 0.8,
+        "end": 1.22,
+        "text": " hâlâ",
+        "probability": 0.8409830729166666
+      },
+      {
+        "start": 1.22,
+        "end": 1.72,
+        "text": " tasmalı",
+        "probability": 0.88818359375
+      },
+      {
+        "start": 1.72,
+        "end": 1.88,
+        "text": " mıyım?",
+        "probability": 0.9978841145833334
+      }
+    ]
+  },
+  "u000914": {
+    "sha256": "de23a3e24bd36ac0e32273eba2827d6b25511cf132f9341b1311cb4963f84a4e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Deposu dolu her araç, fitil bekleyen bir bomba. Radyasyon tehlikesi var mı?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.72,
+        "text": " Deposu",
+        "probability": 0.9280598958333334
+      },
+      {
+        "start": 0.72,
+        "end": 0.94,
+        "text": " dolu",
+        "probability": 0.999267578125
+      },
+      {
+        "start": 0.94,
+        "end": 1.18,
+        "text": " her",
+        "probability": 0.9736328125
+      },
+      {
+        "start": 1.18,
+        "end": 1.66,
+        "text": " araç,",
+        "probability": 0.996826171875
+      },
+      {
+        "start": 1.8,
+        "end": 2.02,
+        "text": " fitil",
+        "probability": 0.98681640625
+      },
+      {
+        "start": 2.02,
+        "end": 2.46,
+        "text": " bekleyen",
+        "probability": 0.9967447916666666
+      },
+      {
+        "start": 2.46,
+        "end": 2.66,
+        "text": " bir",
+        "probability": 0.9931640625
+      },
+      {
+        "start": 2.66,
+        "end": 3.18,
+        "text": " bomba.",
+        "probability": 0.993408203125
+      },
+      {
+        "start": 3.4,
+        "end": 3.88,
+        "text": " Radyasyon",
+        "probability": 0.9842529296875
+      },
+      {
+        "start": 3.88,
+        "end": 4.42,
+        "text": " tehlikesi",
+        "probability": 0.90478515625
+      },
+      {
+        "start": 4.42,
+        "end": 4.56,
+        "text": " var",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 4.56,
+        "end": 4.64,
+        "text": " mı?",
+        "probability": 0.99853515625
+      }
+    ]
+  },
+  "u000926": {
+    "sha256": "1fad1208a50bde8df00cf0f78e08cdd4b00873d35e23e6fe9d4f0b6bb4ae10e2",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yüze değil.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.48,
+        "text": " Yüze",
+        "probability": 0.88720703125
+      },
+      {
+        "start": 0.48,
+        "end": 0.8,
+        "text": " değil.",
+        "probability": 0.96533203125
+      }
+    ]
+  },
+  "u000944": {
+    "sha256": "e521774635f434822b42edcb2e6b88367adce2ee3170acebce8365f30e6e29d7",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Sırada General var.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "text": " Sırada",
+        "probability": 0.85205078125
+      },
+      {
+        "start": 0.62,
+        "end": 1.06,
+        "text": " General",
+        "probability": 0.564453125
+      },
+      {
+        "start": 1.06,
+        "end": 1.32,
+        "text": " var.",
+        "probability": 0.9560546875
+      }
+    ]
+  },
+  "u000947": {
+    "sha256": "2a3cc2262fcfcd0d193b113c7ae6fbdedfca549b546334e738a0c57477e5cf6a",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bu işte çok intihar görüyorum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Bu",
+        "probability": 0.84765625
+      },
+      {
+        "start": 0.42,
+        "end": 0.72,
+        "text": " işte",
+        "probability": 0.92919921875
+      },
+      {
+        "start": 0.72,
+        "end": 1.02,
+        "text": " çok",
+        "probability": 0.97998046875
+      },
+      {
+        "start": 1.02,
+        "end": 1.44,
+        "text": " intihar",
+        "probability": 0.9874674479166666
+      },
+      {
+        "start": 1.44,
+        "end": 1.88,
+        "text": " görüyorum.",
+        "probability": 0.986083984375
+      }
+    ]
+  },
+  "u000955": {
+    "sha256": "ca2a6326b9a4f256ba5edb62607ae95fe57586ee6c8981d862b568ffbb8e33c4",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bilgisayarındaki verilerin kilidini açacağım, sen de bana yardım edeceksin.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.96,
+        "text": " Bilgisayarındaki",
+        "probability": 0.981689453125
+      },
+      {
+        "start": 0.96,
+        "end": 1.5,
+        "text": " verilerin",
+        "probability": 0.9952799479166666
+      },
+      {
+        "start": 1.5,
+        "end": 1.86,
+        "text": " kilidini",
+        "probability": 0.9943033854166666
+      },
+      {
+        "start": 1.86,
+        "end": 2.4,
+        "text": " açacağım,",
+        "probability": 0.992431640625
+      },
+      {
+        "start": 2.78,
+        "end": 2.82,
+        "text": " sen",
+        "probability": 0.92578125
+      },
+      {
+        "start": 2.82,
+        "end": 3.02,
+        "text": " de",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 3.02,
+        "end": 3.16,
+        "text": " bana",
+        "probability": 0.99951171875
+      },
+      {
+        "start": 3.16,
+        "end": 3.46,
+        "text": " yardım",
+        "probability": 0.99853515625
+      },
+      {
+        "start": 3.46,
+        "end": 3.92,
+        "text": " edeceksin.",
+        "probability": 0.9990234375
+      }
+    ]
+  },
+  "u000957": {
+    "sha256": "0b5770769487d4bf11f82a5a111936ea1404f06442e4d4b421d7e80089a2ba47",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Henüz ölmedin. Elinde kalan tek şey hayatının geri kalanı. Ne kadar acı çekeceğin işbirliğine bağlı.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Henüz",
+        "probability": 0.860595703125
+      },
+      {
+        "start": 0.6,
+        "end": 1.26,
+        "text": " ölmedin.",
+        "probability": 0.9934895833333334
+      },
+      {
+        "start": 1.5,
+        "end": 1.78,
+        "text": " Elinde",
+        "probability": 0.9892578125
+      },
+      {
+        "start": 1.78,
+        "end": 2.1,
+        "text": " kalan",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 2.1,
+        "end": 2.36,
+        "text": " tek",
+        "probability": 0.99658203125
+      },
+      {
+        "start": 2.36,
+        "end": 2.54,
+        "text": " şey",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 2.54,
+        "end": 3.16,
+        "text": " hayatının",
+        "probability": 0.925537109375
+      },
+      {
+        "start": 3.16,
+        "end": 3.48,
+        "text": " geri",
+        "probability": 0.9951171875
+      },
+      {
+        "start": 3.48,
+        "end": 3.8,
+        "text": " kalanı.",
+        "probability": 0.998291015625
+      },
+      {
+        "start": 4.24,
+        "end": 4.38,
+        "text": " Ne",
+        "probability": 0.98974609375
+      },
+      {
+        "start": 4.38,
+        "end": 4.56,
+        "text": " kadar",
+        "probability": 0.99951171875
+      },
+      {
+        "start": 4.56,
+        "end": 4.82,
+        "text": " acı",
+        "probability": 0.99755859375
+      },
+      {
+        "start": 4.82,
+        "end": 5.32,
+        "text": " çekeceğin",
+        "probability": 0.99677734375
+      },
+      {
+        "start": 5.32,
+        "end": 6.02,
+        "text": " işbirliğine",
+        "probability": 0.93212890625
+      },
+      {
+        "start": 6.02,
+        "end": 6.32,
+        "text": " bağlı.",
+        "probability": 0.998291015625
+      }
+    ]
+  },
+  "u000959": {
+    "sha256": "6a8f976ddae2dc53779f5b161c0788138becfb51fad78483d2912924fb6b5c41",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Hmm... Olur.",
+    "match": 94.1,
+    "words": [
+      {
+        "start": 0.78,
+        "end": 1.3,
+        "text": " Hmm...",
+        "probability": 0.26654052734375
+      },
+      {
+        "start": 1.3,
+        "end": 1.56,
+        "text": " Olur.",
+        "probability": 0.862060546875
+      }
+    ]
+  },
+  "u000960": {
+    "sha256": "ad524e4553de8b943ed190aa4e2f5e1896e65cbb87a9ccb535f142bc3ae6aa9e",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Nikolat Zeneri'ye kaçtı.",
+    "match": 84.4,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.66,
+        "text": " Nikolat",
+        "probability": 0.6361490885416666
+      },
+      {
+        "start": 0.66,
+        "end": 1.06,
+        "text": " Zeneri",
+        "probability": 0.6310221354166666
+      },
+      {
+        "start": 1.06,
+        "end": 1.18,
+        "text": "'ye",
+        "probability": 0.731201171875
+      },
+      {
+        "start": 1.18,
+        "end": 1.48,
+        "text": " kaçtı.",
+        "probability": 0.982177734375
+      }
+    ]
+  },
+  "u000962": {
+    "sha256": "9bef56f3538c00cc169bc4a159ad9b5f7dd04da68625453ffa13238de0ce3698",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "O adama sadakat borcun yok. Kaçtı, sana ihanet etti.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.38,
+        "text": " O",
+        "probability": 0.63232421875
+      },
+      {
+        "start": 0.38,
+        "end": 0.64,
+        "text": " adama",
+        "probability": 0.99609375
+      },
+      {
+        "start": 0.64,
+        "end": 1.16,
+        "text": " sadakat",
+        "probability": 0.9267578125
+      },
+      {
+        "start": 1.16,
+        "end": 1.6,
+        "text": " borcun",
+        "probability": 0.9931640625
+      },
+      {
+        "start": 1.6,
+        "end": 1.98,
+        "text": " yok.",
+        "probability": 0.99951171875
+      },
+      {
+        "start": 2.2,
+        "end": 2.78,
+        "text": " Kaçtı,",
+        "probability": 0.9930013020833334
+      },
+      {
+        "start": 3.04,
+        "end": 3.16,
+        "text": " sana",
+        "probability": 0.9482421875
+      },
+      {
+        "start": 3.16,
+        "end": 3.68,
+        "text": " ihanet",
+        "probability": 0.998046875
+      },
+      {
+        "start": 3.68,
+        "end": 3.86,
+        "text": " etti.",
+        "probability": 0.998046875
+      }
+    ]
+  },
+  "u000978": {
+    "sha256": "25d59d122c491b6d07b5b0a484d998a79ec18c09a084201fe1a72e593afad2b8",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne buldu?",
+    "match": 94.1,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ne",
+        "probability": 0.78662109375
+      },
+      {
+        "start": 0.4,
+        "end": 0.66,
+        "text": " buldu?",
+        "probability": 0.859619140625
+      }
+    ]
+  },
+  "u000980": {
+    "sha256": "73ec1468ad881e7ba80c524949a0cd56afa94f86f90a39bd0155aec39bacfd73",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ne?",
+        "probability": 0.8828125
+      }
+    ]
+  },
+  "u000982": {
+    "sha256": "c7dfc5539ab74755fb490199ac490c800209efdac461552d4a8916d4696e153c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne dedin?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.4,
+        "text": " Ne",
+        "probability": 0.779296875
+      },
+      {
+        "start": 0.4,
+        "end": 0.68,
+        "text": " dedin?",
+        "probability": 0.990966796875
+      }
+    ]
+  },
+  "u000984": {
+    "sha256": "508a964c1ea476fee9039fc5a2d29628ca616b6b0215096ba14ee68cd3c9ecd9",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yani bavul tipi bir nükleer bomba.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.64,
+        "text": " Yani",
+        "probability": 0.59326171875
+      },
+      {
+        "start": 0.64,
+        "end": 1.04,
+        "text": " bavul",
+        "probability": 0.8653971354166666
+      },
+      {
+        "start": 1.04,
+        "end": 1.34,
+        "text": " tipi",
+        "probability": 0.9873046875
+      },
+      {
+        "start": 1.34,
+        "end": 1.44,
+        "text": " bir",
+        "probability": 0.96875
+      },
+      {
+        "start": 1.44,
+        "end": 1.9,
+        "text": " nükleer",
+        "probability": 0.9935302734375
+      },
+      {
+        "start": 1.9,
+        "end": 2.26,
+        "text": " bomba.",
+        "probability": 0.993408203125
+      }
+    ]
+  },
+  "u000987": {
+    "sha256": "fa34c0e480475b703fb0b65d0a2d1aa2b257276a25fc848471387e862b6cc0ff",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Yani arka almak için Nikoladze'yi canlı tutmam gerekecek.",
+    "match": 97.3,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Yani",
+        "probability": 0.7744140625
+      },
+      {
+        "start": 0.56,
+        "end": 0.96,
+        "text": " arka",
+        "probability": 0.9140625
+      },
+      {
+        "start": 0.96,
+        "end": 1.3,
+        "text": " almak",
+        "probability": 0.99169921875
+      },
+      {
+        "start": 1.3,
+        "end": 1.5,
+        "text": " için",
+        "probability": 0.9990234375
+      },
+      {
+        "start": 1.5,
+        "end": 2.06,
+        "text": " Nikoladze",
+        "probability": 0.62078857421875
+      },
+      {
+        "start": 2.06,
+        "end": 2.18,
+        "text": "'yi",
+        "probability": 0.91552734375
+      },
+      {
+        "start": 2.18,
+        "end": 2.54,
+        "text": " canlı",
+        "probability": 0.998046875
+      },
+      {
+        "start": 2.54,
+        "end": 2.86,
+        "text": " tutmam",
+        "probability": 0.99853515625
+      },
+      {
+        "start": 2.86,
+        "end": 3.38,
+        "text": " gerekecek.",
+        "probability": 0.9871419270833334
+      }
+    ]
+  },
+  "u000990": {
+    "sha256": "2f8e2a852a1b91923f7830aa706326368bcadc282566cab516d13206c7997059",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Bunlar saray muhafızları değil, bir tür özel kuvvet.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " Bunlar",
+        "probability": 0.8876953125
+      },
+      {
+        "start": 0.6,
+        "end": 0.9,
+        "text": " saray",
+        "probability": 0.9052734375
+      },
+      {
+        "start": 0.9,
+        "end": 1.5,
+        "text": " muhafızları",
+        "probability": 0.9970703125
+      },
+      {
+        "start": 1.5,
+        "end": 1.76,
+        "text": " değil,",
+        "probability": 0.99560546875
+      },
+      {
+        "start": 2.14,
+        "end": 2.24,
+        "text": " bir",
+        "probability": 0.958984375
+      },
+      {
+        "start": 2.24,
+        "end": 2.38,
+        "text": " tür",
+        "probability": 0.9931640625
+      },
+      {
+        "start": 2.38,
+        "end": 2.76,
+        "text": " özel",
+        "probability": 0.993896484375
+      },
+      {
+        "start": 2.76,
+        "end": 3.14,
+        "text": " kuvvet.",
+        "probability": 0.999267578125
+      }
+    ]
+  },
+  "u000992": {
+    "sha256": "95d916cc48a365bf5369cb1d07354e1e9f13bea49200f74e4188a20070f290d0",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Planım değişiyor mu?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Planım",
+        "probability": 0.909912109375
+      },
+      {
+        "start": 0.52,
+        "end": 0.96,
+        "text": " değişiyor",
+        "probability": 0.998291015625
+      },
+      {
+        "start": 0.96,
+        "end": 1.06,
+        "text": " mu?",
+        "probability": 0.99755859375
+      }
+    ]
+  },
+  "u001006": {
+    "sha256": "6bba8562f74bb408e4a54606ae6e0d97a20df67cf6c0538cf1dfec05104bd67c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Arkın yerini gerçekten biliyor mu?",
+    "match": 98.5,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Arkın",
+        "probability": 0.81884765625
+      },
+      {
+        "start": 0.56,
+        "end": 0.86,
+        "text": " yerini",
+        "probability": 0.983642578125
+      },
+      {
+        "start": 0.86,
+        "end": 1.42,
+        "text": " gerçekten",
+        "probability": 0.98583984375
+      },
+      {
+        "start": 1.42,
+        "end": 1.7,
+        "text": " biliyor",
+        "probability": 0.99462890625
+      },
+      {
+        "start": 1.7,
+        "end": 1.86,
+        "text": " mu?",
+        "probability": 0.857421875
+      }
+    ]
+  },
+  "u001018": {
+    "sha256": "a41e6a618306ef7d99fcaf8db907b2b9ca31cd8c567512d32c0f6d9255c62bc9",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Combine Nikoladze'yi öldürdüm.",
+    "match": 89.7,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.64,
+        "text": " Combine",
+        "probability": 0.804931640625
+      },
+      {
+        "start": 0.64,
+        "end": 1.18,
+        "text": " Nikoladze",
+        "probability": 0.62249755859375
+      },
+      {
+        "start": 1.18,
+        "end": 1.28,
+        "text": "'yi",
+        "probability": 0.908447265625
+      },
+      {
+        "start": 1.28,
+        "end": 1.78,
+        "text": " öldürdüm.",
+        "probability": 0.9856770833333334
+      }
+    ]
+  },
+  "u001065": {
+    "sha256": "082458a37d6c99e1d7ac681ac65ff6df44d919435603aa257ef91a51b1a6faf6",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Mey'in sonuncusu?",
+    "match": 90.3,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.42,
+        "text": " Mey",
+        "probability": 0.4808349609375
+      },
+      {
+        "start": 0.42,
+        "end": 0.58,
+        "text": "'in",
+        "probability": 0.9326171875
+      },
+      {
+        "start": 0.58,
+        "end": 1.08,
+        "text": " sonuncusu?",
+        "probability": 0.9793701171875
+      }
+    ]
+  },
+  "u001084": {
+    "sha256": "72e67874d8ab584fa6e60bbec83367037e63857e4e825024ef8eca989a8d3a9f",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Arka anlat.",
+    "match": 85.7,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.58,
+        "text": " Arka",
+        "probability": 0.818359375
+      },
+      {
+        "start": 0.58,
+        "end": 0.9,
+        "text": " anlat.",
+        "probability": 0.81494140625
+      }
+    ]
+  },
+  "u001086": {
+    "sha256": "7fb626ddda0df8c307b4affb56a42aafb17bdc30a4f3f594538f3a3ee4bedfa9",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ne olduğunu biliyorum. Nereden geldiğini bilmek istiyorum.",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.36,
+        "text": " Ne",
+        "probability": 0.7841796875
+      },
+      {
+        "start": 0.36,
+        "end": 0.7,
+        "text": " olduğunu",
+        "probability": 0.99462890625
+      },
+      {
+        "start": 0.7,
+        "end": 1.34,
+        "text": " biliyorum.",
+        "probability": 0.996337890625
+      },
+      {
+        "start": 1.64,
+        "end": 2.0,
+        "text": " Nereden",
+        "probability": 0.93017578125
+      },
+      {
+        "start": 2.0,
+        "end": 2.32,
+        "text": " geldiğini",
+        "probability": 0.993408203125
+      },
+      {
+        "start": 2.32,
+        "end": 2.68,
+        "text": " bilmek",
+        "probability": 0.992919921875
+      },
+      {
+        "start": 2.68,
+        "end": 3.0,
+        "text": " istiyorum.",
+        "probability": 0.998046875
+      }
+    ]
+  },
+  "u001088": {
+    "sha256": "2b1072025061e308cb9527415b33844da71b1ac1774f4d561530ab44ec4fde90",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Onunla ne yapacaksın?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.56,
+        "text": " Onunla",
+        "probability": 0.872802734375
+      },
+      {
+        "start": 0.56,
+        "end": 0.72,
+        "text": " ne",
+        "probability": 0.95654296875
+      },
+      {
+        "start": 0.72,
+        "end": 1.12,
+        "text": " yapacaksın?",
+        "probability": 0.997314453125
+      }
+    ]
+  },
+  "u001090": {
+    "sha256": "e4adb9e02ed5f5172e05d7f9d98077f7cc04c64d2bb3d8989a335822b4f98d3c",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Ark, nerede patlatacaksın?",
+    "match": 100.0,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.52,
+        "text": " Ark,",
+        "probability": 0.619140625
+      },
+      {
+        "start": 0.96,
+        "end": 1.14,
+        "text": " nerede",
+        "probability": 0.72265625
+      },
+      {
+        "start": 1.14,
+        "end": 1.82,
+        "text": " patlatacaksın?",
+        "probability": 0.99462890625
+      }
+    ]
+  },
+  "u001092": {
+    "sha256": "d8840b587dfd1e03c3782962f679b2a28f20822d710e66f0859beb1c1382bf00",
+    "model": "medium",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "ARKA ANLAT",
+    "match": 85.7,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.6,
+        "text": " ARKA",
+        "probability": 0.44891357421875
+      },
+      {
+        "start": 0.6,
+        "end": 0.94,
+        "text": " ANLAT",
+        "probability": 0.9405924479166666
+      }
+    ]
+  }
+}

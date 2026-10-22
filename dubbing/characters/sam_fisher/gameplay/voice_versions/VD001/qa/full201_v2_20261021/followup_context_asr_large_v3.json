@@ -1,0 +1,88 @@
+{
+  "u000723": {
+    "source_sha256": "1850fccb3b023b8b03863fae0b1f499f8fbf3939bdf1447d911350e2262a480a",
+    "window": {
+      "source_key": "R001_20261021_part01",
+      "start_sec": 247.95714285714286,
+      "end_sec": 250.5448979591837,
+      "reason": "Persistent isolated ASR uncertainty; compare full source context without prompting."
+    },
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Kapı var mı? İyi iş.",
+    "words": [
+      {
+        "text": "Kapı",
+        "start": 247.95714285714286,
+        "end": 248.09714285714284,
+        "probability": 0.75927734375
+      },
+      {
+        "text": "var",
+        "start": 248.09714285714284,
+        "end": 248.23714285714286,
+        "probability": 0.99462890625
+      },
+      {
+        "text": "mı?",
+        "start": 248.23714285714286,
+        "end": 248.41714285714286,
+        "probability": 0.99951171875
+      },
+      {
+        "text": "İyi",
+        "start": 248.67714285714285,
+        "end": 249.03714285714287,
+        "probability": 0.8662109375
+      },
+      {
+        "text": "iş.",
+        "start": 249.03714285714287,
+        "end": 249.25714285714287,
+        "probability": 0.99609375
+      }
+    ]
+  },
+  "u001065": {
+    "source_sha256": "cca8bac9d94070c67a2ddc751c3071f1d899a478f2cd2bd00ae49694f61cdd39",
+    "window": {
+      "source_key": "R001_20261021_part02",
+      "start_sec": 39.37369614512472,
+      "end_sec": 42.215873015873015,
+      "reason": "Persistent isolated ASR uncertainty; compare full source context without prompting."
+    },
+    "model": "large-v3",
+    "device": "cuda",
+    "compute_type": "int8_float16",
+    "initial_prompt": null,
+    "text": "Neyin sonuncusu? Arka anlar.",
+    "words": [
+      {
+        "text": "Neyin",
+        "start": 39.37369614512472,
+        "end": 40.533696145124715,
+        "probability": 0.6280517578125
+      },
+      {
+        "text": "sonuncusu?",
+        "start": 40.533696145124715,
+        "end": 41.15369614512472,
+        "probability": 0.996337890625
+      },
+      {
+        "text": "Arka",
+        "start": 41.173696145124715,
+        "end": 41.89369614512472,
+        "probability": 0.936767578125
+      },
+      {
+        "text": "anlar.",
+        "start": 41.89369614512472,
+        "end": 42.09369614512472,
+        "probability": 0.8671875
+      }
+    ]
+  }
+}
