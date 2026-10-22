@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import re
 import shutil
 import subprocess
@@ -18,6 +19,14 @@ OUT = PROJECT / "build/snd-waveout-training-v16"
 def run(args):
     print("+", " ".join(map(str, args)))
     subprocess.run(args, check=True)
+
+ap = argparse.ArgumentParser()
+ap.add_argument(
+    "--resume",
+    action="store_true",
+    help="Reuse the already compiled/linked V16 DLL and continue from export verification.",
+)
+args = ap.parse_args()
 
 print("===== PRECHECK =====")
 
@@ -72,95 +81,104 @@ for path in [
     except FileNotFoundError:
         pass
 
-print()
-print("===== COMPILE =====")
-
-run([
-    "clang-cl",
-    "--target=i686-pc-windows-msvc",
-    "/nologo",
-    "/c",
-    "/O2",
-    "/GS-",
-    "/GR-",
-    "/EHs-c-",
-    "/Zl",
-    "/utf-8",
-    f"/Fo{obj}",
-    str(SRC),
-])
-
-print("PASS: compile")
-
-print()
-print("===== OBJECT IMPORT CHECK =====")
-
-nm = subprocess.check_output(
-    ["llvm-nm", str(obj)],
-    text=True,
-)
-
-for forbidden in [
-    "_waveOutOpen@",
-    "_waveOutPrepareHeader@",
-    "_waveOutWrite@",
-    "_waveOutReset@",
-    "_waveOutUnprepareHeader@",
-    "_waveOutClose@",
-    "_ReadFile@",
-    "_GetFileSize@",
-    "_VirtualAlloc@",
-    "_VirtualFree@",
-]:
-    if forbidden in nm:
+if args.resume:
+    if not dll.is_file():
         raise SystemExit(
-            "ERROR: V16 unexpectedly statically imports "
-            + forbidden
+            "ERROR: --resume requested but linked V16 DLL is missing: "
+            + str(dll)
         )
+    print("PASS: reusing existing linked V16 DLL")
+else:
+    print()
+    print("===== COMPILE =====")
 
-undefined_symbols = {
-    parts[-1]
-    for line in nm.splitlines()
-    if (parts := line.split())
-    and "U" in parts[:-1]
-}
+    run([
+        "clang-cl",
+        "--target=i686-pc-windows-msvc",
+        "/nologo",
+        "/c",
+        "/O2",
+        "/GS-",
+        "/GR-",
+        "/EHs-c-",
+        "/Zl",
+        "/utf-8",
+        f"/Fo{obj}",
+        str(SRC),
+    ])
 
-for forbidden_crt in {
-    "__fltused",
-    "_memcpy",
-    "_memset",
-    "_memmove",
-    "_malloc",
-    "_free",
-}:
-    if forbidden_crt in undefined_symbols:
-        raise SystemExit(
-            "ERROR: unexpected CRT dependency: "
-            + forbidden_crt
-        )
+    print("PASS: compile")
 
-print("PASS: new waveOut/kernel32 APIs are runtime-resolved")
-print("PASS: no forbidden CRT dependency")
+    print()
+    print("===== OBJECT IMPORT CHECK =====")
 
-print()
-print("===== LINK =====")
+    nm = subprocess.check_output(
+        ["llvm-nm", str(obj)],
+        text=True,
+    )
 
-run([
-    "lld-link",
-    "/dll",
-    "/nodefaultlib",
-    "/machine:x86",
-    "/subsystem:windows,5.1",
-    "/entry:DllMain@12",
-    f"/def:{OUT / 'SNDDSound3DDLL_VBR.def'}",
-    f"/out:{dll}",
-    str(obj),
-    str(BASEOUT / "kernel32.lib"),
-    str(BASEOUT / "kernel32-time.lib"),
-    str(BASEOUT / "winmm.lib"),
-])
+    for forbidden in [
+        "_waveOutOpen@",
+        "_waveOutPrepareHeader@",
+        "_waveOutWrite@",
+        "_waveOutReset@",
+        "_waveOutUnprepareHeader@",
+        "_waveOutClose@",
+        "_ReadFile@",
+        "_GetFileSize@",
+        "_VirtualAlloc@",
+        "_VirtualFree@",
+    ]:
+        if forbidden in nm:
+            raise SystemExit(
+                "ERROR: V16 unexpectedly statically imports "
+                + forbidden
+            )
 
-print("PASS: link")
+    undefined_symbols = {
+        parts[-1]
+        for line in nm.splitlines()
+        if (parts := line.split())
+        and "U" in parts[:-1]
+    }
+
+    for forbidden_crt in {
+        "__fltused",
+        "_memcpy",
+        "_memset",
+        "_memmove",
+        "_malloc",
+        "_free",
+    }:
+        if forbidden_crt in undefined_symbols:
+            raise SystemExit(
+                "ERROR: unexpected CRT dependency: "
+                + forbidden_crt
+            )
+
+    print("PASS: new waveOut/kernel32 APIs are runtime-resolved")
+    print("PASS: no forbidden CRT dependency")
+
+    print()
+    print("===== LINK =====")
+
+    run([
+        "lld-link",
+        "/dll",
+        "/nodefaultlib",
+        "/machine:x86",
+        "/subsystem:windows,5.1",
+        "/entry:DllMain@12",
+        f"/def:{OUT / 'SNDDSound3DDLL_VBR.def'}",
+        f"/out:{dll}",
+        str(obj),
+        str(BASEOUT / "kernel32.lib"),
+        str(BASEOUT / "kernel32-time.lib"),
+        str(BASEOUT / "winmm.lib"),
+    ])
+
+    print("PASS: link")
+
 
 print()
 print("===== VERIFY EXPORT ABI =====")
@@ -171,8 +189,8 @@ def exports(path: Path):
         text=True,
     )
     result = []
-    for block in re.findall(r"Export \\{(.*?)\\n\\}", text, re.S):
-        ordinal = re.search(r"Ordinal: (\\d+)", block)
+    for block in re.findall(r"Export \{(.*?)\n\}", text, re.S):
+        ordinal = re.search(r"Ordinal: (\d+)", block)
         name = re.search(r"Name: (.+)", block)
         if ordinal and name:
             result.append(
@@ -185,8 +203,29 @@ original_exports = exports(
 )
 v16_exports = exports(dll)
 
-if len(original_exports) != 291 or v16_exports != original_exports:
-    raise SystemExit("ERROR: export ABI mismatch")
+if len(original_exports) != 291:
+    raise SystemExit(
+        f"ERROR: original export parser expected 291, got {len(original_exports)}"
+    )
+
+if len(v16_exports) != 291:
+    raise SystemExit(
+        f"ERROR: V16 export parser expected 291, got {len(v16_exports)}"
+    )
+
+if v16_exports != original_exports:
+    mismatch = next(
+        (
+            (index, expected, actual)
+            for index, (expected, actual)
+            in enumerate(zip(original_exports, v16_exports), start=1)
+            if expected != actual
+        ),
+        None,
+    )
+    raise SystemExit(
+        f"ERROR: export ABI mismatch at {mismatch}"
+    )
 
 print("PASS: 291/291 exports match")
 
