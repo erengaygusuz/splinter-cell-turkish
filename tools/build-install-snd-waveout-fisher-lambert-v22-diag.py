@@ -18,6 +18,7 @@ V21_SOURCE = PROJECT / "gameplay-subtitle-poc/src/snd_waveout_fisher_lambert_v21
 V21_DLL = PROJECT / "build/snd-waveout-fisher-lambert-v21/SNDDSound3DDLL_VBR.dll"
 
 V22_SOURCE = PROJECT / "gameplay-subtitle-poc/src/snd_waveout_fisher_lambert_v22_diag.cpp"
+V22_ASM = PROJECT / "gameplay-subtitle-poc/src/snd_waveout_fisher_lambert_v22_diag_routes.s"
 V22_OUT = PROJECT / "build/snd-waveout-fisher-lambert-v22-diag"
 BASEOUT = PROJECT / "build/snd-runtime-manifest-v15-1"
 
@@ -96,46 +97,6 @@ DWORD __cdecl probe_pause_route_original(DWORD ordinal)
     return (DWORD)target;
 }
 
-// V22 diagnostic wrappers are deliberately signature-agnostic.
-// They preserve flags/registers, leave the caller's argument stack
-// untouched, log only the export ordinal, then tail-jump to the
-// original DLL function. This lets us discover the real ESC pause
-// path without guessing any prototype.
-
-#define DEFINE_ROUTE_PROBE(function_name, ordinal_value) \
-extern "C" __declspec(naked) void __cdecl function_name() \
-    __asm__("_" #function_name); \
-extern "C" __declspec(naked) void __cdecl function_name() \
-{ \
-    __asm { \
-        pushfd \
-        pushad \
-        push ordinal_value \
-        call _probe_pause_route_original \
-        add esp, 4 \
-        mov [esp + 28], eax \
-        popad \
-        popfd \
-        jmp eax \
-    } \
-}
-
-DEFINE_ROUTE_PROBE(probe_pause_client_buffer, 183)
-DEFINE_ROUTE_PROBE(probe_pause_sound_object, 184)
-DEFINE_ROUTE_PROBE(probe_pause_sound_object_type, 185)
-DEFINE_ROUTE_PROBE(probe_pause_sxd, 186)
-DEFINE_ROUTE_PROBE(probe_pause_timer, 187)
-DEFINE_ROUTE_PROBE(probe_pause_transition_sxd, 188)
-
-DEFINE_ROUTE_PROBE(probe_resume_client_buffer, 210)
-DEFINE_ROUTE_PROBE(probe_resume_sound_object, 211)
-DEFINE_ROUTE_PROBE(probe_resume_sound_object_type, 212)
-DEFINE_ROUTE_PROBE(probe_resume_sxd, 213)
-DEFINE_ROUTE_PROBE(probe_resume_timer, 214)
-DEFINE_ROUTE_PROBE(probe_resume_transition_sxd, 215)
-
-#undef DEFINE_ROUTE_PROBE
-
 '''
 
     source = replace_once(
@@ -148,18 +109,6 @@ DEFINE_ROUTE_PROBE(probe_resume_transition_sxd, 215)
     required_tokens = [
         "probe_pause_route_original",
         "pause_route_probe",
-        "probe_pause_client_buffer",
-        "probe_pause_sound_object",
-        "probe_pause_sound_object_type",
-        "probe_pause_sxd",
-        "probe_pause_timer",
-        "probe_pause_transition_sxd",
-        "probe_resume_client_buffer",
-        "probe_resume_sound_object",
-        "probe_resume_sound_object_type",
-        "probe_resume_sxd",
-        "probe_resume_timer",
-        "probe_resume_transition_sxd",
         '"snd-waveout-fisher-lambert-v22-diag.log"',
     ]
 
@@ -176,9 +125,84 @@ DEFINE_ROUTE_PROBE(probe_resume_transition_sxd, 215)
 
     V22_SOURCE.write_text(source, encoding="utf-8")
 
-    print("PASS: V22 signature-agnostic pause diagnostics generated")
+    print("PASS: V22 diagnostic helper source generated")
     print("PASS: V21 behavior retained")
     print("PASS: 408 runtime entries retained")
+
+
+def generate_v22_asm():
+    print()
+    print("===== GENERATE V22 DIAGNOSTIC ASM =====")
+
+    routes = [
+        ("probe_pause_client_buffer", 183),
+        ("probe_pause_sound_object", 184),
+        ("probe_pause_sound_object_type", 185),
+        ("probe_pause_sxd", 186),
+        ("probe_pause_timer", 187),
+        ("probe_pause_transition_sxd", 188),
+        ("probe_resume_client_buffer", 210),
+        ("probe_resume_sound_object", 211),
+        ("probe_resume_sound_object_type", 212),
+        ("probe_resume_sxd", 213),
+        ("probe_resume_timer", 214),
+        ("probe_resume_transition_sxd", 215),
+    ]
+
+    lines = [
+        ".intel_syntax noprefix",
+        ".data",
+        ".p2align 2",
+    ]
+
+    for _, ordinal in routes:
+        lines.extend([
+            f"_v22_target_{ordinal}:",
+            "    .long 0",
+        ])
+
+    lines.extend([
+        ".text",
+        "",
+    ])
+
+    for name, ordinal in routes:
+        symbol = "_" + name
+        lines.extend([
+            f".globl {symbol}",
+            f".def {symbol}; .scl 2; .type 32; .endef",
+            f"{symbol}:",
+            "    pushfd",
+            "    pushad",
+            f"    push {ordinal}",
+            "    call _probe_pause_route_original",
+            "    add esp, 4",
+            f"    mov dword ptr [_v22_target_{ordinal}], eax",
+            "    popad",
+            "    popfd",
+            f"    jmp dword ptr [_v22_target_{ordinal}]",
+            "",
+        ])
+
+    V22_ASM.write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8",
+    )
+
+    asm_text = V22_ASM.read_text(encoding="utf-8")
+
+    for name, ordinal in routes:
+        if (
+            ("_" + name + ":") not in asm_text
+            or f"push {ordinal}" not in asm_text
+            or f"_v22_target_{ordinal}" not in asm_text
+        ):
+            raise SystemExit(
+                f"ERROR: generated V22 ASM missing route {name} @{ordinal}"
+            )
+
+    print("PASS: 12 x86 passthrough routes generated")
+    print("PASS: wrappers preserve flags/registers and caller stack")
 
 
 def patch_def(base_def: Path, out_def: Path):
@@ -337,11 +361,13 @@ def build():
 
     base_def = BASEOUT / "SNDDSound3DDLL_VBR.def"
     out_def = V22_OUT / "SNDDSound3DDLL_VBR.def"
-    obj = V22_OUT / "snd_waveout_fisher_lambert_v22_diag.obj"
+    cpp_obj = V22_OUT / "snd_waveout_fisher_lambert_v22_diag.obj"
+    asm_obj = V22_OUT / "snd_waveout_fisher_lambert_v22_diag_routes.obj"
     dll = V22_OUT / "SNDDSound3DDLL_VBR.dll"
 
     required = [
         V22_SOURCE,
+        V22_ASM,
         base_def,
         BASEOUT / "kernel32.lib",
         BASEOUT / "kernel32-time.lib",
@@ -358,7 +384,8 @@ def build():
     patch_def(base_def, out_def)
 
     for path in [
-        obj,
+        cpp_obj,
+        asm_obj,
         dll,
         V22_OUT / "SNDDSound3DDLL_VBR.lib",
         V22_OUT / "SNDDSound3DDLL_VBR.exp",
@@ -382,17 +409,32 @@ def build():
         "/EHs-c-",
         "/Zl",
         "/utf-8",
-        f"/Fo{obj}",
+        f"/Fo{cpp_obj}",
         str(V22_SOURCE),
     ])
 
-    print("PASS: compile")
+    print("PASS: C++ compile")
+
+    run([
+        "clang-cl",
+        "--target=i686-pc-windows-msvc",
+        "/nologo",
+        "/c",
+        f"/Fo{asm_obj}",
+        str(V22_ASM),
+    ])
+
+    print("PASS: x86 diagnostic ASM compile")
 
     print()
     print("===== OBJECT CHECK =====")
 
-    nm = subprocess.check_output(
-        ["llvm-nm", str(obj)],
+    cpp_nm = subprocess.check_output(
+        ["llvm-nm", str(cpp_obj)],
+        text=True,
+    )
+    asm_nm = subprocess.check_output(
+        ["llvm-nm", str(asm_obj)],
         text=True,
     )
 
@@ -412,20 +454,42 @@ def build():
         "_probe_resume_transition_sxd",
     ]
 
-    for symbol in required_symbols:
+    helper_rows = [
+        parts
+        for line in cpp_nm.splitlines()
+        if (parts := line.split())
+        and parts[-1] == "_probe_pause_route_original"
+    ]
+
+    if (
+        len(helper_rows) != 1
+        or "U" in helper_rows[0][:-1]
+    ):
+        raise SystemExit(
+            "ERROR: V22 C++ object does not define "
+            "_probe_pause_route_original exactly once"
+        )
+
+    for symbol in required_symbols[1:]:
         rows = [
             parts
-            for line in nm.splitlines()
+            for line in asm_nm.splitlines()
             if (parts := line.split())
             and parts[-1] == symbol
         ]
 
         if len(rows) != 1 or "U" in rows[0][:-1]:
             raise SystemExit(
-                f"ERROR: V22 object does not define {symbol} exactly once"
+                f"ERROR: V22 ASM object does not define {symbol} exactly once"
             )
 
-    print("PASS: diagnostic passthrough symbols defined")
+    if "_probe_pause_route_original" not in asm_nm:
+        raise SystemExit(
+            "ERROR: V22 ASM object does not reference diagnostic helper"
+        )
+
+    print("PASS: diagnostic helper symbol defined in C++ object")
+    print("PASS: 12 passthrough symbols defined in ASM object")
 
     print()
     print("===== LINK =====")
@@ -439,7 +503,8 @@ def build():
         "/entry:DllMain@12",
         f"/def:{out_def}",
         f"/out:{dll}",
-        str(obj),
+        str(cpp_obj),
+        str(asm_obj),
         str(BASEOUT / "kernel32.lib"),
         str(BASEOUT / "kernel32-time.lib"),
         str(BASEOUT / "winmm.lib"),
@@ -553,6 +618,7 @@ def main():
     print("PASS: exact V21 generated source is present")
 
     generate_v22_source()
+    generate_v22_asm()
 
     dll = build()
 
