@@ -111,15 +111,33 @@ static WaveOutUnprepareHeaderFn g_wave_out_unprepare_header = 0;
 
     source = replace_once(
         source,
-        r'''        g_wave_out_write &&
+        r'''    if (
+        g_get_file_size &&
+        g_read_file &&
+        g_virtual_alloc &&
+        g_virtual_free &&
+        g_wave_out_open &&
+        g_wave_out_prepare_header &&
+        g_wave_out_write &&
         g_wave_out_reset &&
         g_wave_out_unprepare_header &&
+        g_wave_out_close
+    )
 ''',
-        r'''        g_wave_out_write &&
+        r'''    if (
+        g_get_file_size &&
+        g_read_file &&
+        g_virtual_alloc &&
+        g_virtual_free &&
+        g_wave_out_open &&
+        g_wave_out_prepare_header &&
+        g_wave_out_write &&
         g_wave_out_reset &&
         g_wave_out_pause &&
         g_wave_out_restart &&
         g_wave_out_unprepare_header &&
+        g_wave_out_close
+    )
 ''',
         "waveOut resolver fast path",
     )
@@ -151,12 +169,26 @@ static WaveOutUnprepareHeaderFn g_wave_out_unprepare_header = 0;
 
     source = replace_once(
         source,
-        r'''        g_wave_out_write &&
+        r'''    return
+        g_get_file_size &&
+        g_read_file &&
+        g_virtual_alloc &&
+        g_virtual_free &&
+        g_wave_out_open &&
+        g_wave_out_prepare_header &&
+        g_wave_out_write &&
         g_wave_out_reset &&
         g_wave_out_unprepare_header &&
         g_wave_out_close;
 ''',
-        r'''        g_wave_out_write &&
+        r'''    return
+        g_get_file_size &&
+        g_read_file &&
+        g_virtual_alloc &&
+        g_virtual_free &&
+        g_wave_out_open &&
+        g_wave_out_prepare_header &&
+        g_wave_out_write &&
         g_wave_out_reset &&
         g_wave_out_pause &&
         g_wave_out_restart &&
@@ -494,6 +526,7 @@ runtime_request_resume_all()
     lifecycle_anchor = r'''extern "C"
 __declspec(noinline)
 void __cdecl probe_kill_all_sound_object_types()
+    __asm__("_probe_kill_all_sound_object_types");
 '''
 
     pause_wrappers = r'''extern "C"
