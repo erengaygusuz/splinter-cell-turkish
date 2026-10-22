@@ -311,6 +311,7 @@ def build_runtime_identity(
     work: list[dict],
     selected: dict,
     tolerance_ulps: int,
+    auth_by_id: dict[str, dict],
 ):
     print()
     print("===== BUILD 408 DURATION IDENTITIES =====")
@@ -333,14 +334,20 @@ def build_runtime_identity(
     corpus_identity = []
 
     for row in corpus:
+        uid = row["id"].strip()
         bits = original_duration_bits(row)
         old_header = int(row["header_id"], 0)
+        runtime_bank = old_header & 0xFFFF0000
+
+        auth_row = auth_by_id.get(uid)
+        if auth_row is not None and (auth_row.get("editor_id") or "").strip():
+            runtime_bank = int(auth_row["editor_id"], 0) & 0xFFFF0000
 
         corpus_identity.append(
             {
-                "uid": row["id"].strip(),
+                "uid": uid,
                 "bits": bits,
-                "bank": old_header & 0xFFFF0000,
+                "bank": runtime_bank,
             }
         )
 
@@ -359,31 +366,28 @@ def build_runtime_identity(
         old_header = int(corpus_row["header_id"], 0)
         old_bank = old_header & 0xFFFF0000
 
-        near_global = [
+        required_bank = old_bank
+        bank_source = "legacy_header_bank"
+
+        auth_row = auth_by_id.get(uid)
+        if auth_row is not None and (auth_row.get("editor_id") or "").strip():
+            required_bank = int(auth_row["editor_id"], 0) & 0xFFFF0000
+            bank_source = "uax_verified_bank"
+
+        near_bank = [
             item
             for item in corpus_identity
             if abs(item["bits"] - expected_bits) <= tolerance_ulps
+            and item["bank"] == required_bank
         ]
 
-        if len(near_global) == 1:
-            required_bank = 0
-            identity_mode = "duration_only"
-        else:
-            near_bank = [
-                item
-                for item in near_global
-                if item["bank"] == old_bank
-            ]
+        if len(near_bank) != 1 or near_bank[0]["uid"] != uid:
+            raise SystemExit(
+                "ERROR: runtime bank+duration identity is ambiguous for "
+                f"{uid}: bank={required_bank:08X} candidates={near_bank}"
+            )
 
-            if len(near_bank) != 1 or near_bank[0]["uid"] != uid:
-                raise SystemExit(
-                    "ERROR: runtime identity is ambiguous for "
-                    f"{uid}: global={near_global} bank={near_bank}"
-                )
-
-            required_bank = old_bank
-            identity_mode = "bank_plus_duration"
-
+        identity_mode = "bank_plus_duration"
         sel = selected[uid]
 
         target_rows.append(
@@ -398,6 +402,7 @@ def build_runtime_identity(
                     f"{required_bank:08X}" if required_bank else ""
                 ),
                 "identity_mode": identity_mode,
+                "bank_source": bank_source,
                 "original_duration_bits": f"{expected_bits:08X}",
                 "tolerance_ulps": str(tolerance_ulps),
                 "turkish_duration_ms": str(sel["duration_ms"]),
@@ -408,11 +413,11 @@ def build_runtime_identity(
             }
         )
 
-    duration_only = sum(
-        row["identity_mode"] == "duration_only"
+    verified_banks = sum(
+        row["bank_source"] == "uax_verified_bank"
         for row in target_rows
     )
-    bank_plus = len(target_rows) - duration_only
+    fallback_banks = len(target_rows) - verified_banks
 
     # Full-model safety check: every target identity must select exactly
     # its own corpus UID and no other corpus asset.
@@ -447,9 +452,9 @@ def build_runtime_identity(
                 f"{matches}"
             )
 
-    print(f"PASS: duration-only identities: {duration_only}")
-    print(f"PASS: bank+duration identities: {bank_plus}")
-    print("PASS: 408/408 identities select exactly one corpus asset")
+    print(f"PASS: UAX-verified target banks: {verified_banks}")
+    print(f"PASS: legacy-bank fallback targets: {fallback_banks}")
+    print("PASS: 408/408 bank+duration identities select exactly one corpus asset")
 
     return target_rows
 
@@ -464,6 +469,7 @@ def write_manifest(rows: list[dict]):
         "old_header_id",
         "required_runtime_bank",
         "identity_mode",
+        "bank_source",
         "original_duration_bits",
         "tolerance_ulps",
         "turkish_duration_ms",
@@ -1064,6 +1070,7 @@ def main():
         work,
         selected,
         tolerance_ulps,
+        auth_by_id,
     )
 
     write_manifest(rows)
@@ -1085,7 +1092,7 @@ def main():
     print("===== RESULT =====")
     print("PASS: Fisher 201 + Lambert 207 runtime V17 installed")
     print("Runtime entries: 408")
-    print("Dispatch: original USound duration; bank only on collisions")
+    print("Dispatch: runtime bank + original USound duration")
 
 
 if __name__ == "__main__":
