@@ -118,15 +118,22 @@ for forbidden in [
             + forbidden
         )
 
-for forbidden_crt in [
+undefined_symbols = {
+    parts[-1]
+    for line in nm.splitlines()
+    if (parts := line.split())
+    and "U" in parts[:-1]
+}
+
+for forbidden_crt in {
     "__fltused",
     "_memcpy",
     "_memset",
     "_memmove",
     "_malloc",
     "_free",
-]:
-    if forbidden_crt in nm:
+}:
+    if forbidden_crt in undefined_symbols:
         raise SystemExit(
             "ERROR: unexpected CRT dependency: "
             + forbidden_crt
