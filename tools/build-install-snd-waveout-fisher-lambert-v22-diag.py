@@ -626,6 +626,7 @@ def build():
         "/nodefaultlib",
         "/machine:x86",
         "/subsystem:windows,5.1",
+        "/safeseh:no",
         "/entry:DllMain@12",
         f"/def:{out_def}",
         f"/out:{dll}",
