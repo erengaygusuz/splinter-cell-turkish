@@ -1120,6 +1120,7 @@ def build():
         "/EHs-c-",
         "/Zl",
         "/utf-8",
+        "/clang:-fno-builtin",
         f"/Fo{helper_obj}",
         str(V23_HELPER),
     ])
@@ -1172,6 +1173,34 @@ def build():
                 "ERROR: V23 helper does not define "
                 + symbol
             )
+
+    helper_undefined = {
+        parts[-1]
+        for line in helper_nm.splitlines()
+        if (parts := line.split())
+        and "U" in parts[:-1]
+    }
+
+    forbidden_crt = {
+        "_memcpy",
+        "_memset",
+        "_memmove",
+        "_malloc",
+        "_free",
+        "__fltused",
+    }
+
+    bad_crt = sorted(
+        helper_undefined & forbidden_crt
+    )
+
+    if bad_crt:
+        raise SystemExit(
+            "ERROR: V23 helper has forbidden CRT dependency: "
+            + ", ".join(bad_crt)
+        )
+
+    print("PASS: V23 helper has no forbidden CRT dependency")
 
     for symbol in [
         "_probe_pause_sound_object_type",
