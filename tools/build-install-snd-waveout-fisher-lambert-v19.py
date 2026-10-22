@@ -420,7 +420,7 @@ def patch_def(base_def: Path, out_def: Path):
     lines[target_index] = (
         indent
         + public_name
-        + "=_probe_stop_sound_request"
+        + "=probe_stop_sound_request"
         + suffix
     )
 
@@ -459,11 +459,11 @@ def patch_def(base_def: Path, out_def: Path):
     routed = [
         line
         for line in export_lines
-        if "_probe_stop_sound_request" in line
+        if "probe_stop_sound_request" in line
     ]
 
     if routed != [
-        '"SND_fn_vStopSoundRequest"=_probe_stop_sound_request @247'
+        '"SND_fn_vStopSoundRequest"=probe_stop_sound_request @247'
     ]:
         raise SystemExit(
             "ERROR: V19 stop export routing is not exactly ordinal 247: "
