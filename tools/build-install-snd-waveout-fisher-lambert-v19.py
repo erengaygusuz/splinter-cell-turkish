@@ -424,26 +424,63 @@ def patch_def(base_def: Path, out_def: Path):
         + suffix
     )
 
-    out_def.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+    out_def.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     check_lines = out_def.read_text(
         encoding="utf-8",
         errors="replace",
     ).splitlines()
 
-    routed = [
+    if len(check_lines) < 292:
+        raise SystemExit(
+            "ERROR: V19 DEF line structure collapsed; expected "
+            "LIBRARY/EXPORTS plus 291 export lines"
+        )
+
+    export_lines = [
         line.strip()
         for line in check_lines
+        if re.search(r"\\s@\\d+\\s*$", line)
+    ]
+
+    if len(export_lines) != 291:
+        raise SystemExit(
+            f"ERROR: V19 DEF expected 291 export lines, got "
+            f"{len(export_lines)}"
+        )
+
+    routed = [
+        line
+        for line in export_lines
         if "_probe_stop_sound_request" in line
     ]
 
-    if len(routed) != 1:
+    if routed != [
+        '"SND_fn_vStopSoundRequest"=_probe_stop_sound_request @247'
+    ]:
         raise SystemExit(
-            "ERROR: V19 stop export DEF patch did not produce exactly "
-            "one routed export"
+            "ERROR: V19 stop export routing is not exactly ordinal 247: "
+            + repr(routed)
         )
 
-    print("PASS: stop-request export routed to V19 wrapper")
+    with_fade = [
+        line
+        for line in export_lines
+        if line.startswith('"SND_fn_vStopSoundRequestWithFade"=')
+    ]
+
+    if with_fade != [
+        '"SND_fn_vStopSoundRequestWithFade"='
+        '"SNDDSound3DDLL_VBR_orig.#248" @248'
+    ]:
+        raise SystemExit(
+            "ERROR: V19 unexpectedly changed StopSoundRequestWithFade: "
+            + repr(with_fade)
+        )
+
+    print("PASS: V19 DEF has 291 separate export lines")
+    print("PASS: stop-request export routed to V19 wrapper at ordinal 247")
+    print("PASS: StopSoundRequestWithFade remains original ordinal 248")
     print("DEF before:", old_line.strip())
     print("DEF after :", routed[0])
 
