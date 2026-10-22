@@ -15,9 +15,11 @@ GAME = Path(
 SYSTEM = GAME / "system"
 
 V21_SOURCE = PROJECT / "gameplay-subtitle-poc/src/snd_waveout_fisher_lambert_v21.cpp"
-V21_DLL = PROJECT / "build/snd-waveout-fisher-lambert-v21/SNDDSound3DDLL_VBR.dll"
+V21_OUT = PROJECT / "build/snd-waveout-fisher-lambert-v21"
+V21_OBJ = V21_OUT / "snd_waveout_fisher_lambert_v21.obj"
+V21_DLL = V21_OUT / "SNDDSound3DDLL_VBR.dll"
 
-V22_SOURCE = PROJECT / "gameplay-subtitle-poc/src/snd_waveout_fisher_lambert_v22_diag.cpp"
+V22_HELPER = PROJECT / "gameplay-subtitle-poc/src/snd_waveout_fisher_lambert_v22_diag_helper.cpp"
 V22_ASM = PROJECT / "gameplay-subtitle-poc/src/snd_waveout_fisher_lambert_v22_diag_routes.s"
 V22_OUT = PROJECT / "build/snd-waveout-fisher-lambert-v22-diag"
 BASEOUT = PROJECT / "build/snd-runtime-manifest-v15-1"
@@ -53,23 +55,137 @@ def replace_once(source: str, old: str, new: str, label: str) -> str:
     return source.replace(old, new, 1)
 
 
-def generate_v22_source():
+def generate_v22_helper():
     print()
-    print("===== GENERATE V22 DIAGNOSTIC SOURCE =====")
+    print("===== GENERATE V22 DIAGNOSTIC HELPER =====")
 
-    source = V21_SOURCE.read_text(encoding="utf-8")
+    helper = r'''typedef unsigned long DWORD;
+typedef long LONG;
+typedef int BOOL;
+typedef void* HANDLE;
+typedef void* HMODULE;
+typedef const char* LPCSTR;
+typedef unsigned long DWORD_PTR;
 
-    source = replace_once(
-        source,
-        '"snd-waveout-fisher-lambert-v21.log"',
-        '"snd-waveout-fisher-lambert-v22-diag.log"',
-        "log filename",
-    )
+#define WINAPI __stdcall
+#define NULLPTR 0
+#define INVALID_HANDLE_VALUE ((HANDLE)(LONG)-1)
 
-    anchor = r'''static DWORD editor_id_from_handle(DWORD handle) {
-'''
+extern "C" __declspec(dllimport)
+HMODULE WINAPI LoadLibraryA(LPCSTR);
 
-    diagnostic = r'''extern "C"
+extern "C" __declspec(dllimport)
+void* WINAPI GetProcAddress(HMODULE, LPCSTR);
+
+extern "C" __declspec(dllimport)
+DWORD WINAPI GetTickCount();
+
+extern "C" __declspec(dllimport)
+HANDLE WINAPI CreateFileA(
+    LPCSTR,
+    DWORD,
+    DWORD,
+    void*,
+    DWORD,
+    DWORD,
+    HANDLE);
+
+extern "C" __declspec(dllimport)
+DWORD WINAPI SetFilePointer(
+    HANDLE,
+    LONG,
+    LONG*,
+    DWORD);
+
+extern "C" __declspec(dllimport)
+BOOL WINAPI WriteFile(
+    HANDLE,
+    const void*,
+    DWORD,
+    DWORD*,
+    void*);
+
+extern "C" __declspec(dllimport)
+BOOL WINAPI CloseHandle(HANDLE);
+
+static HMODULE g_v22_original = (HMODULE)NULLPTR;
+
+static HMODULE
+v22_original_module()
+{
+    if (!g_v22_original)
+        g_v22_original =
+            LoadLibraryA("SNDDSound3DDLL_VBR_orig.dll");
+
+    return g_v22_original;
+}
+
+static char
+v22_hex_digit(DWORD value)
+{
+    value &= 0xFu;
+    return value < 10u
+        ? (char)('0' + value)
+        : (char)('A' + (value - 10u));
+}
+
+static void
+v22_write_hex8(char* out, DWORD value)
+{
+    for (DWORD i = 0u; i < 8u; ++i) {
+        DWORD shift = 28u - (i * 4u);
+        out[i] = v22_hex_digit(value >> shift);
+    }
+}
+
+static void
+v22_log_route(
+    DWORD ordinal,
+    DWORD target,
+    DWORD tick)
+{
+    HANDLE file = CreateFileA(
+        "snd-waveout-fisher-lambert-v22-diag.log",
+        0x40000000u,
+        0x00000003u,
+        0,
+        4u,
+        0x00000080u,
+        0);
+
+    if (file == INVALID_HANDLE_VALUE)
+        return;
+
+    SetFilePointer(file, 0, 0, 2u);
+
+    char line[46];
+
+    const char prefix[] = "pause_route_probe ";
+
+    for (DWORD i = 0u; i < 18u; ++i)
+        line[i] = prefix[i];
+
+    v22_write_hex8(line + 18, ordinal);
+    line[26] = ' ';
+    v22_write_hex8(line + 27, target);
+    line[35] = ' ';
+    v22_write_hex8(line + 36, tick);
+    line[44] = '\r';
+    line[45] = '\n';
+
+    DWORD written = 0u;
+
+    WriteFile(
+        file,
+        line,
+        46u,
+        &written,
+        0);
+
+    CloseHandle(file);
+}
+
+extern "C"
 __declspec(noinline)
 DWORD __cdecl probe_pause_route_original(DWORD ordinal)
     __asm__("_probe_pause_route_original");
@@ -78,56 +194,46 @@ extern "C"
 __declspec(noinline)
 DWORD __cdecl probe_pause_route_original(DWORD ordinal)
 {
-    void* target =
-        GetProcAddress(
-            original_module(),
-            (LPCSTR)(DWORD_PTR)ordinal);
+    HMODULE original =
+        v22_original_module();
 
-    DWORD values[3] = {
+    void* target = original
+        ? GetProcAddress(
+            original,
+            (LPCSTR)(DWORD_PTR)ordinal)
+        : 0;
+
+    DWORD tick = GetTickCount();
+
+    v22_log_route(
         ordinal,
         (DWORD)target,
-        GetTickCount()
-    };
-
-    write_line(
-        "pause_route_probe",
-        values,
-        3u);
+        tick);
 
     return (DWORD)target;
 }
-
 '''
 
-    source = replace_once(
-        source,
-        anchor,
-        diagnostic + anchor,
-        "signature-agnostic pause route probes",
+    V22_HELPER.write_text(
+        helper,
+        encoding="utf-8",
     )
 
-    required_tokens = [
-        "probe_pause_route_original",
-        "pause_route_probe",
-        '"snd-waveout-fisher-lambert-v22-diag.log"',
-    ]
+    text = V22_HELPER.read_text(encoding="utf-8")
 
-    for token in required_tokens:
-        if token not in source:
+    for token in [
+        "_probe_pause_route_original",
+        "pause_route_probe",
+        "SNDDSound3DDLL_VBR_orig.dll",
+        "snd-waveout-fisher-lambert-v22-diag.log",
+    ]:
+        if token not in text:
             raise SystemExit(
-                "ERROR: generated V22 source missing token: " + token
+                "ERROR: generated V22 helper missing token: " + token
             )
 
-    if source.count("// u") < 408:
-        raise SystemExit(
-            "ERROR: generated V22 source lost 408 runtime table"
-        )
-
-    V22_SOURCE.write_text(source, encoding="utf-8")
-
-    print("PASS: V22 diagnostic helper source generated")
-    print("PASS: V21 behavior retained")
-    print("PASS: 408 runtime entries retained")
+    print("PASS: tiny V22 diagnostic helper generated")
+    print("PASS: accepted V21 runtime object will be reused")
 
 
 def generate_v22_asm():
@@ -361,12 +467,13 @@ def build():
 
     base_def = BASEOUT / "SNDDSound3DDLL_VBR.def"
     out_def = V22_OUT / "SNDDSound3DDLL_VBR.def"
-    cpp_obj = V22_OUT / "snd_waveout_fisher_lambert_v22_diag.obj"
+    helper_obj = V22_OUT / "snd_waveout_fisher_lambert_v22_diag_helper.obj"
     asm_obj = V22_OUT / "snd_waveout_fisher_lambert_v22_diag_routes.obj"
     dll = V22_OUT / "SNDDSound3DDLL_VBR.dll"
 
     required = [
-        V22_SOURCE,
+        V21_OBJ,
+        V22_HELPER,
         V22_ASM,
         base_def,
         BASEOUT / "kernel32.lib",
@@ -384,7 +491,7 @@ def build():
     patch_def(base_def, out_def)
 
     for path in [
-        cpp_obj,
+        helper_obj,
         asm_obj,
         dll,
         V22_OUT / "SNDDSound3DDLL_VBR.lib",
@@ -396,7 +503,7 @@ def build():
             pass
 
     print()
-    print("===== COMPILE =====")
+    print("===== COMPILE SMALL DIAGNOSTIC OBJECTS =====")
 
     run([
         "clang-cl",
@@ -409,11 +516,11 @@ def build():
         "/EHs-c-",
         "/Zl",
         "/utf-8",
-        f"/Fo{cpp_obj}",
-        str(V22_SOURCE),
+        f"/Fo{helper_obj}",
+        str(V22_HELPER),
     ])
 
-    print("PASS: C++ compile")
+    print("PASS: tiny diagnostic helper compile")
 
     run([
         "clang-cl",
@@ -429,17 +536,36 @@ def build():
     print()
     print("===== OBJECT CHECK =====")
 
-    cpp_nm = subprocess.check_output(
-        ["llvm-nm", str(cpp_obj)],
+    helper_nm = subprocess.check_output(
+        ["llvm-nm", str(helper_obj)],
         text=True,
     )
     asm_nm = subprocess.check_output(
         ["llvm-nm", str(asm_obj)],
         text=True,
     )
+    v21_nm = subprocess.check_output(
+        ["llvm-nm", str(V21_OBJ)],
+        text=True,
+    )
 
-    required_symbols = [
-        "_probe_pause_route_original",
+    helper_rows = [
+        parts
+        for line in helper_nm.splitlines()
+        if (parts := line.split())
+        and parts[-1] == "_probe_pause_route_original"
+    ]
+
+    if (
+        len(helper_rows) != 1
+        or "U" in helper_rows[0][:-1]
+    ):
+        raise SystemExit(
+            "ERROR: V22 helper does not define "
+            "_probe_pause_route_original exactly once"
+        )
+
+    route_symbols = [
         "_probe_pause_client_buffer",
         "_probe_pause_sound_object",
         "_probe_pause_sound_object_type",
@@ -454,23 +580,7 @@ def build():
         "_probe_resume_transition_sxd",
     ]
 
-    helper_rows = [
-        parts
-        for line in cpp_nm.splitlines()
-        if (parts := line.split())
-        and parts[-1] == "_probe_pause_route_original"
-    ]
-
-    if (
-        len(helper_rows) != 1
-        or "U" in helper_rows[0][:-1]
-    ):
-        raise SystemExit(
-            "ERROR: V22 C++ object does not define "
-            "_probe_pause_route_original exactly once"
-        )
-
-    for symbol in required_symbols[1:]:
+    for symbol in route_symbols:
         rows = [
             parts
             for line in asm_nm.splitlines()
@@ -483,13 +593,29 @@ def build():
                 f"ERROR: V22 ASM object does not define {symbol} exactly once"
             )
 
+    for inherited in [
+        "_probe_kill_all_sound_object_types",
+        "_probe_kill_all_sound_objects",
+        "_probe_pause_all_sound_object_types",
+        "_probe_pause_all_sound_object_types_but_one",
+        "_probe_resume_all_sound_object_types",
+        "_probe_resume_all_sound_object_types_but_one",
+        "_probe_stop_sound_request",
+    ]:
+        if inherited not in v21_nm:
+            raise SystemExit(
+                "ERROR: accepted V21 object missing inherited symbol: "
+                + inherited
+            )
+
     if "_probe_pause_route_original" not in asm_nm:
         raise SystemExit(
             "ERROR: V22 ASM object does not reference diagnostic helper"
         )
 
-    print("PASS: diagnostic helper symbol defined in C++ object")
-    print("PASS: 12 passthrough symbols defined in ASM object")
+    print("PASS: accepted V21 runtime object retained")
+    print("PASS: diagnostic helper symbol defined")
+    print("PASS: 12 passthrough symbols defined")
 
     print()
     print("===== LINK =====")
@@ -503,7 +629,8 @@ def build():
         "/entry:DllMain@12",
         f"/def:{out_def}",
         f"/out:{dll}",
-        str(cpp_obj),
+        str(V21_OBJ),
+        str(helper_obj),
         str(asm_obj),
         str(BASEOUT / "kernel32.lib"),
         str(BASEOUT / "kernel32-time.lib"),
@@ -595,7 +722,7 @@ def main():
     ensure_game_closed()
 
     required = [
-        V21_SOURCE,
+        V21_OBJ,
         V21_DLL,
         SYSTEM / "SNDDSound3DDLL_VBR.dll",
     ]
@@ -615,9 +742,9 @@ def main():
 
     print("PASS: game is closed")
     print("PASS: live DLL is exact accepted V21")
-    print("PASS: exact V21 generated source is present")
+    print("PASS: exact accepted V21 object is present")
 
-    generate_v22_source()
+    generate_v22_helper()
     generate_v22_asm()
 
     dll = build()
