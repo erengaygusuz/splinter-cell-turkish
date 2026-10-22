@@ -121,9 +121,10 @@ def main():
     v23.ensure_game_closed()
 
     live = SYSTEM / "SNDDSound3DDLL_VBR.dll"
+    v23_dll = v23.V23_OUT / "SNDDSound3DDLL_VBR.dll"
 
     required = [
-        v23.V23_DLL,
+        v23_dll,
         v23.V23_OUT / "snd_waveout_fisher_lambert_v21_exposed.obj",
         v23.V23_OUT / "snd_waveout_fisher_lambert_v23_pause_helper.obj",
         v23.V23_OUT / "snd_waveout_fisher_lambert_v23_pause_routes.obj",
@@ -140,7 +141,7 @@ def main():
         if not path.is_file():
             raise SystemExit(f"ERROR: missing V24 input: {path}")
 
-    if live.read_bytes() != v23.V23_DLL.read_bytes():
+    if live.read_bytes() != v23_dll.read_bytes():
         raise SystemExit(
             "ERROR: live DLL is not exact accepted V23; "
             "refusing V24 diagnostic install"
