@@ -201,6 +201,16 @@ def main():
             "ERROR: V23 route mismatch or unresolved original target"
         )
 
+    if not pause_routes:
+        raise SystemExit(
+            "ERROR: no V23 pause-route event observed"
+        )
+
+    if not resume_routes:
+        raise SystemExit(
+            "ERROR: no V23 resume-route event observed"
+        )
+
     print("PASS: pause route resolves original @185")
     print("PASS: resume route resolves original @212")
 
