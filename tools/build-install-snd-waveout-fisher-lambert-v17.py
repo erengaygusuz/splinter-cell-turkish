@@ -557,6 +557,7 @@ static const DWORD kTrainingOverrideCount =
 static const DWORD kDurationToleranceUlps = %uu;
 
 static const TrainingOverride* g_training_pending = 0;
+static DWORD g_training_pending_editor = 0xFFFFFFFFu;
 static LONG g_training_request = -1;
 static DWORD g_training_active_editor = 0xFFFFFFFFu;
 static DWORD g_training_until = 0u;
@@ -643,6 +644,76 @@ training_override_by_identity(
         )
 
     source = source.replace(old_hook, new_hook, 1)
+
+    pending_match_old = r'''        pending &&
+        pending->editor_id == editor_id &&
+        result != -1
+    ) {
+        g_training_pending = 0;
+'''
+    pending_match_new = r'''        pending &&
+        g_training_pending_editor == editor_id &&
+        result != -1
+    ) {
+        g_training_pending = 0;
+        g_training_pending_editor = 0xFFFFFFFFu;
+'''
+
+    if pending_match_old not in source:
+        raise SystemExit(
+            "ERROR: V16 pending editor match block not found"
+        )
+
+    source = source.replace(
+        pending_match_old,
+        pending_match_new,
+        1,
+    )
+
+    pending_set_old = "        g_training_pending = training;\n"
+    pending_set_new = (
+        "        g_training_pending = training;\n"
+        "        g_training_pending_editor = editor_id;\n"
+    )
+
+    if pending_set_old not in source:
+        raise SystemExit(
+            "ERROR: V16 pending assignment block not found"
+        )
+
+    source = source.replace(
+        pending_set_old,
+        pending_set_new,
+        1,
+    )
+
+    no_request_old = r'''        g_training_pending = 0;
+    }
+
+    return result;
+'''
+    no_request_new = r'''        g_training_pending = 0;
+        g_training_pending_editor = 0xFFFFFFFFu;
+    }
+
+    return result;
+'''
+
+    if no_request_old not in source:
+        raise SystemExit(
+            "ERROR: V16 no-request cleanup block not found"
+        )
+
+    source = source.replace(
+        no_request_old,
+        no_request_new,
+        1,
+    )
+
+    if "pending->editor_id" in source:
+        raise SystemExit(
+            "ERROR: stale TrainingOverride editor_id reference remains"
+        )
 
     OUT_SOURCE.write_text(source, encoding="utf-8")
 
