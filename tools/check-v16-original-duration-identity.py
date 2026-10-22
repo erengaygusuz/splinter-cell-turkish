@@ -103,10 +103,15 @@ def main():
     if max_ms >= 0.05:
         raise SystemExit(
             "ERROR: runtime original duration differs by >= 0.05 ms; "
-            "0.1 ms duration dispatch is not safe"
+            "duration dispatch is not safe"
         )
 
-    print("PASS: runtime USound original durations fit 0.1 ms identity buckets")
+    if max_ulps > 128:
+        raise SystemExit(
+            f"ERROR: runtime original duration exceeds 128 ULP: {max_ulps}"
+        )
+
+    print("PASS: runtime USound original durations stay within 128 ULP")
     print("DURATION_DISPATCH_PREFLIGHT: PASS")
 
 if __name__ == "__main__":
