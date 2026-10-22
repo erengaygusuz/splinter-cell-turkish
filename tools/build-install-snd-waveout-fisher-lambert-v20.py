@@ -157,7 +157,9 @@ external_voice_stop_all(DWORD reason)
         "external stop-all helper",
     )
 
-    request_acquire_end = r'''    return free_slot;
+    request_acquire_end = r'''    free_slot->extend_logged = 0u;
+
+    return free_slot;
 }
 '''
 
@@ -197,6 +199,7 @@ runtime_request_clear_all()
     wrapper_anchor = r'''extern "C"
 __declspec(noinline)
 void __cdecl probe_stop_sound_request(DWORD request_id)
+    __asm__("_probe_stop_sound_request");
 '''
 
     global_wrappers = r'''extern "C"
@@ -503,13 +506,13 @@ def exports(path: Path):
     return result
 
 
-def compile_and_link(v19):
+def compile_and_link(v18):
     print()
     print("===== BUILD V20 =====")
 
     V20_OUT.mkdir(parents=True, exist_ok=True)
 
-    base_def = v19.BASEOUT / "SNDDSound3DDLL_VBR.def"
+    base_def = v18.BASEOUT / "SNDDSound3DDLL_VBR.def"
     out_def = V20_OUT / "SNDDSound3DDLL_VBR.def"
     obj = V20_OUT / "snd_waveout_fisher_lambert_v20.obj"
     dll = V20_OUT / "SNDDSound3DDLL_VBR.dll"
@@ -517,9 +520,9 @@ def compile_and_link(v19):
     required = [
         V20_SOURCE,
         base_def,
-        v19.BASEOUT / "kernel32.lib",
-        v19.BASEOUT / "kernel32-time.lib",
-        v19.BASEOUT / "winmm.lib",
+        v18.BASEOUT / "kernel32.lib",
+        v18.BASEOUT / "kernel32-time.lib",
+        v18.BASEOUT / "winmm.lib",
         SYSTEM / "SNDDSound3DDLL_VBR_orig.dll",
     ]
 
@@ -624,9 +627,9 @@ def compile_and_link(v19):
         f"/def:{out_def}",
         f"/out:{dll}",
         str(obj),
-        str(v19.BASEOUT / "kernel32.lib"),
-        str(v19.BASEOUT / "kernel32-time.lib"),
-        str(v19.BASEOUT / "winmm.lib"),
+        str(v18.BASEOUT / "kernel32.lib"),
+        str(v18.BASEOUT / "kernel32-time.lib"),
+        str(v18.BASEOUT / "winmm.lib"),
     ])
 
     print("PASS: link")
@@ -761,10 +764,11 @@ def main():
         V19_BUILDER,
         "sc_v19_builder_for_v20",
     )
+    v18 = v19.load_v18_module()
 
     generate_v20_source()
 
-    dll = compile_and_link(v19)
+    dll = compile_and_link(v18)
 
     install_v20(dll)
 
