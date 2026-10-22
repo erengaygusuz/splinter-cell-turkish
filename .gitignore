@@ -1,0 +1,45 @@
+# Generated or third-party binary content
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.bik
+*.ubiadpcm
+*.dll
+*.exe
+*.so
+*.u
+*.utx
+*.uax
+*.usx
+*.pak
+*.bin
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.dds
+*.zip
+*.7z
+*.tar
+*.pt
+*.pth
+
+# Local/generated environments
+**/__pycache__/
+*.pyc
+.venv*/
+node_modules/
+**/site-packages/
+*.log
+
+# Workspace-only directories
+/backups/
+/build/
+/staging/
+/extracted/
+/corpus/
+/vendor/
+/analysis/
+/cache/
+/artifacts/

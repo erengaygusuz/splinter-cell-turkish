@@ -1,0 +1,12 @@
+LEGACY-INTEGRATED UTF-8 LOCALIZATION VALIDATION
+========================================================================================
+Files checked       : 81
+Assignments checked : 7086
+Dub locks checked   : 808
+Errors              : 0
+Error categories    : {}
+Live game modified  : NO
+
+ERRORS
+----------------------------------------------------------------------------------------
+None
