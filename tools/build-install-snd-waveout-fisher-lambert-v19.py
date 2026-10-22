@@ -295,11 +295,20 @@ void __cdecl probe_stop_sound_request(DWORD request_id)
 
 """
 
-    source = replace_once(
-        source,
+    stop_anchor_count = source.count(stop_anchor)
+
+    if stop_anchor_count != 2:
+        raise SystemExit(
+            "ERROR: V19 stop wrapper anchor expected declaration + "
+            f"definition (2 matches), got {stop_anchor_count}"
+        )
+
+    # Insert before the forward declaration only. The second occurrence
+    # is the actual probe_is_playing definition and must remain untouched.
+    source = source.replace(
         stop_anchor,
         stop_wrapper + stop_anchor,
-        "stop request wrapper",
+        1,
     )
 
     source = source.replace(
