@@ -858,7 +858,7 @@ def globalize_v21_state(out_obj: Path):
             entry_offset : entry_offset + 8
         ]
 
-        if raw_name[:4] == b"\\x00\\x00\\x00\\x00":
+        if raw_name[:4] == b"\x00\x00\x00\x00":
             string_offset = int.from_bytes(
                 raw_name[4:8],
                 "little",
@@ -873,7 +873,7 @@ def globalize_v21_state(out_obj: Path):
                 )
 
             start = symbol_table_end + string_offset
-            end = data.find(b"\\x00", start)
+            end = data.find(b"\x00", start)
 
             if (
                 end < 0
@@ -886,7 +886,7 @@ def globalize_v21_state(out_obj: Path):
             raw = bytes(data[start:end])
         else:
             raw = bytes(raw_name).split(
-                b"\\x00",
+                b"\x00",
                 1,
             )[0]
 
