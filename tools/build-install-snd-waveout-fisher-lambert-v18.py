@@ -1070,6 +1070,47 @@ runtime_request_acquire(
         1,
     )
 
+
+    repeat_restore_old = r'''    BOOL result = g_dare_play_original
+        ? g_dare_play_original(
+            self,
+            actor,
+            sound,
+            sound_type)
+        : 0;
+
+    if (is_dub_editor(editor_id)) {
+'''
+
+    repeat_restore_new = r'''    BOOL result = g_dare_play_original
+        ? g_dare_play_original(
+            self,
+            actor,
+            sound,
+            sound_type)
+        : 0;
+
+    // V18: the Turkish duration is needed while DareAudio creates
+    // the request, but the shared USound object must retain its
+    // original metadata so a later replay can match again.
+    if (training && duration)
+        *duration = old_duration_bits;
+
+    if (is_dub_editor(editor_id)) {
+'''
+
+    if repeat_restore_old not in source:
+        raise SystemExit(
+            "ERROR: V17 DareAudio return block not found"
+        )
+
+    source = source.replace(
+        repeat_restore_old,
+        repeat_restore_new,
+        1,
+    )
+
+
     for stale in (
         "g_training_request",
         "g_training_active_editor",
@@ -1091,6 +1132,11 @@ runtime_request_acquire(
     if "runtime_native_fallback" not in source:
         raise SystemExit(
             "ERROR: V18 native fallback path missing"
+        )
+
+    if "the shared USound object must retain its" not in source:
+        raise SystemExit(
+            "ERROR: V18 repeat-safe duration restore missing"
         )
 
 
@@ -1473,6 +1519,7 @@ def main():
     print("Dispatch: runtime bank + original USound duration")
     print("Request state: 32 independent logical request slots")
     print("Fallback: native game voice retained if waveOut start fails")
+    print("Replay safety: original USound duration restored after each play")
 
 
 if __name__ == "__main__":
