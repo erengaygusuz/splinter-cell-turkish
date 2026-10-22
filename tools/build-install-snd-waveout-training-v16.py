@@ -35,7 +35,7 @@ for path in required:
         raise SystemExit(f"ERROR: missing required file: {path}")
 
 source_text = SRC.read_text(encoding="utf-8")
-training_rows = re.findall(r"// u(?:0000(?:1[3-9]|2[0-9]))\\s*$", source_text, re.M)
+training_rows = re.findall(r"// u(?:0000(?:1[3-9]|2[0-9]))\s*$", source_text, re.M)
 
 if len(training_rows) != 17:
     raise SystemExit(
