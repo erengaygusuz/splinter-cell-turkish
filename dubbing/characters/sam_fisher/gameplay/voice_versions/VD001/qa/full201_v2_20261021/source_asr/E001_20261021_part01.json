@@ -1,0 +1,432 @@
+{
+  "source": "dubbing/characters/sam_fisher/gameplay/voice_versions/VD001/batches/E001_20261021/sam_fisher_vd001_test11_E001_20261021_143751.mp3",
+  "source_sha256": "ff8102a00dea5caa330da2c0600f2297faa2cbac77fbfa6b489c32941706f71d",
+  "model": "medium",
+  "language": "tr",
+  "device": "cuda",
+  "compute_type": "int8_float16",
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.28,
+      "text": "Third Echelon'un baş programcısı."
+    },
+    {
+      "start": 2.68,
+      "end": 3.84,
+      "text": "Sakın söyleme."
+    },
+    {
+      "start": 4.1,
+      "end": 5.58,
+      "text": "Gurgenidze içeride, değil mi?"
+    },
+    {
+      "start": 5.98,
+      "end": 7.72,
+      "text": "Blaustein ve Madison'ı buldum."
+    },
+    {
+      "start": 8.12,
+      "end": 9.22,
+      "text": "Grinko'yu nerede bulurum?"
+    },
+    {
+      "start": 9.56,
+      "end": 11.64,
+      "text": "Bu platformu neden hala tutuyorlar?"
+    },
+    {
+      "start": 12.0,
+      "end": 14.04,
+      "text": "Nikoladze açısından pek akıllıca değil."
+    },
+    {
+      "start": 14.6,
+      "end": 15.68,
+      "text": "Grimstock direni oldu."
+    },
+    {
+      "start": 16.18,
+      "end": 17.2,
+      "text": "Dougherty ne yapacağım?"
+    },
+    {
+      "start": 17.68,
+      "end": 18.86,
+      "text": "Beni endişelendirmiyor."
+    },
+    {
+      "start": 19.34,
+      "end": 20.82,
+      "text": "Wilkes konusunu bir daha açma."
+    },
+    {
+      "start": 21.34,
+      "end": 22.46,
+      "text": "Moke Tsoe Bo."
+    },
+    {
+      "start": 22.98,
+      "end": 24.46,
+      "text": "Kristavi yoluma çıkarsa?"
+    },
+    {
+      "start": 25.0,
+      "end": 27.2,
+      "text": "CIA'in bunu bilmemesi için bir sebep var mı?"
+    }
+  ],
+  "words": [
+    {
+      "start": 0.0,
+      "end": 0.4,
+      "text": "Third",
+      "probability": 0.67626953125
+    },
+    {
+      "start": 0.4,
+      "end": 0.84,
+      "text": "Echelon",
+      "probability": 0.8538818359375
+    },
+    {
+      "start": 0.84,
+      "end": 1.06,
+      "text": "'un",
+      "probability": 0.89111328125
+    },
+    {
+      "start": 1.06,
+      "end": 1.26,
+      "text": "baş",
+      "probability": 0.96337890625
+    },
+    {
+      "start": 1.26,
+      "end": 2.28,
+      "text": "programcısı.",
+      "probability": 0.912109375
+    },
+    {
+      "start": 2.68,
+      "end": 3.02,
+      "text": "Sakın",
+      "probability": 0.987548828125
+    },
+    {
+      "start": 3.02,
+      "end": 3.84,
+      "text": "söyleme.",
+      "probability": 0.996337890625
+    },
+    {
+      "start": 4.1,
+      "end": 4.58,
+      "text": "Gurgenidze",
+      "probability": 0.822021484375
+    },
+    {
+      "start": 4.58,
+      "end": 5.12,
+      "text": "içeride,",
+      "probability": 0.88818359375
+    },
+    {
+      "start": 5.22,
+      "end": 5.36,
+      "text": "değil",
+      "probability": 0.96728515625
+    },
+    {
+      "start": 5.36,
+      "end": 5.58,
+      "text": "mi?",
+      "probability": 0.99755859375
+    },
+    {
+      "start": 5.98,
+      "end": 6.56,
+      "text": "Blaustein",
+      "probability": 0.8956705729166666
+    },
+    {
+      "start": 6.56,
+      "end": 6.74,
+      "text": "ve",
+      "probability": 0.98828125
+    },
+    {
+      "start": 6.74,
+      "end": 7.06,
+      "text": "Madison",
+      "probability": 0.57958984375
+    },
+    {
+      "start": 7.06,
+      "end": 7.26,
+      "text": "'ı",
+      "probability": 0.979736328125
+    },
+    {
+      "start": 7.26,
+      "end": 7.72,
+      "text": "buldum.",
+      "probability": 0.998046875
+    },
+    {
+      "start": 8.12,
+      "end": 8.38,
+      "text": "Grinko",
+      "probability": 0.8479817708333334
+    },
+    {
+      "start": 8.38,
+      "end": 8.5,
+      "text": "'yu",
+      "probability": 0.9951171875
+    },
+    {
+      "start": 8.5,
+      "end": 8.8,
+      "text": "nerede",
+      "probability": 0.9716796875
+    },
+    {
+      "start": 8.8,
+      "end": 9.22,
+      "text": "bulurum?",
+      "probability": 0.99755859375
+    },
+    {
+      "start": 9.56,
+      "end": 9.76,
+      "text": "Bu",
+      "probability": 0.998046875
+    },
+    {
+      "start": 9.76,
+      "end": 10.32,
+      "text": "platformu",
+      "probability": 0.99072265625
+    },
+    {
+      "start": 10.32,
+      "end": 10.62,
+      "text": "neden",
+      "probability": 0.9970703125
+    },
+    {
+      "start": 10.62,
+      "end": 10.92,
+      "text": "hala",
+      "probability": 0.853515625
+    },
+    {
+      "start": 10.92,
+      "end": 11.64,
+      "text": "tutuyorlar?",
+      "probability": 0.9982096354166666
+    },
+    {
+      "start": 12.0,
+      "end": 12.44,
+      "text": "Nikoladze",
+      "probability": 0.8038330078125
+    },
+    {
+      "start": 12.44,
+      "end": 13.02,
+      "text": "açısından",
+      "probability": 0.9972330729166666
+    },
+    {
+      "start": 13.02,
+      "end": 13.32,
+      "text": "pek",
+      "probability": 0.992431640625
+    },
+    {
+      "start": 13.32,
+      "end": 13.74,
+      "text": "akıllıca",
+      "probability": 0.99609375
+    },
+    {
+      "start": 13.74,
+      "end": 14.04,
+      "text": "değil.",
+      "probability": 0.99853515625
+    },
+    {
+      "start": 14.6,
+      "end": 14.98,
+      "text": "Grimstock",
+      "probability": 0.6996256510416666
+    },
+    {
+      "start": 14.98,
+      "end": 15.38,
+      "text": "direni",
+      "probability": 0.67578125
+    },
+    {
+      "start": 15.38,
+      "end": 15.68,
+      "text": "oldu.",
+      "probability": 0.98046875
+    },
+    {
+      "start": 16.18,
+      "end": 16.56,
+      "text": "Dougherty",
+      "probability": 0.75146484375
+    },
+    {
+      "start": 16.56,
+      "end": 16.76,
+      "text": "ne",
+      "probability": 0.5205078125
+    },
+    {
+      "start": 16.76,
+      "end": 17.2,
+      "text": "yapacağım?",
+      "probability": 0.955322265625
+    },
+    {
+      "start": 17.68,
+      "end": 17.84,
+      "text": "Beni",
+      "probability": 0.98291015625
+    },
+    {
+      "start": 17.84,
+      "end": 18.86,
+      "text": "endişelendirmiyor.",
+      "probability": 0.98046875
+    },
+    {
+      "start": 19.34,
+      "end": 19.6,
+      "text": "Wilkes",
+      "probability": 0.782958984375
+    },
+    {
+      "start": 19.6,
+      "end": 20.0,
+      "text": "konusunu",
+      "probability": 0.9943033854166666
+    },
+    {
+      "start": 20.0,
+      "end": 20.2,
+      "text": "bir",
+      "probability": 0.98486328125
+    },
+    {
+      "start": 20.2,
+      "end": 20.36,
+      "text": "daha",
+      "probability": 0.99365234375
+    },
+    {
+      "start": 20.36,
+      "end": 20.82,
+      "text": "açma.",
+      "probability": 0.994873046875
+    },
+    {
+      "start": 21.34,
+      "end": 21.74,
+      "text": "Moke",
+      "probability": 0.4437255859375
+    },
+    {
+      "start": 21.74,
+      "end": 22.26,
+      "text": "Tsoe",
+      "probability": 0.7434895833333334
+    },
+    {
+      "start": 22.26,
+      "end": 22.46,
+      "text": "Bo.",
+      "probability": 0.63671875
+    },
+    {
+      "start": 22.98,
+      "end": 23.48,
+      "text": "Kristavi",
+      "probability": 0.5391845703125
+    },
+    {
+      "start": 23.48,
+      "end": 23.84,
+      "text": "yoluma",
+      "probability": 0.966552734375
+    },
+    {
+      "start": 23.84,
+      "end": 24.46,
+      "text": "çıkarsa?",
+      "probability": 0.996337890625
+    },
+    {
+      "start": 25.0,
+      "end": 25.18,
+      "text": "CIA",
+      "probability": 0.98681640625
+    },
+    {
+      "start": 25.18,
+      "end": 25.4,
+      "text": "'in",
+      "probability": 0.791259765625
+    },
+    {
+      "start": 25.4,
+      "end": 25.64,
+      "text": "bunu",
+      "probability": 0.99462890625
+    },
+    {
+      "start": 25.64,
+      "end": 26.18,
+      "text": "bilmemesi",
+      "probability": 0.9967447916666666
+    },
+    {
+      "start": 26.18,
+      "end": 26.36,
+      "text": "için",
+      "probability": 0.9990234375
+    },
+    {
+      "start": 26.36,
+      "end": 26.62,
+      "text": "bir",
+      "probability": 0.97802734375
+    },
+    {
+      "start": 26.62,
+      "end": 26.84,
+      "text": "sebep",
+      "probability": 0.99658203125
+    },
+    {
+      "start": 26.84,
+      "end": 27.06,
+      "text": "var",
+      "probability": 0.9990234375
+    },
+    {
+      "start": 27.06,
+      "end": 27.2,
+      "text": "mı?",
+      "probability": 0.9931640625
+    }
+  ],
+  "text": "Third Echelon'un baş programcısı. Sakın söyleme. Gurgenidze içeride, değil mi? Blaustein ve Madison'ı buldum. Grinko'yu nerede bulurum? Bu platformu neden hala tutuyorlar? Nikoladze açısından pek akıllıca değil. Grimstock direni oldu. Dougherty ne yapacağım? Beni endişelendirmiyor. Wilkes konusunu bir daha açma. Moke Tsoe Bo. Kristavi yoluma çıkarsa? CIA'in bunu bilmemesi için bir sebep var mı?"
+}
