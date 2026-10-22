@@ -219,27 +219,32 @@ def main() -> None:
         explicit_sound[uid] = sound
 
     verified_targets = [uid for uid in work_ids if uid in explicit]
+    all_verified_corpus_uids = [
+        uid for uid in explicit
+        if uid in corpus_by_id
+    ]
 
     print(f"PASS: verified Fisher/Lambert UID mappings: {len(verified_targets)}")
+    print(
+        "PASS: all authoritative UID anchors available for bank learning: "
+        f"{len(all_verified_corpus_uids)}"
+    )
 
     print()
     print("===== LEARN BANK TRANSFORMS =====")
 
     known_by_bank = defaultdict(list)
 
-    for uid in verified_targets:
-        c = corpus_by_id.get(uid)
-        if c is None:
-            raise SystemExit(f"ERROR: UID missing from corpus: {uid}")
+    for uid in all_verified_corpus_uids:
+        c = corpus_by_id[uid]
 
         old = parse_int(c["header_id"])
         actual = explicit[uid]
 
         if (old & 0xFFFF0000) != (actual & 0xFFFF0000):
-            raise SystemExit(
-                f"ERROR: bank prefix mismatch for {uid}: "
-                f"{old:08X} -> {actual:08X}"
-            )
+            # A row may legitimately point at a different package/bank.
+            # Such a row cannot teach a within-bank header transform.
+            continue
 
         known_by_bank[old & 0xFFFF0000].append((uid, old, actual))
 
@@ -262,48 +267,97 @@ def main() -> None:
 
         candidates = []
 
-        # Identity candidate.
-        if known and all(old == actual for _, old, actual in known):
-            def identity(value: int, _bank=bank) -> int:
-                return value
+        if known:
+            # Identity.
+            if all(old == actual for _, old, actual in known):
+                def identity(value: int, _bank=bank) -> int:
+                    return value
 
-            candidates.append(("identity", "", identity))
+                candidates.append(("identity", "", identity))
 
-        # Piecewise reverse candidate:
-        #   low <= K  -> K-low
-        #   low >  K  -> identity
-        non_identity = [
-            (old, actual)
-            for _, old, actual in known
-            if old != actual
-        ]
+            # Constant low-word offset.
+            deltas = {
+                (actual & 0xFFFF) - (old & 0xFFFF)
+                for _, old, actual in known
+            }
 
-        sums = {
-            (old & 0xFFFF) + (actual & 0xFFFF)
-            for old, actual in non_identity
-        }
+            if len(deltas) == 1:
+                delta = next(iter(deltas))
 
-        if len(non_identity) >= 2 and len(sums) == 1:
-            k = next(iter(sums))
-
-            if k <= 0xFFFF:
-                def reverse_piecewise(value: int, _bank=bank, _k=k) -> int:
-                    low = value & 0xFFFF
-                    mapped_low = low if low > _k else _k - low
-                    return _bank | mapped_low
+                def offset_rule(value: int, _bank=bank, _delta=delta) -> int:
+                    low = (value & 0xFFFF) + _delta
+                    if low < 0 or low > 0xFFFF:
+                        return 0xFFFFFFFF
+                    return _bank | low
 
                 if all(
-                    reverse_piecewise(old) == actual
+                    offset_rule(old) == actual
                     for _, old, actual in known
                 ):
                     candidates.append(
-                        ("reverse_piecewise", f"0x{k:04X}", reverse_piecewise)
+                        ("offset", f"{delta:+d}", offset_rule)
                     )
+
+            # Full reverse: actual_low = K - old_low.
+            sums_all = {
+                (old & 0xFFFF) + (actual & 0xFFFF)
+                for _, old, actual in known
+            }
+
+            if len(sums_all) == 1:
+                k = next(iter(sums_all))
+
+                if k <= 0xFFFF:
+                    def reverse_rule(value: int, _bank=bank, _k=k) -> int:
+                        low = _k - (value & 0xFFFF)
+                        if low < 0 or low > 0xFFFF:
+                            return 0xFFFFFFFF
+                        return _bank | low
+
+                    if all(
+                        reverse_rule(old) == actual
+                        for _, old, actual in known
+                    ):
+                        candidates.append(
+                            ("reverse", f"0x{k:04X}", reverse_rule)
+                        )
+
+            # Piecewise reverse:
+            #   low <= K  -> K-low
+            #   low >  K  -> identity
+            non_identity = [
+                (old, actual)
+                for _, old, actual in known
+                if old != actual
+            ]
+
+            sums = {
+                (old & 0xFFFF) + (actual & 0xFFFF)
+                for old, actual in non_identity
+            }
+
+            if len(non_identity) >= 2 and len(sums) == 1:
+                k = next(iter(sums))
+
+                if k <= 0xFFFF:
+                    def reverse_piecewise(value: int, _bank=bank, _k=k) -> int:
+                        low = value & 0xFFFF
+                        mapped_low = low if low > _k else _k - low
+                        return _bank | mapped_low
+
+                    if all(
+                        reverse_piecewise(old) == actual
+                        for _, old, actual in known
+                    ):
+                        candidates.append(
+                            ("reverse_piecewise", f"0x{k:04X}", reverse_piecewise)
+                        )
 
         valid = []
 
         for name, param, fn in candidates:
             predicted = {}
+            reverse_seen = {}
             ok = True
 
             for old in corpus_bank_ids.get(bank, set()):
@@ -313,13 +367,13 @@ def main() -> None:
                     ok = False
                     break
 
-                if actual in predicted.values():
-                    # Distinct old header IDs must remain one-to-one.
-                    if predicted.get(old) != actual:
-                        ok = False
-                        break
+                previous_old = reverse_seen.get(actual)
+                if previous_old is not None and previous_old != old:
+                    ok = False
+                    break
 
                 predicted[old] = actual
+                reverse_seen[actual] = old
 
             if ok and all(fn(old) == actual for _, old, actual in known):
                 valid.append((name, param, fn))
