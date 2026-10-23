@@ -203,6 +203,14 @@ def run(game=GAME,out=OUT,index_only=False):
             if other:
                 r['source_path']=other['source_path'];r['status']='OK'
                 r['source_resolution']='EXACT_SHARED_DESCRIPTOR_IN_ROOT_BANK'
+            elif r['codec']=='PCM16LE':
+                # Bonus maps route uncompressed shared music to Sounds/Common.
+                # Its byte offsets are PCM offsets, not the root ADPCM offsets.
+                common=game/'Sounds/Common'/r['resource_name']
+                if common.is_file() and r['stream_size']==r['sample_count']*r['channels']*2 and r['stream_offset']+r['stream_size']<=common.stat().st_size:
+                    r['source_path']=str(common.relative_to(game));r['status']='OK'
+                    r['source_resolution']='GLOBAL_COMMON_PCM_RESOURCE'
+
     csv_write(out/'audio-resource-references.csv',rows)
     csv_write(out/'bank-index.csv',banks)
     json_write(out/'bank-event-nodes.json',nodes)

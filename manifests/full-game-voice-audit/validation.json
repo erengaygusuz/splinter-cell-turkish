@@ -1,0 +1,129 @@
+{
+  "native_uax_objects_verified": 3019,
+  "decoded_leaf_resources": 3780,
+  "exact_resource_references": 13738,
+  "independent_decoder_probes": [
+    {
+      "bank": "Sounds/1_6_1_1KolaCell/English/MAPS.LM0",
+      "stream_index": "65",
+      "resource_header_id": "000B00CD"
+    },
+    {
+      "bank": "Sounds/1_6_1_1KolaCell/English/MAPS.LM0",
+      "stream_index": "68",
+      "resource_header_id": "000B00C6"
+    },
+    {
+      "bank": "Sounds/1_6_1_1KolaCell/English/MAPS.LM0",
+      "stream_index": "52",
+      "resource_header_id": "000B004B"
+    },
+    {
+      "bank": "Sounds/1_6_1_1KolaCell/MAPS.SM0",
+      "stream_index": "204",
+      "resource_header_id": "0006003D"
+    },
+    {
+      "bank": "Sounds/1_6_1_1KolaCell/MAPS.SM0",
+      "stream_index": "210",
+      "resource_header_id": "00060070"
+    },
+    {
+      "bank": "Sounds/1_6_1_1KolaCell/MAPS.SM0",
+      "stream_index": "473",
+      "resource_header_id": "000001FD"
+    },
+    {
+      "bank": "Sounds/1_7_1_1VselkaInfiltration/English/MAPS.LM0",
+      "stream_index": "65",
+      "resource_header_id": "000B00CD"
+    },
+    {
+      "bank": "Sounds/1_7_1_1VselkaInfiltration/English/MAPS.LM0",
+      "stream_index": "68",
+      "resource_header_id": "000B00C6"
+    },
+    {
+      "bank": "Sounds/1_7_1_1VselkaInfiltration/English/MAPS.LM0",
+      "stream_index": "52",
+      "resource_header_id": "000B004B"
+    },
+    {
+      "bank": "Sounds/1_7_1_1VselkaInfiltration/MAPS.SM0",
+      "stream_index": "203",
+      "resource_header_id": "006B0001"
+    },
+    {
+      "bank": "Sounds/1_7_1_1VselkaInfiltration/MAPS.SM0",
+      "stream_index": "209",
+      "resource_header_id": "000A0016"
+    },
+    {
+      "bank": "Sounds/1_7_1_1VselkaInfiltration/MAPS.SM0",
+      "stream_index": "472",
+      "resource_header_id": "00000065"
+    },
+    {
+      "bank": "Sounds/1_7_1_2Vselka/English/MAPS.LM0",
+      "stream_index": "33",
+      "resource_header_id": "000B00C4"
+    },
+    {
+      "bank": "Sounds/1_7_1_2Vselka/English/MAPS.LM0",
+      "stream_index": "34",
+      "resource_header_id": "000B00D1"
+    },
+    {
+      "bank": "Sounds/1_7_1_2Vselka/English/MAPS.LM0",
+      "stream_index": "100",
+      "resource_header_id": "004500B5"
+    },
+    {
+      "bank": "Sounds/1_7_1_2Vselka/MAPS.SM0",
+      "stream_index": "204",
+      "resource_header_id": "0009003E"
+    },
+    {
+      "bank": "Sounds/1_7_1_2Vselka/MAPS.SM0",
+      "stream_index": "210",
+      "resource_header_id": "0009002E"
+    },
+    {
+      "bank": "Sounds/1_7_1_2Vselka/MAPS.SM0",
+      "stream_index": "178",
+      "resource_header_id": "000A0021"
+    },
+    {
+      "bank": "Sounds/ENGLISH/MAPS.LM0",
+      "stream_index": "2073",
+      "resource_header_id": "0071000A"
+    },
+    {
+      "bank": "Sounds/ENGLISH/MAPS.LM0",
+      "stream_index": "2166",
+      "resource_header_id": "0062003E"
+    },
+    {
+      "bank": "Sounds/ENGLISH/MAPS.LM0",
+      "stream_index": "1656",
+      "resource_header_id": "005600E5"
+    },
+    {
+      "bank": "Sounds/MAPS.SM0",
+      "stream_index": "2230",
+      "resource_header_id": "0007000A"
+    },
+    {
+      "bank": "Sounds/MAPS.SM0",
+      "stream_index": "2323",
+      "resource_header_id": "00000128"
+    },
+    {
+      "bank": "Sounds/MAPS.SM0",
+      "stream_index": "6817",
+      "resource_header_id": "0007000B"
+    }
+  ],
+  "event_namespace_collision_regression": "PASS",
+  "all_event_links_resolved": true
+}
