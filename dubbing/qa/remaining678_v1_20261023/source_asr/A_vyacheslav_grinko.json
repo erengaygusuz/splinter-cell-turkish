@@ -1,0 +1,1021 @@
+{
+  "path": "/run/media/ereng/files/projects/splinter-cell-turkish/dubbing/characters/vyacheslav_grinko/gameplay/voice_versions/VD001/batches/GR001_20261022/vyacheslav_grinko_vd001_gameplay13_gr001_20261022_090415.mp3",
+  "sha256": "f37743551e3b6f4beb5bece6b82733013660e951c62a145d5a5595325ed704e5",
+  "model": "medium",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "language": "tr",
+  "word_timestamps": true,
+  "condition_on_previous_text": false,
+  "vad_filter": false,
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.02,
+      "text": " Blaustein'ın çıkını çıkarırken biraz zorlandık.",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 3.22,
+      "end": 5.26,
+      "text": " Hala üzerinde kas dokusu lifleri var.",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 5.8,
+      "end": 8.98,
+      "text": " Ellerine kan bulaşmasın istiyorsan yanlış işi seçmişsin.",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 9.38,
+      "end": 13.22,
+      "text": " Sen sadece bir araçsın. Öyle mi? Temiz.",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 13.4,
+      "end": 15.38,
+      "text": " Alarm! Herkes tam alarma geçsin!",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 15.66,
+      "end": 18.0,
+      "text": " Nikoladze'nin ofisinde bir davetsiz misafir var!",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 18.36,
+      "end": 20.38,
+      "text": " Uyanın lan! Oraya hemen asker istiyorum!",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 20.82,
+      "end": 23.66,
+      "text": " Durum raporu istiyorum! Bu adam neden hala yakalanmadı?",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 23.96,
+      "end": 25.42,
+      "text": " Arka merdivende adamımız var mı?",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 25.8,
+      "end": 28.14,
+      "text": " Odada kimliği ele verecek ne varsa kaldırın.",
+      "no_speech_prob": 0.05728882551193237
+    },
+    {
+      "start": 28.14,
+      "end": 31.74,
+      "text": " Işıkları duvarlara vurmayın. Yüzlerini daha güçlü aydınlatın.",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 31.94,
+      "end": 34.14,
+      "text": " Ölürlerken yüzlerini net görmemiz gerek.",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 34.46,
+      "end": 35.22,
+      "text": " Sesçimiz nerede?",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 35.62,
+      "end": 37.66,
+      "text": " Dualarını duyacak kadar yakından kayıtalım.",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 38.08,
+      "end": 41.06,
+      "text": " Nikoladze'yi buradan çıkarın. Helikopteri hemen havalansın.",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 41.28,
+      "end": 45.08,
+      "text": " Silahlı eskortla bir teknisyen ekibini çatıya gönderin, o anteni onarsınlar.",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 45.5,
+      "end": 47.22,
+      "text": " Amerikalıları bulun ve öldürün!",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 47.64,
+      "end": 48.56,
+      "text": " Grinko konuşuyor.",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 48.94,
+      "end": 51.48,
+      "text": " Amerikalı askerleri hazırlayın ve stüdyoya götürün.",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 51.68,
+      "end": 53.78,
+      "text": " İnfazlar planlandığı gibi devam edecek.",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 54.22,
+      "end": 56.64,
+      "text": " Kahretsin! Amerikalılar Bodrum'u ele geçirdi.",
+      "no_speech_prob": 0.4051329493522644
+    },
+    {
+      "start": 56.64,
+      "end": 60.42,
+      "text": " Silah tutabilen herkes Bodrum'da toplansın, hepsini öldüreceğiz!",
+      "no_speech_prob": 0.6348413825035095
+    },
+    {
+      "start": 60.86,
+      "end": 63.26,
+      "text": " Albay Bagrat, rapor ver! Albay Bagrat!",
+      "no_speech_prob": 0.6348413825035095
+    },
+    {
+      "start": 63.6,
+      "end": 65.14,
+      "text": " Kahretsin! Aşağı iniyorum!",
+      "no_speech_prob": 0.6348413825035095
+    },
+    {
+      "start": 65.4,
+      "end": 66.74,
+      "text": " Nosenko, benimle geliyorsun!",
+      "no_speech_prob": 0.6348413825035095
+    }
+  ],
+  "words": [
+    {
+      "text": " Blaustein",
+      "start": 0.0,
+      "end": 0.74,
+      "probability": 0.5624681413173676
+    },
+    {
+      "text": "'ın",
+      "start": 0.74,
+      "end": 0.9,
+      "probability": 0.7366330921649933
+    },
+    {
+      "text": " çıkını",
+      "start": 0.9,
+      "end": 1.2,
+      "probability": 0.9294271767139435
+    },
+    {
+      "text": " çıkarırken",
+      "start": 1.2,
+      "end": 1.8,
+      "probability": 0.9961850047111511
+    },
+    {
+      "text": " biraz",
+      "start": 1.8,
+      "end": 2.06,
+      "probability": 0.9601239562034607
+    },
+    {
+      "text": " zorlandık.",
+      "start": 2.06,
+      "end": 3.02,
+      "probability": 0.9963797330856323
+    },
+    {
+      "text": " Hala",
+      "start": 3.22,
+      "end": 3.48,
+      "probability": 0.9128352105617523
+    },
+    {
+      "text": " üzerinde",
+      "start": 3.48,
+      "end": 3.98,
+      "probability": 0.996102511882782
+    },
+    {
+      "text": " kas",
+      "start": 3.98,
+      "end": 4.22,
+      "probability": 0.9118788838386536
+    },
+    {
+      "text": " dokusu",
+      "start": 4.22,
+      "end": 4.56,
+      "probability": 0.9627774059772491
+    },
+    {
+      "text": " lifleri",
+      "start": 4.56,
+      "end": 4.94,
+      "probability": 0.9869065880775452
+    },
+    {
+      "text": " var.",
+      "start": 4.94,
+      "end": 5.26,
+      "probability": 0.9988459348678589
+    },
+    {
+      "text": " Ellerine",
+      "start": 5.8,
+      "end": 6.16,
+      "probability": 0.9907163679599762
+    },
+    {
+      "text": " kan",
+      "start": 6.16,
+      "end": 6.42,
+      "probability": 0.6875388026237488
+    },
+    {
+      "text": " bulaşmasın",
+      "start": 6.42,
+      "end": 7.02,
+      "probability": 0.9921545624732971
+    },
+    {
+      "text": " istiyorsan",
+      "start": 7.02,
+      "end": 7.64,
+      "probability": 0.9982259422540665
+    },
+    {
+      "text": " yanlış",
+      "start": 7.64,
+      "end": 8.02,
+      "probability": 0.90570068359375
+    },
+    {
+      "text": " işi",
+      "start": 8.02,
+      "end": 8.26,
+      "probability": 0.9966515898704529
+    },
+    {
+      "text": " seçmişsin.",
+      "start": 8.26,
+      "end": 8.98,
+      "probability": 0.9989747802416483
+    },
+    {
+      "text": " Sen",
+      "start": 9.38,
+      "end": 9.64,
+      "probability": 0.9921479821205139
+    },
+    {
+      "text": " sadece",
+      "start": 9.64,
+      "end": 10.14,
+      "probability": 0.9946288466453552
+    },
+    {
+      "text": " bir",
+      "start": 10.14,
+      "end": 10.52,
+      "probability": 0.9816921949386597
+    },
+    {
+      "text": " araçsın.",
+      "start": 10.52,
+      "end": 11.16,
+      "probability": 0.9828803539276123
+    },
+    {
+      "text": " Öyle",
+      "start": 11.44,
+      "end": 11.72,
+      "probability": 0.9961534142494202
+    },
+    {
+      "text": " mi?",
+      "start": 11.72,
+      "end": 12.24,
+      "probability": 0.9880450367927551
+    },
+    {
+      "text": " Temiz.",
+      "start": 12.58,
+      "end": 13.22,
+      "probability": 0.9936496913433075
+    },
+    {
+      "text": " Alarm!",
+      "start": 13.4,
+      "end": 13.72,
+      "probability": 0.9619942009449005
+    },
+    {
+      "text": " Herkes",
+      "start": 14.0,
+      "end": 14.42,
+      "probability": 0.9961361289024353
+    },
+    {
+      "text": " tam",
+      "start": 14.42,
+      "end": 14.66,
+      "probability": 0.9927288889884949
+    },
+    {
+      "text": " alarma",
+      "start": 14.66,
+      "end": 14.96,
+      "probability": 0.9208726584911346
+    },
+    {
+      "text": " geçsin!",
+      "start": 14.96,
+      "end": 15.38,
+      "probability": 0.9977240860462189
+    },
+    {
+      "text": " Nikoladze",
+      "start": 15.66,
+      "end": 16.14,
+      "probability": 0.6438783034682274
+    },
+    {
+      "text": "'nin",
+      "start": 16.14,
+      "end": 16.26,
+      "probability": 0.995652049779892
+    },
+    {
+      "text": " ofisinde",
+      "start": 16.26,
+      "end": 16.7,
+      "probability": 0.9970002969106039
+    },
+    {
+      "text": " bir",
+      "start": 16.7,
+      "end": 16.94,
+      "probability": 0.9657610058784485
+    },
+    {
+      "text": " davetsiz",
+      "start": 16.94,
+      "end": 17.36,
+      "probability": 0.9857401847839355
+    },
+    {
+      "text": " misafir",
+      "start": 17.36,
+      "end": 17.8,
+      "probability": 0.9996119936307272
+    },
+    {
+      "text": " var!",
+      "start": 17.8,
+      "end": 18.0,
+      "probability": 0.9989182949066162
+    },
+    {
+      "text": " Uyanın",
+      "start": 18.36,
+      "end": 18.72,
+      "probability": 0.9950740933418274
+    },
+    {
+      "text": " lan!",
+      "start": 18.72,
+      "end": 18.88,
+      "probability": 0.9563102126121521
+    },
+    {
+      "text": " Oraya",
+      "start": 19.14,
+      "end": 19.4,
+      "probability": 0.9944682121276855
+    },
+    {
+      "text": " hemen",
+      "start": 19.4,
+      "end": 19.7,
+      "probability": 0.9969492554664612
+    },
+    {
+      "text": " asker",
+      "start": 19.7,
+      "end": 20.04,
+      "probability": 0.9933653175830841
+    },
+    {
+      "text": " istiyorum!",
+      "start": 20.04,
+      "end": 20.38,
+      "probability": 0.9991191029548645
+    },
+    {
+      "text": " Durum",
+      "start": 20.82,
+      "end": 21.12,
+      "probability": 0.9948974549770355
+    },
+    {
+      "text": " raporu",
+      "start": 21.12,
+      "end": 21.44,
+      "probability": 0.9765962958335876
+    },
+    {
+      "text": " istiyorum!",
+      "start": 21.44,
+      "end": 21.82,
+      "probability": 0.9978142976760864
+    },
+    {
+      "text": " Bu",
+      "start": 22.08,
+      "end": 22.26,
+      "probability": 0.997661828994751
+    },
+    {
+      "text": " adam",
+      "start": 22.26,
+      "end": 22.46,
+      "probability": 0.9990552067756653
+    },
+    {
+      "text": " neden",
+      "start": 22.46,
+      "end": 22.82,
+      "probability": 0.9933818578720093
+    },
+    {
+      "text": " hala",
+      "start": 22.82,
+      "end": 23.06,
+      "probability": 0.8812568783760071
+    },
+    {
+      "text": " yakalanmadı?",
+      "start": 23.06,
+      "end": 23.66,
+      "probability": 0.9984371264775594
+    },
+    {
+      "text": " Arka",
+      "start": 23.96,
+      "end": 24.26,
+      "probability": 0.998062402009964
+    },
+    {
+      "text": " merdivende",
+      "start": 24.26,
+      "end": 24.68,
+      "probability": 0.9427989721298218
+    },
+    {
+      "text": " adamımız",
+      "start": 24.68,
+      "end": 25.06,
+      "probability": 0.9901480674743652
+    },
+    {
+      "text": " var",
+      "start": 25.06,
+      "end": 25.3,
+      "probability": 0.9991098046302795
+    },
+    {
+      "text": " mı?",
+      "start": 25.3,
+      "end": 25.42,
+      "probability": 0.9978860020637512
+    },
+    {
+      "text": " Odada",
+      "start": 25.8,
+      "end": 26.18,
+      "probability": 0.9435081779956818
+    },
+    {
+      "text": " kimliği",
+      "start": 26.18,
+      "end": 26.6,
+      "probability": 0.9957173466682434
+    },
+    {
+      "text": " ele",
+      "start": 26.6,
+      "end": 26.8,
+      "probability": 0.997986912727356
+    },
+    {
+      "text": " verecek",
+      "start": 26.8,
+      "end": 27.16,
+      "probability": 0.9965910911560059
+    },
+    {
+      "text": " ne",
+      "start": 27.16,
+      "end": 27.34,
+      "probability": 0.9927086234092712
+    },
+    {
+      "text": " varsa",
+      "start": 27.34,
+      "end": 27.58,
+      "probability": 0.9977020621299744
+    },
+    {
+      "text": " kaldırın.",
+      "start": 27.58,
+      "end": 28.14,
+      "probability": 0.9984535177548727
+    },
+    {
+      "text": " Işıkları",
+      "start": 28.14,
+      "end": 28.8,
+      "probability": 0.7453104716259986
+    },
+    {
+      "text": " duvarlara",
+      "start": 28.8,
+      "end": 29.22,
+      "probability": 0.8859184384346008
+    },
+    {
+      "text": " vurmayın.",
+      "start": 29.22,
+      "end": 29.74,
+      "probability": 0.991242527961731
+    },
+    {
+      "text": " Yüzlerini",
+      "start": 30.06,
+      "end": 30.46,
+      "probability": 0.9724093278249105
+    },
+    {
+      "text": " daha",
+      "start": 30.46,
+      "end": 30.74,
+      "probability": 0.9969968795776367
+    },
+    {
+      "text": " güçlü",
+      "start": 30.74,
+      "end": 31.06,
+      "probability": 0.9783970713615417
+    },
+    {
+      "text": " aydınlatın.",
+      "start": 31.06,
+      "end": 31.74,
+      "probability": 0.9969307065010071
+    },
+    {
+      "text": " Ölürlerken",
+      "start": 31.94,
+      "end": 32.5,
+      "probability": 0.9278546810150147
+    },
+    {
+      "text": " yüzlerini",
+      "start": 32.5,
+      "end": 33.08,
+      "probability": 0.9675798416137695
+    },
+    {
+      "text": " net",
+      "start": 33.08,
+      "end": 33.34,
+      "probability": 0.9909217953681946
+    },
+    {
+      "text": " görmemiz",
+      "start": 33.34,
+      "end": 33.9,
+      "probability": 0.9948442776997884
+    },
+    {
+      "text": " gerek.",
+      "start": 33.9,
+      "end": 34.14,
+      "probability": 0.9963204860687256
+    },
+    {
+      "text": " Sesçimiz",
+      "start": 34.46,
+      "end": 34.9,
+      "probability": 0.9530200759569804
+    },
+    {
+      "text": " nerede?",
+      "start": 34.9,
+      "end": 35.22,
+      "probability": 0.9662615060806274
+    },
+    {
+      "text": " Dualarını",
+      "start": 35.62,
+      "end": 36.08,
+      "probability": 0.8495270013809204
+    },
+    {
+      "text": " duyacak",
+      "start": 36.08,
+      "end": 36.44,
+      "probability": 0.9876042902469635
+    },
+    {
+      "text": " kadar",
+      "start": 36.44,
+      "end": 36.72,
+      "probability": 0.9995926022529602
+    },
+    {
+      "text": " yakından",
+      "start": 36.72,
+      "end": 37.14,
+      "probability": 0.9897312819957733
+    },
+    {
+      "text": " kayıtalım.",
+      "start": 37.14,
+      "end": 37.66,
+      "probability": 0.9393456180890402
+    },
+    {
+      "text": " Nikoladze",
+      "start": 38.08,
+      "end": 38.54,
+      "probability": 0.6420400813221931
+    },
+    {
+      "text": "'yi",
+      "start": 38.54,
+      "end": 38.58,
+      "probability": 0.9248023331165314
+    },
+    {
+      "text": " buradan",
+      "start": 38.58,
+      "end": 38.88,
+      "probability": 0.9977433681488037
+    },
+    {
+      "text": " çıkarın.",
+      "start": 38.88,
+      "end": 39.42,
+      "probability": 0.9562363624572754
+    },
+    {
+      "text": " Helikopteri",
+      "start": 39.52,
+      "end": 40.06,
+      "probability": 0.940073236823082
+    },
+    {
+      "text": " hemen",
+      "start": 40.06,
+      "end": 40.38,
+      "probability": 0.9980044960975647
+    },
+    {
+      "text": " havalansın.",
+      "start": 40.38,
+      "end": 41.06,
+      "probability": 0.9926501959562302
+    },
+    {
+      "text": " Silahlı",
+      "start": 41.28,
+      "end": 41.62,
+      "probability": 0.9838253458340963
+    },
+    {
+      "text": " eskortla",
+      "start": 41.62,
+      "end": 42.06,
+      "probability": 0.9581673592329025
+    },
+    {
+      "text": " bir",
+      "start": 42.06,
+      "end": 42.26,
+      "probability": 0.9619063138961792
+    },
+    {
+      "text": " teknisyen",
+      "start": 42.26,
+      "end": 42.66,
+      "probability": 0.99303271373113
+    },
+    {
+      "text": " ekibini",
+      "start": 42.66,
+      "end": 42.96,
+      "probability": 0.9898812174797058
+    },
+    {
+      "text": " çatıya",
+      "start": 42.96,
+      "end": 43.34,
+      "probability": 0.9956781417131424
+    },
+    {
+      "text": " gönderin,",
+      "start": 43.34,
+      "end": 43.78,
+      "probability": 0.9135962128639221
+    },
+    {
+      "text": " o",
+      "start": 43.9,
+      "end": 44.1,
+      "probability": 0.9655539393424988
+    },
+    {
+      "text": " anteni",
+      "start": 44.1,
+      "end": 44.42,
+      "probability": 0.9774220585823059
+    },
+    {
+      "text": " onarsınlar.",
+      "start": 44.42,
+      "end": 45.08,
+      "probability": 0.9801306873559952
+    },
+    {
+      "text": " Amerikalıları",
+      "start": 45.5,
+      "end": 46.0,
+      "probability": 0.9120192378759384
+    },
+    {
+      "text": " bulun",
+      "start": 46.0,
+      "end": 46.32,
+      "probability": 0.90703284740448
+    },
+    {
+      "text": " ve",
+      "start": 46.32,
+      "end": 46.66,
+      "probability": 0.9800097346305847
+    },
+    {
+      "text": " öldürün!",
+      "start": 46.66,
+      "end": 47.22,
+      "probability": 0.9981757799784342
+    },
+    {
+      "text": " Grinko",
+      "start": 47.64,
+      "end": 47.96,
+      "probability": 0.7659523288408915
+    },
+    {
+      "text": " konuşuyor.",
+      "start": 47.96,
+      "end": 48.56,
+      "probability": 0.9872924089431763
+    },
+    {
+      "text": " Amerikalı",
+      "start": 48.94,
+      "end": 49.26,
+      "probability": 0.954210122426351
+    },
+    {
+      "text": " askerleri",
+      "start": 49.26,
+      "end": 49.76,
+      "probability": 0.9950518608093262
+    },
+    {
+      "text": " hazırlayın",
+      "start": 49.76,
+      "end": 50.3,
+      "probability": 0.9983203609784445
+    },
+    {
+      "text": " ve",
+      "start": 50.3,
+      "end": 50.48,
+      "probability": 0.9940410256385803
+    },
+    {
+      "text": " stüdyoya",
+      "start": 50.48,
+      "end": 50.9,
+      "probability": 0.9852006882429123
+    },
+    {
+      "text": " götürün.",
+      "start": 50.9,
+      "end": 51.48,
+      "probability": 0.9991245071093241
+    },
+    {
+      "text": " İnfazlar",
+      "start": 51.68,
+      "end": 52.22,
+      "probability": 0.9609220027923584
+    },
+    {
+      "text": " planlandığı",
+      "start": 52.22,
+      "end": 52.84,
+      "probability": 0.9869456887245178
+    },
+    {
+      "text": " gibi",
+      "start": 52.84,
+      "end": 53.02,
+      "probability": 0.9978164434432983
+    },
+    {
+      "text": " devam",
+      "start": 53.02,
+      "end": 53.32,
+      "probability": 0.9944678544998169
+    },
+    {
+      "text": " edecek.",
+      "start": 53.32,
+      "end": 53.78,
+      "probability": 0.9963585138320923
+    },
+    {
+      "text": " Kahretsin!",
+      "start": 54.22,
+      "end": 54.92,
+      "probability": 0.9641092618306478
+    },
+    {
+      "text": " Amerikalılar",
+      "start": 55.16,
+      "end": 55.64,
+      "probability": 0.8886085897684097
+    },
+    {
+      "text": " Bodrum",
+      "start": 55.64,
+      "end": 55.98,
+      "probability": 0.8144165277481079
+    },
+    {
+      "text": "'u",
+      "start": 55.98,
+      "end": 56.02,
+      "probability": 0.9915371537208557
+    },
+    {
+      "text": " ele",
+      "start": 56.02,
+      "end": 56.22,
+      "probability": 0.9987429976463318
+    },
+    {
+      "text": " geçirdi.",
+      "start": 56.22,
+      "end": 56.64,
+      "probability": 0.9874587953090668
+    },
+    {
+      "text": " Silah",
+      "start": 56.64,
+      "end": 57.22,
+      "probability": 0.7785136699676514
+    },
+    {
+      "text": " tutabilen",
+      "start": 57.22,
+      "end": 57.72,
+      "probability": 0.9935517907142639
+    },
+    {
+      "text": " herkes",
+      "start": 57.72,
+      "end": 58.06,
+      "probability": 0.9770575761795044
+    },
+    {
+      "text": " Bodrum'da",
+      "start": 58.06,
+      "end": 58.54,
+      "probability": 0.9264180511236191
+    },
+    {
+      "text": " toplansın,",
+      "start": 58.54,
+      "end": 59.2,
+      "probability": 0.8752124110857645
+    },
+    {
+      "text": " hepsini",
+      "start": 59.48,
+      "end": 59.74,
+      "probability": 0.900156557559967
+    },
+    {
+      "text": " öldüreceğiz!",
+      "start": 59.74,
+      "end": 60.42,
+      "probability": 0.9781662821769714
+    },
+    {
+      "text": " Albay",
+      "start": 60.86,
+      "end": 61.08,
+      "probability": 0.959254652261734
+    },
+    {
+      "text": " Bagrat,",
+      "start": 61.08,
+      "end": 61.48,
+      "probability": 0.8832022249698639
+    },
+    {
+      "text": " rapor",
+      "start": 61.76,
+      "end": 61.98,
+      "probability": 0.9831168055534363
+    },
+    {
+      "text": " ver!",
+      "start": 61.98,
+      "end": 62.16,
+      "probability": 0.9966291785240173
+    },
+    {
+      "text": " Albay",
+      "start": 62.48,
+      "end": 62.68,
+      "probability": 0.9924247860908508
+    },
+    {
+      "text": " Bagrat!",
+      "start": 62.68,
+      "end": 63.26,
+      "probability": 0.997503399848938
+    },
+    {
+      "text": " Kahretsin!",
+      "start": 63.6,
+      "end": 64.22,
+      "probability": 0.9850718379020691
+    },
+    {
+      "text": " Aşağı",
+      "start": 64.44,
+      "end": 64.74,
+      "probability": 0.9916561643282572
+    },
+    {
+      "text": " iniyorum!",
+      "start": 64.74,
+      "end": 65.14,
+      "probability": 0.7132445126771927
+    },
+    {
+      "text": " Nosenko,",
+      "start": 65.4,
+      "end": 65.76,
+      "probability": 0.5686163753271103
+    },
+    {
+      "text": " benimle",
+      "start": 66.06,
+      "end": 66.36,
+      "probability": 0.9918877482414246
+    },
+    {
+      "text": " geliyorsun!",
+      "start": 66.36,
+      "end": 66.74,
+      "probability": 0.9972756505012512
+    }
+  ],
+  "text": " Blaustein'ın çıkını çıkarırken biraz zorlandık.  Hala üzerinde kas dokusu lifleri var.  Ellerine kan bulaşmasın istiyorsan yanlış işi seçmişsin.  Sen sadece bir araçsın. Öyle mi? Temiz.  Alarm! Herkes tam alarma geçsin!  Nikoladze'nin ofisinde bir davetsiz misafir var!  Uyanın lan! Oraya hemen asker istiyorum!  Durum raporu istiyorum! Bu adam neden hala yakalanmadı?  Arka merdivende adamımız var mı?  Odada kimliği ele verecek ne varsa kaldırın.  Işıkları duvarlara vurmayın. Yüzlerini daha güçlü aydınlatın.  Ölürlerken yüzlerini net görmemiz gerek.  Sesçimiz nerede?  Dualarını duyacak kadar yakından kayıtalım.  Nikoladze'yi buradan çıkarın. Helikopteri hemen havalansın.  Silahlı eskortla bir teknisyen ekibini çatıya gönderin, o anteni onarsınlar.  Amerikalıları bulun ve öldürün!  Grinko konuşuyor.  Amerikalı askerleri hazırlayın ve stüdyoya götürün.  İnfazlar planlandığı gibi devam edecek.  Kahretsin! Amerikalılar Bodrum'u ele geçirdi.  Silah tutabilen herkes Bodrum'da toplansın, hepsini öldüreceğiz!  Albay Bagrat, rapor ver! Albay Bagrat!  Kahretsin! Aşağı iniyorum!  Nosenko, benimle geliyorsun!",
+  "elapsed_seconds": 24.19
+}

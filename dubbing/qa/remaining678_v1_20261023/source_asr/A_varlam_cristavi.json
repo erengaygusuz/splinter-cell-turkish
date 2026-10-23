@@ -1,0 +1,487 @@
+{
+  "path": "/run/media/ereng/files/projects/splinter-cell-turkish/dubbing/characters/varlam_cristavi/gameplay/voice_versions/PVC001/batches/VC001_20261022/varlam_cristavi_alvin_pvc001_gameplay9_vc001_20261022_minus16lufs_v02_master.wav",
+  "sha256": "fe8928671b2ae664aa499c335569d741e6d856c624412eec9e5126c0c6298bf9",
+  "model": "medium",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "language": "tr",
+  "word_timestamps": true,
+  "condition_on_previous_text": false,
+  "vad_filter": false,
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.76,
+      "text": " İnanması zor, işimiz bitince kaçış yolun var mı?",
+      "no_speech_prob": 0.20764568448066711
+    },
+    {
+      "start": 4.06,
+      "end": 8.94,
+      "text": " Güzel, ark güvenceye alınana kadar Amerikalıları fazla öfkelen demek istemiyorum.",
+      "no_speech_prob": 0.20764568448066711
+    },
+    {
+      "start": 9.1,
+      "end": 10.98,
+      "text": " Çabuk ol, burada fazla kalamazsın.",
+      "no_speech_prob": 0.20764568448066711
+    },
+    {
+      "start": 11.36,
+      "end": 16.78,
+      "text": " Elbette, yaratıcılarının varlığını bile kabul edemediği bir silahın değerini küçümsediğimi sanma.",
+      "no_speech_prob": 0.20764568448066711
+    },
+    {
+      "start": 17.12,
+      "end": 20.72,
+      "text": " Buyur, Nikoladze, ne de olsa humidor gir zamanlar senindi.",
+      "no_speech_prob": 0.20764568448066711
+    },
+    {
+      "start": 21.16,
+      "end": 23.18,
+      "text": " Amerikalıları düşman edinmeye niyetim yok.",
+      "no_speech_prob": 0.20764568448066711
+    },
+    {
+      "start": 23.64,
+      "end": 27.22,
+      "text": " Amerikalılara hiçbir zaman dostlarım demedim, sadece komşularım.",
+      "no_speech_prob": 0.20764568448066711
+    },
+    {
+      "start": 27.58,
+      "end": 29.66,
+      "text": " Evet, anlaştık, paranı alacaksın.",
+      "no_speech_prob": 0.20764568448066711
+    },
+    {
+      "start": 29.66,
+      "end": 34.66,
+      "text": " Anlaştık. Sizinle olmak bir zevkti ama umarım bir daha karşılaşmayız.",
+      "no_speech_prob": 0.0749467983841896
+    }
+  ],
+  "words": [
+    {
+      "text": " İnanması",
+      "start": 0.0,
+      "end": 0.68,
+      "probability": 0.8175430695215861
+    },
+    {
+      "text": " zor,",
+      "start": 0.68,
+      "end": 1.34,
+      "probability": 0.9944023489952087
+    },
+    {
+      "text": " işimiz",
+      "start": 1.66,
+      "end": 1.98,
+      "probability": 0.9827525913715363
+    },
+    {
+      "text": " bitince",
+      "start": 1.98,
+      "end": 2.44,
+      "probability": 0.998575359582901
+    },
+    {
+      "text": " kaçış",
+      "start": 2.44,
+      "end": 3.04,
+      "probability": 0.9755410552024841
+    },
+    {
+      "text": " yolun",
+      "start": 3.04,
+      "end": 3.3,
+      "probability": 0.8816191554069519
+    },
+    {
+      "text": " var",
+      "start": 3.3,
+      "end": 3.5,
+      "probability": 0.9943429231643677
+    },
+    {
+      "text": " mı?",
+      "start": 3.5,
+      "end": 3.76,
+      "probability": 0.9960965514183044
+    },
+    {
+      "text": " Güzel,",
+      "start": 4.06,
+      "end": 4.7,
+      "probability": 0.9769249558448792
+    },
+    {
+      "text": " ark",
+      "start": 4.9,
+      "end": 5.1,
+      "probability": 0.355369508266449
+    },
+    {
+      "text": " güvenceye",
+      "start": 5.1,
+      "end": 5.66,
+      "probability": 0.9756375849246979
+    },
+    {
+      "text": " alınana",
+      "start": 5.66,
+      "end": 6.0,
+      "probability": 0.9975231885910034
+    },
+    {
+      "text": " kadar",
+      "start": 6.0,
+      "end": 6.36,
+      "probability": 0.998573899269104
+    },
+    {
+      "text": " Amerikalıları",
+      "start": 6.36,
+      "end": 7.06,
+      "probability": 0.923541858792305
+    },
+    {
+      "text": " fazla",
+      "start": 7.06,
+      "end": 7.36,
+      "probability": 0.9901354908943176
+    },
+    {
+      "text": " öfkelen",
+      "start": 7.36,
+      "end": 7.78,
+      "probability": 0.991860955953598
+    },
+    {
+      "text": " demek",
+      "start": 7.78,
+      "end": 8.02,
+      "probability": 0.9794124364852905
+    },
+    {
+      "text": " istemiyorum.",
+      "start": 8.02,
+      "end": 8.94,
+      "probability": 0.9950008988380432
+    },
+    {
+      "text": " Çabuk",
+      "start": 9.1,
+      "end": 9.4,
+      "probability": 0.9962448875109354
+    },
+    {
+      "text": " ol,",
+      "start": 9.4,
+      "end": 9.6,
+      "probability": 0.9966223239898682
+    },
+    {
+      "text": " burada",
+      "start": 9.8,
+      "end": 10.02,
+      "probability": 0.8176137804985046
+    },
+    {
+      "text": " fazla",
+      "start": 10.02,
+      "end": 10.32,
+      "probability": 0.9971644282341003
+    },
+    {
+      "text": " kalamazsın.",
+      "start": 10.32,
+      "end": 10.98,
+      "probability": 0.9991864363352457
+    },
+    {
+      "text": " Elbette,",
+      "start": 11.36,
+      "end": 12.04,
+      "probability": 0.9979571501413981
+    },
+    {
+      "text": " yaratıcılarının",
+      "start": 12.36,
+      "end": 13.08,
+      "probability": 0.9093623161315918
+    },
+    {
+      "text": " varlığını",
+      "start": 13.08,
+      "end": 13.46,
+      "probability": 0.9949021339416504
+    },
+    {
+      "text": " bile",
+      "start": 13.46,
+      "end": 13.72,
+      "probability": 0.9974178075790405
+    },
+    {
+      "text": " kabul",
+      "start": 13.72,
+      "end": 14.02,
+      "probability": 0.9973128437995911
+    },
+    {
+      "text": " edemediği",
+      "start": 14.02,
+      "end": 14.54,
+      "probability": 0.9928652942180634
+    },
+    {
+      "text": " bir",
+      "start": 14.54,
+      "end": 14.76,
+      "probability": 0.9935212731361389
+    },
+    {
+      "text": " silahın",
+      "start": 14.76,
+      "end": 15.12,
+      "probability": 0.9975714484850565
+    },
+    {
+      "text": " değerini",
+      "start": 15.12,
+      "end": 15.46,
+      "probability": 0.9881986975669861
+    },
+    {
+      "text": " küçümsediğimi",
+      "start": 15.46,
+      "end": 16.3,
+      "probability": 0.9424430727958679
+    },
+    {
+      "text": " sanma.",
+      "start": 16.3,
+      "end": 16.78,
+      "probability": 0.9953081011772156
+    },
+    {
+      "text": " Buyur,",
+      "start": 17.12,
+      "end": 17.44,
+      "probability": 0.9620493948459625
+    },
+    {
+      "text": " Nikoladze,",
+      "start": 17.58,
+      "end": 18.26,
+      "probability": 0.7765676975250244
+    },
+    {
+      "text": " ne",
+      "start": 18.48,
+      "end": 18.58,
+      "probability": 0.9824211001396179
+    },
+    {
+      "text": " de",
+      "start": 18.58,
+      "end": 18.78,
+      "probability": 0.9878373146057129
+    },
+    {
+      "text": " olsa",
+      "start": 18.78,
+      "end": 19.0,
+      "probability": 0.9990350008010864
+    },
+    {
+      "text": " humidor",
+      "start": 19.0,
+      "end": 19.48,
+      "probability": 0.614084780216217
+    },
+    {
+      "text": " gir",
+      "start": 19.48,
+      "end": 19.7,
+      "probability": 0.4766135513782501
+    },
+    {
+      "text": " zamanlar",
+      "start": 19.7,
+      "end": 20.24,
+      "probability": 0.9858720004558563
+    },
+    {
+      "text": " senindi.",
+      "start": 20.24,
+      "end": 20.72,
+      "probability": 0.9538949728012085
+    },
+    {
+      "text": " Amerikalıları",
+      "start": 21.16,
+      "end": 21.7,
+      "probability": 0.9810692220926285
+    },
+    {
+      "text": " düşman",
+      "start": 21.7,
+      "end": 22.08,
+      "probability": 0.9967740476131439
+    },
+    {
+      "text": " edinmeye",
+      "start": 22.08,
+      "end": 22.46,
+      "probability": 0.991407553354899
+    },
+    {
+      "text": " niyetim",
+      "start": 22.46,
+      "end": 22.96,
+      "probability": 0.9975667595863342
+    },
+    {
+      "text": " yok.",
+      "start": 22.96,
+      "end": 23.18,
+      "probability": 0.9997641444206238
+    },
+    {
+      "text": " Amerikalılara",
+      "start": 23.64,
+      "end": 24.2,
+      "probability": 0.9910481721162796
+    },
+    {
+      "text": " hiçbir",
+      "start": 24.2,
+      "end": 24.6,
+      "probability": 0.8638674020767212
+    },
+    {
+      "text": " zaman",
+      "start": 24.6,
+      "end": 24.9,
+      "probability": 0.9990805387496948
+    },
+    {
+      "text": " dostlarım",
+      "start": 24.9,
+      "end": 25.42,
+      "probability": 0.9942653973897299
+    },
+    {
+      "text": " demedim,",
+      "start": 25.42,
+      "end": 25.98,
+      "probability": 0.9964746634165446
+    },
+    {
+      "text": " sadece",
+      "start": 26.2,
+      "end": 26.56,
+      "probability": 0.9975669384002686
+    },
+    {
+      "text": " komşularım.",
+      "start": 26.56,
+      "end": 27.22,
+      "probability": 0.9982331097126007
+    },
+    {
+      "text": " Evet,",
+      "start": 27.58,
+      "end": 27.9,
+      "probability": 0.9983071088790894
+    },
+    {
+      "text": " anlaştık,",
+      "start": 28.12,
+      "end": 28.68,
+      "probability": 0.9979510009288788
+    },
+    {
+      "text": " paranı",
+      "start": 28.98,
+      "end": 29.2,
+      "probability": 0.9830039143562317
+    },
+    {
+      "text": " alacaksın.",
+      "start": 29.2,
+      "end": 29.66,
+      "probability": 0.9961978197097778
+    },
+    {
+      "text": " Anlaştık.",
+      "start": 29.66,
+      "end": 30.84,
+      "probability": 0.9575797617435455
+    },
+    {
+      "text": " Sizinle",
+      "start": 31.14,
+      "end": 31.44,
+      "probability": 0.9907182256380717
+    },
+    {
+      "text": " olmak",
+      "start": 31.44,
+      "end": 31.68,
+      "probability": 0.9897965788841248
+    },
+    {
+      "text": " bir",
+      "start": 31.68,
+      "end": 31.98,
+      "probability": 0.9649337530136108
+    },
+    {
+      "text": " zevkti",
+      "start": 31.98,
+      "end": 32.54,
+      "probability": 0.9936776459217072
+    },
+    {
+      "text": " ama",
+      "start": 32.54,
+      "end": 32.98,
+      "probability": 0.41876208782196045
+    },
+    {
+      "text": " umarım",
+      "start": 32.98,
+      "end": 33.4,
+      "probability": 0.9753905236721039
+    },
+    {
+      "text": " bir",
+      "start": 33.4,
+      "end": 33.62,
+      "probability": 0.9712916612625122
+    },
+    {
+      "text": " daha",
+      "start": 33.62,
+      "end": 33.78,
+      "probability": 0.9973701238632202
+    },
+    {
+      "text": " karşılaşmayız.",
+      "start": 33.78,
+      "end": 34.66,
+      "probability": 0.9955650866031647
+    }
+  ],
+  "text": " İnanması zor, işimiz bitince kaçış yolun var mı?  Güzel, ark güvenceye alınana kadar Amerikalıları fazla öfkelen demek istemiyorum.  Çabuk ol, burada fazla kalamazsın.  Elbette, yaratıcılarının varlığını bile kabul edemediği bir silahın değerini küçümsediğimi sanma.  Buyur, Nikoladze, ne de olsa humidor gir zamanlar senindi.  Amerikalıları düşman edinmeye niyetim yok.  Amerikalılara hiçbir zaman dostlarım demedim, sadece komşularım.  Evet, anlaştık, paranı alacaksın.  Anlaştık. Sizinle olmak bir zevkti ama umarım bir daha karşılaşmayız.",
+  "elapsed_seconds": 13.41
+}

@@ -1,0 +1,925 @@
+{
+  "path": "/run/media/ereng/files/projects/splinter-cell-turkish/dubbing/characters/junior_wilkes/gameplay/voice_versions/VD001/batches/W001_20261022/junior_wilkes_vd001_gameplay23_w001_20261022_080022.mp3",
+  "sha256": "3c0ab218a9c0d32eb9a98cb49c1a75fc8da1caefb4a2880e5e6ef1b61facc8bd",
+  "model": "medium",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "language": "tr",
+  "word_timestamps": true,
+  "condition_on_previous_text": false,
+  "vad_filter": false,
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.18,
+      "text": " Bu o olmalı.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 1.44,
+      "end": 4.4,
+      "text": " Hey! Yaptıkların hakkında acayip şeyler duydum.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 4.62,
+      "end": 6.32,
+      "text": " Aynen, kesinlikle.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 6.6,
+      "end": 9.06,
+      "text": " Adamım, sahaya dönmek için can atıyorsundur ha?",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 9.36,
+      "end": 10.62,
+      "text": " İhtiyacımız olan da bu.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 10.98,
+      "end": 12.14,
+      "text": " NCA'ya hoş geldin.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 12.44,
+      "end": 13.48,
+      "text": " Orada ne buldun öyle?",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 13.86,
+      "end": 15.24,
+      "text": " Lambert resmen çıldırıyor.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 15.64,
+      "end": 16.54,
+      "text": " Savaşa gidiyoruz.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 17.0,
+      "end": 19.44,
+      "text": " Şükürler olsun, hiç gitmeyecek sandım.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 19.64,
+      "end": 20.66,
+      "text": " Evet, bu o.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 20.88,
+      "end": 21.48,
+      "text": " Doggarty nerede?",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 21.92,
+      "end": 24.26,
+      "text": " Lambert şu kalinat ekişi yüzünden çıldırıyor.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 24.66,
+      "end": 27.06,
+      "text": " Şükürler olsun, hiç gitmeyecek sandım.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 27.28,
+      "end": 28.28,
+      "text": " Evet, bu o.",
+      "no_speech_prob": 0.23202437162399292
+    },
+    {
+      "start": 28.28,
+      "end": 29.98,
+      "text": " Nadiren, ama evet.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 30.42,
+      "end": 31.66,
+      "text": " Sorbu için demek istiyor.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 31.96,
+      "end": 33.1,
+      "text": " İnsanları konuşturmak için.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 33.54,
+      "end": 36.08,
+      "text": " Şu şeyin adı neydi? Pento bir şey.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 36.46,
+      "end": 37.82,
+      "text": " Bu bayağı ürkütücü.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 38.08,
+      "end": 38.82,
+      "text": " Takma kafana.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 39.22,
+      "end": 40.88,
+      "text": " Kahretsin! Biri onu durdursun!",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 41.26,
+      "end": 43.04,
+      "text": " Lambert sana Sarah'dan bahsetti mi?",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 43.28,
+      "end": 43.76,
+      "text": " O iyi.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 44.04,
+      "end": 46.8,
+      "text": " Elektrik kesintisi onu korkuttu ama hiçbir şeyi yok.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 47.18,
+      "end": 48.34,
+      "text": " Fazla duygusallaşma.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 48.58,
+      "end": 49.4,
+      "text": " Hadi çıkalım buradan.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 49.74,
+      "end": 50.9,
+      "text": " Daha fazla yaklaşamayız.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 51.12,
+      "end": 52.0,
+      "text": " Ayrıntılar tamam mı?",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 52.24,
+      "end": 53.96,
+      "text": " Bu son dakika işleri beni geriyor.",
+      "no_speech_prob": 0.06254853308200836
+    },
+    {
+      "start": 54.32,
+      "end": 55.52,
+      "text": " Peki, dikkatli ol.",
+      "no_speech_prob": 0.06254853308200836
+    }
+  ],
+  "words": [
+    {
+      "text": " Bu",
+      "start": 0.0,
+      "end": 0.24,
+      "probability": 0.5209649801254272
+    },
+    {
+      "text": " o",
+      "start": 0.24,
+      "end": 0.52,
+      "probability": 0.44988298416137695
+    },
+    {
+      "text": " olmalı.",
+      "start": 0.52,
+      "end": 1.18,
+      "probability": 0.9868610501289368
+    },
+    {
+      "text": " Hey!",
+      "start": 1.44,
+      "end": 1.8,
+      "probability": 0.8051838874816895
+    },
+    {
+      "text": " Yaptıkların",
+      "start": 2.08,
+      "end": 2.62,
+      "probability": 0.9958848804235458
+    },
+    {
+      "text": " hakkında",
+      "start": 2.62,
+      "end": 3.02,
+      "probability": 0.9941951930522919
+    },
+    {
+      "text": " acayip",
+      "start": 3.02,
+      "end": 3.54,
+      "probability": 0.9924064675966898
+    },
+    {
+      "text": " şeyler",
+      "start": 3.54,
+      "end": 3.86,
+      "probability": 0.9991289973258972
+    },
+    {
+      "text": " duydum.",
+      "start": 3.86,
+      "end": 4.4,
+      "probability": 0.996916135152181
+    },
+    {
+      "text": " Aynen,",
+      "start": 4.62,
+      "end": 5.12,
+      "probability": 0.9803334176540375
+    },
+    {
+      "text": " kesinlikle.",
+      "start": 5.54,
+      "end": 6.32,
+      "probability": 0.9919438660144806
+    },
+    {
+      "text": " Adamım,",
+      "start": 6.6,
+      "end": 7.06,
+      "probability": 0.9785423278808594
+    },
+    {
+      "text": " sahaya",
+      "start": 7.28,
+      "end": 7.46,
+      "probability": 0.9886457324028015
+    },
+    {
+      "text": " dönmek",
+      "start": 7.46,
+      "end": 7.82,
+      "probability": 0.9991848170757294
+    },
+    {
+      "text": " için",
+      "start": 7.82,
+      "end": 8.04,
+      "probability": 0.9994921684265137
+    },
+    {
+      "text": " can",
+      "start": 8.04,
+      "end": 8.22,
+      "probability": 0.9978359341621399
+    },
+    {
+      "text": " atıyorsundur",
+      "start": 8.22,
+      "end": 8.84,
+      "probability": 0.9727499842643738
+    },
+    {
+      "text": " ha?",
+      "start": 8.84,
+      "end": 9.06,
+      "probability": 0.45266085863113403
+    },
+    {
+      "text": " İhtiyacımız",
+      "start": 9.36,
+      "end": 10.02,
+      "probability": 0.9873458266258239
+    },
+    {
+      "text": " olan",
+      "start": 10.02,
+      "end": 10.2,
+      "probability": 0.9534581899642944
+    },
+    {
+      "text": " da",
+      "start": 10.2,
+      "end": 10.42,
+      "probability": 0.9966388940811157
+    },
+    {
+      "text": " bu.",
+      "start": 10.42,
+      "end": 10.62,
+      "probability": 0.9976199269294739
+    },
+    {
+      "text": " NCA",
+      "start": 10.98,
+      "end": 11.32,
+      "probability": 0.4316772520542145
+    },
+    {
+      "text": "'ya",
+      "start": 11.32,
+      "end": 11.48,
+      "probability": 0.7957158982753754
+    },
+    {
+      "text": " hoş",
+      "start": 11.48,
+      "end": 11.76,
+      "probability": 0.9946715235710144
+    },
+    {
+      "text": " geldin.",
+      "start": 11.76,
+      "end": 12.14,
+      "probability": 0.9872686862945557
+    },
+    {
+      "text": " Orada",
+      "start": 12.44,
+      "end": 12.72,
+      "probability": 0.9064236879348755
+    },
+    {
+      "text": " ne",
+      "start": 12.72,
+      "end": 12.92,
+      "probability": 0.9951660633087158
+    },
+    {
+      "text": " buldun",
+      "start": 12.92,
+      "end": 13.2,
+      "probability": 0.9969871938228607
+    },
+    {
+      "text": " öyle?",
+      "start": 13.2,
+      "end": 13.48,
+      "probability": 0.9917638301849365
+    },
+    {
+      "text": " Lambert",
+      "start": 13.86,
+      "end": 14.12,
+      "probability": 0.9909860193729401
+    },
+    {
+      "text": " resmen",
+      "start": 14.12,
+      "end": 14.58,
+      "probability": 0.9966962933540344
+    },
+    {
+      "text": " çıldırıyor.",
+      "start": 14.58,
+      "end": 15.24,
+      "probability": 0.9955822229385376
+    },
+    {
+      "text": " Savaşa",
+      "start": 15.64,
+      "end": 16.1,
+      "probability": 0.8456092874209086
+    },
+    {
+      "text": " gidiyoruz.",
+      "start": 16.1,
+      "end": 16.54,
+      "probability": 0.999404639005661
+    },
+    {
+      "text": " Şükürler",
+      "start": 17.0,
+      "end": 17.54,
+      "probability": 0.9966110736131668
+    },
+    {
+      "text": " olsun,",
+      "start": 17.54,
+      "end": 17.92,
+      "probability": 0.9997312426567078
+    },
+    {
+      "text": " hiç",
+      "start": 18.12,
+      "end": 18.36,
+      "probability": 0.9850559234619141
+    },
+    {
+      "text": " gitmeyecek",
+      "start": 18.36,
+      "end": 18.88,
+      "probability": 0.9982099334398905
+    },
+    {
+      "text": " sandım.",
+      "start": 18.88,
+      "end": 19.44,
+      "probability": 0.9975728094577789
+    },
+    {
+      "text": " Evet,",
+      "start": 19.64,
+      "end": 19.98,
+      "probability": 0.9988481998443604
+    },
+    {
+      "text": " bu",
+      "start": 20.1,
+      "end": 20.28,
+      "probability": 0.9962548017501831
+    },
+    {
+      "text": " o.",
+      "start": 20.28,
+      "end": 20.66,
+      "probability": 0.9958886504173279
+    },
+    {
+      "text": " Doggarty",
+      "start": 20.88,
+      "end": 21.26,
+      "probability": 0.5683016777038574
+    },
+    {
+      "text": " nerede?",
+      "start": 21.26,
+      "end": 21.48,
+      "probability": 0.9849648475646973
+    },
+    {
+      "text": " Lambert",
+      "start": 21.92,
+      "end": 22.32,
+      "probability": 0.9984312355518341
+    },
+    {
+      "text": " şu",
+      "start": 22.32,
+      "end": 22.52,
+      "probability": 0.8347382545471191
+    },
+    {
+      "text": " kalinat",
+      "start": 22.52,
+      "end": 22.92,
+      "probability": 0.6769469777743021
+    },
+    {
+      "text": " ekişi",
+      "start": 22.92,
+      "end": 23.22,
+      "probability": 0.889453649520874
+    },
+    {
+      "text": " yüzünden",
+      "start": 23.22,
+      "end": 23.6,
+      "probability": 0.9975469410419464
+    },
+    {
+      "text": " çıldırıyor.",
+      "start": 23.6,
+      "end": 24.26,
+      "probability": 0.9972618222236633
+    },
+    {
+      "text": " Şükürler",
+      "start": 24.66,
+      "end": 25.2,
+      "probability": 0.9983227550983429
+    },
+    {
+      "text": " olsun,",
+      "start": 25.2,
+      "end": 25.54,
+      "probability": 0.9997774958610535
+    },
+    {
+      "text": " hiç",
+      "start": 25.74,
+      "end": 25.96,
+      "probability": 0.9937973618507385
+    },
+    {
+      "text": " gitmeyecek",
+      "start": 25.96,
+      "end": 26.52,
+      "probability": 0.998817245165507
+    },
+    {
+      "text": " sandım.",
+      "start": 26.52,
+      "end": 27.06,
+      "probability": 0.9979631900787354
+    },
+    {
+      "text": " Evet,",
+      "start": 27.28,
+      "end": 27.6,
+      "probability": 0.999261200428009
+    },
+    {
+      "text": " bu",
+      "start": 27.78,
+      "end": 27.92,
+      "probability": 0.997913658618927
+    },
+    {
+      "text": " o.",
+      "start": 27.92,
+      "end": 28.28,
+      "probability": 0.9981557726860046
+    },
+    {
+      "text": " Nadiren,",
+      "start": 28.28,
+      "end": 29.04,
+      "probability": 0.9065755605697632
+    },
+    {
+      "text": " ama",
+      "start": 29.42,
+      "end": 29.54,
+      "probability": 0.9916397929191589
+    },
+    {
+      "text": " evet.",
+      "start": 29.54,
+      "end": 29.98,
+      "probability": 0.9930642247200012
+    },
+    {
+      "text": " Sorbu",
+      "start": 30.42,
+      "end": 30.68,
+      "probability": 0.915814071893692
+    },
+    {
+      "text": " için",
+      "start": 30.68,
+      "end": 30.88,
+      "probability": 0.9937838315963745
+    },
+    {
+      "text": " demek",
+      "start": 30.88,
+      "end": 31.16,
+      "probability": 0.9978232383728027
+    },
+    {
+      "text": " istiyor.",
+      "start": 31.16,
+      "end": 31.66,
+      "probability": 0.9902955591678619
+    },
+    {
+      "text": " İnsanları",
+      "start": 31.96,
+      "end": 32.28,
+      "probability": 0.9928894837697347
+    },
+    {
+      "text": " konuşturmak",
+      "start": 32.28,
+      "end": 32.9,
+      "probability": 0.9910447597503662
+    },
+    {
+      "text": " için.",
+      "start": 32.9,
+      "end": 33.1,
+      "probability": 0.9995973706245422
+    },
+    {
+      "text": " Şu",
+      "start": 33.54,
+      "end": 33.76,
+      "probability": 0.9525142312049866
+    },
+    {
+      "text": " şeyin",
+      "start": 33.76,
+      "end": 34.06,
+      "probability": 0.9828332364559174
+    },
+    {
+      "text": " adı",
+      "start": 34.06,
+      "end": 34.26,
+      "probability": 0.9979116320610046
+    },
+    {
+      "text": " neydi?",
+      "start": 34.26,
+      "end": 34.64,
+      "probability": 0.9966433048248291
+    },
+    {
+      "text": " Pento",
+      "start": 34.96,
+      "end": 35.48,
+      "probability": 0.8350523710250854
+    },
+    {
+      "text": " bir",
+      "start": 35.48,
+      "end": 35.92,
+      "probability": 0.5586555600166321
+    },
+    {
+      "text": " şey.",
+      "start": 35.92,
+      "end": 36.08,
+      "probability": 0.9966710209846497
+    },
+    {
+      "text": " Bu",
+      "start": 36.46,
+      "end": 36.76,
+      "probability": 0.9907327890396118
+    },
+    {
+      "text": " bayağı",
+      "start": 36.76,
+      "end": 37.26,
+      "probability": 0.9832407434781393
+    },
+    {
+      "text": " ürkütücü.",
+      "start": 37.26,
+      "end": 37.82,
+      "probability": 0.9916248023509979
+    },
+    {
+      "text": " Takma",
+      "start": 38.08,
+      "end": 38.46,
+      "probability": 0.9925839006900787
+    },
+    {
+      "text": " kafana.",
+      "start": 38.46,
+      "end": 38.82,
+      "probability": 0.999276727437973
+    },
+    {
+      "text": " Kahretsin!",
+      "start": 39.22,
+      "end": 39.8,
+      "probability": 0.992453376452128
+    },
+    {
+      "text": " Biri",
+      "start": 39.98,
+      "end": 40.18,
+      "probability": 0.9938707053661346
+    },
+    {
+      "text": " onu",
+      "start": 40.18,
+      "end": 40.28,
+      "probability": 0.9964597821235657
+    },
+    {
+      "text": " durdursun!",
+      "start": 40.28,
+      "end": 40.88,
+      "probability": 0.9989594221115112
+    },
+    {
+      "text": " Lambert",
+      "start": 41.26,
+      "end": 41.58,
+      "probability": 0.9855011701583862
+    },
+    {
+      "text": " sana",
+      "start": 41.58,
+      "end": 41.88,
+      "probability": 0.9687066078186035
+    },
+    {
+      "text": " Sarah'dan",
+      "start": 41.88,
+      "end": 42.36,
+      "probability": 0.8362380266189575
+    },
+    {
+      "text": " bahsetti",
+      "start": 42.36,
+      "end": 42.8,
+      "probability": 0.9966119925181071
+    },
+    {
+      "text": " mi?",
+      "start": 42.8,
+      "end": 43.04,
+      "probability": 0.9985308647155762
+    },
+    {
+      "text": " O",
+      "start": 43.28,
+      "end": 43.46,
+      "probability": 0.9905226826667786
+    },
+    {
+      "text": " iyi.",
+      "start": 43.46,
+      "end": 43.76,
+      "probability": 0.9723117351531982
+    },
+    {
+      "text": " Elektrik",
+      "start": 44.04,
+      "end": 44.48,
+      "probability": 0.990732729434967
+    },
+    {
+      "text": " kesintisi",
+      "start": 44.48,
+      "end": 44.96,
+      "probability": 0.9975774884223938
+    },
+    {
+      "text": " onu",
+      "start": 44.96,
+      "end": 45.14,
+      "probability": 0.9973799586296082
+    },
+    {
+      "text": " korkuttu",
+      "start": 45.14,
+      "end": 45.66,
+      "probability": 0.9802059531211853
+    },
+    {
+      "text": " ama",
+      "start": 45.66,
+      "end": 46.0,
+      "probability": 0.9665189981460571
+    },
+    {
+      "text": " hiçbir",
+      "start": 46.0,
+      "end": 46.34,
+      "probability": 0.9584097862243652
+    },
+    {
+      "text": " şeyi",
+      "start": 46.34,
+      "end": 46.52,
+      "probability": 0.7234389185905457
+    },
+    {
+      "text": " yok.",
+      "start": 46.52,
+      "end": 46.8,
+      "probability": 0.9980229139328003
+    },
+    {
+      "text": " Fazla",
+      "start": 47.18,
+      "end": 47.48,
+      "probability": 0.9965972900390625
+    },
+    {
+      "text": " duygusallaşma.",
+      "start": 47.48,
+      "end": 48.34,
+      "probability": 0.9856737355391184
+    },
+    {
+      "text": " Hadi",
+      "start": 48.58,
+      "end": 48.76,
+      "probability": 0.9475782513618469
+    },
+    {
+      "text": " çıkalım",
+      "start": 48.76,
+      "end": 49.1,
+      "probability": 0.9844403564929962
+    },
+    {
+      "text": " buradan.",
+      "start": 49.1,
+      "end": 49.4,
+      "probability": 0.9974008798599243
+    },
+    {
+      "text": " Daha",
+      "start": 49.74,
+      "end": 49.92,
+      "probability": 0.9977954626083374
+    },
+    {
+      "text": " fazla",
+      "start": 49.92,
+      "end": 50.18,
+      "probability": 0.9971189498901367
+    },
+    {
+      "text": " yaklaşamayız.",
+      "start": 50.18,
+      "end": 50.9,
+      "probability": 0.9989461302757263
+    },
+    {
+      "text": " Ayrıntılar",
+      "start": 51.12,
+      "end": 51.54,
+      "probability": 0.8994509130716324
+    },
+    {
+      "text": " tamam",
+      "start": 51.54,
+      "end": 51.84,
+      "probability": 0.9955441355705261
+    },
+    {
+      "text": " mı?",
+      "start": 51.84,
+      "end": 52.0,
+      "probability": 0.9996194839477539
+    },
+    {
+      "text": " Bu",
+      "start": 52.24,
+      "end": 52.46,
+      "probability": 0.9895592927932739
+    },
+    {
+      "text": " son",
+      "start": 52.46,
+      "end": 52.66,
+      "probability": 0.9956905245780945
+    },
+    {
+      "text": " dakika",
+      "start": 52.66,
+      "end": 52.98,
+      "probability": 0.9916189908981323
+    },
+    {
+      "text": " işleri",
+      "start": 52.98,
+      "end": 53.32,
+      "probability": 0.9852276742458344
+    },
+    {
+      "text": " beni",
+      "start": 53.32,
+      "end": 53.52,
+      "probability": 0.9984098672866821
+    },
+    {
+      "text": " geriyor.",
+      "start": 53.52,
+      "end": 53.96,
+      "probability": 0.9929190576076508
+    },
+    {
+      "text": " Peki,",
+      "start": 54.32,
+      "end": 54.64,
+      "probability": 0.9962888956069946
+    },
+    {
+      "text": " dikkatli",
+      "start": 55.04,
+      "end": 55.4,
+      "probability": 0.9804683923721313
+    },
+    {
+      "text": " ol.",
+      "start": 55.4,
+      "end": 55.52,
+      "probability": 0.9993699193000793
+    }
+  ],
+  "text": " Bu o olmalı.  Hey! Yaptıkların hakkında acayip şeyler duydum.  Aynen, kesinlikle.  Adamım, sahaya dönmek için can atıyorsundur ha?  İhtiyacımız olan da bu.  NCA'ya hoş geldin.  Orada ne buldun öyle?  Lambert resmen çıldırıyor.  Savaşa gidiyoruz.  Şükürler olsun, hiç gitmeyecek sandım.  Evet, bu o.  Doggarty nerede?  Lambert şu kalinat ekişi yüzünden çıldırıyor.  Şükürler olsun, hiç gitmeyecek sandım.  Evet, bu o.  Nadiren, ama evet.  Sorbu için demek istiyor.  İnsanları konuşturmak için.  Şu şeyin adı neydi? Pento bir şey.  Bu bayağı ürkütücü.  Takma kafana.  Kahretsin! Biri onu durdursun!  Lambert sana Sarah'dan bahsetti mi?  O iyi.  Elektrik kesintisi onu korkuttu ama hiçbir şeyi yok.  Fazla duygusallaşma.  Hadi çıkalım buradan.  Daha fazla yaklaşamayız.  Ayrıntılar tamam mı?  Bu son dakika işleri beni geriyor.  Peki, dikkatli ol.",
+  "elapsed_seconds": 19.28
+}

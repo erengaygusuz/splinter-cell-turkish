@@ -1,0 +1,15 @@
+{
+  "stage": "A",
+  "boundaries_visually_inspected": 137,
+  "method": "Source waveform and ASR anchors; not auditory review",
+  "result": "All 137 interline cuts lie in quiet regions; source heads u000078 and u000757 retained from sample zero for review.",
+  "plots": {
+    "boundaries_01.png": "3fc2b6b91cb5ee0958b4f178b99d14fc978d21ec9eab5c56f3df3a036737a112",
+    "boundaries_02.png": "e77b71174f828b931f0a30e36e8b9fbd53b9f3fd7e410e7dae90b6d871b136d7",
+    "boundaries_03.png": "13acd1386fe39500e8e8caa3eff6342e5bd4e64a28bc6a3f2c822992521465e3",
+    "boundaries_04.png": "eeb0193f9efed0612dcad1ef7505c505b67258ec0aff56d3c34bacd8da05ddea",
+    "boundaries_05.png": "907352b4cc612a0017e2d5189fb91d741f04b97cf3819f51d8d79672420af379",
+    "boundaries_06.png": "70557b79c4795ec3d987cc864df6879e7a92cef0f22c618fe1ef8aba518e4cf2",
+    "boundaries_07.png": "95dde8a4dcb0c78acfe8992cf70c6ff14ee1bb1cbc4ced17f13b20444c00dd18"
+  }
+}

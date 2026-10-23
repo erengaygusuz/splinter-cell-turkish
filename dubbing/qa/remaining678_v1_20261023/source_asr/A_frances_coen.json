@@ -1,0 +1,535 @@
+{
+  "path": "/run/media/ereng/files/projects/splinter-cell-turkish/dubbing/characters/frances_coen/gameplay/voice_versions/PVC001/batches/C001_20261022/frances_coen_pvc001_dilara_gameplay10_c001_20261022_091627.mp3",
+  "sha256": "4653cb9d56bf7b11a7df8a955ee2410e4c9e52278f29f17a36147e932f00f7c6",
+  "model": "medium",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "language": "tr",
+  "word_timestamps": true,
+  "condition_on_previous_text": false,
+  "vad_filter": false,
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.32,
+      "text": " Tamam, geldik. Araçla güvenle gelebileceğimiz son nokta burası.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 4.66,
+      "end": 6.86,
+      "text": " Görev çok hassas. Kimse ölmemeli.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 7.24,
+      "end": 9.76,
+      "text": " Yaklaşınca Lambert bağlantımızın yerini verecek.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 10.16,
+      "end": 12.42,
+      "text": " Fark edilmemek için sürekli yer değiştiriyor.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 12.82,
+      "end": 13.54,
+      "text": " İyi şanslar.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 14.04,
+      "end": 15.7,
+      "text": " T-Man Wilkes için de başın sağ olsun.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 16.02,
+      "end": 17.38,
+      "text": " İyi bir adam olduğunu duydum.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 17.62,
+      "end": 18.78,
+      "text": " Umarım anlaşırız.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 18.98,
+      "end": 21.88,
+      "text": " Fort Taki dosyana göre bir kadınla çalışmak sana sorun değil.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 22.26,
+      "end": 24.16,
+      "text": " Evet, tabii. İyi şanslar.",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 24.48,
+      "end": 25.5,
+      "text": " Arkaya! Gidiyoruz!",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 25.88,
+      "end": 26.6,
+      "text": " Bir yere tutun!",
+      "no_speech_prob": 0.048391859978437424
+    },
+    {
+      "start": 26.6,
+      "end": 30.2,
+      "text": " Buraya kadar. Lambert, Fyrong'u ürkütmek istemiyor.",
+      "no_speech_prob": 0.27907148003578186
+    },
+    {
+      "start": 30.44,
+      "end": 32.52,
+      "text": " Başar bunu ajan. Savaş istemiyorum.",
+      "no_speech_prob": 0.27907148003578186
+    }
+  ],
+  "words": [
+    {
+      "text": " Tamam,",
+      "start": 0.0,
+      "end": 0.46,
+      "probability": 0.6889132857322693
+    },
+    {
+      "text": " geldik.",
+      "start": 0.76,
+      "end": 1.5,
+      "probability": 0.9675342440605164
+    },
+    {
+      "text": " Araçla",
+      "start": 1.7,
+      "end": 2.1,
+      "probability": 0.963657001654307
+    },
+    {
+      "text": " güvenle",
+      "start": 2.1,
+      "end": 2.5,
+      "probability": 0.9792076349258423
+    },
+    {
+      "text": " gelebileceğimiz",
+      "start": 2.5,
+      "end": 3.36,
+      "probability": 0.9926183581352234
+    },
+    {
+      "text": " son",
+      "start": 3.36,
+      "end": 3.52,
+      "probability": 0.9867746829986572
+    },
+    {
+      "text": " nokta",
+      "start": 3.52,
+      "end": 3.82,
+      "probability": 0.9635458290576935
+    },
+    {
+      "text": " burası.",
+      "start": 3.82,
+      "end": 4.32,
+      "probability": 0.9987040162086487
+    },
+    {
+      "text": " Görev",
+      "start": 4.66,
+      "end": 4.88,
+      "probability": 0.9845529496669769
+    },
+    {
+      "text": " çok",
+      "start": 4.88,
+      "end": 5.14,
+      "probability": 0.9975817203521729
+    },
+    {
+      "text": " hassas.",
+      "start": 5.14,
+      "end": 5.72,
+      "probability": 0.9960269033908844
+    },
+    {
+      "text": " Kimse",
+      "start": 5.96,
+      "end": 6.24,
+      "probability": 0.9929298758506775
+    },
+    {
+      "text": " ölmemeli.",
+      "start": 6.24,
+      "end": 6.86,
+      "probability": 0.9977254668871561
+    },
+    {
+      "text": " Yaklaşınca",
+      "start": 7.24,
+      "end": 7.86,
+      "probability": 0.9990479201078415
+    },
+    {
+      "text": " Lambert",
+      "start": 7.86,
+      "end": 8.22,
+      "probability": 0.984472393989563
+    },
+    {
+      "text": " bağlantımızın",
+      "start": 8.22,
+      "end": 9.02,
+      "probability": 0.981123423576355
+    },
+    {
+      "text": " yerini",
+      "start": 9.02,
+      "end": 9.3,
+      "probability": 0.9954172968864441
+    },
+    {
+      "text": " verecek.",
+      "start": 9.3,
+      "end": 9.76,
+      "probability": 0.9843810796737671
+    },
+    {
+      "text": " Fark",
+      "start": 10.16,
+      "end": 10.34,
+      "probability": 0.9875722527503967
+    },
+    {
+      "text": " edilmemek",
+      "start": 10.34,
+      "end": 10.82,
+      "probability": 0.9904110282659531
+    },
+    {
+      "text": " için",
+      "start": 10.82,
+      "end": 11.06,
+      "probability": 0.9988099336624146
+    },
+    {
+      "text": " sürekli",
+      "start": 11.06,
+      "end": 11.5,
+      "probability": 0.9956417679786682
+    },
+    {
+      "text": " yer",
+      "start": 11.5,
+      "end": 11.7,
+      "probability": 0.9935459494590759
+    },
+    {
+      "text": " değiştiriyor.",
+      "start": 11.7,
+      "end": 12.42,
+      "probability": 0.9930290182431539
+    },
+    {
+      "text": " İyi",
+      "start": 12.82,
+      "end": 12.98,
+      "probability": 0.9903587698936462
+    },
+    {
+      "text": " şanslar.",
+      "start": 12.98,
+      "end": 13.54,
+      "probability": 0.9971123536427816
+    },
+    {
+      "text": " T",
+      "start": 14.04,
+      "end": 14.12,
+      "probability": 0.2988651692867279
+    },
+    {
+      "text": "-Man",
+      "start": 14.12,
+      "end": 14.32,
+      "probability": 0.46703531220555305
+    },
+    {
+      "text": " Wilkes",
+      "start": 14.32,
+      "end": 14.56,
+      "probability": 0.8211371302604675
+    },
+    {
+      "text": " için",
+      "start": 14.56,
+      "end": 14.8,
+      "probability": 0.9644842147827148
+    },
+    {
+      "text": " de",
+      "start": 14.8,
+      "end": 14.96,
+      "probability": 0.9961822628974915
+    },
+    {
+      "text": " başın",
+      "start": 14.96,
+      "end": 15.28,
+      "probability": 0.9950010776519775
+    },
+    {
+      "text": " sağ",
+      "start": 15.28,
+      "end": 15.46,
+      "probability": 0.9990554451942444
+    },
+    {
+      "text": " olsun.",
+      "start": 15.46,
+      "end": 15.7,
+      "probability": 0.9204156994819641
+    },
+    {
+      "text": " İyi",
+      "start": 16.02,
+      "end": 16.18,
+      "probability": 0.9889411330223083
+    },
+    {
+      "text": " bir",
+      "start": 16.18,
+      "end": 16.4,
+      "probability": 0.9833303093910217
+    },
+    {
+      "text": " adam",
+      "start": 16.4,
+      "end": 16.52,
+      "probability": 0.978513777256012
+    },
+    {
+      "text": " olduğunu",
+      "start": 16.52,
+      "end": 16.84,
+      "probability": 0.990297257900238
+    },
+    {
+      "text": " duydum.",
+      "start": 16.84,
+      "end": 17.38,
+      "probability": 0.9956274032592773
+    },
+    {
+      "text": " Umarım",
+      "start": 17.62,
+      "end": 17.94,
+      "probability": 0.9904247522354126
+    },
+    {
+      "text": " anlaşırız.",
+      "start": 17.94,
+      "end": 18.78,
+      "probability": 0.9951405674219131
+    },
+    {
+      "text": " Fort",
+      "start": 18.98,
+      "end": 19.14,
+      "probability": 0.6009383201599121
+    },
+    {
+      "text": " Taki",
+      "start": 19.14,
+      "end": 19.44,
+      "probability": 0.5116973519325256
+    },
+    {
+      "text": " dosyana",
+      "start": 19.44,
+      "end": 19.88,
+      "probability": 0.9799371560414633
+    },
+    {
+      "text": " göre",
+      "start": 19.88,
+      "end": 20.1,
+      "probability": 0.9997792840003967
+    },
+    {
+      "text": " bir",
+      "start": 20.1,
+      "end": 20.32,
+      "probability": 0.9785007834434509
+    },
+    {
+      "text": " kadınla",
+      "start": 20.32,
+      "end": 20.62,
+      "probability": 0.9826060831546783
+    },
+    {
+      "text": " çalışmak",
+      "start": 20.62,
+      "end": 21.1,
+      "probability": 0.9982658326625824
+    },
+    {
+      "text": " sana",
+      "start": 21.1,
+      "end": 21.32,
+      "probability": 0.968660295009613
+    },
+    {
+      "text": " sorun",
+      "start": 21.32,
+      "end": 21.68,
+      "probability": 0.9988508522510529
+    },
+    {
+      "text": " değil.",
+      "start": 21.68,
+      "end": 21.88,
+      "probability": 0.998216450214386
+    },
+    {
+      "text": " Evet,",
+      "start": 22.26,
+      "end": 22.62,
+      "probability": 0.9969978332519531
+    },
+    {
+      "text": " tabii.",
+      "start": 22.76,
+      "end": 23.04,
+      "probability": 0.7554230690002441
+    },
+    {
+      "text": " İyi",
+      "start": 23.52,
+      "end": 23.56,
+      "probability": 0.9951530694961548
+    },
+    {
+      "text": " şanslar.",
+      "start": 23.56,
+      "end": 24.16,
+      "probability": 0.9989059368769327
+    },
+    {
+      "text": " Arkaya!",
+      "start": 24.48,
+      "end": 24.98,
+      "probability": 0.8690238197644552
+    },
+    {
+      "text": " Gidiyoruz!",
+      "start": 25.08,
+      "end": 25.5,
+      "probability": 0.9941580891609192
+    },
+    {
+      "text": " Bir",
+      "start": 25.88,
+      "end": 26.02,
+      "probability": 0.9750139117240906
+    },
+    {
+      "text": " yere",
+      "start": 26.02,
+      "end": 26.18,
+      "probability": 0.9992584586143494
+    },
+    {
+      "text": " tutun!",
+      "start": 26.18,
+      "end": 26.6,
+      "probability": 0.9950655698776245
+    },
+    {
+      "text": " Buraya",
+      "start": 26.6,
+      "end": 27.22,
+      "probability": 0.8913677930831909
+    },
+    {
+      "text": " kadar.",
+      "start": 27.22,
+      "end": 27.68,
+      "probability": 0.9767806529998779
+    },
+    {
+      "text": " Lambert,",
+      "start": 28.22,
+      "end": 28.5,
+      "probability": 0.9587143659591675
+    },
+    {
+      "text": " Fyrong",
+      "start": 28.78,
+      "end": 28.98,
+      "probability": 0.4823537766933441
+    },
+    {
+      "text": "'u",
+      "start": 28.98,
+      "end": 29.04,
+      "probability": 0.9776201546192169
+    },
+    {
+      "text": " ürkütmek",
+      "start": 29.04,
+      "end": 29.54,
+      "probability": 0.9957345366477967
+    },
+    {
+      "text": " istemiyor.",
+      "start": 29.54,
+      "end": 30.2,
+      "probability": 0.996071457862854
+    },
+    {
+      "text": " Başar",
+      "start": 30.44,
+      "end": 30.76,
+      "probability": 0.995367556810379
+    },
+    {
+      "text": " bunu",
+      "start": 30.76,
+      "end": 30.96,
+      "probability": 0.9919407963752747
+    },
+    {
+      "text": " ajan.",
+      "start": 30.96,
+      "end": 31.3,
+      "probability": 0.8277558088302612
+    },
+    {
+      "text": " Savaş",
+      "start": 31.72,
+      "end": 31.94,
+      "probability": 0.9951387643814087
+    },
+    {
+      "text": " istemiyorum.",
+      "start": 31.94,
+      "end": 32.52,
+      "probability": 0.9966257611910502
+    }
+  ],
+  "text": " Tamam, geldik. Araçla güvenle gelebileceğimiz son nokta burası.  Görev çok hassas. Kimse ölmemeli.  Yaklaşınca Lambert bağlantımızın yerini verecek.  Fark edilmemek için sürekli yer değiştiriyor.  İyi şanslar.  T-Man Wilkes için de başın sağ olsun.  İyi bir adam olduğunu duydum.  Umarım anlaşırız.  Fort Taki dosyana göre bir kadınla çalışmak sana sorun değil.  Evet, tabii. İyi şanslar.  Arkaya! Gidiyoruz!  Bir yere tutun!  Buraya kadar. Lambert, Fyrong'u ürkütmek istemiyor.  Başar bunu ajan. Savaş istemiyorum.",
+  "elapsed_seconds": 13.04
+}

@@ -1,0 +1,1957 @@
+{
+  "path": "/run/media/ereng/files/projects/splinter-cell-turkish/dubbing/characters/kong_feirong/gameplay/voice_versions/PVC001/batches/F001_20261022/kong_feirong_pvc001_gameplay23_f001_20261022_083343.mp3",
+  "sha256": "0ef1aa66d20dccef389b9aa939f52f296c78f0c3cf687c12b8795952c04f1154",
+  "model": "medium",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "language": "tr",
+  "word_timestamps": true,
+  "condition_on_previous_text": false,
+  "vad_filter": false,
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 1.32,
+      "text": " Bana 3 gün daha ver.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 1.7,
+      "end": 4.76,
+      "text": " Cihazlar bir günde hazırlanır, ertesi gün yerleştirilir.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 5.12,
+      "end": 5.78,
+      "text": " Elbette Ark.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 6.18,
+      "end": 7.62,
+      "text": " Ama ayrıntıları biliyorsun.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 7.82,
+      "end": 8.82,
+      "text": " Birlikte vurmalıyız.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 8.94,
+      "end": 10.62,
+      "text": " Yoksa hiç vurmayalım daha iyi.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 10.92,
+      "end": 12.22,
+      "text": " Nikoladze, beni dinle.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 12.42,
+      "end": 13.42,
+      "text": " Bizi ele vereceksin.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 13.72,
+      "end": 14.58,
+      "text": " Bu saçmalık.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 14.7,
+      "end": 15.74,
+      "text": " Nasıl dinleyebilirler?",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 15.94,
+      "end": 16.98,
+      "text": " Bu paranoia ama.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 17.24,
+      "end": 18.16,
+      "text": " Peki, peki.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 18.36,
+      "end": 18.58,
+      "text": " Tamam.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 18.82,
+      "end": 20.2,
+      "text": " Güvenli bir konuşma yaparız.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 20.4,
+      "end": 21.7,
+      "text": " Seni arabamdan geri ararım.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 22.04,
+      "end": 24.54,
+      "text": " Dinlemesinden endişe ettiğim yalnızca onlar değil.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 24.88,
+      "end": 26.72,
+      "text": " Sadece en yeteneklileri onlar.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 27.12,
+      "end": 27.72,
+      "text": " Elbette.",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 27.92,
+      "end": 29.44,
+      "text": " Sinyal kaç kez yönlendirilecek?",
+      "no_speech_prob": 0.1632246971130371
+    },
+    {
+      "start": 29.44,
+      "end": 32.74,
+      "text": " Kola Yarımadası'ndaki üstsünün de izlenemeyeceğine inanıyordun.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 32.92,
+      "end": 34.36,
+      "text": " Savaş psikolojisini bilirim.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 34.66,
+      "end": 36.58,
+      "text": " Evet evet birçok infaz gördüm.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 36.76,
+      "end": 38.5,
+      "text": " Ama hiç Amerikalıların kini değil.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 38.82,
+      "end": 39.46,
+      "text": " Bir saniye.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 39.52,
+      "end": 40.02,
+      "text": " Şoför.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 40.2,
+      "end": 42.24,
+      "text": " Moketsue Bo Meats ne kadar uzakta?",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 42.48,
+      "end": 44.08,
+      "text": " Hayır zahmete değmez.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 44.36,
+      "end": 46.02,
+      "text": " Yayını herkes gibi izlerim.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 46.6,
+      "end": 47.78,
+      "text": " Evet çok doğru.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 48.58,
+      "end": 50.74,
+      "text": " Ne kadar kötü bir adamsınız Bay Nikoladze.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 51.02,
+      "end": 52.56,
+      "text": " Umarım gösteriniz iyi geçer.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 52.84,
+      "end": 53.64,
+      "text": " Kendinize iyi bakın.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 53.96,
+      "end": 55.14,
+      "text": " Kong Feiron konuşuyor.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 55.3,
+      "end": 57.36,
+      "text": " Tüm birliklere kırmızı durum emrini iletin.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 57.62,
+      "end": 58.36,
+      "text": " Tekrar ediyorum.",
+      "no_speech_prob": 0.14492680132389069
+    },
+    {
+      "start": 58.36,
+      "end": 64.16,
+      "text": " Kırmızı durum. Nikolatze bizi terk etti. Herkes tam alarma geçsin. Konvoyu harekete hazır istiyorum.",
+      "no_speech_prob": 0.18511545658111572
+    },
+    {
+      "start": 64.66,
+      "end": 69.74,
+      "text": " Kendimi vuracağım. Çin özel kuvvetleri benim için geliyor. Bir ceset bulmalarını istiyorum.",
+      "no_speech_prob": 0.18511545658111572
+    },
+    {
+      "start": 70.16,
+      "end": 72.94,
+      "text": " Amerikalılarla barışın yolunu açan anahtar olmayacağım.",
+      "no_speech_prob": 0.18511545658111572
+    },
+    {
+      "start": 73.26,
+      "end": 79.78,
+      "text": " Bir şişe zehri, büyük elçinin iyi içkisinden bir şişeyle içip bitirdim. Ama bir asker gibi örneği tercih ederim.",
+      "no_speech_prob": 0.18511545658111572
+    },
+    {
+      "start": 80.06,
+      "end": 86.88,
+      "text": " Bu iyiliği bana yap. Çin güçlü. Cumhuriyet güçlü. Savaşa girmesi için yalnızca biraz itirmesi gerekiyor.",
+      "no_speech_prob": 0.18511545658111572
+    },
+    {
+      "start": 86.88,
+      "end": 90.06,
+      "text": " İmparatorluk, Tayvan, birazcık itmek yeter.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 90.4,
+      "end": 93.48,
+      "text": " Nikoladze beni terk etti, kaçtı, zayıf.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 93.66,
+      "end": 96.58,
+      "text": " Hadi Amerikalı, biz bir imparatorluğuz.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 96.88,
+      "end": 99.16,
+      "text": " Öldür beni, öldür beni korkak.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 99.46,
+      "end": 101.72,
+      "text": " Bizim savaşımız da gelecek, vur beni.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 101.98,
+      "end": 103.9,
+      "text": " Zaten ölüyüm, cehenneme git.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 104.06,
+      "end": 106.28,
+      "text": " Ölü bir adama hiçbir şey yaptıramazsın.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 106.54,
+      "end": 108.96,
+      "text": " Ben sen gelmeden çok önce acı çekiyordum.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 109.3,
+      "end": 111.42,
+      "text": " Elinden gelenin en kötüsünü yap.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 111.86,
+      "end": 113.84,
+      "text": " Bilmiyorum, umrumda da değil.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 114.16,
+      "end": 116.52,
+      "text": " Umarım onu bulur ve öldürürsün.",
+      "no_speech_prob": 0.15874174237251282
+    },
+    {
+      "start": 116.52,
+      "end": 118.3,
+      "text": " Ama nerde olduğunu bilmiyorum.",
+      "no_speech_prob": 0.01331244595348835
+    },
+    {
+      "start": 118.88,
+      "end": 121.48,
+      "text": " Sen ve faşist hükümetin cehenneme gidin.",
+      "no_speech_prob": 0.01331244595348835
+    },
+    {
+      "start": 121.68,
+      "end": 122.98,
+      "text": " Öldür beni Amerikalı.",
+      "no_speech_prob": 0.01331244595348835
+    },
+    {
+      "start": 123.38,
+      "end": 124.74,
+      "text": " İkimize de bir iyilik yap.",
+      "no_speech_prob": 0.01331244595348835
+    }
+  ],
+  "words": [
+    {
+      "text": " Bana",
+      "start": 0.0,
+      "end": 0.28,
+      "probability": 0.29241666197776794
+    },
+    {
+      "text": " 3",
+      "start": 0.28,
+      "end": 0.58,
+      "probability": 0.629321813583374
+    },
+    {
+      "text": " gün",
+      "start": 0.58,
+      "end": 0.78,
+      "probability": 0.9737755656242371
+    },
+    {
+      "text": " daha",
+      "start": 0.78,
+      "end": 1.02,
+      "probability": 0.996452808380127
+    },
+    {
+      "text": " ver.",
+      "start": 1.02,
+      "end": 1.32,
+      "probability": 0.9937134385108948
+    },
+    {
+      "text": " Cihazlar",
+      "start": 1.7,
+      "end": 2.14,
+      "probability": 0.9759945571422577
+    },
+    {
+      "text": " bir",
+      "start": 2.14,
+      "end": 2.38,
+      "probability": 0.7258294224739075
+    },
+    {
+      "text": " günde",
+      "start": 2.38,
+      "end": 2.58,
+      "probability": 0.9076379835605621
+    },
+    {
+      "text": " hazırlanır,",
+      "start": 2.58,
+      "end": 3.26,
+      "probability": 0.9983953237533569
+    },
+    {
+      "text": " ertesi",
+      "start": 3.38,
+      "end": 3.74,
+      "probability": 0.9841352105140686
+    },
+    {
+      "text": " gün",
+      "start": 3.74,
+      "end": 3.92,
+      "probability": 0.9977632761001587
+    },
+    {
+      "text": " yerleştirilir.",
+      "start": 3.92,
+      "end": 4.76,
+      "probability": 0.9970574617385864
+    },
+    {
+      "text": " Elbette",
+      "start": 5.12,
+      "end": 5.5,
+      "probability": 0.9811760981877645
+    },
+    {
+      "text": " Ark.",
+      "start": 5.5,
+      "end": 5.78,
+      "probability": 0.685276210308075
+    },
+    {
+      "text": " Ama",
+      "start": 6.18,
+      "end": 6.34,
+      "probability": 0.9913620352745056
+    },
+    {
+      "text": " ayrıntıları",
+      "start": 6.34,
+      "end": 6.96,
+      "probability": 0.9915922433137894
+    },
+    {
+      "text": " biliyorsun.",
+      "start": 6.96,
+      "end": 7.62,
+      "probability": 0.992241233587265
+    },
+    {
+      "text": " Birlikte",
+      "start": 7.82,
+      "end": 8.16,
+      "probability": 0.9891502459843954
+    },
+    {
+      "text": " vurmalıyız.",
+      "start": 8.16,
+      "end": 8.82,
+      "probability": 0.9947525709867477
+    },
+    {
+      "text": " Yoksa",
+      "start": 8.94,
+      "end": 9.32,
+      "probability": 0.9952408671379089
+    },
+    {
+      "text": " hiç",
+      "start": 9.32,
+      "end": 9.56,
+      "probability": 0.9885978698730469
+    },
+    {
+      "text": " vurmayalım",
+      "start": 9.56,
+      "end": 10.1,
+      "probability": 0.9783433874448141
+    },
+    {
+      "text": " daha",
+      "start": 10.1,
+      "end": 10.42,
+      "probability": 0.9596548676490784
+    },
+    {
+      "text": " iyi.",
+      "start": 10.42,
+      "end": 10.62,
+      "probability": 0.9984524250030518
+    },
+    {
+      "text": " Nikoladze,",
+      "start": 10.92,
+      "end": 11.44,
+      "probability": 0.6623970419168472
+    },
+    {
+      "text": " beni",
+      "start": 11.56,
+      "end": 11.82,
+      "probability": 0.9851257801055908
+    },
+    {
+      "text": " dinle.",
+      "start": 11.82,
+      "end": 12.22,
+      "probability": 0.9994478821754456
+    },
+    {
+      "text": " Bizi",
+      "start": 12.42,
+      "end": 12.74,
+      "probability": 0.9935261905193329
+    },
+    {
+      "text": " ele",
+      "start": 12.74,
+      "end": 12.88,
+      "probability": 0.9965536594390869
+    },
+    {
+      "text": " vereceksin.",
+      "start": 12.88,
+      "end": 13.42,
+      "probability": 0.9933997690677643
+    },
+    {
+      "text": " Bu",
+      "start": 13.72,
+      "end": 13.9,
+      "probability": 0.9885835647583008
+    },
+    {
+      "text": " saçmalık.",
+      "start": 13.9,
+      "end": 14.58,
+      "probability": 0.9980128208796183
+    },
+    {
+      "text": " Nasıl",
+      "start": 14.7,
+      "end": 14.96,
+      "probability": 0.9920338988304138
+    },
+    {
+      "text": " dinleyebilirler?",
+      "start": 14.96,
+      "end": 15.74,
+      "probability": 0.9973201602697372
+    },
+    {
+      "text": " Bu",
+      "start": 15.94,
+      "end": 16.16,
+      "probability": 0.9939101934432983
+    },
+    {
+      "text": " paranoia",
+      "start": 16.16,
+      "end": 16.74,
+      "probability": 0.7779723405838013
+    },
+    {
+      "text": " ama.",
+      "start": 16.74,
+      "end": 16.98,
+      "probability": 0.9149752259254456
+    },
+    {
+      "text": " Peki,",
+      "start": 17.24,
+      "end": 17.52,
+      "probability": 0.9592373967170715
+    },
+    {
+      "text": " peki.",
+      "start": 17.76,
+      "end": 18.16,
+      "probability": 0.9427423775196075
+    },
+    {
+      "text": " Tamam.",
+      "start": 18.36,
+      "end": 18.58,
+      "probability": 0.9883125424385071
+    },
+    {
+      "text": " Güvenli",
+      "start": 18.82,
+      "end": 19.2,
+      "probability": 0.9983211557070414
+    },
+    {
+      "text": " bir",
+      "start": 19.2,
+      "end": 19.42,
+      "probability": 0.9935089349746704
+    },
+    {
+      "text": " konuşma",
+      "start": 19.42,
+      "end": 19.72,
+      "probability": 0.9988891780376434
+    },
+    {
+      "text": " yaparız.",
+      "start": 19.72,
+      "end": 20.2,
+      "probability": 0.9970192114512125
+    },
+    {
+      "text": " Seni",
+      "start": 20.4,
+      "end": 20.58,
+      "probability": 0.9958586096763611
+    },
+    {
+      "text": " arabamdan",
+      "start": 20.58,
+      "end": 21.1,
+      "probability": 0.9785881241162618
+    },
+    {
+      "text": " geri",
+      "start": 21.1,
+      "end": 21.32,
+      "probability": 0.9955582618713379
+    },
+    {
+      "text": " ararım.",
+      "start": 21.32,
+      "end": 21.7,
+      "probability": 0.9958932995796204
+    },
+    {
+      "text": " Dinlemesinden",
+      "start": 22.04,
+      "end": 22.64,
+      "probability": 0.9947595596313477
+    },
+    {
+      "text": " endişe",
+      "start": 22.64,
+      "end": 23.04,
+      "probability": 0.995124876499176
+    },
+    {
+      "text": " ettiğim",
+      "start": 23.04,
+      "end": 23.4,
+      "probability": 0.9839028418064117
+    },
+    {
+      "text": " yalnızca",
+      "start": 23.4,
+      "end": 23.9,
+      "probability": 0.9920164942741394
+    },
+    {
+      "text": " onlar",
+      "start": 23.9,
+      "end": 24.18,
+      "probability": 0.9953822493553162
+    },
+    {
+      "text": " değil.",
+      "start": 24.18,
+      "end": 24.54,
+      "probability": 0.9978402853012085
+    },
+    {
+      "text": " Sadece",
+      "start": 24.88,
+      "end": 25.32,
+      "probability": 0.9961026608943939
+    },
+    {
+      "text": " en",
+      "start": 25.32,
+      "end": 25.7,
+      "probability": 0.9598363637924194
+    },
+    {
+      "text": " yeteneklileri",
+      "start": 25.7,
+      "end": 26.36,
+      "probability": 0.9862540602684021
+    },
+    {
+      "text": " onlar.",
+      "start": 26.36,
+      "end": 26.72,
+      "probability": 0.99817955493927
+    },
+    {
+      "text": " Elbette.",
+      "start": 27.12,
+      "end": 27.72,
+      "probability": 0.9986594120661417
+    },
+    {
+      "text": " Sinyal",
+      "start": 27.92,
+      "end": 28.22,
+      "probability": 0.9001884659131368
+    },
+    {
+      "text": " kaç",
+      "start": 28.22,
+      "end": 28.42,
+      "probability": 0.9958264231681824
+    },
+    {
+      "text": " kez",
+      "start": 28.42,
+      "end": 28.64,
+      "probability": 0.9870981872081757
+    },
+    {
+      "text": " yönlendirilecek?",
+      "start": 28.64,
+      "end": 29.44,
+      "probability": 0.9930591285228729
+    },
+    {
+      "text": " Kola",
+      "start": 29.44,
+      "end": 29.94,
+      "probability": 0.5612614750862122
+    },
+    {
+      "text": " Yarımadası",
+      "start": 29.94,
+      "end": 30.5,
+      "probability": 0.8241502195596695
+    },
+    {
+      "text": "'ndaki",
+      "start": 30.5,
+      "end": 30.72,
+      "probability": 0.9878584742546082
+    },
+    {
+      "text": " üstsünün",
+      "start": 30.72,
+      "end": 31.14,
+      "probability": 0.8119104728102684
+    },
+    {
+      "text": " de",
+      "start": 31.14,
+      "end": 31.3,
+      "probability": 0.9942336678504944
+    },
+    {
+      "text": " izlenemeyeceğine",
+      "start": 31.3,
+      "end": 32.06,
+      "probability": 0.9955395956834158
+    },
+    {
+      "text": " inanıyordun.",
+      "start": 32.06,
+      "end": 32.74,
+      "probability": 0.9616119712591171
+    },
+    {
+      "text": " Savaş",
+      "start": 32.92,
+      "end": 33.2,
+      "probability": 0.9099955558776855
+    },
+    {
+      "text": " psikolojisini",
+      "start": 33.2,
+      "end": 33.96,
+      "probability": 0.9237471699714661
+    },
+    {
+      "text": " bilirim.",
+      "start": 33.96,
+      "end": 34.36,
+      "probability": 0.982174426317215
+    },
+    {
+      "text": " Evet",
+      "start": 34.66,
+      "end": 34.84,
+      "probability": 0.9737314581871033
+    },
+    {
+      "text": " evet",
+      "start": 34.84,
+      "end": 35.24,
+      "probability": 0.7662503123283386
+    },
+    {
+      "text": " birçok",
+      "start": 35.24,
+      "end": 35.74,
+      "probability": 0.6696582833925883
+    },
+    {
+      "text": " infaz",
+      "start": 35.74,
+      "end": 36.08,
+      "probability": 0.9857592880725861
+    },
+    {
+      "text": " gördüm.",
+      "start": 36.08,
+      "end": 36.58,
+      "probability": 0.9987415075302124
+    },
+    {
+      "text": " Ama",
+      "start": 36.76,
+      "end": 36.98,
+      "probability": 0.9851250648498535
+    },
+    {
+      "text": " hiç",
+      "start": 36.98,
+      "end": 37.32,
+      "probability": 0.9737546443939209
+    },
+    {
+      "text": " Amerikalıların",
+      "start": 37.32,
+      "end": 38.02,
+      "probability": 0.707825742661953
+    },
+    {
+      "text": " kini",
+      "start": 38.02,
+      "end": 38.24,
+      "probability": 0.7220625430345535
+    },
+    {
+      "text": " değil.",
+      "start": 38.24,
+      "end": 38.5,
+      "probability": 0.9969202280044556
+    },
+    {
+      "text": " Bir",
+      "start": 38.82,
+      "end": 38.94,
+      "probability": 0.9224341511726379
+    },
+    {
+      "text": " saniye.",
+      "start": 38.94,
+      "end": 39.46,
+      "probability": 0.9935067097345988
+    },
+    {
+      "text": " Şoför.",
+      "start": 39.52,
+      "end": 40.02,
+      "probability": 0.8778112729390463
+    },
+    {
+      "text": " Moketsue",
+      "start": 40.2,
+      "end": 40.8,
+      "probability": 0.456174872815609
+    },
+    {
+      "text": " Bo",
+      "start": 40.8,
+      "end": 41.08,
+      "probability": 0.2771129012107849
+    },
+    {
+      "text": " Meats",
+      "start": 41.08,
+      "end": 41.36,
+      "probability": 0.3394380956888199
+    },
+    {
+      "text": " ne",
+      "start": 41.36,
+      "end": 41.56,
+      "probability": 0.9324008226394653
+    },
+    {
+      "text": " kadar",
+      "start": 41.56,
+      "end": 41.76,
+      "probability": 0.9985184073448181
+    },
+    {
+      "text": " uzakta?",
+      "start": 41.76,
+      "end": 42.24,
+      "probability": 0.9947094122568766
+    },
+    {
+      "text": " Hayır",
+      "start": 42.48,
+      "end": 42.96,
+      "probability": 0.9901284575462341
+    },
+    {
+      "text": " zahmete",
+      "start": 42.96,
+      "end": 43.54,
+      "probability": 0.8228530585765839
+    },
+    {
+      "text": " değmez.",
+      "start": 43.54,
+      "end": 44.08,
+      "probability": 0.9979807436466217
+    },
+    {
+      "text": " Yayını",
+      "start": 44.36,
+      "end": 44.68,
+      "probability": 0.9811328947544098
+    },
+    {
+      "text": " herkes",
+      "start": 44.68,
+      "end": 45.12,
+      "probability": 0.9609001278877258
+    },
+    {
+      "text": " gibi",
+      "start": 45.12,
+      "end": 45.36,
+      "probability": 0.9989275336265564
+    },
+    {
+      "text": " izlerim.",
+      "start": 45.36,
+      "end": 46.02,
+      "probability": 0.997098465760549
+    },
+    {
+      "text": " Evet",
+      "start": 46.6,
+      "end": 46.98,
+      "probability": 0.9140655398368835
+    },
+    {
+      "text": " çok",
+      "start": 46.98,
+      "end": 47.42,
+      "probability": 0.8506227135658264
+    },
+    {
+      "text": " doğru.",
+      "start": 47.42,
+      "end": 47.78,
+      "probability": 0.9991569519042969
+    },
+    {
+      "text": " Ne",
+      "start": 48.58,
+      "end": 48.76,
+      "probability": 0.8851365447044373
+    },
+    {
+      "text": " kadar",
+      "start": 48.76,
+      "end": 49.04,
+      "probability": 0.9986143112182617
+    },
+    {
+      "text": " kötü",
+      "start": 49.04,
+      "end": 49.28,
+      "probability": 0.999186098575592
+    },
+    {
+      "text": " bir",
+      "start": 49.28,
+      "end": 49.52,
+      "probability": 0.9949727058410645
+    },
+    {
+      "text": " adamsınız",
+      "start": 49.52,
+      "end": 49.92,
+      "probability": 0.9976010719935099
+    },
+    {
+      "text": " Bay",
+      "start": 49.92,
+      "end": 50.14,
+      "probability": 0.6951547265052795
+    },
+    {
+      "text": " Nikoladze.",
+      "start": 50.14,
+      "end": 50.74,
+      "probability": 0.844449371099472
+    },
+    {
+      "text": " Umarım",
+      "start": 51.02,
+      "end": 51.32,
+      "probability": 0.9877949953079224
+    },
+    {
+      "text": " gösteriniz",
+      "start": 51.32,
+      "end": 51.9,
+      "probability": 0.9943755269050598
+    },
+    {
+      "text": " iyi",
+      "start": 51.9,
+      "end": 52.14,
+      "probability": 0.9948741793632507
+    },
+    {
+      "text": " geçer.",
+      "start": 52.14,
+      "end": 52.56,
+      "probability": 0.9990876019001007
+    },
+    {
+      "text": " Kendinize",
+      "start": 52.84,
+      "end": 53.16,
+      "probability": 0.9977962970733643
+    },
+    {
+      "text": " iyi",
+      "start": 53.16,
+      "end": 53.4,
+      "probability": 0.9991648197174072
+    },
+    {
+      "text": " bakın.",
+      "start": 53.4,
+      "end": 53.64,
+      "probability": 0.9985209107398987
+    },
+    {
+      "text": " Kong",
+      "start": 53.96,
+      "end": 54.18,
+      "probability": 0.8285804986953735
+    },
+    {
+      "text": " Feiron",
+      "start": 54.18,
+      "end": 54.5,
+      "probability": 0.5023536682128906
+    },
+    {
+      "text": " konuşuyor.",
+      "start": 54.5,
+      "end": 55.14,
+      "probability": 0.989305168390274
+    },
+    {
+      "text": " Tüm",
+      "start": 55.3,
+      "end": 55.5,
+      "probability": 0.9745553433895111
+    },
+    {
+      "text": " birliklere",
+      "start": 55.5,
+      "end": 55.96,
+      "probability": 0.9429718852043152
+    },
+    {
+      "text": " kırmızı",
+      "start": 55.96,
+      "end": 56.52,
+      "probability": 0.9337546974420547
+    },
+    {
+      "text": " durum",
+      "start": 56.52,
+      "end": 56.66,
+      "probability": 0.9462442994117737
+    },
+    {
+      "text": " emrini",
+      "start": 56.66,
+      "end": 57.06,
+      "probability": 0.9829329252243042
+    },
+    {
+      "text": " iletin.",
+      "start": 57.06,
+      "end": 57.36,
+      "probability": 0.9946649074554443
+    },
+    {
+      "text": " Tekrar",
+      "start": 57.62,
+      "end": 57.98,
+      "probability": 0.9932773411273956
+    },
+    {
+      "text": " ediyorum.",
+      "start": 57.98,
+      "end": 58.36,
+      "probability": 0.9926173090934753
+    },
+    {
+      "text": " Kırmızı",
+      "start": 58.36,
+      "end": 59.02,
+      "probability": 0.9125391006469726
+    },
+    {
+      "text": " durum.",
+      "start": 59.02,
+      "end": 59.34,
+      "probability": 0.9552913308143616
+    },
+    {
+      "text": " Nikolatze",
+      "start": 59.52,
+      "end": 59.96,
+      "probability": 0.5461886078119278
+    },
+    {
+      "text": " bizi",
+      "start": 59.96,
+      "end": 60.2,
+      "probability": 0.9946061968803406
+    },
+    {
+      "text": " terk",
+      "start": 60.2,
+      "end": 60.56,
+      "probability": 0.9972947835922241
+    },
+    {
+      "text": " etti.",
+      "start": 60.56,
+      "end": 60.78,
+      "probability": 0.996862530708313
+    },
+    {
+      "text": " Herkes",
+      "start": 61.16,
+      "end": 61.42,
+      "probability": 0.9881132245063782
+    },
+    {
+      "text": " tam",
+      "start": 61.42,
+      "end": 61.7,
+      "probability": 0.9880670309066772
+    },
+    {
+      "text": " alarma",
+      "start": 61.7,
+      "end": 62.04,
+      "probability": 0.8758440911769867
+    },
+    {
+      "text": " geçsin.",
+      "start": 62.04,
+      "end": 62.46,
+      "probability": 0.9969046711921692
+    },
+    {
+      "text": " Konvoyu",
+      "start": 62.7,
+      "end": 63.06,
+      "probability": 0.8831937313079834
+    },
+    {
+      "text": " harekete",
+      "start": 63.06,
+      "end": 63.46,
+      "probability": 0.9913961887359619
+    },
+    {
+      "text": " hazır",
+      "start": 63.46,
+      "end": 63.72,
+      "probability": 0.9987146854400635
+    },
+    {
+      "text": " istiyorum.",
+      "start": 63.72,
+      "end": 64.16,
+      "probability": 0.9967392086982727
+    },
+    {
+      "text": " Kendimi",
+      "start": 64.66,
+      "end": 64.94,
+      "probability": 0.9454803764820099
+    },
+    {
+      "text": " vuracağım.",
+      "start": 64.94,
+      "end": 65.6,
+      "probability": 0.9559259712696075
+    },
+    {
+      "text": " Çin",
+      "start": 65.88,
+      "end": 66.06,
+      "probability": 0.9939287304878235
+    },
+    {
+      "text": " özel",
+      "start": 66.06,
+      "end": 66.34,
+      "probability": 0.9098126292228699
+    },
+    {
+      "text": " kuvvetleri",
+      "start": 66.34,
+      "end": 66.96,
+      "probability": 0.997818648815155
+    },
+    {
+      "text": " benim",
+      "start": 66.96,
+      "end": 67.18,
+      "probability": 0.9945216178894043
+    },
+    {
+      "text": " için",
+      "start": 67.18,
+      "end": 67.48,
+      "probability": 0.999526858329773
+    },
+    {
+      "text": " geliyor.",
+      "start": 67.48,
+      "end": 67.84,
+      "probability": 0.9989920258522034
+    },
+    {
+      "text": " Bir",
+      "start": 68.16,
+      "end": 68.38,
+      "probability": 0.9943163990974426
+    },
+    {
+      "text": " ceset",
+      "start": 68.38,
+      "end": 68.76,
+      "probability": 0.9958677589893341
+    },
+    {
+      "text": " bulmalarını",
+      "start": 68.76,
+      "end": 69.36,
+      "probability": 0.9935682862997055
+    },
+    {
+      "text": " istiyorum.",
+      "start": 69.36,
+      "end": 69.74,
+      "probability": 0.9975581169128418
+    },
+    {
+      "text": " Amerikalılarla",
+      "start": 70.16,
+      "end": 70.8,
+      "probability": 0.930311918258667
+    },
+    {
+      "text": " barışın",
+      "start": 70.8,
+      "end": 71.26,
+      "probability": 0.9864256779352824
+    },
+    {
+      "text": " yolunu",
+      "start": 71.26,
+      "end": 71.56,
+      "probability": 0.9947859942913055
+    },
+    {
+      "text": " açan",
+      "start": 71.56,
+      "end": 71.82,
+      "probability": 0.9974352121353149
+    },
+    {
+      "text": " anahtar",
+      "start": 71.82,
+      "end": 72.3,
+      "probability": 0.9978011051813761
+    },
+    {
+      "text": " olmayacağım.",
+      "start": 72.3,
+      "end": 72.94,
+      "probability": 0.9921470284461975
+    },
+    {
+      "text": " Bir",
+      "start": 73.26,
+      "end": 73.44,
+      "probability": 0.9655444622039795
+    },
+    {
+      "text": " şişe",
+      "start": 73.44,
+      "end": 73.8,
+      "probability": 0.9962176481882731
+    },
+    {
+      "text": " zehri,",
+      "start": 73.8,
+      "end": 74.22,
+      "probability": 0.9809139172236124
+    },
+    {
+      "text": " büyük",
+      "start": 74.44,
+      "end": 74.6,
+      "probability": 0.7384915351867676
+    },
+    {
+      "text": " elçinin",
+      "start": 74.6,
+      "end": 75.02,
+      "probability": 0.9662459890047709
+    },
+    {
+      "text": " iyi",
+      "start": 75.02,
+      "end": 75.3,
+      "probability": 0.9794921875
+    },
+    {
+      "text": " içkisinden",
+      "start": 75.3,
+      "end": 75.96,
+      "probability": 0.9921481311321259
+    },
+    {
+      "text": " bir",
+      "start": 75.96,
+      "end": 76.26,
+      "probability": 0.9885029196739197
+    },
+    {
+      "text": " şişeyle",
+      "start": 76.26,
+      "end": 76.7,
+      "probability": 0.9013181179761887
+    },
+    {
+      "text": " içip",
+      "start": 76.7,
+      "end": 77.0,
+      "probability": 0.9969804584980011
+    },
+    {
+      "text": " bitirdim.",
+      "start": 77.0,
+      "end": 77.46,
+      "probability": 0.9958644509315491
+    },
+    {
+      "text": " Ama",
+      "start": 77.72,
+      "end": 77.84,
+      "probability": 0.9916433095932007
+    },
+    {
+      "text": " bir",
+      "start": 77.84,
+      "end": 78.2,
+      "probability": 0.9933608770370483
+    },
+    {
+      "text": " asker",
+      "start": 78.2,
+      "end": 78.58,
+      "probability": 0.9856675863265991
+    },
+    {
+      "text": " gibi",
+      "start": 78.58,
+      "end": 78.76,
+      "probability": 0.9980120658874512
+    },
+    {
+      "text": " örneği",
+      "start": 78.76,
+      "end": 79.1,
+      "probability": 0.8085374136765798
+    },
+    {
+      "text": " tercih",
+      "start": 79.1,
+      "end": 79.6,
+      "probability": 0.9986802140871683
+    },
+    {
+      "text": " ederim.",
+      "start": 79.6,
+      "end": 79.78,
+      "probability": 0.9978837370872498
+    },
+    {
+      "text": " Bu",
+      "start": 80.06,
+      "end": 80.2,
+      "probability": 0.9924780130386353
+    },
+    {
+      "text": " iyiliği",
+      "start": 80.2,
+      "end": 80.64,
+      "probability": 0.9931554794311523
+    },
+    {
+      "text": " bana",
+      "start": 80.64,
+      "end": 80.88,
+      "probability": 0.9975812435150146
+    },
+    {
+      "text": " yap.",
+      "start": 80.88,
+      "end": 81.16,
+      "probability": 0.999721109867096
+    },
+    {
+      "text": " Çin",
+      "start": 81.38,
+      "end": 81.72,
+      "probability": 0.9977636933326721
+    },
+    {
+      "text": " güçlü.",
+      "start": 81.72,
+      "end": 82.24,
+      "probability": 0.997375875711441
+    },
+    {
+      "text": " Cumhuriyet",
+      "start": 82.42,
+      "end": 83.04,
+      "probability": 0.9985947211583456
+    },
+    {
+      "text": " güçlü.",
+      "start": 83.04,
+      "end": 83.62,
+      "probability": 0.9983274936676025
+    },
+    {
+      "text": " Savaşa",
+      "start": 83.9,
+      "end": 84.24,
+      "probability": 0.8914852341016134
+    },
+    {
+      "text": " girmesi",
+      "start": 84.24,
+      "end": 84.6,
+      "probability": 0.9914406339327494
+    },
+    {
+      "text": " için",
+      "start": 84.6,
+      "end": 84.92,
+      "probability": 0.999610960483551
+    },
+    {
+      "text": " yalnızca",
+      "start": 84.92,
+      "end": 85.52,
+      "probability": 0.9972991943359375
+    },
+    {
+      "text": " biraz",
+      "start": 85.52,
+      "end": 85.76,
+      "probability": 0.9963396787643433
+    },
+    {
+      "text": " itirmesi",
+      "start": 85.76,
+      "end": 86.28,
+      "probability": 0.8652571638425192
+    },
+    {
+      "text": " gerekiyor.",
+      "start": 86.28,
+      "end": 86.88,
+      "probability": 0.9994374513626099
+    },
+    {
+      "text": " İmparatorluk,",
+      "start": 86.88,
+      "end": 87.94,
+      "probability": 0.8274718284606933
+    },
+    {
+      "text": " Tayvan,",
+      "start": 88.18,
+      "end": 88.62,
+      "probability": 0.7415552288293839
+    },
+    {
+      "text": " birazcık",
+      "start": 88.88,
+      "end": 89.28,
+      "probability": 0.9799527823925018
+    },
+    {
+      "text": " itmek",
+      "start": 89.28,
+      "end": 89.6,
+      "probability": 0.9175381362438202
+    },
+    {
+      "text": " yeter.",
+      "start": 89.6,
+      "end": 90.06,
+      "probability": 0.9860814809799194
+    },
+    {
+      "text": " Nikoladze",
+      "start": 90.4,
+      "end": 90.86,
+      "probability": 0.6700950711965561
+    },
+    {
+      "text": " beni",
+      "start": 90.86,
+      "end": 91.12,
+      "probability": 0.9963669776916504
+    },
+    {
+      "text": " terk",
+      "start": 91.12,
+      "end": 91.52,
+      "probability": 0.9986932575702667
+    },
+    {
+      "text": " etti,",
+      "start": 91.52,
+      "end": 91.82,
+      "probability": 0.9962479472160339
+    },
+    {
+      "text": " kaçtı,",
+      "start": 92.0,
+      "end": 92.7,
+      "probability": 0.9975517094135284
+    },
+    {
+      "text": " zayıf.",
+      "start": 92.92,
+      "end": 93.48,
+      "probability": 0.9979353745778402
+    },
+    {
+      "text": " Hadi",
+      "start": 93.66,
+      "end": 94.0,
+      "probability": 0.9125668406486511
+    },
+    {
+      "text": " Amerikalı,",
+      "start": 94.0,
+      "end": 94.74,
+      "probability": 0.8168957630793253
+    },
+    {
+      "text": " biz",
+      "start": 95.08,
+      "end": 95.26,
+      "probability": 0.9716478586196899
+    },
+    {
+      "text": " bir",
+      "start": 95.26,
+      "end": 95.64,
+      "probability": 0.9967281818389893
+    },
+    {
+      "text": " imparatorluğuz.",
+      "start": 95.64,
+      "end": 96.58,
+      "probability": 0.94869398077329
+    },
+    {
+      "text": " Öldür",
+      "start": 96.88,
+      "end": 97.2,
+      "probability": 0.9891287684440613
+    },
+    {
+      "text": " beni,",
+      "start": 97.2,
+      "end": 97.6,
+      "probability": 0.9979534149169922
+    },
+    {
+      "text": " öldür",
+      "start": 97.78,
+      "end": 98.22,
+      "probability": 0.966034471988678
+    },
+    {
+      "text": " beni",
+      "start": 98.22,
+      "end": 98.52,
+      "probability": 0.9989307522773743
+    },
+    {
+      "text": " korkak.",
+      "start": 98.52,
+      "end": 99.16,
+      "probability": 0.9507842659950256
+    },
+    {
+      "text": " Bizim",
+      "start": 99.46,
+      "end": 99.72,
+      "probability": 0.9956274032592773
+    },
+    {
+      "text": " savaşımız",
+      "start": 99.72,
+      "end": 100.28,
+      "probability": 0.9940119385719299
+    },
+    {
+      "text": " da",
+      "start": 100.28,
+      "end": 100.48,
+      "probability": 0.80027174949646
+    },
+    {
+      "text": " gelecek,",
+      "start": 100.48,
+      "end": 100.8,
+      "probability": 0.9955750703811646
+    },
+    {
+      "text": " vur",
+      "start": 101.12,
+      "end": 101.36,
+      "probability": 0.9391466379165649
+    },
+    {
+      "text": " beni.",
+      "start": 101.36,
+      "end": 101.72,
+      "probability": 0.9991890788078308
+    },
+    {
+      "text": " Zaten",
+      "start": 101.98,
+      "end": 102.38,
+      "probability": 0.9939434826374054
+    },
+    {
+      "text": " ölüyüm,",
+      "start": 102.38,
+      "end": 102.86,
+      "probability": 0.8643948634465536
+    },
+    {
+      "text": " cehenneme",
+      "start": 103.06,
+      "end": 103.6,
+      "probability": 0.9817712157964706
+    },
+    {
+      "text": " git.",
+      "start": 103.6,
+      "end": 103.9,
+      "probability": 0.9979369640350342
+    },
+    {
+      "text": " Ölü",
+      "start": 104.06,
+      "end": 104.32,
+      "probability": 0.9909570515155792
+    },
+    {
+      "text": " bir",
+      "start": 104.32,
+      "end": 104.54,
+      "probability": 0.9974521994590759
+    },
+    {
+      "text": " adama",
+      "start": 104.54,
+      "end": 104.8,
+      "probability": 0.9970284104347229
+    },
+    {
+      "text": " hiçbir",
+      "start": 104.8,
+      "end": 105.28,
+      "probability": 0.8635360598564148
+    },
+    {
+      "text": " şey",
+      "start": 105.28,
+      "end": 105.46,
+      "probability": 0.9872335195541382
+    },
+    {
+      "text": " yaptıramazsın.",
+      "start": 105.46,
+      "end": 106.28,
+      "probability": 0.986295485496521
+    },
+    {
+      "text": " Ben",
+      "start": 106.54,
+      "end": 106.72,
+      "probability": 0.9910891056060791
+    },
+    {
+      "text": " sen",
+      "start": 106.72,
+      "end": 107.04,
+      "probability": 0.9762315154075623
+    },
+    {
+      "text": " gelmeden",
+      "start": 107.04,
+      "end": 107.54,
+      "probability": 0.9991737306118011
+    },
+    {
+      "text": " çok",
+      "start": 107.54,
+      "end": 107.9,
+      "probability": 0.9831609129905701
+    },
+    {
+      "text": " önce",
+      "start": 107.9,
+      "end": 108.14,
+      "probability": 0.9938987493515015
+    },
+    {
+      "text": " acı",
+      "start": 108.14,
+      "end": 108.44,
+      "probability": 0.9971753656864166
+    },
+    {
+      "text": " çekiyordum.",
+      "start": 108.44,
+      "end": 108.96,
+      "probability": 0.946705142656962
+    },
+    {
+      "text": " Elinden",
+      "start": 109.3,
+      "end": 109.8,
+      "probability": 0.991053968667984
+    },
+    {
+      "text": " gelenin",
+      "start": 109.8,
+      "end": 110.2,
+      "probability": 0.8472051024436951
+    },
+    {
+      "text": " en",
+      "start": 110.2,
+      "end": 110.64,
+      "probability": 0.9966467022895813
+    },
+    {
+      "text": " kötüsünü",
+      "start": 110.64,
+      "end": 111.14,
+      "probability": 0.9963503082593282
+    },
+    {
+      "text": " yap.",
+      "start": 111.14,
+      "end": 111.42,
+      "probability": 0.9995114803314209
+    },
+    {
+      "text": " Bilmiyorum,",
+      "start": 111.86,
+      "end": 112.4,
+      "probability": 0.9861052632331848
+    },
+    {
+      "text": " umrumda",
+      "start": 112.84,
+      "end": 113.36,
+      "probability": 0.9627486864725748
+    },
+    {
+      "text": " da",
+      "start": 113.36,
+      "end": 113.58,
+      "probability": 0.9856776595115662
+    },
+    {
+      "text": " değil.",
+      "start": 113.58,
+      "end": 113.84,
+      "probability": 0.9992146492004395
+    },
+    {
+      "text": " Umarım",
+      "start": 114.16,
+      "end": 114.58,
+      "probability": 0.9901613891124725
+    },
+    {
+      "text": " onu",
+      "start": 114.58,
+      "end": 114.86,
+      "probability": 0.9956690073013306
+    },
+    {
+      "text": " bulur",
+      "start": 114.86,
+      "end": 115.28,
+      "probability": 0.9970384240150452
+    },
+    {
+      "text": " ve",
+      "start": 115.28,
+      "end": 115.5,
+      "probability": 0.9955506324768066
+    },
+    {
+      "text": " öldürürsün.",
+      "start": 115.5,
+      "end": 116.52,
+      "probability": 0.9987778782844543
+    },
+    {
+      "text": " Ama",
+      "start": 116.52,
+      "end": 116.92,
+      "probability": 0.8205090761184692
+    },
+    {
+      "text": " nerde",
+      "start": 116.92,
+      "end": 117.38,
+      "probability": 0.6264301985502243
+    },
+    {
+      "text": " olduğunu",
+      "start": 117.38,
+      "end": 117.66,
+      "probability": 0.9641299247741699
+    },
+    {
+      "text": " bilmiyorum.",
+      "start": 117.66,
+      "end": 118.3,
+      "probability": 0.9461717009544373
+    },
+    {
+      "text": " Sen",
+      "start": 118.88,
+      "end": 119.02,
+      "probability": 0.9639065861701965
+    },
+    {
+      "text": " ve",
+      "start": 119.02,
+      "end": 119.26,
+      "probability": 0.996894121170044
+    },
+    {
+      "text": " faşist",
+      "start": 119.26,
+      "end": 119.72,
+      "probability": 0.9359756708145142
+    },
+    {
+      "text": " hükümetin",
+      "start": 119.72,
+      "end": 120.38,
+      "probability": 0.9906375050544739
+    },
+    {
+      "text": " cehenneme",
+      "start": 120.38,
+      "end": 120.96,
+      "probability": 0.9838775545358658
+    },
+    {
+      "text": " gidin.",
+      "start": 120.96,
+      "end": 121.48,
+      "probability": 0.9927467703819275
+    },
+    {
+      "text": " Öldür",
+      "start": 121.68,
+      "end": 122.08,
+      "probability": 0.995249350865682
+    },
+    {
+      "text": " beni",
+      "start": 122.08,
+      "end": 122.32,
+      "probability": 0.9986831545829773
+    },
+    {
+      "text": " Amerikalı.",
+      "start": 122.32,
+      "end": 122.98,
+      "probability": 0.9458129008611044
+    },
+    {
+      "text": " İkimize",
+      "start": 123.38,
+      "end": 123.8,
+      "probability": 0.8759716351826986
+    },
+    {
+      "text": " de",
+      "start": 123.8,
+      "end": 124.0,
+      "probability": 0.9875898361206055
+    },
+    {
+      "text": " bir",
+      "start": 124.0,
+      "end": 124.28,
+      "probability": 0.955562949180603
+    },
+    {
+      "text": " iyilik",
+      "start": 124.28,
+      "end": 124.58,
+      "probability": 0.9969046115875244
+    },
+    {
+      "text": " yap.",
+      "start": 124.58,
+      "end": 124.74,
+      "probability": 0.9998363256454468
+    }
+  ],
+  "text": " Bana 3 gün daha ver.  Cihazlar bir günde hazırlanır, ertesi gün yerleştirilir.  Elbette Ark.  Ama ayrıntıları biliyorsun.  Birlikte vurmalıyız.  Yoksa hiç vurmayalım daha iyi.  Nikoladze, beni dinle.  Bizi ele vereceksin.  Bu saçmalık.  Nasıl dinleyebilirler?  Bu paranoia ama.  Peki, peki.  Tamam.  Güvenli bir konuşma yaparız.  Seni arabamdan geri ararım.  Dinlemesinden endişe ettiğim yalnızca onlar değil.  Sadece en yeteneklileri onlar.  Elbette.  Sinyal kaç kez yönlendirilecek?  Kola Yarımadası'ndaki üstsünün de izlenemeyeceğine inanıyordun.  Savaş psikolojisini bilirim.  Evet evet birçok infaz gördüm.  Ama hiç Amerikalıların kini değil.  Bir saniye.  Şoför.  Moketsue Bo Meats ne kadar uzakta?  Hayır zahmete değmez.  Yayını herkes gibi izlerim.  Evet çok doğru.  Ne kadar kötü bir adamsınız Bay Nikoladze.  Umarım gösteriniz iyi geçer.  Kendinize iyi bakın.  Kong Feiron konuşuyor.  Tüm birliklere kırmızı durum emrini iletin.  Tekrar ediyorum.  Kırmızı durum. Nikolatze bizi terk etti. Herkes tam alarma geçsin. Konvoyu harekete hazır istiyorum.  Kendimi vuracağım. Çin özel kuvvetleri benim için geliyor. Bir ceset bulmalarını istiyorum.  Amerikalılarla barışın yolunu açan anahtar olmayacağım.  Bir şişe zehri, büyük elçinin iyi içkisinden bir şişeyle içip bitirdim. Ama bir asker gibi örneği tercih ederim.  Bu iyiliği bana yap. Çin güçlü. Cumhuriyet güçlü. Savaşa girmesi için yalnızca biraz itirmesi gerekiyor.  İmparatorluk, Tayvan, birazcık itmek yeter.  Nikoladze beni terk etti, kaçtı, zayıf.  Hadi Amerikalı, biz bir imparatorluğuz.  Öldür beni, öldür beni korkak.  Bizim savaşımız da gelecek, vur beni.  Zaten ölüyüm, cehenneme git.  Ölü bir adama hiçbir şey yaptıramazsın.  Ben sen gelmeden çok önce acı çekiyordum.  Elinden gelenin en kötüsünü yap.  Bilmiyorum, umrumda da değil.  Umarım onu bulur ve öldürürsün.  Ama nerde olduğunu bilmiyorum.  Sen ve faşist hükümetin cehenneme gidin.  Öldür beni Amerikalı.  İkimize de bir iyilik yap.",
+  "elapsed_seconds": 43.51
+}
