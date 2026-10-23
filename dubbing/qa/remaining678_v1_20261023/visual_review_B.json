@@ -1,0 +1,18 @@
+{
+  "stage": "B",
+  "boundaries_visually_inspected": 180,
+  "method": "Source waveform plus ASR anchors; not listening",
+  "result": "Four initial timing corrections before v01. Residual background at u000260/u000262/u000279/u000280/u000281 remains a listening priority; laughter retained for u000150. Rejected male section is excluded from cuts.",
+  "plots": {
+    "boundaries_01.png": "33c41117bb664c9ec079c7d4cbc436045dd901703b6f8af5b8358cced9700cea",
+    "boundaries_02.png": "b13d672fe7992d716865f1772bc10b2d32c57a6f7cbfc37a5500a0681d7710b9",
+    "boundaries_03.png": "7400243d729c7a95913be49ecbf08fe8e022ff65f98b5243e0bb24e12fd63c12",
+    "boundaries_04.png": "9c045735959e6df9d1591bd63e1682ba2e85c24981bd8ffcc9f0a3f588a28374",
+    "boundaries_05.png": "08ebec4c171f70aa15c7dc5acaedb1577d35ee7192c789f9baf882a1d284be32",
+    "boundaries_06.png": "454ce8b908b8449287ff43215a9092d4e49ad54d70f7809bd42ba6c14566e3ca",
+    "boundaries_07.png": "815ca4358100092664145a13eb2af89704a3cfb82dd03929627f803d5503ab05",
+    "boundaries_08.png": "75174efd153cc82c005a8b0a4c517547da087c3006c1c2f710584ba136e36c66",
+    "boundaries_09.png": "ca9eee41ebd4c827d885330ea432cbae78417824f2b3f3427ff6c5f44672df16",
+    "focus_before_v01.png": "5bb41a66ed6bd8225691ff629219114a878482a6bfc21009a847baec4e2ed892"
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "path": "/run/media/ereng/files/projects/splinter-cell-turkish/dubbing/figurants/gameplay/batches/B001_20261022/audio_original/ElevenLabs_2026-10-22T11_32_00_Marcus - Friendly, Natural and Casual_pvc_sp100_s6_sb75_v4.mp3",
+  "sha256": "2724a942ae26344c18b1fa3cb1436764efd48515314bf40e6114be821b2a4809",
+  "model": "medium",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "language": "tr",
+  "word_timestamps": true,
+  "condition_on_previous_text": false,
+  "vad_filter": false,
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.62,
+      "text": " İyi. İdeal değil. Ama idare eder.",
+      "no_speech_prob": 0.03499514237046242
+    },
+    {
+      "start": 3.14,
+      "end": 6.18,
+      "text": " Kritik değil demiştin. Emin misin? Mesai?",
+      "no_speech_prob": 0.03499514237046242
+    },
+    {
+      "start": 6.58,
+      "end": 9.4,
+      "text": " Kriz var dostum. Yoğunuz. Görüşürüz.",
+      "no_speech_prob": 0.03499514237046242
+    },
+    {
+      "start": 9.84,
+      "end": 13.9,
+      "text": " Burada ölmek istemiyorum. Kim? Hayır. Canım yanıyor.",
+      "no_speech_prob": 0.03499514237046242
+    },
+    {
+      "start": 14.14,
+      "end": 17.86,
+      "text": " Lütfen beni revire götür. Teşekkür ederim. Sen kimsin?",
+      "no_speech_prob": 0.03499514237046242
+    },
+    {
+      "start": 18.2,
+      "end": 21.76,
+      "text": " Aldılar. Yok ettiler. Delirdiler. Bilmiyorum.",
+      "no_speech_prob": 0.03499514237046242
+    },
+    {
+      "start": 22.2,
+      "end": 25.46,
+      "text": " O zaman beşinci katta olmalı. Çok yorgunum.",
+      "no_speech_prob": 0.03499514237046242
+    },
+    {
+      "start": 25.8,
+      "end": 27.78,
+      "text": " Hiçbir şey yapmadın. Lütfen.",
+      "no_speech_prob": 0.03499514237046242
+    },
+    {
+      "start": 27.78,
+      "end": 30.98,
+      "text": " Ah, o zaman tutuklayın beni. Uyumam gerek.",
+      "no_speech_prob": 0.08266951143741608
+    },
+    {
+      "start": 31.54,
+      "end": 34.14,
+      "text": " Ah, lütfen. Ben, ben...",
+      "no_speech_prob": 0.08266951143741608
+    }
+  ],
+  "words": [
+    {
+      "text": " İyi.",
+      "start": 0.0,
+      "end": 0.56,
+      "probability": 0.8491094708442688
+    },
+    {
+      "text": " İdeal",
+      "start": 0.74,
+      "end": 1.12,
+      "probability": 0.7945998013019562
+    },
+    {
+      "text": " değil.",
+      "start": 1.12,
+      "end": 1.46,
+      "probability": 0.9962097406387329
+    },
+    {
+      "text": " Ama",
+      "start": 1.62,
+      "end": 1.82,
+      "probability": 0.9905492663383484
+    },
+    {
+      "text": " idare",
+      "start": 1.82,
+      "end": 2.28,
+      "probability": 0.9950871467590332
+    },
+    {
+      "text": " eder.",
+      "start": 2.28,
+      "end": 2.62,
+      "probability": 0.9972809553146362
+    },
+    {
+      "text": " Kritik",
+      "start": 3.14,
+      "end": 3.52,
+      "probability": 0.9133175611495972
+    },
+    {
+      "text": " değil",
+      "start": 3.52,
+      "end": 3.7,
+      "probability": 0.9935272336006165
+    },
+    {
+      "text": " demiştin.",
+      "start": 3.7,
+      "end": 4.38,
+      "probability": 0.9915051162242889
+    },
+    {
+      "text": " Emin",
+      "start": 4.72,
+      "end": 4.88,
+      "probability": 0.9852327108383179
+    },
+    {
+      "text": " misin?",
+      "start": 4.88,
+      "end": 5.56,
+      "probability": 0.9983964562416077
+    },
+    {
+      "text": " Mesai?",
+      "start": 5.82,
+      "end": 6.18,
+      "probability": 0.9764440059661865
+    },
+    {
+      "text": " Kriz",
+      "start": 6.58,
+      "end": 6.9,
+      "probability": 0.8565368056297302
+    },
+    {
+      "text": " var",
+      "start": 6.9,
+      "end": 7.12,
+      "probability": 0.9988654851913452
+    },
+    {
+      "text": " dostum.",
+      "start": 7.12,
+      "end": 7.62,
+      "probability": 0.993055909872055
+    },
+    {
+      "text": " Yoğunuz.",
+      "start": 7.78,
+      "end": 8.36,
+      "probability": 0.7673146836459637
+    },
+    {
+      "text": " Görüşürüz.",
+      "start": 8.8,
+      "end": 9.4,
+      "probability": 0.9923375993967056
+    },
+    {
+      "text": " Burada",
+      "start": 9.84,
+      "end": 10.08,
+      "probability": 0.8440127372741699
+    },
+    {
+      "text": " ölmek",
+      "start": 10.08,
+      "end": 10.5,
+      "probability": 0.9968345165252686
+    },
+    {
+      "text": " istemiyorum.",
+      "start": 10.5,
+      "end": 11.16,
+      "probability": 0.9982897639274597
+    },
+    {
+      "text": " Kim?",
+      "start": 11.52,
+      "end": 11.82,
+      "probability": 0.9746971130371094
+    },
+    {
+      "text": " Hayır.",
+      "start": 12.28,
+      "end": 12.78,
+      "probability": 0.9956604838371277
+    },
+    {
+      "text": " Canım",
+      "start": 13.14,
+      "end": 13.4,
+      "probability": 0.9881582260131836
+    },
+    {
+      "text": " yanıyor.",
+      "start": 13.4,
+      "end": 13.9,
+      "probability": 0.9972483515739441
+    },
+    {
+      "text": " Lütfen",
+      "start": 14.14,
+      "end": 14.56,
+      "probability": 0.9965117275714874
+    },
+    {
+      "text": " beni",
+      "start": 14.56,
+      "end": 14.94,
+      "probability": 0.7648060917854309
+    },
+    {
+      "text": " revire",
+      "start": 14.94,
+      "end": 15.28,
+      "probability": 0.9266089797019958
+    },
+    {
+      "text": " götür.",
+      "start": 15.28,
+      "end": 15.7,
+      "probability": 0.9975325465202332
+    },
+    {
+      "text": " Teşekkür",
+      "start": 16.1,
+      "end": 16.5,
+      "probability": 0.9942328929901123
+    },
+    {
+      "text": " ederim.",
+      "start": 16.5,
+      "end": 16.78,
+      "probability": 0.9976206421852112
+    },
+    {
+      "text": " Sen",
+      "start": 17.18,
+      "end": 17.48,
+      "probability": 0.9970947504043579
+    },
+    {
+      "text": " kimsin?",
+      "start": 17.48,
+      "end": 17.86,
+      "probability": 0.998036116361618
+    },
+    {
+      "text": " Aldılar.",
+      "start": 18.2,
+      "end": 18.92,
+      "probability": 0.9969184398651123
+    },
+    {
+      "text": " Yok",
+      "start": 19.14,
+      "end": 19.34,
+      "probability": 0.9741904735565186
+    },
+    {
+      "text": " ettiler.",
+      "start": 19.34,
+      "end": 19.96,
+      "probability": 0.9966970086097717
+    },
+    {
+      "text": " Delirdiler.",
+      "start": 20.22,
+      "end": 20.96,
+      "probability": 0.9983564019203186
+    },
+    {
+      "text": " Bilmiyorum.",
+      "start": 21.32,
+      "end": 21.76,
+      "probability": 0.996572881937027
+    },
+    {
+      "text": " O",
+      "start": 22.2,
+      "end": 22.38,
+      "probability": 0.9974767565727234
+    },
+    {
+      "text": " zaman",
+      "start": 22.38,
+      "end": 22.78,
+      "probability": 0.9979503750801086
+    },
+    {
+      "text": " beşinci",
+      "start": 22.78,
+      "end": 23.3,
+      "probability": 0.6981840133666992
+    },
+    {
+      "text": " katta",
+      "start": 23.3,
+      "end": 23.68,
+      "probability": 0.917485386133194
+    },
+    {
+      "text": " olmalı.",
+      "start": 23.68,
+      "end": 24.22,
+      "probability": 0.9985178112983704
+    },
+    {
+      "text": " Çok",
+      "start": 24.4,
+      "end": 24.66,
+      "probability": 0.9985871315002441
+    },
+    {
+      "text": " yorgunum.",
+      "start": 24.66,
+      "end": 25.46,
+      "probability": 0.9983318150043488
+    },
+    {
+      "text": " Hiçbir",
+      "start": 25.8,
+      "end": 26.12,
+      "probability": 0.8801121413707733
+    },
+    {
+      "text": " şey",
+      "start": 26.12,
+      "end": 26.26,
+      "probability": 0.9965062141418457
+    },
+    {
+      "text": " yapmadın.",
+      "start": 26.26,
+      "end": 26.9,
+      "probability": 0.8564604918162028
+    },
+    {
+      "text": " Lütfen.",
+      "start": 27.02,
+      "end": 27.78,
+      "probability": 0.9976364374160767
+    },
+    {
+      "text": " Ah,",
+      "start": 27.78,
+      "end": 28.34,
+      "probability": 0.3961496353149414
+    },
+    {
+      "text": " o",
+      "start": 28.7,
+      "end": 28.82,
+      "probability": 0.9508345127105713
+    },
+    {
+      "text": " zaman",
+      "start": 28.82,
+      "end": 29.04,
+      "probability": 0.986925482749939
+    },
+    {
+      "text": " tutuklayın",
+      "start": 29.04,
+      "end": 29.66,
+      "probability": 0.9852294921875
+    },
+    {
+      "text": " beni.",
+      "start": 29.66,
+      "end": 29.88,
+      "probability": 0.9988094568252563
+    },
+    {
+      "text": " Uyumam",
+      "start": 30.2,
+      "end": 30.64,
+      "probability": 0.8165640830993652
+    },
+    {
+      "text": " gerek.",
+      "start": 30.64,
+      "end": 30.98,
+      "probability": 0.9929366707801819
+    },
+    {
+      "text": " Ah,",
+      "start": 31.54,
+      "end": 31.78,
+      "probability": 0.7923832535743713
+    },
+    {
+      "text": " lütfen.",
+      "start": 32.0,
+      "end": 32.58,
+      "probability": 0.988134503364563
+    },
+    {
+      "text": " Ben,",
+      "start": 32.84,
+      "end": 33.08,
+      "probability": 0.9719700813293457
+    },
+    {
+      "text": " ben...",
+      "start": 33.64,
+      "end": 34.14,
+      "probability": 0.7824641466140747
+    }
+  ],
+  "text": " İyi. İdeal değil. Ama idare eder.  Kritik değil demiştin. Emin misin? Mesai?  Kriz var dostum. Yoğunuz. Görüşürüz.  Burada ölmek istemiyorum. Kim? Hayır. Canım yanıyor.  Lütfen beni revire götür. Teşekkür ederim. Sen kimsin?  Aldılar. Yok ettiler. Delirdiler. Bilmiyorum.  O zaman beşinci katta olmalı. Çok yorgunum.  Hiçbir şey yapmadın. Lütfen.  Ah, o zaman tutuklayın beni. Uyumam gerek.  Ah, lütfen. Ben, ben...",
+  "elapsed_seconds": 21.81
+}

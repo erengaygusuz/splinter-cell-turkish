@@ -1,0 +1,18 @@
+{
+  "u000551|u000553": {
+    "time": 29.8,
+    "reason": "ASR starts the next word before the preceding tail decays; source waveform quiet plateau 29.74–29.86 s."
+  },
+  "u000262|u000264": {
+    "time": 123.22,
+    "reason": "Retain decaying Tamam tail; use quiet plateau 123.16–123.26 s."
+  },
+  "u000280|u000281": {
+    "time": 149.18,
+    "reason": "Initial ASR midpoint falls inside Yemin onset; waveform low-energy valley after preceding tail, before onset around 149.36 s. Residual background requires listening."
+  },
+  "u000148|u000150": {
+    "time": 94.07,
+    "reason": "Preserve both Heh bursts at about 94.30 and 94.52 s with iyi fikir; ASR omitted laughter and proposed a boundary between the bursts. Quiet plateau after preceding mı ends about 94.03 s."
+  }
+}

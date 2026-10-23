@@ -1,0 +1,47 @@
+[
+  {
+    "text": " 3",
+    "start": 155.54,
+    "end": 155.94,
+    "probability": 0.7447978258132935,
+    "source_key": "B_file02",
+    "word_index": 900,
+    "group": "B_all"
+  },
+  {
+    "text": "-3",
+    "start": 155.94,
+    "end": 156.22,
+    "probability": 0.6602560579776764,
+    "source_key": "B_file02",
+    "word_index": 901,
+    "group": "B_all"
+  },
+  {
+    "text": "-5",
+    "start": 156.22,
+    "end": 156.56,
+    "probability": 0.9477639496326447,
+    "source_key": "B_file02",
+    "word_index": 902,
+    "group": "B_all"
+  },
+  {
+    "text": "-7",
+    "start": 156.56,
+    "end": 156.78,
+    "probability": 0.9952452182769775,
+    "source_key": "B_file02",
+    "word_index": 903,
+    "group": "B_all"
+  },
+  {
+    "text": "-5.",
+    "start": 156.78,
+    "end": 157.24,
+    "probability": 0.9984851479530334,
+    "source_key": "B_file02",
+    "word_index": 904,
+    "group": "B_all"
+  }
+]
