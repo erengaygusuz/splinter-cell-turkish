@@ -1,0 +1,750 @@
+{
+  "schema": "physical-source-roles-v1",
+  "basis": "Full source transcripts and repeated-block comparison; FX_FIRST/CLEAN order from user handoff; no listening claim",
+  "files": {
+    "C_file01": [
+      {
+        "speaker": "S001",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S002",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S003",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S004",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S005",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S006",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S007",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S008",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S009",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S010",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file02": [
+      {
+        "speaker": "S011",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file03": [
+      {
+        "speaker": "S011",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file04": [
+      {
+        "speaker": "S012",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S013",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S014",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S015",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file05": [
+      {
+        "speaker": "S016",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file06": [
+      {
+        "speaker": "S016",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file07": [
+      {
+        "speaker": "S017",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S018",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S019",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S020",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S021",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S022",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file08": [
+      {
+        "speaker": "S023",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S024",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S025",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S026",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S027",
+        "take": "NORMAL",
+        "exclude_duplicate": true
+      }
+    ],
+    "C_file09": [
+      {
+        "speaker": "S023",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S024",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S025",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S026",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S027",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file10": [
+      {
+        "speaker": "S028",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file11": [
+      {
+        "speaker": "S029",
+        "take": "NORMAL",
+        "exclude_duplicate": true
+      }
+    ],
+    "C_file12": [
+      {
+        "speaker": "S029",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file13": [
+      {
+        "speaker": "S030",
+        "take": "NORMAL",
+        "exclude_duplicate": true
+      }
+    ],
+    "C_file14": [
+      {
+        "speaker": "S030",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file15": [
+      {
+        "speaker": "S031",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file16": [
+      {
+        "speaker": "S032",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file17": [
+      {
+        "speaker": "S032",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file18": [
+      {
+        "speaker": "S033",
+        "take": "NORMAL",
+        "exclude_duplicate": true
+      }
+    ],
+    "C_file19": [
+      {
+        "speaker": "S033",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file20": [
+      {
+        "speaker": "S034",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S035",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file21": [
+      {
+        "speaker": "S036",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file22": [
+      {
+        "speaker": "S036",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file23": [
+      {
+        "speaker": "S037",
+        "take": "NORMAL",
+        "exclude_duplicate": true
+      }
+    ],
+    "C_file24": [
+      {
+        "speaker": "S037",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file25": [
+      {
+        "speaker": "S038",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S039",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file26": [
+      {
+        "speaker": "S040",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file27": [
+      {
+        "speaker": "S040",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file28": [
+      {
+        "speaker": "S041",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S042",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S043",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file29": [
+      {
+        "speaker": "S044",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file30": [
+      {
+        "speaker": "S044",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file31": [
+      {
+        "speaker": "S045",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S046",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S047",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S048",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S049",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S050",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S051",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S052",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S053",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S054",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S055",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file32": [
+      {
+        "speaker": "S056",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S057",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S058",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S059",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S060",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S061",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S062",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S063",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S064",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S065",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file33": [
+      {
+        "speaker": "S066",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S067",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S068",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S069",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S070",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S071",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S072",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S073",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S074",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S075",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file34": [
+      {
+        "speaker": "S076",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S077",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S078",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S079",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S080",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S081",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S082",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S083",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S084",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S085",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file35": [
+      {
+        "speaker": "S086",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S087",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S088",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S089",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file36": [
+      {
+        "speaker": "S090",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S091",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S092",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file37": [
+      {
+        "speaker": "S090",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S091",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S092",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file38": [
+      {
+        "speaker": "S093",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S094",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S095",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S096",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S097",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S098",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S099",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S100",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S101",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S102",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file39": [
+      {
+        "speaker": "S103",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S104",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S105",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S106",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S107",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S108",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S109",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S110",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S111",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S112",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file40": [
+      {
+        "speaker": "S113",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file41": [
+      {
+        "speaker": "S113",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file42": [
+      {
+        "speaker": "S114",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S115",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S116",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S117",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S118",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S119",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S120",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S121",
+        "take": "NORMAL"
+      },
+      {
+        "speaker": "S122",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file43": [
+      {
+        "speaker": "S123",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S124",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S125",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file44": [
+      {
+        "speaker": "S123",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S124",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S125",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file45": [
+      {
+        "speaker": "S127",
+        "take": "NORMAL"
+      }
+    ],
+    "C_file46": [
+      {
+        "speaker": "S128",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S129",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S130",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S131",
+        "take": "FX_FIRST"
+      },
+      {
+        "speaker": "S132",
+        "take": "FX_FIRST"
+      }
+    ],
+    "C_file47": [
+      {
+        "speaker": "S128",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S129",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S130",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S131",
+        "take": "CLEAN"
+      },
+      {
+        "speaker": "S132",
+        "take": "CLEAN"
+      }
+    ],
+    "C_file48": [
+      {
+        "speaker": "S133",
+        "take": "NORMAL"
+      }
+    ]
+  },
+  "unmapped": [
+    {
+      "speaker": "S126",
+      "take": "NORMAL",
+      "reason": "No corresponding phrase located in either set of 48 full-source transcripts; do not reuse another Emredersiniz recording"
+    }
+  ]
+}

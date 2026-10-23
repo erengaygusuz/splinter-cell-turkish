@@ -1,0 +1,66 @@
+{
+  "u000053_normal|u000055_normal": {
+    "time": 4.885,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000204_normal|u000154_normal": {
+    "time": 75.85,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000235_normal|u000309_normal": {
+    "time": 23.42,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000371_normal|u000373_normal": {
+    "time": 2.22,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000506_normal|u000519_normal": {
+    "time": 13.4,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000643_normal|u000647_normal": {
+    "time": 61.55,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000652_normal|u000665_normal": {
+    "time": 29.19,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000687_normal|u000751_normal": {
+    "time": 28.12,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000872_normal|u000873_normal": {
+    "time": 55.81,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000897_normal|u000899_normal": {
+    "time": 24.97,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000909_normal|u000966_normal": {
+    "time": 28.77,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000893_normal|u000895_normal": {
+    "time": 46.245,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000974_normal|u000989_normal": {
+    "time": 64.1,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u001073_normal|u001074_normal": {
+    "time": 77.565,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u000973_normal|u000976_normal": {
+    "time": 45.69,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  },
+  "u001075_normal|u000994_normal": {
+    "time": 83.54,
+    "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+  }
+}

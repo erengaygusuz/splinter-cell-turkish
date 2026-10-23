@@ -1,0 +1,181 @@
+{
+  "method": "RMS waveform visual review and full-source word timestamps; not auditory listening",
+  "boundary_count": 359,
+  "source_edge_count": 96,
+  "reviewed_initial_boundary_pages": 18,
+  "reviewed_source_edge_pages": 7,
+  "reviewed_correction_page": true,
+  "overrides": {
+    "u000053_normal|u000055_normal": {
+      "time": 4.885,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000204_normal|u000154_normal": {
+      "time": 75.85,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000235_normal|u000309_normal": {
+      "time": 23.42,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000371_normal|u000373_normal": {
+      "time": 2.22,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000506_normal|u000519_normal": {
+      "time": 13.4,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000643_normal|u000647_normal": {
+      "time": 61.55,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000652_normal|u000665_normal": {
+      "time": 29.19,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000687_normal|u000751_normal": {
+      "time": 28.12,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000872_normal|u000873_normal": {
+      "time": 55.81,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000897_normal|u000899_normal": {
+      "time": 24.97,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000909_normal|u000966_normal": {
+      "time": 28.77,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000893_normal|u000895_normal": {
+      "time": 46.245,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000974_normal|u000989_normal": {
+      "time": 64.1,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u001073_normal|u001074_normal": {
+      "time": 77.565,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u000973_normal|u000976_normal": {
+      "time": 45.69,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    },
+    "u001075_normal|u000994_normal": {
+      "time": 83.54,
+      "reason": "Inspect source waveform and ASR word context; retain preceding decay and following onset; no listening claimed"
+    }
+  },
+  "images": [
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_01.png",
+      "sha256": "4d49bb27885dbbf56a5ce8821489842afd3aa5aadd76c60b5f81577a20042e4a"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_02.png",
+      "sha256": "0eeb2808d181a91d80548c7392e6b5ebe781f4d6cb1e1590c0943ec28de02f37"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_03.png",
+      "sha256": "6cd84617de56b660bb5632aeaa9a976aa4d48dfe04e057c1b2502ce2c804475c"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_04.png",
+      "sha256": "00dc79ee4a96ba7b509803f1fd75dbc06772709b22e1797cf9ccd1caf00632b7"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_05.png",
+      "sha256": "a7f3184f9f6b1116b8da7397c2e56957fea819f23ee2bd2921674f44ea4f2ac5"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_06.png",
+      "sha256": "70bc0169324b8f37b9d70f16a2c60737bfecc084da30e7dcb45a5a93738c3174"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_07.png",
+      "sha256": "52880034959478195276d0d84841252ada3ebfc59ceb04a140b96fd0035e5836"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_08.png",
+      "sha256": "9aee4066ee7fa70ff64b890de13a475589669e06cbc58da66f9ead6edcba9e30"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_09.png",
+      "sha256": "ada465a7eab474d2d9013a82b635eca5dff9d505ce7884ca3e19230b406ffd4b"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_10.png",
+      "sha256": "1908269e87dc7f9c68ca1fb0d88463626e46ca5541ee5a9f13f9fd2c68c77cb8"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_11.png",
+      "sha256": "3d1080619f3c6f744c1a825a1770de14d32fc81f1bbe237bc05c9dd8af366c40"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_12.png",
+      "sha256": "8843a5b79e8572489e0d0d32646d3c7434bdf611d725dd75c0528bc91b66ea5f"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_13.png",
+      "sha256": "6c21e7666da2c539c68610579da0e32f2f474c5123657d9709fd04998fcb2451"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_14.png",
+      "sha256": "69819b85e0127ce560fbd9054afb202d8b2463838f35baf96d2c42d99d5c821e"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_15.png",
+      "sha256": "a55a1a5f165d5b1746c48a36740c43d7b4e94f74adee7c734805d781248e4234"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_16.png",
+      "sha256": "5eb9aa89448a0df6486a5f91ee977044b683769df9bdb0a172091262b9d142bb"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_17.png",
+      "sha256": "bd52ba22f4b552323cec10d82861a7166147e7138a8aed9f34c6f193e5d418fe"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/boundaries_18.png",
+      "sha256": "d879c231b85dc64a99d47d8997b38d3a05cf305702511d0af4afaa2cf88b6e39"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/focused_corrections_v02.png",
+      "sha256": "58a0675c60c00daa4fbbadd753356160f5016fa5fb90f35382a37ce2b5159ecb"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/source_edges_01.png",
+      "sha256": "69a38266323c9fba11da7c2dbcd9dee1ba1a5ac78c15e506ef928c3d677b8639"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/source_edges_02.png",
+      "sha256": "2f4f97a6598b2f3c548fb1b42d3fe70212edf381e24ac8947b39e7a1bc98976e"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/source_edges_03.png",
+      "sha256": "b25992beff40a60e5429a8f9b9e27599b5b7fd8ef7d553ce931a159197e3f738"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/source_edges_04.png",
+      "sha256": "075e2cdb9a96faa9e0aa16125a7a4d96970fcf617277d70db531bca4286e29fe"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/source_edges_05.png",
+      "sha256": "c9df3ea66c35dd27980ff5c772c13fe3f06bfb5760a8bcb9203158d69f2f30fa"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/source_edges_06.png",
+      "sha256": "705481d2ae6703c90b3c5936e5d2c154d0c68bf93e0298fdca24d67980aca888"
+    },
+    {
+      "path": "dubbing/qa/remaining678_v1_20261023/plots/C/source_edges_07.png",
+      "sha256": "d41d36558094481c3eb1618d9cb0e2e5d1c1b88f4ed9b15644d8e18db1dd5c0b"
+    }
+  ],
+  "notes": "Initial boundary pages intentionally retained; focused_corrections_v02.png shows old/red and final/green boundaries. No source audio modified."
+}

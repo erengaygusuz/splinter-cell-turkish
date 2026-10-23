@@ -4,6 +4,9 @@ from pipeline import *
 import os
 
 def align(stage):
+ if stage=='C':
+  from physical_alignment import align_physical
+  return align_physical()
  allrows=load(Q/'expected_candidates.json');sources=load(Q/'sources.json')
  expected=[r for r in allrows if r['stage']==stage];rank={r['candidate_key']:i for i,r in enumerate(expected)}
  groups=list(dict.fromkeys(r['group'] for r in expected))
@@ -65,8 +68,15 @@ def align(stage):
  table(Q/f'boundaries_{stage}.tsv',boundaries,['stage','source_key','left','right','time','method','quiet_start','quiet_end'])
  print('Aligned',stage,len(plans),'rows; flags',Counter(f for r in plans for f in r['alignment_flags']),flush=True)
 
-def make_cuts(stage):
+def make_cuts(stage,version='v01',only=None):
+ import re
+ assert re.fullmatch(r'v\d{2,}',version),version
  plan=load(Q/f'alignment_{stage}.json');sources={s['key']:s for s in load(Q/'sources.json')};outputs=[]
+ previous=tsv(Q/f'cuts_{stage}.tsv') if only else []
+ if only:
+  assert set(only)<={r['candidate_key'] for r in plan}
+  immutable_json(Q/f'cuts_{stage}_before_{version}.json',previous)
+  plan=[r for r in plan if r['candidate_key'] in only]
  for key in dict.fromkeys(r['source_key'] for r in plan if r['source_key']):
   source=sources[key];p=ROOT/source['path'];assert sha(p)==source['sha256']
   width=3 if source['codec']=='pcm_s24le' else 2
@@ -75,25 +85,33 @@ def make_cuts(stage):
    if r['excluded'] or any(f in r['alignment_flags'] for f in ['MISSING_OR_MULTI_SOURCE','WRONG_SOURCE','MISSING_NEIGHBOR','INVALID_INTERVAL']):continue
    a,b=r['start_sample'],r['end_sample'];assert 0<=a<b<=len(raw)//width
    suffix='' if stage!='C' else ('_fx' if r['take']=='FX_FIRST' else '_clean')
-   out=ROOT/r['output_dir']/(r['id']+suffix+'_v01.wav');out.parent.mkdir(parents=True,exist_ok=True)
+   out=ROOT/r['output_dir']/(r['id']+suffix+'_'+version+'.wav');out.parent.mkdir(parents=True,exist_ok=True)
    payload=raw[a*width:b*width]
    if out.exists():
     with wave.open(str(out),'rb') as w:assert w.getparams()[:3]==(1,width,RATE) and w.readframes(w.getnframes())==payload, str(out)+' already differs; use v02'
    else:
     with out.open('xb') as f:
      with wave.open(f,'wb') as w:w.setnchannels(1);w.setsampwidth(width);w.setframerate(RATE);w.writeframes(payload)
-   outputs.append(dict(candidate_key=r['candidate_key'],id=r['id'],stage=stage,speaker=r['speaker'],take=r['take'],source_path=r['source_path'],source_sha256=r['source_sha256'],start_sample=a,end_sample=b,start_sec=a/RATE,end_sec=b/RATE,expected_text=r['expected_text'],wav_path=rel(out),sha256=sha(out),sample_rate=RATE,sample_width=width,channels=1,source_pcm_identical=True,version='v01',qa_status='UNAPPROVED_AUTO_CANDIDATE'))
+   outputs.append(dict(candidate_key=r['candidate_key'],id=r['id'],stage=stage,speaker=r['speaker'],take=r['take'],source_path=r['source_path'],source_sha256=r['source_sha256'],start_sample=a,end_sample=b,start_sec=a/RATE,end_sec=b/RATE,expected_text=r['expected_text'],wav_path=rel(out),sha256=sha(out),sample_rate=RATE,sample_width=width,channels=1,source_pcm_identical=True,version=version,qa_status='UNAPPROVED_AUTO_CANDIDATE'))
+ immutable_json(Q/f'cuts_{stage}_{version}.json',outputs)
+ if only:
+  replacement={r['candidate_key']:r for r in outputs}
+  assert set(replacement)==set(only),'Requested revision could not be cut'
+  outputs=[replacement.get(r['candidate_key'],r) for r in previous]
  table(Q/f'cuts_{stage}.tsv',outputs);print('Wrote/preserved',len(outputs),stage,'unapproved WAV candidates',flush=True)
 
-def clip_asr(stage):
+def clip_asr(stage,worker_index=0,workers=1):
+ assert 0<=worker_index<workers
  cuts=tsv(Q/f'cuts_{stage}.tsv');model=None
- for r in cuts:
-  p=ROOT/r['wav_path'];assert sha(p)==r['sha256'];out=Q/'clip_asr'/(r['candidate_key']+'_v01.json')
+ for r in cuts[worker_index::workers]:
+  p=ROOT/r['wav_path'];assert sha(p)==r['sha256'];out=Q/'clip_asr'/(r['candidate_key']+'_'+r['version']+'.json')
   if out.exists():assert load(out)['sha256']==r['sha256'];continue
   if model is None:model=get_model()
   d=transcribe_one(model,p,r['sha256'],out)
- print('Isolated ASR finished:',stage,len(cuts),flush=True)
+ print('Isolated ASR finished:',stage,'worker',worker_index,'of',workers,len(cuts[worker_index::workers]),flush=True)
 
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('mode',choices=['align','cut','clip_asr']);p.add_argument('--stage',required=True,choices=['A','B','C']);a=p.parse_args()
- {'align':align,'cut':make_cuts,'clip_asr':clip_asr}[a.mode](a.stage)
+ p=argparse.ArgumentParser();p.add_argument('mode',choices=['align','cut','clip_asr']);p.add_argument('--stage',required=True,choices=['A','B','C']);p.add_argument('--version',default='v01');p.add_argument('--only',nargs='+');p.add_argument('--worker-index',type=int,default=0);p.add_argument('--workers',type=int,default=1);a=p.parse_args()
+ if a.mode=='cut':make_cuts(a.stage,a.version,a.only)
+ elif a.mode=='clip_asr':clip_asr(a.stage,a.worker_index,a.workers)
+ else:align(a.stage)

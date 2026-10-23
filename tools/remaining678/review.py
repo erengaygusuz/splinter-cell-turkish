@@ -10,7 +10,7 @@ def main():
   if (Q/f'cuts_{stage}.tsv').exists():cuts.update({r['candidate_key']:r for r in tsv(Q/f'cuts_{stage}.tsv')})
  for e in expected:
   if e['excluded']:continue
-  key=e['candidate_key'];p=plans.get(key,{});c=cuts.get(key,{});f=Q/'clip_asr'/(key+'_v01.json');a=load(f) if f.exists() else {}
+  key=e['candidate_key'];p=plans.get(key,{});c=cuts.get(key,{});f=Q/'clip_asr'/(key+'_'+c.get('version','v01')+'.json');a=load(f) if f.exists() else {}
   if a:assert a['sha256']==c['sha256']
   score=common.score(e['expected_text'],a.get('text','')) if a else ''
   flags=p.get('alignment_flags',[]).copy()
