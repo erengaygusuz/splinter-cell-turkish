@@ -1,0 +1,31 @@
+{
+  "path": "/run/media/ereng/files/projects/splinter-cell-turkish/dubbing/figurants/gameplay/batches/B001_20261022/review_pending/role13/u000447_v02.wav",
+  "sha256": "73295103c38cffe2033526fb06d660468311ad8df4fba30d1539bcc6f7a014b5",
+  "model": "medium",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "language": "tr",
+  "word_timestamps": true,
+  "condition_on_previous_text": false,
+  "vad_filter": false,
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.44,
+      "text": " Yok.",
+      "no_speech_prob": 0.20887333154678345
+    }
+  ],
+  "words": [
+    {
+      "text": " Yok.",
+      "start": 0.0,
+      "end": 0.44,
+      "probability": 0.732063353061676
+    }
+  ],
+  "text": " Yok.",
+  "elapsed_seconds": 9.63
+}

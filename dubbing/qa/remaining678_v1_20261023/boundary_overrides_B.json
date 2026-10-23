@@ -14,5 +14,9 @@
   "u000148|u000150": {
     "time": 94.07,
     "reason": "Preserve both Heh bursts at about 94.30 and 94.52 s with iyi fikir; ASR omitted laughter and proposed a boundary between the bursts. Quiet plateau after preceding mı ends about 94.03 s."
+  },
+  "u000445|u000447": {
+    "time": 31.18,
+    "reason": "Isolated u000445 ASR contains neighboring Yok; waveform shows its vowel begins around 31.32, before the old cut at 31.56077. Move to preceding quiet gap; preserve all of Yok in u000447."
   }
 }

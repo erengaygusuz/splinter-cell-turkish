@@ -1,0 +1,127 @@
+{
+  "path": "/run/media/ereng/files/projects/splinter-cell-turkish/dubbing/figurants/gameplay/batches/B001_20261022/review_pending/role13/u000445_v02.wav",
+  "sha256": "7c7471267597d73c7476169cb082a28497b9e90f53d29cf53cd919077c995a2e",
+  "model": "medium",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "language": "tr",
+  "word_timestamps": true,
+  "condition_on_previous_text": false,
+  "vad_filter": false,
+  "initial_prompt": null,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.76,
+      "text": " Medyanın izlerini Hollanda'daki güvenli bir veri yönlendirme servisinde bulduk.",
+      "no_speech_prob": 0.026280321180820465
+    },
+    {
+      "start": 4.98,
+      "end": 7.4,
+      "text": " Bir tane Bangkok'ta, üç tane de Kanada'da.",
+      "no_speech_prob": 0.026280321180820465
+    }
+  ],
+  "words": [
+    {
+      "text": " Medyanın",
+      "start": 0.0,
+      "end": 0.72,
+      "probability": 0.874280313650767
+    },
+    {
+      "text": " izlerini",
+      "start": 0.72,
+      "end": 1.22,
+      "probability": 0.9963492155075073
+    },
+    {
+      "text": " Hollanda'daki",
+      "start": 1.22,
+      "end": 2.04,
+      "probability": 0.958344116806984
+    },
+    {
+      "text": " güvenli",
+      "start": 2.04,
+      "end": 2.56,
+      "probability": 0.8813884655634562
+    },
+    {
+      "text": " bir",
+      "start": 2.56,
+      "end": 2.78,
+      "probability": 0.9866142868995667
+    },
+    {
+      "text": " veri",
+      "start": 2.78,
+      "end": 3.0,
+      "probability": 0.9870254099369049
+    },
+    {
+      "text": " yönlendirme",
+      "start": 3.0,
+      "end": 3.66,
+      "probability": 0.9962857246398926
+    },
+    {
+      "text": " servisinde",
+      "start": 3.66,
+      "end": 4.2,
+      "probability": 0.9917488892873129
+    },
+    {
+      "text": " bulduk.",
+      "start": 4.2,
+      "end": 4.76,
+      "probability": 0.9975416362285614
+    },
+    {
+      "text": " Bir",
+      "start": 4.98,
+      "end": 5.14,
+      "probability": 0.9166299700737
+    },
+    {
+      "text": " tane",
+      "start": 5.14,
+      "end": 5.34,
+      "probability": 0.993931770324707
+    },
+    {
+      "text": " Bangkok'ta,",
+      "start": 5.34,
+      "end": 6.14,
+      "probability": 0.8233840862909952
+    },
+    {
+      "text": " üç",
+      "start": 6.22,
+      "end": 6.46,
+      "probability": 0.9237269163131714
+    },
+    {
+      "text": " tane",
+      "start": 6.46,
+      "end": 6.74,
+      "probability": 0.9826434254646301
+    },
+    {
+      "text": " de",
+      "start": 6.74,
+      "end": 6.94,
+      "probability": 0.9818950295448303
+    },
+    {
+      "text": " Kanada'da.",
+      "start": 6.94,
+      "end": 7.4,
+      "probability": 0.9823041558265686
+    }
+  ],
+  "text": " Medyanın izlerini Hollanda'daki güvenli bir veri yönlendirme servisinde bulduk.  Bir tane Bangkok'ta, üç tane de Kanada'da.",
+  "elapsed_seconds": 15.74
+}
