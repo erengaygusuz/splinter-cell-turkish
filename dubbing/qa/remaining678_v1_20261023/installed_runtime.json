@@ -1,0 +1,11 @@
+{
+  "live_sha256": "8df34622b8489483443a284ba04b3420a0e77cc51f3db867e9c49d0bb2746029",
+  "matching_builds": [
+    "build/snd-waveout-fisher-lambert-v26/SNDDSound3DDLL_VBR.dll"
+  ],
+  "wav_count": 408,
+  "game_closed_at_backup": true,
+  "backup_files": 695,
+  "backup_bytes": 565350450,
+  "protected_archive_files": 1457
+}

@@ -1,0 +1,13 @@
+{
+  "corpus_rows": 1093,
+  "target_ids": 1086,
+  "existing_ids": 408,
+  "new_ids": 678,
+  "overlap": 0,
+  "unique": 1086,
+  "ambiguous": 0,
+  "ambiguous_ids": [],
+  "tolerance_ulps": 128,
+  "installed_408_hashes_match": true,
+  "ready_for_new_dll": false
+}
