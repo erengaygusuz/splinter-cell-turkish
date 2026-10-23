@@ -10,6 +10,8 @@
     "boundaries_04.png": "eeb0193f9efed0612dcad1ef7505c505b67258ec0aff56d3c34bacd8da05ddea",
     "boundaries_05.png": "907352b4cc612a0017e2d5189fb91d741f04b97cf3819f51d8d79672420af379",
     "boundaries_06.png": "70557b79c4795ec3d987cc864df6879e7a92cef0f22c618fe1ef8aba518e4cf2",
-    "boundaries_07.png": "95dde8a4dcb0c78acfe8992cf70c6ff14ee1bb1cbc4ced17f13b20444c00dd18"
-  }
+    "boundaries_07.png": "95dde8a4dcb0c78acfe8992cf70c6ff14ee1bb1cbc4ced17f13b20444c00dd18",
+    "source_edges_01.png": "b1aad9fe9925c0806892f33e8b39f50db2403fd7de6b5d0e5c507dd0a7eab504"
+  },
+  "source_edges_visually_inspected": 14
 }
