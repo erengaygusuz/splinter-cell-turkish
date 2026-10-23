@@ -1,0 +1,8 @@
+{
+  "source": "tools/vgmstream-src/src/meta/ubi_sb.c",
+  "original_sha256": "55d685e21bc2bf6bccf753429835ef03a959dede21f7043e1d4154f5a76239bd",
+  "patched_sha256": "d40eba100bf5d7840bbc314a4266e0efc8cb0b0a6193e8cd38185608742c364a",
+  "binary_sha256": "67ca9b43adb0712349d0f3b8d913a4ae91b3a487b91cec686038030699cd78b4",
+  "patch_before": "sb->cfg.resource_name_size >= sizeof(sb->resource_name)",
+  "patch_after": "sb->cfg.resource_name_size > sizeof(sb->resource_name)"
+}

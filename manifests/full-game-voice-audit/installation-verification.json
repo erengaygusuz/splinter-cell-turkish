@@ -1,0 +1,14 @@
+{
+  "wav_ids": 1086,
+  "dll_sha256": "e80839bbc399ec3e0fe88d8ce71d623f04d58d49d41f2676faf5eae621649a20",
+  "protected_files": 1500,
+  "audio_files": 412,
+  "extensions": {
+    ".uax": 118,
+    ".ss0": 11,
+    ".sp0": 4,
+    ".ls0": 255,
+    ".lm0": 20,
+    ".sm0": 4
+  }
+}

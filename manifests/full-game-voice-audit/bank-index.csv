@@ -1,0 +1,9 @@
+bank,physical_resource_references,vgmstream_subsongs,mission,language
+Sounds/1_6_1_1KolaCell/English/MAPS.LM0,169,169,BONUS_KOLA_CELL,English
+Sounds/1_6_1_1KolaCell/MAPS.SM0,492,510,BONUS_KOLA_CELL,common
+Sounds/1_7_1_1VselkaInfiltration/English/MAPS.LM0,188,188,BONUS_VSELKA_INFILTRATION,English
+Sounds/1_7_1_1VselkaInfiltration/MAPS.SM0,517,534,BONUS_VSELKA_INFILTRATION,common
+Sounds/1_7_1_2Vselka/English/MAPS.LM0,123,123,BONUS_VSELKA,English
+Sounds/1_7_1_2Vselka/MAPS.SM0,432,450,BONUS_VSELKA,common
+Sounds/ENGLISH/MAPS.LM0,4425,4425,MAIN_GAME,ENGLISH
+Sounds/MAPS.SM0,7392,7885,MAIN_GAME,common
