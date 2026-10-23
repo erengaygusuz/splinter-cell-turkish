@@ -1,0 +1,3266 @@
+[
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_alignment/auto_393_suggestions_20261023.md",
+    "sha256": "cff9850a3d455b4b3dd4efd15f9a8200b6ea1333ee739ae8558cd72d4ae37c15"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_alignment/auto_393_suggestions_20261023.tsv",
+    "sha256": "eb2e5891d698fa064fdab1afc8b9dfbef7a0b84c8eba6e663ccde6a383b0387d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_alignment/auto_preview_status_20261023-090928-149912.tsv",
+    "sha256": "28690cc90d7f93410f32f6e6e7279c9126bda306b9a687f775afd6dea30b32c4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_alignment/auto_preview_status_20261023-090939-755917.tsv",
+    "sha256": "199a725236c3809e009270a12bb76e71d36c43f68c0292bea90eeda3aac96cb9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_alignment/manual_priority_30_20261023-090928-149912.tsv",
+    "sha256": "96597dc209b4698589ebcff14ac370025234842bd4ac55ed665593d3875caa8c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_alignment/manual_priority_30_20261023-090939-755917.tsv",
+    "sha256": "96597dc209b4698589ebcff14ac370025234842bd4ac55ed665593d3875caa8c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_alignment/priority_review_20261023_30.tsv",
+    "sha256": "7f60c313412cdad0481a37dda8083bcce70f53c6b3a616df113265ea893668e1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_alignment/priority_review_20261023_363.tsv",
+    "sha256": "9adebc11c80bb5c5c14b0022981b34d55e1ea02fb90e310e3cfd3d0bea73aa7c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_alignment/priority_review_20261023_393_WORKING_COPY_UNVERIFIED.tsv",
+    "sha256": "b8255be4ee6e1706a7297b09ef561c74b358fa5ace27113ef58290c393b4ea2a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_review/b002_dinleme_gecmisi_v01.jsonl",
+    "sha256": "cb4ce46551f455d2a5e1ec99ec52638fbf89fd817d877f884fa21999f756f5d9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_review/b002_dinleme_kararlari_v01.json",
+    "sha256": "03a5ccee954342e465c1fb4347469e987cddc5c280f6984ccc9835fbb48123ea"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/qa_review/b002_dinleme_kararlari_v01.tsv",
+    "sha256": "4c4d1e572304d45faadfe0e7c67d68c64e829af188ca83b1811782edee246ff5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S017/u000329_clean_context_01.json",
+    "sha256": "3c6068aa2ceca64d10463933ae15a2c1a4472cd67e9e96cc2b687c73e53562c6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S017/u000329_clean_context_01.wav",
+    "sha256": "caa4ae9b2995c484c032aafafed9876ec56c16dab04323f8527f01800fd9f43c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S022/u000326_clean_context_01.json",
+    "sha256": "6ca0303a74ba41f986f0f0488e92a933b8a91e260cdf0ab7fa52abbbc312b9b5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S022/u000326_clean_context_01.wav",
+    "sha256": "9198c868d931c29ba5b0697fbbfc706f7ede0fbd539ef8977d1f06fb580f4e0b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S022/u000326_clean_context_02.json",
+    "sha256": "55406e74c390a4f486240b6c8447436d411111325ce06ae8d82b3a84ee564167"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S022/u000326_clean_context_02.wav",
+    "sha256": "9f7d19b656d6947fb09a12584f26609510f6078a92bf3eee5e067ef3590c7991"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S023/u000360_fx_context_01.json",
+    "sha256": "f8a346dac84d7373a9c856b3bc744d352ef05291e4f037db5697466a1c09d801"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S023/u000360_fx_context_01.wav",
+    "sha256": "9198c868d931c29ba5b0697fbbfc706f7ede0fbd539ef8977d1f06fb580f4e0b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S023/u000360_fx_context_02.json",
+    "sha256": "677bab5acf7783c78e24c3a3e9066a0f7bdaab0d12beb1ac59fdd64d4ea04b27"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S023/u000360_fx_context_02.wav",
+    "sha256": "9f7d19b656d6947fb09a12584f26609510f6078a92bf3eee5e067ef3590c7991"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S025/u000358_clean_context_01.json",
+    "sha256": "cf5747ffd1622d61a3c916a335ec4f50fd6edc23db0f3f737d8ca7b5967ea741"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S025/u000358_clean_context_01.wav",
+    "sha256": "9f59c78147f80092a4a8c5a1ba35f84ad32ea6f547b742da5b64226ee08c2ade"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S026/u000359_fx_context_01.json",
+    "sha256": "1129912e65eec1b9a6fcf5a2aa844ead4b118e916f2da5883258a11f1b251ed1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S026/u000359_fx_context_01.wav",
+    "sha256": "9f59c78147f80092a4a8c5a1ba35f84ad32ea6f547b742da5b64226ee08c2ade"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S029/u000441_clean_context_01.json",
+    "sha256": "6c361e13a2d7fcccac45f5f2d97d43d2925ed789836b79a114843d6508335fc9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S029/u000441_clean_context_01.wav",
+    "sha256": "063fb5db9070c571a6dda41c43f5842ba7cf29ace7e32f56b5709c54d77820bb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S034/u000404_clean_context_01.json",
+    "sha256": "558006a941829627dcfcbbcb774b711d8295862a0d620ea17ba1b605c8a86da2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S034/u000404_clean_context_01.wav",
+    "sha256": "0fc4bb271f5454d7d912a9101c4e8fa2d6da90991d2288f38d7496564f605df6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S034/u000404_clean_context_02.json",
+    "sha256": "604d61d1baeb051468b67bd490c5aa1a2db29e798b59aea682090a96746bb069"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S034/u000404_clean_context_02.wav",
+    "sha256": "883e79d1e3f59c998571ae20e0143ad192a6de192bd7865f9b9ddee17af18d69"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S037/u000405_clean_context_01.json",
+    "sha256": "f836e39d9055afbe02b573aa50512371808b30262c80814c8df76b2c04616bbd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S037/u000405_clean_context_01.wav",
+    "sha256": "a118bd95b74b8ee2d521b21f0df69d7a6bed14127a5c8765cd557a2d19caa6e9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S037/u000405_clean_context_02.json",
+    "sha256": "f08b00f41c158af498ad52e65e8658b9720916fc15981dc915a36340cf024062"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S037/u000405_clean_context_02.wav",
+    "sha256": "c9bb85da043c4af7d0c9a8795876d5ca76279595c1b9d728e02a60ba6540f766"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S038/u000554_clean_context_01.json",
+    "sha256": "04095dea8fa02bf1c2c447beaee9212a167a14369e34da352603668aff84ae15"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S038/u000554_clean_context_01.wav",
+    "sha256": "677cf21c3b84e2ceaa0b716d4c865ad5cb90492141a4c3196a066697f299e300"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S038/u000556_clean_context_01.json",
+    "sha256": "7c77bffed0e68d21d86153eb9c3fe57440d00611d81228f695efcd4418887636"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S038/u000556_clean_context_01.wav",
+    "sha256": "677cf21c3b84e2ceaa0b716d4c865ad5cb90492141a4c3196a066697f299e300"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S038/u000558_clean_context_01.json",
+    "sha256": "ef5ef35601ced9eb8e9a35e58121838555d0ae4a464af73be081b23d949380c2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S038/u000558_clean_context_01.wav",
+    "sha256": "677cf21c3b84e2ceaa0b716d4c865ad5cb90492141a4c3196a066697f299e300"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S042/u000564_clean_context_01.json",
+    "sha256": "b987e77c2e83ab1f588179b2f65e0c66c008e59ee12e2843128c3dd34d69c13b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S042/u000564_clean_context_01.wav",
+    "sha256": "615d67b06b79a1e51cfc23f81345a87a909d68ef02cb563dc29bcd755814dc14"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S045/u000541_clean_context_01.json",
+    "sha256": "23f26d1e26bc94553efc86a4a48a1260c9192b5052078301a76ce83a2130378f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S045/u000541_clean_context_01.wav",
+    "sha256": "288b1fafac9786b2b84159603a20f3bb342c8d7d0c7112f23fba81e7174259f3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S067/u000674_clean_context_01.json",
+    "sha256": "0eb655a98d29a7b5b0dba7e585063f0075b12291b3ade7b37f83a9cdaf35d1d5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S067/u000674_clean_context_01.wav",
+    "sha256": "b57d05242fff302c05a9a7b55ad18860d83f212b8245172e2a8f4a9903813eba"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S073/u000790_clean_context_01.json",
+    "sha256": "1b880de602fe265a0171eef89e162b42e20abfd7cb060e317fdd350c063ff250"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S073/u000790_clean_context_01.wav",
+    "sha256": "21943683641c711b0c42555064fc73d31f2204c36b7431bd15ef2d356b5b445b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S073/u000796_clean_context_01.json",
+    "sha256": "bb86aac24422af3086469c306bea390492986421a49d02f52c3a8b66e73eae98"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S073/u000796_clean_context_01.wav",
+    "sha256": "460250a02524b0139f6f565eafabb5a79f7f883087260a1e51b58b102110c130"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S082/u000776_clean_context_01.json",
+    "sha256": "203e43f859c1f39f44403a60eff86a5c3db533417abfaa768ab7efb01ece0910"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S082/u000776_clean_context_01.wav",
+    "sha256": "78f65afffb9d9f0c8e6c135b4664862ae2759d6a4abbc8e73fcccacfcc2fcdbd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S090/u000861_clean_context_01.json",
+    "sha256": "8cf29ec6611ae1864002efd9d0daf36c83a967aa01e3d5e414d6ebd1af489062"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S090/u000861_clean_context_01.wav",
+    "sha256": "6f46bb1449305d870fb4bfbbf76b5b98a0db63a61d825e311de565fa426116be"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S091/u000780_fx_context_01.json",
+    "sha256": "367b89fb691c1364590cab229caa7a377e2526ea6f7aa0e554feaa4366eadcca"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S091/u000780_fx_context_01.wav",
+    "sha256": "6f46bb1449305d870fb4bfbbf76b5b98a0db63a61d825e311de565fa426116be"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S100/u000901_clean_context_01.json",
+    "sha256": "8edfd3c5fedf291bc8753f7eb49fc24598bb6aa75372487f71a36339e79e6804"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S100/u000901_clean_context_01.wav",
+    "sha256": "c49b8ceb6d73d28923d22ba5e373b4f0af4d2e6c9d4c48c419ae38f7dff806a2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S124/u001076_clean_context_01.json",
+    "sha256": "20790586ede1b19134bc9662b45f3cc1bc4e4be1e7432a283cd9f45893d4cc1b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S124/u001076_clean_context_01.wav",
+    "sha256": "19f346b7e2cc7478d21c3c2dc68fa68921e20361cb525c131ace566d13509b9c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S124/u001079_clean_context_01.json",
+    "sha256": "f18826a633342866a0cea6353b8d4236fc2cdf96c577faa3ec4fff82b6008058"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S124/u001079_clean_context_01.wav",
+    "sha256": "19f346b7e2cc7478d21c3c2dc68fa68921e20361cb525c131ace566d13509b9c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S125/u001071_clean_context_01.json",
+    "sha256": "ab5777b7275d4d4f31d1e3d582748dbe89d3bc0ed229a4b779a6c82e9ef80029"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S125/u001071_clean_context_01.wav",
+    "sha256": "1c6d87d61d94d794e416df34dfa49ad23f1abcd1a1513bccc13c025488cb5aae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S125/u001071_clean_context_02.json",
+    "sha256": "7dbb0973c81e24bcd0fa0917b3eb0b4b6f6dcebac8188f8671dca1484e632090"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S125/u001071_clean_context_02.wav",
+    "sha256": "e3620a8848c0e6d6e6fc716cefd9ea2c50547c53db3816be014f0ff4dfe8bc39"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S125/u001072_clean_context_01.json",
+    "sha256": "b0602a852e5021892273e556b9a598e59c8534a2168f9f56d1898190ec7153bf"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S125/u001072_clean_context_01.wav",
+    "sha256": "1c6d87d61d94d794e416df34dfa49ad23f1abcd1a1513bccc13c025488cb5aae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S125/u001072_clean_context_02.json",
+    "sha256": "1c0860babdd086eea54a825e044a8912d24f6f32f3be10424607d747c4c807a4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S125/u001072_clean_context_02.wav",
+    "sha256": "e3620a8848c0e6d6e6fc716cefd9ea2c50547c53db3816be014f0ff4dfe8bc39"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S126/u000972_clean_context_01.json",
+    "sha256": "561235b5003d70107380de7fe0448085378e0e1d6a7f09d576f73b646c57e15d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S126/u000972_clean_context_01.wav",
+    "sha256": "1c6d87d61d94d794e416df34dfa49ad23f1abcd1a1513bccc13c025488cb5aae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S126/u000972_clean_context_02.json",
+    "sha256": "23f7f69b8b246979f017c8db173b36269b81544608560ba6ad71ffe15cab921e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S126/u000972_clean_context_02.wav",
+    "sha256": "e3620a8848c0e6d6e6fc716cefd9ea2c50547c53db3816be014f0ff4dfe8bc39"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S126/u000975_clean_context_01.json",
+    "sha256": "be231b94852a30191430ba21decd90fab889812586e214ef34a979969f5a2c31"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S126/u000975_clean_context_01.wav",
+    "sha256": "1c6d87d61d94d794e416df34dfa49ad23f1abcd1a1513bccc13c025488cb5aae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S126/u000975_clean_context_02.json",
+    "sha256": "2b91ba5d09034028437e3dbe635f93800fbdc2b98542164250149e644b4bcbf4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S126/u000975_clean_context_02.wav",
+    "sha256": "e3620a8848c0e6d6e6fc716cefd9ea2c50547c53db3816be014f0ff4dfe8bc39"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S128/u001077_clean_context_01.json",
+    "sha256": "6943e9954c253243c29e0d5f7480c76635e940967654c28364d9a333d4d192c8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S128/u001077_clean_context_01.wav",
+    "sha256": "6bf9db242c3525cacb435a4c2e8b4871a6539ef512670143bfc430773eecc268"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S128/u001077_clean_context_02.json",
+    "sha256": "422af8e86d8f6eea39672fdd384e1e56ecb720535117780aaf8ce3dfc16390b7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S128/u001077_clean_context_02.wav",
+    "sha256": "06185546fd0b3eea6f110134433648a27b8a2fb31e389b20bcd94bb21e24191a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S129/u001078_clean_context_01.json",
+    "sha256": "18cc3d6c5ca7f85a7def543265fede3bc9c2f952b9c32a843a710829fad8a742"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S129/u001078_clean_context_01.wav",
+    "sha256": "18287025f9dd94fce0837eb04db2a556339683daab3e5339511a5a3997dd1a40"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S130/u001009_clean_context_01.json",
+    "sha256": "fd2fd30378e6d4420e151cbec0bca962bfa1083a15588ccfcd9310d3a5dcf25c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S130/u001009_clean_context_01.wav",
+    "sha256": "9830c2100dae081cab4bbe8a913348c8110f0e56b18202d28bd7a6fca35beea9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S131/u001004_clean_context_01.json",
+    "sha256": "b2448527c581bae92479a85dd7b4539f2d3cc6ddad732e747ebc1219097a582b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/context_30_v01/S131/u001004_clean_context_01.wav",
+    "sha256": "30ef07b3b5440599524ab9b641e9a675c7c7be3c3a75bf60707a8d2cc902b4ca"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S001/u000051_clean_auto_preview_v01.json",
+    "sha256": "a6e842e575f114fe01a6c09b078579201c4576afba716eee5e443868765193ac"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S001/u000051_clean_auto_preview_v01.wav",
+    "sha256": "fc3d1e9cdc3838f349a8636c5f1a1cd5f936c1362391c76ac1aa71ac86eb5e31"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S001/u000053_clean_auto_preview_v01.json",
+    "sha256": "843635ccae97f20d3b2551ffa2fcd54493c14ab2df1872a36e41894d46b4e0a2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S001/u000053_clean_auto_preview_v01.wav",
+    "sha256": "8bc7a5858252fa410ae5b5ce32420908d215fe5b6c5b904878deef81cb7e728f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S001/u000055_clean_auto_preview_v01.json",
+    "sha256": "6196b7beca5e1f629e0a6140b3eba30363cb8c6ce9912f0e54f000cdf9ebac65"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S001/u000055_clean_auto_preview_v01.wav",
+    "sha256": "afad4a5c83fcc2288334da9c0df4bca160f41d60880d7bab551732e881eb72ac"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S001/u000057_clean_auto_preview_v01.json",
+    "sha256": "4c608483fb3b0891f5228714c7a9a9544a78530a758aa50dcb8aef6a32fe1635"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S001/u000057_clean_auto_preview_v01.wav",
+    "sha256": "7ff76f476755a79bf99bc8b7505f5ace8bcc8f4ce14820d6c5eb752da1ffe53f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S002/u000064_clean_auto_preview_v01.json",
+    "sha256": "452eb7e5bef6be109cdda76521c765513a9785b2e1719ec2f39e164e22411aeb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S002/u000064_clean_auto_preview_v01.wav",
+    "sha256": "ff1ab2dd97b7a834610a9d4542da143ad2a5884acef6abec2084f0e494fa8291"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S002/u000065_clean_auto_preview_v01.json",
+    "sha256": "4db398a76c1f1faeec984799eb87081f514a21f7422ed87319a1e3bfd71e6c6c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S002/u000065_clean_auto_preview_v01.wav",
+    "sha256": "8c98edc25fb39aead6d2ab6265646c044e394a4bf00c74f682b377582f3f2e2e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S003/u000059_clean_auto_preview_v01.json",
+    "sha256": "ccf67a86eccc698ea5f7795e828fc88703a026ebf220f50dd487cb49aba6de12"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S003/u000059_clean_auto_preview_v01.wav",
+    "sha256": "c9035fdde2344573d03366ece3c16e96765f2d30dbd586c15a0003c8437dc892"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S003/u000060_clean_auto_preview_v01.json",
+    "sha256": "277ecfdb1e9c1664a9970b7327e4d174850cff9513e5e1594eb0da514c32404b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S003/u000060_clean_auto_preview_v01.wav",
+    "sha256": "823aeafd28782ef4517afa6eef17ce38f2bed528795e5c3a3aae2fe1d7c6d4fb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S004/u000061_clean_auto_preview_v01.json",
+    "sha256": "2da397766d89614822a43e51f34279d73a88cfb2b84ba0230ef0ec0d5c6548ed"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S004/u000061_clean_auto_preview_v01.wav",
+    "sha256": "6580dbeccefb187c9becdae82b1b7dad9d8a7d3a1c65d991e3d7e30e3b925a69"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000130_clean_auto_preview_v01.json",
+    "sha256": "5bfee00f1dbfd6b1cc0a8d591d42cf69f72b6ec9d4d6d21fb4b45ee99b18545e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000130_clean_auto_preview_v01.wav",
+    "sha256": "6bd4a57ae208e43f9ec2c96d0e0cc070c9f5b2259f02ba28697b1f0ecf3a5d90"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000132_clean_auto_preview_v01.json",
+    "sha256": "98877fc8ae400a1858268fd1e7906b419be9b8b7305e3eab5905ce626b54234c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000132_clean_auto_preview_v01.wav",
+    "sha256": "70dbfe75b399852214e7e92d7eee16577e8245dbf35203c1287f42443976979d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000136_clean_auto_preview_v01.json",
+    "sha256": "9c3deadf52f5e65fbb6a4178f0d2fae5279d11e84465021dce8844b9c583aacb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000136_clean_auto_preview_v01.wav",
+    "sha256": "f0fc012615195c9dccda875444a9d34bfba00dc09308cf2285712c176a39e1ab"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000138_clean_auto_preview_v01.json",
+    "sha256": "5bfcf51f6a784576c0497b2b1022cb7bb1541d20aefda0e4d52a38e50ca84062"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000138_clean_auto_preview_v01.wav",
+    "sha256": "ff7dbde16722fc9e4d38159d8de7073bbdf3ce787990a4d64ba379ad993dff63"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000140_clean_auto_preview_v01.json",
+    "sha256": "9f2f99b21246760bb9cfd86c75f9a17782e98d43911c3fe9ccb28fa6bd974064"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000140_clean_auto_preview_v01.wav",
+    "sha256": "1283fec3b845ba3d0d11219ae8d35facfe1a1b75ccda4cd6831257add957c33b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000143_clean_auto_preview_v01.json",
+    "sha256": "481572a5033aee559bb17ee41def692bfc7d61768e427b2665f61bebbfc543d1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000143_clean_auto_preview_v01.wav",
+    "sha256": "ce0910a8b14dcf91c903120c67aca3ba1a6c555cfa32b161125dafd5f780254c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000145_clean_auto_preview_v01.json",
+    "sha256": "c2712ddf6844256645d2c6f74b2cb9599000c23f7de5fae3cb0faeb37821df19"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000145_clean_auto_preview_v01.wav",
+    "sha256": "d763d6995c80080d140624e45465b497c28d1baaf257c325ea98d1ca7cee5d31"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000147_clean_auto_preview_v01.json",
+    "sha256": "a8e1f3d11a845f62f416f9150fb0b3f7bce8237f68a8264512b3deed7cb92828"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000147_clean_auto_preview_v01.wav",
+    "sha256": "9ed74d24c6fa0d1e9562736ef9e60ed98cee88021870cdaff7c317c347cbb2df"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000149_clean_auto_preview_v01.json",
+    "sha256": "27feb2595601c1b12d23cbdd0fd2bbd758b3ad69c8605d1d8c8e914ea68a49a4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S005/u000149_clean_auto_preview_v01.wav",
+    "sha256": "486acebd9e5ec9b2accd1db415ccd10696a309137f995796114fb9442bff0b9b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S006/u000152_clean_auto_preview_v01.json",
+    "sha256": "bfdc44da39f67895f1f448a37e6f78a725bc21b535d7f4c409a4acf172109434"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S006/u000152_clean_auto_preview_v01.wav",
+    "sha256": "b2e5ea4a99c7da91610637ca84e4dddddf4189e7684c6c6831bc75dbfea88762"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S006/u000153_clean_auto_preview_v01.json",
+    "sha256": "15882745790bf45d908428fa5c688ee55ef4ebcc75848b39bd94fe5ef4dbaf87"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S006/u000153_clean_auto_preview_v01.wav",
+    "sha256": "bacc430aca768d28ce23ef3fadd327155f4664f7bdaaae43ad54b02c6f1e9476"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S006/u000155_clean_auto_preview_v01.json",
+    "sha256": "5b5a9ffe586d0b2c30240656484d6284609c8c13977678886bc715c733677533"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S006/u000155_clean_auto_preview_v01.wav",
+    "sha256": "e74f30846883f63b03a9ffbc346ada51e3359ccd403ea7af2e6a621762484043"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S006/u000157_clean_auto_preview_v01.json",
+    "sha256": "9509b589ebd4bd15eebe365c8bbd538786f4fbc99a18b4824a0e2bfa15a59438"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S006/u000157_clean_auto_preview_v01.wav",
+    "sha256": "f8a486738357da8e1e6bd9b80cd81643e2fc719f8c8056cf279d84fdbd8977d5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S007/u000202_clean_auto_preview_v01.json",
+    "sha256": "61b70c5ff2c42babd4655819665f9c03fb724bc638b56def485a306408a3d1ca"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S007/u000202_clean_auto_preview_v01.wav",
+    "sha256": "01423d3422ad949362ede047435260af9be3a5aa9254d6def14245b197c3e43b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S008/u000203_clean_auto_preview_v01.json",
+    "sha256": "78c77ace2eaf0638782147acf596a32804bb28aed058e93adf6e29932376682c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S008/u000203_clean_auto_preview_v01.wav",
+    "sha256": "3d54eeee0713c4545b230c844a075afa539abafe912da4d6f37168ad1fa37bee"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S009/u000204_clean_auto_preview_v01.json",
+    "sha256": "653b36eca73a9de9a00f0e114482327e5a2e36d2d58187967963a6bfc4395c39"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S009/u000204_clean_auto_preview_v01.wav",
+    "sha256": "bbd93474bf6e064c371f669e24a868f427af9d15e3d139b81aed79c77d6c046a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S010/u000154_clean_auto_preview_v01.json",
+    "sha256": "3c49e0f9fa56eac2af8d28304e664f192e888fb1f15eb3c2da68678a7fa6a2a9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S010/u000154_clean_auto_preview_v01.wav",
+    "sha256": "04a9882da4d2434fff0cec58aa2c1b83abb0e33628cbebaab60dd65ff342ed1e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S010/u000156_clean_auto_preview_v01.json",
+    "sha256": "7564a81bc6dabe760efd9b9d795ad92c5f332681a13a1f030c0d540cb2ea942d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S010/u000156_clean_auto_preview_v01.wav",
+    "sha256": "eb7236814b6be4f68e1498c6a502f7721f7153ea37f639c966837f60ea5a7065"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S011/u000146_clean_auto_preview_v01.json",
+    "sha256": "112446197bb3194d78c055a67c5411c4ae5dded5e72d603135e552a498ad2c36"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S011/u000146_clean_auto_preview_v01.wav",
+    "sha256": "2f4170246294df824dfefe7991f870ef2ad5a74b1db655fc66d0f184fd2fba25"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S011/u000146_fx_auto_preview_v01.json",
+    "sha256": "ab7cab5abad4159110744f81842818fe59c23cb21c99633da705fb33d76a9e56"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S011/u000146_fx_auto_preview_v01.wav",
+    "sha256": "91125611020e03323e6271aa0ab5cc795a57b052d3b627e1bb95b9d7386f2413"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S011/u000151_clean_auto_preview_v01.json",
+    "sha256": "08e3be8ff758900ee457456a75f7f01d6b523ab0a5c0c5c15598284a06400ea7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S011/u000151_clean_auto_preview_v01.wav",
+    "sha256": "08082211c53fccba6de550ee7a8e2d4885c614059658de755d6564b0cd0c263d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S011/u000151_fx_auto_preview_v01.json",
+    "sha256": "c80d2126f795b49a53c6c0095c8f2792639e9965e48583f1d12f3301571e2207"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S011/u000151_fx_auto_preview_v01.wav",
+    "sha256": "84c09baf09737053fbe3a70b4f145be35f8f439bfcfc6b13f580a470fc90b707"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S012/u000236_clean_auto_preview_v01.json",
+    "sha256": "2b1ae425459a609aa06edc4fdae84b9a0c9024a2e8797ee5632dac5cd852c90b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S012/u000236_clean_auto_preview_v01.wav",
+    "sha256": "adeb3d61d5955d576c4f8f73961ff710a4ece7b8621a098b60eb94241298cd3f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S012/u000238_clean_auto_preview_v01.json",
+    "sha256": "632209ded60be47e7f04456b3949c7fba4a3ef121f688d5f17938b92822ce8e8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S012/u000238_clean_auto_preview_v01.wav",
+    "sha256": "6abf0446aca3b9de42f122dc8a3fd174be24a87707088afa2ecbfbb78d37c07f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S012/u000241_clean_auto_preview_v01.json",
+    "sha256": "ac6d63c1422b61f71ce846b84470f103437bbf05581b3c348214cf6f93f85af6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S012/u000241_clean_auto_preview_v01.wav",
+    "sha256": "25e35ffc6731d93a1a06f8784306e6fea5ff466862a4217d7ec93528fb1922af"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S013/u000289_clean_auto_preview_v01.json",
+    "sha256": "cf5f96d4dca3715d1fa3cbfce50f00775e1cf13683ed9d150e4065eddc7d0745"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S013/u000289_clean_auto_preview_v01.wav",
+    "sha256": "ca4ef8c494599c1ad9af7149f4e69752022d964bb6385a06e1020cf4843948e9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S013/u000290_clean_auto_preview_v01.json",
+    "sha256": "2ddddfda2b441c4d1bc0298d72f448efe63d498628f1103469348f901f7b5f06"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S013/u000290_clean_auto_preview_v01.wav",
+    "sha256": "725500145258985f2badfe606bc60ec13c4cc447f8348ad109c993209947e02e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S013/u000292_clean_auto_preview_v01.json",
+    "sha256": "95e4abe03aa68e92290bb1f81a03a1484516d465e3f862f5015a289f61c64a4a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S013/u000292_clean_auto_preview_v01.wav",
+    "sha256": "b7d513decabfdc7e18712dad4d91289fe9bb57e75df83875c2f0cc5cc05f127b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S014/u000233_clean_auto_preview_v01.json",
+    "sha256": "2abdb07a64fe5df79d3fe92cbbd4867fc4bf518a6e3271b1a0b8edfb324759ee"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S014/u000233_clean_auto_preview_v01.wav",
+    "sha256": "1829343a259eccc0faec5a2cfc31472d71df5d1fb62ebba54d2427c829527d76"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S014/u000235_clean_auto_preview_v01.json",
+    "sha256": "f6a9807bb2b505457fa98dd6f32e42453881f09a7b222b007e5b2ba1248044d5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S014/u000235_clean_auto_preview_v01.wav",
+    "sha256": "241773f6913248b30bd25b1509cba1c995f9e3fb24bd5423884f9e57172db4dd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S015/u000309_clean_auto_preview_v01.json",
+    "sha256": "1763571be6551e69a1efccb3bd18f4cd3ccd2d010cefa543383f324c484e8128"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S015/u000309_clean_auto_preview_v01.wav",
+    "sha256": "866cca24b8bfd6c7cc42b3b1184271725c205bf04002b6b4185543585321a532"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S015/u000310_clean_auto_preview_v01.json",
+    "sha256": "be5b9dff9fd081bbb2fd15d9fcf099b44c99d684f39257833c23960079fc4913"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S015/u000310_clean_auto_preview_v01.wav",
+    "sha256": "1e6eadfe4c70db62325ec13451fae2ba1bf2db52eab9a4f5d8957b6f3db2f0bf"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S016/u000234_clean_auto_preview_v01.json",
+    "sha256": "fe85a80d6ea5430cd3d8c5a8738d4a447cd92e6c55e766dd06b8253e112959de"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S016/u000234_clean_auto_preview_v01.wav",
+    "sha256": "a0705200d7154795bd01c7bf17a000f4f696664e4bb46978cc7464e113098364"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S016/u000234_fx_auto_preview_v01.json",
+    "sha256": "2d0eff7b0070a35fad246760618d7bae436d35f5f20b4b007a270eef38c3dcc0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S016/u000234_fx_auto_preview_v01.wav",
+    "sha256": "14a8a0bf4102cc3dff895dc213a4f33d1e864e9f16eff19f237d88f60058a67f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S017/u000327_clean_auto_preview_v01.json",
+    "sha256": "7a846434a1ef47337c5f7e8bebaa9bd917958e2b7f4b7791c4cef25092717849"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S017/u000327_clean_auto_preview_v01.wav",
+    "sha256": "e638c35af2e0132f510d98161456319d73091c836365b84c4db6da5a305401da"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S018/u000328_clean_auto_preview_v01.json",
+    "sha256": "ab4b6f550f26ad59dfa53ed1eb48761d1f432a9567f7ad9add8a810c07b479a7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S018/u000328_clean_auto_preview_v01.wav",
+    "sha256": "9ba171063960e811f0510261d17284c32da6e65b21f3ef7b6173a0d99302f70a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S018/u000330_clean_auto_preview_v01.json",
+    "sha256": "2c0ca9c1737f509e2f6053ecbcac5f0b7cdda6805f04ef38cdda6529b96a9c25"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S018/u000330_clean_auto_preview_v01.wav",
+    "sha256": "5ba50af8260f9cf362b16acf7c10a6b4c51449959914dcb385fb70ad90f05bb1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S019/u000321_clean_auto_preview_v01.json",
+    "sha256": "1508302ca6de69631a40a9e3050157984310199d4dc7c928e0bb91bd91ab8d9d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S019/u000321_clean_auto_preview_v01.wav",
+    "sha256": "e8b116892b5f5a328d0102ae8b640c4f90b059fb87ab8e142f84827738235254"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S019/u000323_clean_auto_preview_v01.json",
+    "sha256": "9d7f0a3574c6021733771dc051441e0632a9710b6b3491f0f49d92adbf86d9d5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S019/u000323_clean_auto_preview_v01.wav",
+    "sha256": "6e87a0223532980aa43724fc8694cd76c7d9ba269ce09c2991aef659528c81b0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S020/u000318_clean_auto_preview_v01.json",
+    "sha256": "ab8da0e7df66ba1f0ceeb5cb5f37d4a48ffb9bc28188ce2972a3a91bfb765261"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S020/u000318_clean_auto_preview_v01.wav",
+    "sha256": "58458570d259d89ac2e2f493881de92c52a1d0b081d932773c9eae924a6148ae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S020/u000319_clean_auto_preview_v01.json",
+    "sha256": "74d4a9888e018758593cfca13c5a0306cd1597d4fb13dca379055ccf3f421b50"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S020/u000319_clean_auto_preview_v01.wav",
+    "sha256": "a3a0761ef85783f34aab0458237eaac052f4a1e94fe7034651a12eb689a9d76a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S021/u000322_clean_auto_preview_v01.json",
+    "sha256": "08ece27815929cf69fc0efdb4b3519885bafaff30db05c95a60ca150904dd97a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S021/u000322_clean_auto_preview_v01.wav",
+    "sha256": "8e6115f8b0df4a907873a04bedd66db1870e803427412b88758ddadc346154ed"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S023/u000360_clean_auto_preview_v01.json",
+    "sha256": "1828a5e7a3330c5c2c56f1e9faa8fe7de664cccaa2fcb8d9d7318900db0f414a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S023/u000360_clean_auto_preview_v01.wav",
+    "sha256": "d54f9c8209c06c67ac149cb5fc0d43fe2d54637a63b479d0ece728a2a74df20c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S024/u000357_clean_auto_preview_v01.json",
+    "sha256": "95bdc2c71311b881c292b6207fc7576e79997299fe266bddda7fe9fb042dc3c0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S024/u000357_clean_auto_preview_v01.wav",
+    "sha256": "86c4dc4ae6f6e4a78538d8627eaca871c955c318bf0f262c08ef5f6027d11d8d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S024/u000357_fx_auto_preview_v01.json",
+    "sha256": "9b3c1ddea8f29af4804dfd0a809e2fe6f21143dfd3ba11bb27999111954818cd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S024/u000357_fx_auto_preview_v01.wav",
+    "sha256": "cff11fa794a323a4a18d41ee842cc47bd73a246efc90c238717eefaf83d1fb05"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S025/u000358_fx_auto_preview_v01.json",
+    "sha256": "fdf0b6dcc87b863166277f325d3a0fbec4750ff80564288f0997d239d93a90be"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S025/u000358_fx_auto_preview_v01.wav",
+    "sha256": "7a5588351d01dfb434b08beb660b5e81597fc5a159c24bc80bb6c66065fbd684"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S026/u000359_clean_auto_preview_v01.json",
+    "sha256": "0444f2555c335b236dede376371db6e03e209ecf1beb9315de0d351bef6f7e90"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S026/u000359_clean_auto_preview_v01.wav",
+    "sha256": "236189bc68af681cf303db5d0390626ad3f5f64c58507449e08698b4fbea8788"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S027/u000320_clean_auto_preview_v01.json",
+    "sha256": "0483e61867df090e473bfa6c6b96f8042ee4d1c2193a7185d5d8ae8b5e478d81"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S027/u000320_clean_auto_preview_v01.wav",
+    "sha256": "d9a200fad80fbf8250444f4134f240186e46ae38d239e41d1c6dcd6c03711962"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000371_clean_auto_preview_v01.json",
+    "sha256": "d5ab4a62692eadb9e1fd048f0d3b323fcda7ebf3c5d6298123674b279bafbaae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000371_clean_auto_preview_v01.wav",
+    "sha256": "6457f69aa2ca85c3d4bf4a3df3d8d987bf7b5d675dfad0cd6085a31057deb3ac"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000373_clean_auto_preview_v01.json",
+    "sha256": "23cbd62530d21795eef08d9975993581f1cbb2f93d450626e701b503471be29a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000373_clean_auto_preview_v01.wav",
+    "sha256": "13d212cea0d6c5a384527bed3cb9f59ad3e7d021d854dabd72a716b453a0cc37"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000375_clean_auto_preview_v01.json",
+    "sha256": "14c96deca62433b998ad0fef4bb88c8aa1f81ba65dcc824ffbd694ab984ed369"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000375_clean_auto_preview_v01.wav",
+    "sha256": "49ffc96edde75cd2033f6459b54dff2f0854d32414bc58530321a915a1e8b071"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000377_clean_auto_preview_v01.json",
+    "sha256": "22b454ab1b9b4441e2704867d2b7b9c082d6f87bbf385b067839bfd28e64d9a3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000377_clean_auto_preview_v01.wav",
+    "sha256": "46fad0e0a855095f22828743bb5cbdb7b7ed5fb6a90b17b11170d1a5b4f9bc10"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000379_clean_auto_preview_v01.json",
+    "sha256": "3d83099ff6789f8a9be5b85f30d4ac4a5e899a9962e1d681d0d6d066a08dfbed"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000379_clean_auto_preview_v01.wav",
+    "sha256": "7c59375208372f470050ff1007273bcd4fe60b2644b221c60b934c1aa59f48e4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000381_clean_auto_preview_v01.json",
+    "sha256": "58aec29b43cc158ea7f8396651850b80bf7ac7b349d80098a02469083fa9f153"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000381_clean_auto_preview_v01.wav",
+    "sha256": "365bb9db68486167866cef5c5febb92e82b437a009cbe09d94803d7172560efe"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000477_clean_auto_preview_v01.json",
+    "sha256": "7847ccf6fc2f6fd11ff81cf27965399f5c7ecc6fecef36feb7c4dcfb6ed25995"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000477_clean_auto_preview_v01.wav",
+    "sha256": "ff4cc836c8e9bebef01a779b6615348b9b1d6cdcc623865c8fc3f362c35f7065"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000479_clean_auto_preview_v01.json",
+    "sha256": "6f8c4c20811c655f2eec0886164743ef0ab37c1264d74bcb175a47961256a803"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000479_clean_auto_preview_v01.wav",
+    "sha256": "29124872969ee88e78c9a2e8d4083d9e67e2d81d2f6bbc22fe59371e63463331"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000481_clean_auto_preview_v01.json",
+    "sha256": "a68fcbfcb0ff647b70db28957cbee6e83f1bf389e92e9116d6c0fffac11fcbb4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000481_clean_auto_preview_v01.wav",
+    "sha256": "ec8e4fd6dd656e96b252fb2845ba6e523e509ac059f6a61c73d628c971b5ae85"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000491_clean_auto_preview_v01.json",
+    "sha256": "37dd4234982ee5194e9a08c5d211ef1095b51a95822e21e411d5782deda3f093"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S028/u000491_clean_auto_preview_v01.wav",
+    "sha256": "73b632f57f7dd207efd23aef66683c5c4a9e86e288f2759cad25e98aae972e2b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000438_clean_auto_preview_v01.json",
+    "sha256": "ce3c24905d2ea5c0e545b2dc60cef4e6f77ac5fdee65bd2ffa4fce81e13e8b5c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000438_clean_auto_preview_v01.wav",
+    "sha256": "74d2f9afd963276ffeecd617737d15c6d09a37fccdf7eec953f59d4044a452cb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000439_clean_auto_preview_v01.json",
+    "sha256": "acaaf82a92e649740896eabcf46ed3d5aae5578319686645ef3028a8c885f06a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000439_clean_auto_preview_v01.wav",
+    "sha256": "c2b43db6609efb06bc583da75d44d587249669b230530662dd60d79642bcac09"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000440_clean_auto_preview_v01.json",
+    "sha256": "8861edbb918b0431040aa04ff23b930768f39824c645ad0a1679ac7c14df3cb9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000440_clean_auto_preview_v01.wav",
+    "sha256": "cfddf0e58015945894ce250a28a69efffcca5b4f929256013f3ac3d6e2e2307d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000442_clean_auto_preview_v01.json",
+    "sha256": "33377543614b7c22819b49fafeca6953e072663ccb26b7fecde9acb2d08388b9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000442_clean_auto_preview_v01.wav",
+    "sha256": "fbada6d6a0b1d650911881909fa858f9f69b9e3a73677656eea4b385b195184b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000443_clean_auto_preview_v01.json",
+    "sha256": "6c4570d2eabe64640f7b26d9437209c1aea62d4a8797dbef6db049ec8ea58a3a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000443_clean_auto_preview_v01.wav",
+    "sha256": "1d9b6f8b84f0d360d2d75418e14ec98c8320f38f7a2a24ab19866db13b22f690"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000444_clean_auto_preview_v01.json",
+    "sha256": "1f682a7b45d89716481b16c1e23cc110ffd7aca169117341bf0735f4b15c0dca"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S029/u000444_clean_auto_preview_v01.wav",
+    "sha256": "d93eb04f33d9eba2ee6d5b572b88862ac4ee52ff54e4972cec5db8ba824f8075"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000366_clean_auto_preview_v01.json",
+    "sha256": "61e92129fec167975cba40a4cb1da42c9cb7a54d834c12724413928e6f008872"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000366_clean_auto_preview_v01.wav",
+    "sha256": "727ca5cffc43974de0c9d7a9cd512eaef7f5ccdf29284e6ff9d72195c96b177a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000367_clean_auto_preview_v01.json",
+    "sha256": "25094e8ea9eeb0523e7216311ffd6f1ecc7bcf29b5def390141e6dd8e4465840"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000367_clean_auto_preview_v01.wav",
+    "sha256": "d99e8e7c905cc25e6db6c788f0764adfb1193be7896ac03feb9f4648dfc16d00"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000368_clean_auto_preview_v01.json",
+    "sha256": "06471976fc16ee1adb53b5515bb080874db8c435f0015b7165ea0b696821bd18"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000368_clean_auto_preview_v01.wav",
+    "sha256": "338dcf6e2055d7f53cf301aa72c00036d39e02bca7c8c7a564c2eed3b51ab097"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000369_clean_auto_preview_v01.json",
+    "sha256": "db28758b1099d1b633ae77013abfa2d5686e6de11e1d04dc92c3dd11413100da"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000369_clean_auto_preview_v01.wav",
+    "sha256": "7f1ce3c475a09de02e7c5709e633b48b6a2a8ee686b6aab0bb6bcec3f724dd50"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000370_clean_auto_preview_v01.json",
+    "sha256": "ae2d09e0d4ab60336257e409c9c77c100325bb579f033e98a102b397177f9923"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S030/u000370_clean_auto_preview_v01.wav",
+    "sha256": "8054c80b13449a5bbb51a512746c3fc3dc888a12e0b8092b532e6a4c8711910f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000384_clean_auto_preview_v01.json",
+    "sha256": "f1e14cf8d480a3691d226f135f4cab31f80ba4dbd8970a473df7978573810673"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000384_clean_auto_preview_v01.wav",
+    "sha256": "2985eaadaf3e2b58685cadb76890d410301cc38088e206bd4889ea096bac6734"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000386_clean_auto_preview_v01.json",
+    "sha256": "15ee6bdce01df8847236a7800d48bb3b18b81ddac5ac92fa4886542a99c1aef9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000386_clean_auto_preview_v01.wav",
+    "sha256": "60a38c1a93a0e521e084bf13b3a5a23b2edb02baa9b3b0d6b25298f84c5b1c41"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000388_clean_auto_preview_v01.json",
+    "sha256": "81e83e3aed6ab84e5cb22e61cbe3fa3c6e4fea7dba36234f948850efa68068fa"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000388_clean_auto_preview_v01.wav",
+    "sha256": "d8b1ccf2b8a589b2b953696279da2fe9aace49678af3fbf71faa950169126475"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000390_clean_auto_preview_v01.json",
+    "sha256": "cb1ec76ed932d95c028b28603e5611b01c828e1df53f95fecc84a8dbd95dadcb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000390_clean_auto_preview_v01.wav",
+    "sha256": "0b63f4092e89b8eea0b650bc72e446edaac52472c23e53e974f9b143c02ac730"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000392_clean_auto_preview_v01.json",
+    "sha256": "a75e10fcdd80364f36c8dc8aa4a448b7d0c5fefdc0df1e2dbce02dccb71b5d9f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S031/u000392_clean_auto_preview_v01.wav",
+    "sha256": "56678fd0aca81238bf778059830ea6f79aa327efdfa093e4675e4e5df01b1305"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000407_clean_auto_preview_v01.json",
+    "sha256": "e3cf8d18bfab96dd9acf3c9fe0b1ecd2653e9ae8eda06a7911a9eebad8ab66f6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000407_clean_auto_preview_v01.wav",
+    "sha256": "1db6914a5c1e9177b8032b783223f0b3ea887fe190706c6a3a0da850f7090d85"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000407_fx_auto_preview_v01.json",
+    "sha256": "91cf00a758180ca74211f407099d4c6fb2917d671233a5736093c075049b00be"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000407_fx_auto_preview_v01.wav",
+    "sha256": "1c0c7bef966f846539d025c6f4beb8b55287bbf1c4330a80bf19c93a831acfa1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000408_clean_auto_preview_v01.json",
+    "sha256": "5981d041d270506149d0a7af1aab3fcc88232630ac207dd6b9de1d1add62e02c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000408_clean_auto_preview_v01.wav",
+    "sha256": "50fe28fc050f8552ac64102dfe5f2b9ff523d151c3c12eb2593aa3993ed789b3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000408_fx_auto_preview_v01.json",
+    "sha256": "0855f55b340cd7dd2a886d90cc2c677a33a4eddf08443aff8d906aa91929d056"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000408_fx_auto_preview_v01.wav",
+    "sha256": "e9351dbca350d26aa1f659aba54fbd02fd3a0be6584f6de5e575bce3da641131"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000409_clean_auto_preview_v01.json",
+    "sha256": "5949695ec0f3e3e191f5e3c47ecb0b49e0f2092cb6b24b590ba5e1b2cdcade33"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000409_clean_auto_preview_v01.wav",
+    "sha256": "a2c09c37d7d75fe377d9b83b03abfe3bda5f11880673f260e519e06092cb0bb7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000409_fx_auto_preview_v01.json",
+    "sha256": "bc551009a70b53d34ad168084841bd548efa106afe606fa912b0b3d58aa53472"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S032/u000409_fx_auto_preview_v01.wav",
+    "sha256": "0e6166c5d99a71b2d6e5a047e83af8ec7788797903d7b7b3b253795b189b7665"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S033/u000402_clean_auto_preview_v01.json",
+    "sha256": "68b1d0fa32c1cdc9986662fc148cb799b5ebb7e8b8448542ade6ebbe623b1700"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S033/u000402_clean_auto_preview_v01.wav",
+    "sha256": "0ea92d560d16a3c0a329f8ed137cf7d6bee179b7d6b6a3f44a7f6128e551409a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S033/u000403_clean_auto_preview_v01.json",
+    "sha256": "e238831f1308604a1d2604df43bec2abc54857a9c743e4f52e1a468435c978ea"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S033/u000403_clean_auto_preview_v01.wav",
+    "sha256": "cc75cecf041e8c28a31d7014983d454a9e2b11be833eb3cc29ac54ec850e078f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S035/u000488_clean_auto_preview_v01.json",
+    "sha256": "0da854bf8e3fef43269bc7d955c3f8d30a5262d00b6549f71bd78ef283e5bee1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S035/u000488_clean_auto_preview_v01.wav",
+    "sha256": "40046473c98d687a289370787e94e39d14efe54f29a8eef0e8e823456238bfaa"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S036/u000406_clean_auto_preview_v01.json",
+    "sha256": "eaeddf7599e1d76a251e7e8be33007e12fee8046e3506a677d7b8cf5160e2c81"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S036/u000406_clean_auto_preview_v01.wav",
+    "sha256": "83186a84076bd6c2f3c932a183a18d646d28003317566e8075080a50fc5ede03"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S036/u000406_fx_auto_preview_v01.json",
+    "sha256": "f7a7bff9e1f41eb5406413b3b352837ba48f52989346f5318af7b3bae5578d2e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S036/u000406_fx_auto_preview_v01.wav",
+    "sha256": "db05d25e6b9a8f47bab84dc80f1eff4f4b49638de1aa26a8ef1872b36a1bdac1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000544_clean_auto_preview_v01.json",
+    "sha256": "71b1316f1c9a8fded2a06fcac3352b2367d67873488f7478564da3272467cf5a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000544_clean_auto_preview_v01.wav",
+    "sha256": "646a8de5ed39b7eee25510e9bb93eaa1abbaa86ff0f7b8a9a225be01d9d715cd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000546_clean_auto_preview_v01.json",
+    "sha256": "5350b2b0d06858bfac38e70bcc9f03b6b6e2854817fdb796dddbc97be44674eb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000546_clean_auto_preview_v01.wav",
+    "sha256": "147c0dd180e0414129d2cccef2e5cc982254d87860d5e4930166b76d83a03405"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000548_clean_auto_preview_v01.json",
+    "sha256": "9ec2a4b2bbd11db0855ae3e937a6b18128a1b991886d99cb6a4d7d8b20ee7111"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000548_clean_auto_preview_v01.wav",
+    "sha256": "ca1ffd240b8c5dddda2cd7879fbdcd46b581eac234bdf365e0c9807443c14d44"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000550_clean_auto_preview_v01.json",
+    "sha256": "090948f352d2a4e99ac7b8fe33e564fcc444db538aa8f350bec56fbff06a2505"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000550_clean_auto_preview_v01.wav",
+    "sha256": "fc7a336e55b4f9585b00ddd0b05cba274ccc42e53ca1a65f181a0447cdc5d579"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000552_clean_auto_preview_v01.json",
+    "sha256": "1ae5773f3331912b1d724a8d0c5cab14a2c4aaec4c9b212727c7c4460af859b0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S038/u000552_clean_auto_preview_v01.wav",
+    "sha256": "0a7a9bec9d00dee988946a801b5c370f18173820abed859757b70018f8ba91e7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000559_clean_auto_preview_v01.json",
+    "sha256": "d8408df626abf20570c691541ad2e690a51e913910843c3deac8ef86059f211a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000559_clean_auto_preview_v01.wav",
+    "sha256": "d6735ddfe7c91fa213db29a7246919dead2ec69f1bd70245f5827c47a3580115"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000561_clean_auto_preview_v01.json",
+    "sha256": "03cdfe2c24460a3b69da8c8ce14acb87c933750bb10baab2efb2b26789677205"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000561_clean_auto_preview_v01.wav",
+    "sha256": "4ceea5f8609dff8f4ebdae0a9c258d883f0b9c022c7bd1d048122df6dfe588d1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000563_clean_auto_preview_v01.json",
+    "sha256": "0aed23dc63b4af7a7711b9b930da87cbfd6720a55e1033d90b6eb411f2482cf6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000563_clean_auto_preview_v01.wav",
+    "sha256": "2da4faf63d649a12ab6ad1c226ffb3b5abfac7884ffbc9bef1716416f14e65d4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000565_clean_auto_preview_v01.json",
+    "sha256": "45423946d888f9745b4528e07626149eb3d5c7767f8552b514480f62e6e5ac75"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000565_clean_auto_preview_v01.wav",
+    "sha256": "5681aca111e62c725f7b1089a31f6ba14040e27c43eead3e5c355e728073cb98"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000566_clean_auto_preview_v01.json",
+    "sha256": "7a04a4cf5051770e559ec70033aa4f1d927833e3725cf67c943948934fc05a05"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000566_clean_auto_preview_v01.wav",
+    "sha256": "557ab9cb741ea1b599f872576e32e8c03c3a8d74808d61ef9f261cfff6e2c037"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000569_clean_auto_preview_v01.json",
+    "sha256": "fbd94b3255fb3ff7ae00135e91a36afc72b084ef996f0c4db2290157e3ae7130"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S039/u000569_clean_auto_preview_v01.wav",
+    "sha256": "2522db5463519301c795cf2f1181b5e47176c7c0ea56cc13f5b2dd23478ffed8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000530_clean_auto_preview_v01.json",
+    "sha256": "20e8f6e93d03234ae63aadc5749cc2bcbc59d6524bb1ae8bf7af81638d9a21f5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000530_clean_auto_preview_v01.wav",
+    "sha256": "dc673efe81f54443ce9aa2c1bbfbf1add9d4a33bde903ab6d5331d80efdaa58d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000530_fx_auto_preview_v01.json",
+    "sha256": "778465f4aa37200240d720617498b4d1991e3115c09394b69bf0c17e219e2478"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000530_fx_auto_preview_v01.wav",
+    "sha256": "d7bc5cec210b9455d374aec5e50c0ab4a32139699a24d1670645359b6ed3536e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000532_clean_auto_preview_v01.json",
+    "sha256": "68fee289ec09db28738f8fe6f19b5e750650e3f5869806597af7e170e28ecaba"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000532_clean_auto_preview_v01.wav",
+    "sha256": "e038ae839b48f2a6f40347764c308880b3b00578202a13c7b33d6106e8cd950d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000532_fx_auto_preview_v01.json",
+    "sha256": "a55b8e329a6f9e62b33b2ad19ff24759f53d52e6e32879607fcc25619a3e23ea"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000532_fx_auto_preview_v01.wav",
+    "sha256": "4be8bda8ff87089fa465a1465405e42426d68135c356abdbcb3647aac3cf403d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000533_clean_auto_preview_v01.json",
+    "sha256": "4d2e7b9413b08c64850cd8136000259c2cc813bb423f7639080fb5e556e1207d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000533_clean_auto_preview_v01.wav",
+    "sha256": "b063aef42617ebd5fed490b1b9c9a022bc01512591ca5c2b4c7669d9c479df5e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000533_fx_auto_preview_v01.json",
+    "sha256": "351b77870a9bca7b91908ad41a33c8f90994b52fa8f9137797026d2605a35b64"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000533_fx_auto_preview_v01.wav",
+    "sha256": "90c505a94e72f61ef743cde356bf5c7407b6466f446ce45a62df5013d08587d1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000535_clean_auto_preview_v01.json",
+    "sha256": "bc47e60c38d171a4b5c98fa97cb3e6c28cba8537fdee10306997a6574f6acae1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000535_clean_auto_preview_v01.wav",
+    "sha256": "e98741a91bd5f980fa6bbe47a0960f58ab8073fe6ce7bb5686ec4307ba5c40b7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000535_fx_auto_preview_v01.json",
+    "sha256": "e0f0358949e37d6e7b81e492f95dffdf205ed174f6cd34ad58601228c2ea46d8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000535_fx_auto_preview_v01.wav",
+    "sha256": "cbf58238921551af475e4206be71f677397ac7b8a4ca077f58f3abd92ecee0f2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000537_clean_auto_preview_v01.json",
+    "sha256": "f2dcff6c423eb422ec09b220bb76e3cca4ef1a57bb40c9282aa225bb9a304dc8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000537_clean_auto_preview_v01.wav",
+    "sha256": "c7feeb661c21515601f6d087dc3715efaab60baa9f578a7607064944276d42d9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000537_fx_auto_preview_v01.json",
+    "sha256": "f2dd470c9a4b10ca9376172a6f0998b8afdb62b2040462220e7520178fb4644f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S040/u000537_fx_auto_preview_v01.wav",
+    "sha256": "9a760c7eb42f43193250c100cf3586b32b396f521c22e5d81e7aadf2276023c0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000640_clean_auto_preview_v01.json",
+    "sha256": "74128aea30bdd56e758a4d97d4aac6c7be2f6e09b94459a2b05208d506f44a1d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000640_clean_auto_preview_v01.wav",
+    "sha256": "a6aedd5824d27edaf332652cebc267e4247bb32534f9b883cdcc51e0b8e0aef8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000642_clean_auto_preview_v01.json",
+    "sha256": "3eede5d71111b1c682b94e8d7fd8a019f7bfc74c73a9c665d5fddaa4f359654b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000642_clean_auto_preview_v01.wav",
+    "sha256": "99590e6d237ddf50515608918627b2152ead9fe2f632d0843b7831402cd6b0f5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000644_clean_auto_preview_v01.json",
+    "sha256": "be07a6096f7d1f7e8cbe09327606a1c64aab7e377260e14ac23d549a99b5f5dd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000644_clean_auto_preview_v01.wav",
+    "sha256": "01b48dfd13b7ad0719ec7ec8418ea18a3b4fd6da65917a4396f9d95c25ef0fbe"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000648_clean_auto_preview_v01.json",
+    "sha256": "6c4a364ae2b7098e3ef7be5a059acd13b425cf726a6522fb0745374672a5c62b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000648_clean_auto_preview_v01.wav",
+    "sha256": "dde39188bf8bb3cfae7547b3033eed130bae8931e2db0850eb1fe4ddc1b6a78a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000650_clean_auto_preview_v01.json",
+    "sha256": "854e53a0e46752f844d79e5882e0c6047f6ac1efc09bca36512409f72cd76c3f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S041/u000650_clean_auto_preview_v01.wav",
+    "sha256": "a69319511a5cc64b2b6f749c52d5d7aa538181294fc35b48b8278711da774320"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S042/u000560_clean_auto_preview_v01.json",
+    "sha256": "437769a3cba6e216bd3fe399f48d2f325ee632a5927a29c0a057156a072ec11c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S042/u000560_clean_auto_preview_v01.wav",
+    "sha256": "b5101ed758ff4fa1b975201da28940f198ff0811994009bc3555c0a96d51fbb2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S042/u000562_clean_auto_preview_v01.json",
+    "sha256": "8ec96a8b88032730cbe47165d2a458debab2267efb049394fd6524de9dff7cb9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S042/u000562_clean_auto_preview_v01.wav",
+    "sha256": "30c0df320709ee31bf29ddf8304e212483d18e92b8d5a4d2c3a53d17c0d04318"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S042/u000567_clean_auto_preview_v01.json",
+    "sha256": "1a838ba9180430f9dc046e1f71614bea75f5002041286148322d6d05e0aef18b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S042/u000567_clean_auto_preview_v01.wav",
+    "sha256": "08b62da507e49db62de5ae16af2873fd5f19f462b18feb12c91f19507fdec313"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S042/u000568_clean_auto_preview_v01.json",
+    "sha256": "75e481bb615f6416824475f222c82d7318a9d1d2ea62463e4e530c9f32ec819e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S042/u000568_clean_auto_preview_v01.wav",
+    "sha256": "e3db91277577ea0edc195c1c616a80551cb58bfa6f1780a5f1d471eff05e90e3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S043/u000654_clean_auto_preview_v01.json",
+    "sha256": "dc1cad148ae3ddeb84e90bb1080d11c74d7cfeb2cd78c05fa221a64e2e9aed4a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S043/u000654_clean_auto_preview_v01.wav",
+    "sha256": "eefc45411df8ed8197a45324a42eae1dbcdd25a38aef2b4533f264ea11531dcb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S043/u000656_clean_auto_preview_v01.json",
+    "sha256": "ddb9955b260f3ae75d34719977c48cb220374f60807267d600e5f705427b1c18"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S043/u000656_clean_auto_preview_v01.wav",
+    "sha256": "21146b612d0ac5eaf181af7225e1afbc651e7b7b3cc59410fa5a4b833205e15d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S043/u000658_clean_auto_preview_v01.json",
+    "sha256": "794f18edae4542576afde94ec0e79298f8f03edf99ffe13dea55a668c9cea27e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S043/u000658_clean_auto_preview_v01.wav",
+    "sha256": "3563c1d3f28e52455bf4522ea8eba50c10736ee6a9fd93a29831a99dff1288b1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S043/u000660_clean_auto_preview_v01.json",
+    "sha256": "fb55922be6edd54c84e12f63ce467975032a525e16d5392b7b7784232fada1da"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S043/u000660_clean_auto_preview_v01.wav",
+    "sha256": "da0fe8ad433161f4a087a2906543257a6985f5a7a35b031ebbe7640292dd4894"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000531_clean_auto_preview_v01.json",
+    "sha256": "d6487c4558287fbca80f27be97c8ea6abeee126b5aacb713856ccf4c44ad8f01"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000531_clean_auto_preview_v01.wav",
+    "sha256": "496a5e67e046bc7d563ae542c0bb896b78f72ab42945c1f38b9d7d4e3513b19d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000531_fx_auto_preview_v01.json",
+    "sha256": "7e2377c56e639857afa685f2876846235bce786bc61f7e33e1470884080f794a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000531_fx_auto_preview_v01.wav",
+    "sha256": "2ff339da3caffd8e94d2f8fbd67684f0615aebaceb77a13aca350d2001fc413c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000534_clean_auto_preview_v01.json",
+    "sha256": "8964e792dc60c715f49fb44d2417c9b1edee99644c050de7b74cd272f83f66e1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000534_clean_auto_preview_v01.wav",
+    "sha256": "ff45f9871fc9283deba0cc39033698382f130416221ce961225880cd9aae6747"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000534_fx_auto_preview_v01.json",
+    "sha256": "78ce35a1be6936e490bf72aadc317302ae233a51a8e0b44187d4162733e50b9c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000534_fx_auto_preview_v01.wav",
+    "sha256": "1cdd8ccd3459addf7f79b8fc82b88c19f9e1a4853e508cd9c0e4f9a1d8af7bbe"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000536_clean_auto_preview_v01.json",
+    "sha256": "8dad037785d2e054c0ab9b604b76c95281ea104dff887a94031ab862eb6ba288"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000536_clean_auto_preview_v01.wav",
+    "sha256": "12f7d388a9bf0e4305bd3606d8c468d58139aa2339231bd0dae0b1d527bec735"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000536_fx_auto_preview_v01.json",
+    "sha256": "8d3f9a441c70fccabb375f54aa13141624c92b0418e280735cf095c54cbf4739"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S044/u000536_fx_auto_preview_v01.wav",
+    "sha256": "b08e5435703f36e9fbaa52424fef8f4fe0d664b95009a263956a5e9446b91f95"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S045/u000539_clean_auto_preview_v01.json",
+    "sha256": "2bbce15b74bf427538da97167b364e7c9fa1579cabfd2b66631afb85105f7e0f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S045/u000539_clean_auto_preview_v01.wav",
+    "sha256": "b4338608f49b72b1a8c52a841f57e4c5112d21f4e0519b7edb68484c90a9620c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S045/u000543_clean_auto_preview_v01.json",
+    "sha256": "d2686c1b4be08ee42653a1525c1e1915c4b1ca0cbb90de6f60ddac19947cb1da"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S045/u000543_clean_auto_preview_v01.wav",
+    "sha256": "c36368fd95306f20b28cd2141cf3852dd5f7b88ab6db250bfe9823ef3ab84a93"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S046/u000502_clean_auto_preview_v01.json",
+    "sha256": "7fbfe83ad51674479183f64a67ec8a46c07a25551f71e85ea6d7ef21e73aa3b4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S046/u000502_clean_auto_preview_v01.wav",
+    "sha256": "921251afb219d04e5556347188ca03f14ee6dd760563f0e0f5981bb42b903508"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S046/u000504_clean_auto_preview_v01.json",
+    "sha256": "0c1103291290983a2f79478a46cbd8e11f06781608bfdd97e9e2a87aa207992f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S046/u000504_clean_auto_preview_v01.wav",
+    "sha256": "9f952e767ff3d3526b0f36170c0deec15261d07c27ebf04928bc58c54dc8b089"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S046/u000506_clean_auto_preview_v01.json",
+    "sha256": "8c3e00da36e31c6c85673fbb49c49d38f8bc374fb48922a931534b5c594c000a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S046/u000506_clean_auto_preview_v01.wav",
+    "sha256": "02d5783cd5a5446920ed503f5c46214e9933086b3a4e7db46d1be1af9c52a79c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S047/u000519_clean_auto_preview_v01.json",
+    "sha256": "4ad89ea40e7280b7ce4b3e5c4a59e8ed955e19defbda850449a259a1cd5d0407"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S047/u000519_clean_auto_preview_v01.wav",
+    "sha256": "7c0c81eed2e1cb82e01171c4ab91ee8accb1e5e03fc1baa6f2467040e2c5c742"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S047/u000521_clean_auto_preview_v01.json",
+    "sha256": "35d744661af5b535f5f9454decd1c2b1d3f501d9e7aca907f51e971b97f013ab"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S047/u000521_clean_auto_preview_v01.wav",
+    "sha256": "a8c0b03c1df5a0d8c2b36a541398171e090069252ac972ac941dc1142880a550"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S047/u000523_clean_auto_preview_v01.json",
+    "sha256": "21cf223c4a458b8d40f6c8106abc850c4fc24048a8af6675a323686a742274fc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S047/u000523_clean_auto_preview_v01.wav",
+    "sha256": "bdfeb85f28fb77428d695886d193b3fb5d2ac78af0047abe1dc15264bd75f957"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S048/u000513_clean_auto_preview_v01.json",
+    "sha256": "17a1fdde32e7cb94ed46829bfbabfcac92b06c5f2369a16bdbec53e3483ff4b9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S048/u000513_clean_auto_preview_v01.wav",
+    "sha256": "dfb46a41a1de3faab99a5a6e6fcd4d91fadc10c8211aef46d359712e5eb86ccc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S048/u000515_clean_auto_preview_v01.json",
+    "sha256": "3b24fb4168bbd7404b0a334fbd1d196a51903642ad3e8cd3a83b7c0580703dd8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S048/u000515_clean_auto_preview_v01.wav",
+    "sha256": "3f2c2fc15d325be2cad321cbae14c653480eeaedf04d650f8b8d63266f119f09"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S048/u000517_clean_auto_preview_v01.json",
+    "sha256": "8a10c73fcaf91d83e5a0a05168a184bf33ddcb63b964ce82d200be3762f55ff2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S048/u000517_clean_auto_preview_v01.wav",
+    "sha256": "f4d212a97edcd5ab89a7c0ea24835ec910bceb98565e9181b7b43c5d9c3bbfac"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S049/u000503_clean_auto_preview_v01.json",
+    "sha256": "b470c624849c43ac65f09277e0651f3c4910c307ea3793d67f37c67b53a08dbc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S049/u000503_clean_auto_preview_v01.wav",
+    "sha256": "2f83fba834f6a74cd299a7584a9b4727091c0684ff2edbdc973fd9a1ff904e22"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S049/u000505_clean_auto_preview_v01.json",
+    "sha256": "1dec4f111879d573156f69df5bcf9ee536284b8dafb3d77e4f2b882ad7d120ae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S049/u000505_clean_auto_preview_v01.wav",
+    "sha256": "e8fb7ffcd4785a66db3624bdf0201fe38f02dbd3fe58ef98dab60a028718fba5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S049/u000507_clean_auto_preview_v01.json",
+    "sha256": "d28ebabb8e7da2bde8cac8dd0c1baef5ec335df118fdbd16320a4bf5d69d7f69"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S049/u000507_clean_auto_preview_v01.wav",
+    "sha256": "063a41b67895b7487b2fed43a345377f9c3d69fb8defbad4a92f1d1f115ffcdb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S050/u000514_clean_auto_preview_v01.json",
+    "sha256": "5430d245c82ba1e967f46ec4a8edf98bd1105c638f6d928c975d36765236a11d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S050/u000514_clean_auto_preview_v01.wav",
+    "sha256": "4435e175897156b8b96e8ca47921be4faac6b92e03e5013b36558407513e6c5d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S050/u000516_clean_auto_preview_v01.json",
+    "sha256": "9cfb78ca00a6a5dbc92dcb81c9f6e46abeba62933ed171bcaf49e0ef920eff4a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S050/u000516_clean_auto_preview_v01.wav",
+    "sha256": "f2985609712f43fcd265007c62f7b52c6da5dedc26f6e046441e2060b4026fb2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S050/u000518_clean_auto_preview_v01.json",
+    "sha256": "da8a66d7311b172c454676b9a8c79fef989e6e14ef8d7df77f182a79db1db337"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S050/u000518_clean_auto_preview_v01.wav",
+    "sha256": "7f3d696e69415c8c74857003bb33657f7e98fdd5cc488b9c63c80a35791c7aca"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S051/u000520_clean_auto_preview_v01.json",
+    "sha256": "55fafa1b121be02b67a5dc04204c6a197ee07325d0158f0444e9d875a60f7c96"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S051/u000520_clean_auto_preview_v01.wav",
+    "sha256": "b04d8680e60ee0d0b346541570abd7ccaa32d61812c01020467f8482207e2dcc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S051/u000522_clean_auto_preview_v01.json",
+    "sha256": "f2877b3ccbe60969b4773245f135b525625d74222fe057e55845a13e8a099301"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S051/u000522_clean_auto_preview_v01.wav",
+    "sha256": "d7954b4f5bd96900a3566be307a226fb1ddfc8679a0e4c50871b17d7148a3bae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S051/u000524_clean_auto_preview_v01.json",
+    "sha256": "24154f9882d61f0b2ea202f6466df243cc158723e60424024ed8a8ff4abc17f4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S051/u000524_clean_auto_preview_v01.wav",
+    "sha256": "cb6eaf88d0fe96d72309d0581d10abb2bad50de8c8b9b9199cfb75af7c4c4825"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S052/u000641_clean_auto_preview_v01.json",
+    "sha256": "e460e9e73bb3efe1c22b2445c5f4387540aa98d43417c8b13d7d135c2d58eebb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S052/u000641_clean_auto_preview_v01.wav",
+    "sha256": "e6d461c7be2c29d0f1dcb5c3cd672567bfed1cfdc88a8b3d898a6865a5286686"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S052/u000645_clean_auto_preview_v01.json",
+    "sha256": "17dbbe2dad90e6e7c163b6518cd191b95869e27faf98ba8d2b35ea19ee43dbd8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S052/u000645_clean_auto_preview_v01.wav",
+    "sha256": "f13ed18f91408fb281b9b0f4b247ffc00572ba4ac2ff2f2bf4a06f40635488fa"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S052/u000649_clean_auto_preview_v01.json",
+    "sha256": "d6f985bee8a69591d2f74d16539b342cdd02a5cd6b112b53016a610b84bf8377"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S052/u000649_clean_auto_preview_v01.wav",
+    "sha256": "5f4589cf5a2f877d37bc7910f83f92eaba450dc0541028be539773c802c54e30"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S053/u000655_clean_auto_preview_v01.json",
+    "sha256": "d776ace78fc8729f4d64ba3954ac1470889f0444762cb83e0e9ea5c50636ef44"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S053/u000655_clean_auto_preview_v01.wav",
+    "sha256": "0e3fdaba531877cdb13d851315168571b70babf089ce2a7537e62cbb301fe5df"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S053/u000657_clean_auto_preview_v01.json",
+    "sha256": "b6367ef7e9c0a883b9f14b3f735fb053bb1f025420b7a66aa0a6d83fc6abd9fd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S053/u000657_clean_auto_preview_v01.wav",
+    "sha256": "f5dc399987c504e78063f63fde846da46429ec93a150c4972684d415fb8fdbac"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S053/u000659_clean_auto_preview_v01.json",
+    "sha256": "383623d2dc9b4fbbf64406800198e406d050896ea50d04867f335b6c1853d825"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S053/u000659_clean_auto_preview_v01.wav",
+    "sha256": "58e82b54775152218af719ceacb57694ae47e2ee32e45d1d4a059f57af6ed725"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S054/u000643_clean_auto_preview_v01.json",
+    "sha256": "d805ff84e92fb602cccdae8cf7054f9b8f5bb0d03b7d4e087f0d7f4991b95e6a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S054/u000643_clean_auto_preview_v01.wav",
+    "sha256": "b8a00c82e7c500f0c2a3d854eddb8d1471dde76fa3eb35f478c3df7c194ef0ec"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S054/u000647_clean_auto_preview_v01.json",
+    "sha256": "4947bc09e503a3911b458e99cfcef883e95fbb35cdba73bf0df63e1fd3a4bd2d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S054/u000647_clean_auto_preview_v01.wav",
+    "sha256": "410a37868a9ec28605e6020dcc71c9f9051334f1d1c431e7cff15169be0f90f1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S055/u000624_clean_auto_preview_v01.json",
+    "sha256": "85fa9ca138f3a2121a52399d409df4d72467428c83a7dd2995ddbe3fd79fb2e5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S055/u000624_clean_auto_preview_v01.wav",
+    "sha256": "66688c9811dc607b800b99f9e7ac9528428a871486d12e53dd23d534a265a096"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S055/u000625_clean_auto_preview_v01.json",
+    "sha256": "68910c5f712032d4e6c94e7908595d7eee32db75cebb116455f3c057b6b437b1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S055/u000625_clean_auto_preview_v01.wav",
+    "sha256": "a21a05c5f73506d80aa14f07b90ead2ee74ef268b8509ed13af760e3207c14a9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S056/u000651_clean_auto_preview_v01.json",
+    "sha256": "b7c10b71e949dc1b272e2bc574dbf1b3364ccba762d4228339957b7518314252"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S056/u000651_clean_auto_preview_v01.wav",
+    "sha256": "55bcee90ddc0d8ef5330842f537160d43d70b4a626ee8fae56de5f7222a73fe3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S056/u000653_clean_auto_preview_v01.json",
+    "sha256": "88f58c6d4ec0e0e1ceac898286a346c1e8d600c71503286074365ddb6e7e07a8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S056/u000653_clean_auto_preview_v01.wav",
+    "sha256": "2925a34dfd4d470a567ff113a85f585d7bc1d625658a49290632ab04fbc198d0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S057/u000538_clean_auto_preview_v01.json",
+    "sha256": "10e741279bd4c92d2071f607681b6a1646812d480d79876ef2c5c4a8abfeb384"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S057/u000538_clean_auto_preview_v01.wav",
+    "sha256": "3ef0e99cf7a897d1bde7e578eff00c129753005c26b1bd2247eba2d2599e6e52"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S058/u000542_clean_auto_preview_v01.json",
+    "sha256": "5d9df49387d238073fce6db09a485e7c77392b3e783cc4d6be3cb28807d3f00a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S058/u000542_clean_auto_preview_v01.wav",
+    "sha256": "333bf7b97a4afbf03dd60fcc1af28148d7bb38a26a48e3ce389b80cff1a18c54"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S059/u000581_clean_auto_preview_v01.json",
+    "sha256": "e7ec788d4f36e5684b619ebbf079899696ff61f058b5bf3623fedf657c45683a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S059/u000581_clean_auto_preview_v01.wav",
+    "sha256": "465b380487d2572b1565304296c46ab1b750a401f312541f30a99a626ef5f33d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S060/u000646_clean_auto_preview_v01.json",
+    "sha256": "25c493c555a797eb939a02ab5f8a1bd385da13c158e65154684f35c72eaed6b2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S060/u000646_clean_auto_preview_v01.wav",
+    "sha256": "e57babd1b5922737f5b6f50aaa22085203c17aa534d7654a1fc6a83ccaefb473"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S061/u000540_clean_auto_preview_v01.json",
+    "sha256": "ec566557bfe8037d58106cff05d6dc659c0f5222c3f38c6159f46131de0bff47"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S061/u000540_clean_auto_preview_v01.wav",
+    "sha256": "e218f19c65786d5cdf7432d25d7ae2ba147e283242111333eadbbe18ee04cddd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S062/u000652_clean_auto_preview_v01.json",
+    "sha256": "b511a0bd66d5d853a246741dd3feb6bad6a10ac9a295e25c4c88369060e8bae4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S062/u000652_clean_auto_preview_v01.wav",
+    "sha256": "9d8df3d64c55cdfc6ef77875c3da62b1f3c88180c4fe8f85afdc1d1be5605ece"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000665_clean_auto_preview_v01.json",
+    "sha256": "9c336c38d3a0885b9612ae8139ce7990fe8ab1547e6d91691d0a578e7cd00b24"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000665_clean_auto_preview_v01.wav",
+    "sha256": "108b87fdc0da0214bda19689e1891b4857e6e61f828e15b932380700a6bd9f1e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000667_clean_auto_preview_v01.json",
+    "sha256": "ddddc9ee41f05ec2a662f0bdd342313f7036f2bd5d1231e19493910f056f02cf"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000667_clean_auto_preview_v01.wav",
+    "sha256": "18363839184c7e30ff8233a5bdf690db1594ebb9686629e5a34161c885f9a3dc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000669_clean_auto_preview_v01.json",
+    "sha256": "c3acbcc448009b0feb6b71636942f7b7670934c5f3bb9cf3cee800513d667f8a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000669_clean_auto_preview_v01.wav",
+    "sha256": "5fec5a9f22587c3f936ecabd89dc338f7f2e6caf5415e86d9cdbfd9be1e7600c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000672_clean_auto_preview_v01.json",
+    "sha256": "84f1d67aceaf209887ed474e3f6ca6c2dcd4ae54079f1838076a887277e5bf4a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000672_clean_auto_preview_v01.wav",
+    "sha256": "adc757fb3d2b6b57a68d40b877ab6789504811ad72d742d733c2a1de31f1db71"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000675_clean_auto_preview_v01.json",
+    "sha256": "fd7eb672dc95faac00518157dbca1b7a107a1eb3a49cdbcb8d0e5cb092d87e60"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000675_clean_auto_preview_v01.wav",
+    "sha256": "267d829d2ef09b4eddb4658ed45e4722a4dafaf2030e73f7410a99d9197b8516"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000677_clean_auto_preview_v01.json",
+    "sha256": "6ad6aa25eebaca448bf62659dd2dcc7f52da0e7a32a9ff7c601f8cf7e5bcadc1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000677_clean_auto_preview_v01.wav",
+    "sha256": "b02006ef27fd306ba0ad165c06a4025862553a521e602e4eb7ce84ba2e35c664"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000680_clean_auto_preview_v01.json",
+    "sha256": "a9b1117ca3f486caa7d51d013854f3673ffbdf87cdf6b2a0cbff33017d10c0bb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000680_clean_auto_preview_v01.wav",
+    "sha256": "7610e6096c2ce53a4019dacc4ae335683703e9f20e4ec0e1d1f587b7ad163e0f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000688_clean_auto_preview_v01.json",
+    "sha256": "765c0f5656d0f471e04e9999d4d6db8522fb9431c47f22b84e6ff21642ea4883"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000688_clean_auto_preview_v01.wav",
+    "sha256": "42c5df8ca28d2698f333e64571e906627395fc283278860d22ae86d6b8b7e3bd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000691_clean_auto_preview_v01.json",
+    "sha256": "e5ef5500aab0d21c0ef5350ec2cc994b3573b7b44c1acd93a71436a2a2293884"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000691_clean_auto_preview_v01.wav",
+    "sha256": "28c971e0cb14e9846ee06191a54f239dac3407a4c43a84c34744009bf0f32b02"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000695_clean_auto_preview_v01.json",
+    "sha256": "5e928fbb329ce504c701ca582692a67c74ecc45e1ca1178d3a8083997aec23e7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S063/u000695_clean_auto_preview_v01.wav",
+    "sha256": "bc31a455bf246eca2e60be7dda08501183efcb2e47f3e5662e492bde7c953c11"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000666_clean_auto_preview_v01.json",
+    "sha256": "61c67348af285dc0fd20938e6565da972923f7566bd59a95bcd00fc0849f3f0c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000666_clean_auto_preview_v01.wav",
+    "sha256": "44e0ae9d7ada85b9ab0c850a6f7c0a18c95e7369bc55cc84fabd2d6a57df4c51"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000668_clean_auto_preview_v01.json",
+    "sha256": "dd44d95c37c75a5f7f4b2834b9f1ed991b87aca1d82ecabba1a57152be9e3035"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000668_clean_auto_preview_v01.wav",
+    "sha256": "af905cb0aa58eebcb001ee7918d008aabb9800f47f0fa536186093ed91fcb864"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000670_clean_auto_preview_v01.json",
+    "sha256": "ee5fa51af97dfb516edb3b159a688a3bb9535005d72f63f5f80771ff4511bf8d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000670_clean_auto_preview_v01.wav",
+    "sha256": "a4b5d1088b8b3c2eaf4292a21085cd184b39881670370aa8877368a6ab05f15c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000673_clean_auto_preview_v01.json",
+    "sha256": "4b3d7785a4d2c03bb39a77a840ceb5bf0771b0cb400858de11b1739020ffa0fe"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000673_clean_auto_preview_v01.wav",
+    "sha256": "bcac9bb5c918edb42a8d8dfc25cb2a214627894e7480c32b9d051eeac174783e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000676_clean_auto_preview_v01.json",
+    "sha256": "9d27961cd354d6242d582de314510cc7317e5f93daf6649924a4f29d48a2069e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000676_clean_auto_preview_v01.wav",
+    "sha256": "5715487d625cdcf0fe6cc9efb204db2db4cab2a0ff8f6d1cc698da5e79263493"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000678_clean_auto_preview_v01.json",
+    "sha256": "876fd0273085f69b2e2ef3c2c7aefdfe8dd526c883b39b6ad448726ecd09b00a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000678_clean_auto_preview_v01.wav",
+    "sha256": "8a94bc30378735554f2e2262bf2f8a9135856ae666c4b1e79b21eecf0a376917"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000681_clean_auto_preview_v01.json",
+    "sha256": "d3dac887fac714572f65bb244f75e43d87fc923aa06d53eeb16997e8c30ae715"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S064/u000681_clean_auto_preview_v01.wav",
+    "sha256": "b515a5184c0a6d76aa21535d794f3a09db794650ae986e0c168dca486853bb41"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000682_clean_auto_preview_v01.json",
+    "sha256": "505d3309ac08f7e19787006eefb85ab96506a8992fc70dbc7c469ed9ed886fa4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000682_clean_auto_preview_v01.wav",
+    "sha256": "bbb896180b9b4a2d6276cd66da1e8adc37bde5727812f96552671fb34a2897f2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000684_clean_auto_preview_v01.json",
+    "sha256": "ab6fae1002bccfbfdae07c783ea59eb0b42ea848a938d5e321b695cccc4e8b32"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000684_clean_auto_preview_v01.wav",
+    "sha256": "7acd1bb353b0a2a01ca75e41f4730a0353151139421e93a5803fb771516860db"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000686_clean_auto_preview_v01.json",
+    "sha256": "4dda6444da8d122d1a0448e96fafb41467ea6ed4af881d6c0d872f96dd10b90e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000686_clean_auto_preview_v01.wav",
+    "sha256": "e0190846d99247327eb058457720368a1c7c14dd2e5dc7b80f1cb42381d5f0eb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000690_clean_auto_preview_v01.json",
+    "sha256": "71660c58daa3a4d4a52779e948010252832247a8095a7ad3a14373df2797f547"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000690_clean_auto_preview_v01.wav",
+    "sha256": "bbf9d5e3906ab59ef300c1a1a29e4d249624b04015b621e0d275d263906e5f78"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000692_clean_auto_preview_v01.json",
+    "sha256": "dd9c00ab79d7db3d3eeed95cb1b99d14abbec756bb666b70771a82dbe465ad34"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000692_clean_auto_preview_v01.wav",
+    "sha256": "2c590a2ef222d2fb8c8d66fd14e4123e071e95da442cd23d64f916b025c6900d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000694_clean_auto_preview_v01.json",
+    "sha256": "4decb712a3e9a737088c7830eed9491b07ade456a897605499bf837442040d5a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000694_clean_auto_preview_v01.wav",
+    "sha256": "4d4ca44caadf4302bbcfe050c245e828d67976f0016aec2d033e84f073bb8a6b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000697_clean_auto_preview_v01.json",
+    "sha256": "195f95bd0e39142ce62f818933b6df4fd7aa12c8affc8c5d02a19a439ebb74aa"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S065/u000697_clean_auto_preview_v01.wav",
+    "sha256": "76f38d6965e80aa752ef65de356074b2190d62858ae3dc51bcb184deb958d4ea"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000683_clean_auto_preview_v01.json",
+    "sha256": "690b55dc2d2f2a7cc3cea5a15455642ec156ea082ec75e8356b8d625895de0ae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000683_clean_auto_preview_v01.wav",
+    "sha256": "7ef752e20fc0046880817b6067590e747ec851982d6d244760469c0a2a61066b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000685_clean_auto_preview_v01.json",
+    "sha256": "87a1e92bdfb6691e98b9a43177ac8d8ca7d760144ff3ad280c29becdca02a927"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000685_clean_auto_preview_v01.wav",
+    "sha256": "cdee1e1f1572137169640e746684a70f6b2ca17c0e7b822ed298a64389b8466b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000689_clean_auto_preview_v01.json",
+    "sha256": "196e2dfb17e8b7e18b1cd4a218be0cd081e43386a04ca499a9083c5e8c122d24"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000689_clean_auto_preview_v01.wav",
+    "sha256": "d0092c1f4d41bd56d50aa059086a110045e2c1d2dc3e171c61d005902529ac88"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000693_clean_auto_preview_v01.json",
+    "sha256": "8137d171c371bda27cb243831bdef5b2587165195c193dab6075cb7efe16631a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000693_clean_auto_preview_v01.wav",
+    "sha256": "60539362517c205fe12733b2e2708244205b65aac975c0968c07edfbcfc6170b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000696_clean_auto_preview_v01.json",
+    "sha256": "0082533892e404b88b925773af7522af9a4bb27f2f8d31150e2640b1a4a774ed"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S066/u000696_clean_auto_preview_v01.wav",
+    "sha256": "e742d532e194a6a8f905d86177bb3d4aef75800f8f4f0ffa18451a410410f17c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S067/u000671_clean_auto_preview_v01.json",
+    "sha256": "b933ab476ef59dee42cdc174453e8ebc17eab34dbc92aff24b8be954513a4d38"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S067/u000671_clean_auto_preview_v01.wav",
+    "sha256": "4490338b65f3031ec15ed1586841c952eb5cdf4f2c82c84614ff6e4a37878a5a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S067/u000679_clean_auto_preview_v01.json",
+    "sha256": "617c2dd3ca3456727352bf82559371adf251f98c448e42c8b0f9a2757639f027"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S067/u000679_clean_auto_preview_v01.wav",
+    "sha256": "eb5b36a65b052440b21720403b73772e743bf875fc86726021bea8a52ce42597"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S067/u000687_clean_auto_preview_v01.json",
+    "sha256": "3ae61af779c0ffb6468104aa050e9b86bc39888119c9fb8eb6f9b90af370f952"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S067/u000687_clean_auto_preview_v01.wav",
+    "sha256": "3f1ec25179fe9044f4934fc53a2dfd6c01f2b96d140358e5ab7234fdae097f6f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S068/u000751_clean_auto_preview_v01.json",
+    "sha256": "a4d2e5f3fdd34b84fa617353ac6c93f78037e33d8a60f864e4c78e5a3a57984b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S068/u000751_clean_auto_preview_v01.wav",
+    "sha256": "b370beec3623774bce52602d61bae87241e6206a3e02c7fb811ca9996c122f7a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S068/u000753_clean_auto_preview_v01.json",
+    "sha256": "b8b521b84444a2e77f7084c42417ab92e28f8274469b5aef0313750bdcafbaa0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S068/u000753_clean_auto_preview_v01.wav",
+    "sha256": "10f96f4c93bca774672f70bdf64a99eb87cc726646a04f4795c880ca82d2c0f5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S068/u000755_clean_auto_preview_v01.json",
+    "sha256": "01be62219fe4ab2484093ec2c35289282e25545a1e03446271f963bf5c0c05be"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S068/u000755_clean_auto_preview_v01.wav",
+    "sha256": "6a97be651a4ec6c813170e2e7f7eff9c14d014398baa7c3568578428eaa5a9fe"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S068/u000756_clean_auto_preview_v01.json",
+    "sha256": "e68e54259dd3ccec70750f67ee81c253cb27c22090824b891fa45e7ba5e80896"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S068/u000756_clean_auto_preview_v01.wav",
+    "sha256": "0da5621c02777b228058873c5bdb144103966f0b78f14e02464680833dcbc63c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S069/u000752_clean_auto_preview_v01.json",
+    "sha256": "b676186789983bdd815a6e0e9b7c68e8750c957d8aac05bd628ce8ccb4a25a40"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S069/u000752_clean_auto_preview_v01.wav",
+    "sha256": "76304c17c6587bce3a0169ad43c7206e39e82c106c67eec9c8f9cbfec64aa244"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S069/u000754_clean_auto_preview_v01.json",
+    "sha256": "e0e7846b221ca15116c527c9d1e25e888f79781c61871f56e6fc8d69163060c2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S069/u000754_clean_auto_preview_v01.wav",
+    "sha256": "5016b90dea2abc8d21b9af60644bb88fe022d01e4ad7e704f44981d7a03ea95f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S070/u000661_clean_auto_preview_v01.json",
+    "sha256": "85affa434c5542c62b2ec258b077649b1fc985eb04ed4d18f94a7e16c437a1a4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S070/u000661_clean_auto_preview_v01.wav",
+    "sha256": "bed6c355158c765f7f5041a701ca0ac3b57321229e85e46b7bc78d61bdc0c02c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S070/u000663_clean_auto_preview_v01.json",
+    "sha256": "144bb60e44042823acebaa5e33c5941a5ec054d158cfd9fa2a48fbc281ec8db7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S070/u000663_clean_auto_preview_v01.wav",
+    "sha256": "2d7983160d66a711514ef124fddc4ee75d15772c08ab106f0983ffc17f078309"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S071/u000662_clean_auto_preview_v01.json",
+    "sha256": "49a2aae03f0bcdf37bdd9539b76698bf2b25b00568fdfc13896c5f7ccb64577e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S071/u000662_clean_auto_preview_v01.wav",
+    "sha256": "9c793b0cf08c4ddc33f5e94355a78a01112cba4668df92dd51a687f791fe4cc9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S071/u000664_clean_auto_preview_v01.json",
+    "sha256": "8ed56346e31e23aba9037dbd1fd866cb7464aecc702799cd643641673e5b2fa2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S071/u000664_clean_auto_preview_v01.wav",
+    "sha256": "e22ac0789294c3b0a06b8634e87101154544e081024a8f798134185658d75ee9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S072/u000759_clean_auto_preview_v01.json",
+    "sha256": "3f7f2342c8b80dd15651aa8652e38bb43e06c528ae519b88b4bbc959fa6b8bf5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S072/u000759_clean_auto_preview_v01.wav",
+    "sha256": "89b6e2417251d59c0c3c3f980415304e54291dc4b0aac87303808e5152661a23"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S073/u000792_clean_auto_preview_v01.json",
+    "sha256": "84bf6ec89d18236c3d299b9c21ce45ca27807aaa304bd9d99b611fa7a100332a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S073/u000792_clean_auto_preview_v01.wav",
+    "sha256": "9876065b25fb0479d91158ee20f647f8abfe183a21390f6b726a1f3eb40579e2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S073/u000798_clean_auto_preview_v01.json",
+    "sha256": "93a7f38fadd5cf33b8ae39f8383b39cdcb81b5d86b841338a324c1ff57e5b6f2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S073/u000798_clean_auto_preview_v01.wav",
+    "sha256": "29cfea5bfd2c70ff2a5520e87f879f8b53f384bb255f376a7938d235137dd68e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S073/u000800_clean_auto_preview_v01.json",
+    "sha256": "386a0fa21dfac3d299e828b9aef243f9d66ddec349384db2f4d804c57f066a9e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S073/u000800_clean_auto_preview_v01.wav",
+    "sha256": "fb14d0e915d05021c074b48efeb8ce958809d0d3c3bebfb1ea8a938443367a61"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S073/u000801_clean_auto_preview_v01.json",
+    "sha256": "fc26935875896715b6f581be31a947dca1cf78f1894fde73ca6a555407790d2e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S073/u000801_clean_auto_preview_v01.wav",
+    "sha256": "6708175502d8bbd4f38b35ff78c1c0b0a9060f88c6bfb010facc01b7be7f668d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000848_clean_auto_preview_v01.json",
+    "sha256": "a76cc916e6de304d9f1acf4500da215f46418e8fcd340213e791b7826d2f575e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000848_clean_auto_preview_v01.wav",
+    "sha256": "555d8238097d9878f53782c69d66d21084da1d9297641073130379da820b7080"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000849_clean_auto_preview_v01.json",
+    "sha256": "3035e9974c4af20c4345af25f88eaff281806c309b83e4a239b7d320b16d5cbb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000849_clean_auto_preview_v01.wav",
+    "sha256": "75c8cc9b819131814b7e2c40c717030bd226c9a72296d366c1ef01dbe510bf38"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000850_clean_auto_preview_v01.json",
+    "sha256": "425f61bbd30b34a1c0c81c744bd0e17287271699594a6529460fee8bb9dbd0e5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000850_clean_auto_preview_v01.wav",
+    "sha256": "a3b84e9c238d9b2a7df620938ee5ac14aabc2218325314136fbd08e7bb8bf312"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000851_clean_auto_preview_v01.json",
+    "sha256": "551e3c0ca9ed4f752fcb9d6225b5d86d68d7ab313e9433f6dc7215e5c0bea2f0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000851_clean_auto_preview_v01.wav",
+    "sha256": "a2412b09b70a2e80cf75ec59e8d7ed0a2f942bb123eb520bd4b1ed1b77ced2a2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000852_clean_auto_preview_v01.json",
+    "sha256": "11d5640031a7793ee4a14f31cafd0ab1f0c73157eeb088e958db1c5b9760b83a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000852_clean_auto_preview_v01.wav",
+    "sha256": "7c9c43e3b0cd1feac6ba1006de9d8d9499e41189880f3570f1aaa4735935d0b4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000853_clean_auto_preview_v01.json",
+    "sha256": "706f9c5fc7c792806f8bc3a90f24dbf108a244ed7ff78dac7e3633f39835f65a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S074/u000853_clean_auto_preview_v01.wav",
+    "sha256": "ebcccc02a862bbbe368fb078188dcd44b5e76666393d97506bf741227418718e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S075/u000866_clean_auto_preview_v01.json",
+    "sha256": "db740a02219e939a0c39fea66701a2d2254995c74b24ed559fd15594a4bfcc83"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S075/u000866_clean_auto_preview_v01.wav",
+    "sha256": "784e3bf67608c96c5a67f4b1aa856ff65c76b26c5baf01abea3c15f8806e2873"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S075/u000868_clean_auto_preview_v01.json",
+    "sha256": "e66f1c4f0a66681ba782d60c767eb1b9c19726e18be2b3a2f67c02c3c97ad799"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S075/u000868_clean_auto_preview_v01.wav",
+    "sha256": "c3d11856af97aba81a3b5b72c56faeb42c3a0ce00ffd48290d190dd539e15389"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S075/u000869_clean_auto_preview_v01.json",
+    "sha256": "3680837e6e46579fb43c6e72a348082a54af760f2404d2fee1a64caef01fc295"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S075/u000869_clean_auto_preview_v01.wav",
+    "sha256": "c1f97103aae5854e020a0328589e47863428da4a56e7c22c985cdf94bd41c9d2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S075/u000870_clean_auto_preview_v01.json",
+    "sha256": "4cc98855d27755acbb23c6fe9c857384747982a3cca7294b99e06e0246a9d812"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S075/u000870_clean_auto_preview_v01.wav",
+    "sha256": "6288a706bfe89110549a81766afde4396b5aee6bf14c09ab8d1fa7fcc14b3fa5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S076/u000802_clean_auto_preview_v01.json",
+    "sha256": "f1abcbb35a3c7a366b5e972aedd67c89bb52e32d977475493709ba86e482e63a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S076/u000802_clean_auto_preview_v01.wav",
+    "sha256": "201ed95edd1ed5f247bcb35fe981be8a68bb6180a35b7e1e1dd2bd533c76881e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S076/u000804_clean_auto_preview_v01.json",
+    "sha256": "c60abe3a6ddb074dc24b5122ef1bf86d27d8900feea91f445a123e3fe0dcf10b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S076/u000804_clean_auto_preview_v01.wav",
+    "sha256": "aeb9188d8537bfb8f63b04e1f41c036dd742e30914ee9c8ad2262dc25bb9098e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S076/u000806_clean_auto_preview_v01.json",
+    "sha256": "cdf70bd899f1d089a0d51795f5f1fa3850deb94f6bcb37bf2b2b289b651f6118"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S076/u000806_clean_auto_preview_v01.wav",
+    "sha256": "587aa5a58be072af6165f49f51ed36761aaf838945853354ef4f7b487e376e28"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S076/u000808_clean_auto_preview_v01.json",
+    "sha256": "a7563e356e8a8a843b4ada63d2c36e07a206cdeb6c399a080867c4ba20d01ba9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S076/u000808_clean_auto_preview_v01.wav",
+    "sha256": "92283b7af14546a0a37e9e83fea349597a38d6902a46266fe87d7bd5ec0226d2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S077/u000803_clean_auto_preview_v01.json",
+    "sha256": "ad3dadd3ef9496777b3777be552148e4c51c4ce5073e2f3f676080c92a1d787c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S077/u000803_clean_auto_preview_v01.wav",
+    "sha256": "ea3728e9d0ffe26da69bf674c69ad11e104681b4d2a7e6ca6db5b175f139dd87"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S077/u000805_clean_auto_preview_v01.json",
+    "sha256": "4468f10dd12d7548f7b32497259dc3a7ac6c06458fe2a7381fe65cb165018a75"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S077/u000805_clean_auto_preview_v01.wav",
+    "sha256": "f6193dc5df50e55b2acb4fdf0c69981cc8e0056e0c1feb4aeb6163adcb987b8e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S077/u000807_clean_auto_preview_v01.json",
+    "sha256": "282efa9d5ef1ab4fb74a162950f5ea7cf4c0f5df485f4111f9c71baf54415b26"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S077/u000807_clean_auto_preview_v01.wav",
+    "sha256": "08150cf563e2f3f964b3c88bdcfd67c022a764ffe1020925cd5a407e9f8ec645"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S077/u000809_clean_auto_preview_v01.json",
+    "sha256": "5d0ce0242eebf08cde998b9708e1adbad58f39e8ed865ff0c275ba1c55c770a4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S077/u000809_clean_auto_preview_v01.wav",
+    "sha256": "be38d5edbb8307c5ac76ba2fc1105053a59316d78879cecac5b5d0337331a87c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S078/u000842_clean_auto_preview_v01.json",
+    "sha256": "41209f4e35a82654fdffee71bb9f61fa6ebd382d6dc7ce69c6b8ebd5e2f3661f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S078/u000842_clean_auto_preview_v01.wav",
+    "sha256": "7395a8db71e2bc44f1a5561340749b1dbe672d46c1fc01c2ce2563f038cff14a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S078/u000843_clean_auto_preview_v01.json",
+    "sha256": "8b08cf069954241da7b91a4883529c943ad7150f0dd67873439794a8786bef9a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S078/u000843_clean_auto_preview_v01.wav",
+    "sha256": "5ba64dcca6b80147407ae752bdc1a27ceb5c4319fd73f93aa93e5d181bc09602"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S078/u000844_clean_auto_preview_v01.json",
+    "sha256": "9039fe2ad99fb82658b5909638463366c36ee484ff67e60eb016a73f4ffaa5bc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S078/u000844_clean_auto_preview_v01.wav",
+    "sha256": "536bdbea9d5c76f4ec89058a8100786c07128738e9bc563cdacce7bbd23e0d53"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S079/u000845_clean_auto_preview_v01.json",
+    "sha256": "ab9a751647e238da9e66a5acb9823fffd4e4baf31b9faf846d002bccaa50680d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S079/u000845_clean_auto_preview_v01.wav",
+    "sha256": "420db805894698f70b0d29b2f420a0219dc5f887af04a78fe0b4f026f15d0d36"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S079/u000846_clean_auto_preview_v01.json",
+    "sha256": "8bff5f22f777e3ceec7c6a9909f0caf1316d3c2604df4b4420b48df32716c7ff"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S079/u000846_clean_auto_preview_v01.wav",
+    "sha256": "c4d1dc23d93ab8cce8fcbe1da87c4bdd6c7cfd25c5728c693005d438eea7c85f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S079/u000847_clean_auto_preview_v01.json",
+    "sha256": "e9eda1250f51c158818bfca24cfbc3bcb38dc413c41b71d1d092e0e3ad461c81"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S079/u000847_clean_auto_preview_v01.wav",
+    "sha256": "454242d11ec4d77b8c2a3f5766700ce29568921ecbbfe2ca399ea63677bd5fee"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S080/u000871_clean_auto_preview_v01.json",
+    "sha256": "32803b6860b7a77e29051825edbc750a4dc78fc4559d6dfa869a1fe08e374d45"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S080/u000871_clean_auto_preview_v01.wav",
+    "sha256": "bc6f1246a5df82e730212d71b809878599817d7b78eaa82427be304ac82794f6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S080/u000872_clean_auto_preview_v01.json",
+    "sha256": "74fa74aa97ef3a5a6ce712645c3b1ba0b67ce53a0342047cd4ddd15079a7559f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S080/u000872_clean_auto_preview_v01.wav",
+    "sha256": "d33726cf7944b8f2648ac6ccdc268465d5f68b92494cef358c7fd611bd078448"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S080/u000873_clean_auto_preview_v01.json",
+    "sha256": "e6ae3b6ef288d9ae5a4cbeafcbd1961e8eac25c31e7b6adbae3c6b8dbf014dc8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S080/u000873_clean_auto_preview_v01.wav",
+    "sha256": "0bfc97888a1e7557d208b84b1238759a9ff4bd7f9eb18f70a04a8e970850cc6e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S081/u000863_clean_auto_preview_v01.json",
+    "sha256": "7a8a99a6892741eacd9fbc7762086f280f93ab53f1712eca89c645e32f4e0350"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S081/u000863_clean_auto_preview_v01.wav",
+    "sha256": "356d4c0a679a38089d98b8d4f89318dcab79797a51c3253818d420e6115134c9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S081/u000864_clean_auto_preview_v01.json",
+    "sha256": "d05f386632af4c2416a121bb1463f9eb7f27504eb70c249bd84a35673f108ff2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S081/u000864_clean_auto_preview_v01.wav",
+    "sha256": "e3446565d2c52a8b2568bc6adc11ebb9eba3c37b7147a528666d074cb49552db"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S081/u000865_clean_auto_preview_v01.json",
+    "sha256": "e57906d6edda85ddd00fe8679fad58188643a6dc867594c616a0652072b55056"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S081/u000865_clean_auto_preview_v01.wav",
+    "sha256": "1c1ed07fa772b7abdf96195e55421d1fca6f73f0d60e75142bd2dc69cb6e2cd6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S082/u000774_clean_auto_preview_v01.json",
+    "sha256": "e382fc978975621a3912d1796caf27b97d12111fdfc44d1a1f722f7f4545d3cc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S082/u000774_clean_auto_preview_v01.wav",
+    "sha256": "23e01235c53cc7cb74cfcfdce02cff9f6dd4b4e44089b555b4c68231328883d3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S083/u000854_clean_auto_preview_v01.json",
+    "sha256": "0bcff42b9b7295529b4d03c6d9dd57fd656441fe9dd99970baf3537f7dc2fc4f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S083/u000854_clean_auto_preview_v01.wav",
+    "sha256": "6acba62bc980e311c03db3ea82bff707676faf94872d64db82cad1c6a4c945ab"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S083/u000855_clean_auto_preview_v01.json",
+    "sha256": "8bc6431c03648e635c71b5d8408881286d17067d2fb19a8e8c4c85839685e769"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S083/u000855_clean_auto_preview_v01.wav",
+    "sha256": "5c4ee2fb2b577b39ddd1f09528690b9901ea3a5f07c515c01bff3c1a3a9d73bc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S084/u000810_clean_auto_preview_v01.json",
+    "sha256": "32edbb4d9f187b78888e37b5f3e6a478035022db4535c02246fc79cbf69de989"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S084/u000810_clean_auto_preview_v01.wav",
+    "sha256": "8ac244d4ebeefec0d9296979142e1d8b323379119e146888b80093b8353dc2c2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S084/u000812_clean_auto_preview_v01.json",
+    "sha256": "16bf054dc84d173ee2a4c34413072049e9549d4dfa62e7a26d7df0f202ee66d3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S084/u000812_clean_auto_preview_v01.wav",
+    "sha256": "d691561749768e52ddd70c22cd39da1ce8ffca65b3c2e690e64a7b495ad36f9d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S085/u000811_clean_auto_preview_v01.json",
+    "sha256": "853d3f938da82d94cee1ada77f4aab99878dbda0fa9018250948326766416287"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S085/u000811_clean_auto_preview_v01.wav",
+    "sha256": "1b0f777848b606599a80348937265b821b116cebc5cfeee8afa9b09f750e876a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S085/u000813_clean_auto_preview_v01.json",
+    "sha256": "4d053bb887dde03b68b285435b338fb8e4263154db692dd39e771d4e57fb378a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S085/u000813_clean_auto_preview_v01.wav",
+    "sha256": "b78af8b3d0d63f3a9ff9b0c28eefb8518087307ec2de705b78d95056d87c02fe"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S086/u000860_clean_auto_preview_v01.json",
+    "sha256": "64531c5ce1195352aeb8f7570e01fea2e36e7ebaafaad30e08f8d2ac54443367"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S086/u000860_clean_auto_preview_v01.wav",
+    "sha256": "56d66671f0f4d1ae8acbd59afd761fed6d1fc30997f7d4dacc26f0a31706e973"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S086/u000862_clean_auto_preview_v01.json",
+    "sha256": "dbb6b5073cba60473dbadc78b2dabf7d0be3fa85b6aa460a429901f33ddaa000"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S086/u000862_clean_auto_preview_v01.wav",
+    "sha256": "c2c8dd37584ff5c49d128b89c84e881cf846d8e646175c7d627272e7fdc00be3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S087/u000763_clean_auto_preview_v01.json",
+    "sha256": "6bae891c68a098699bdd631e0bde013f228e3c379c767b1f3c5152707a4f8c22"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S087/u000763_clean_auto_preview_v01.wav",
+    "sha256": "502640d9028b4d09fd58dd230d197d62bb9facd4f93e6936f54fdb167add7c4a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S087/u000765_clean_auto_preview_v01.json",
+    "sha256": "ba77f5ab68089888c2e5f9d636102c7b4373c7727d497b3c0f1f802a18345a23"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S087/u000765_clean_auto_preview_v01.wav",
+    "sha256": "89a04fc3c187af0eeeaf8318531314dd99841d78c820a0898041b0bb7be5fbd7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S088/u000777_clean_auto_preview_v01.json",
+    "sha256": "f8805c6bded053370254d1f048a404aaaf8410a78edec454f240f562652c4288"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S088/u000777_clean_auto_preview_v01.wav",
+    "sha256": "703467cafe2e594e0821e3edb3863892bbf2eedbde2709b4c44e403c3706106d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S089/u000768_clean_auto_preview_v01.json",
+    "sha256": "e46e66b3940ef09540b084fe5c872ba3ac0ba1d5fc55a3b8237bc22f37aa3d40"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S089/u000768_clean_auto_preview_v01.wav",
+    "sha256": "a7988d6828b9a1103cf81c29f1d194d3a9fd33986682b5c1b10abfd0bb1d9a3d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S090/u000861_fx_auto_preview_v01.json",
+    "sha256": "e78a9755fd07024fa6a99e238e97d184aae2353e982d391757658d8e76e7b18e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S090/u000861_fx_auto_preview_v01.wav",
+    "sha256": "dc1b0566062c7ec1114aecc1477dd206fa49e5357ef1b26485fd9224a6d6f905"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S091/u000780_clean_auto_preview_v01.json",
+    "sha256": "8936aead2af59e0830f1d3d205dadc7eda155c16cfded613331e85409da109cf"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S091/u000780_clean_auto_preview_v01.wav",
+    "sha256": "ff154609a7f712e105f313aa7ab95b6ec5c1734cd4e8a4dd7443b1050b90b226"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S092/u000773_clean_auto_preview_v01.json",
+    "sha256": "ed9601ae33fb7fc60d16e540316f6afe5c12f500b7a28f67fc5abcbd35a3219a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S092/u000773_clean_auto_preview_v01.wav",
+    "sha256": "7e20dfb872d10a9a34825266b2804139e511fc03f9d0404a3704277f2afc5724"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S092/u000773_fx_auto_preview_v01.json",
+    "sha256": "8f66b26dbb0e893b12b080dadf5281d4038ad24010a64982b84c6f112e0bad09"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S092/u000773_fx_auto_preview_v01.wav",
+    "sha256": "11e8f617d21ab60f264c0c086b1980271d8c911b3eae33172bb3b713fee5e1b8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S093/u000766_clean_auto_preview_v01.json",
+    "sha256": "1fad87579fbe02461c493a0f889f87ff75eb01fbac3cb9b5f116d12e4f975948"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S093/u000766_clean_auto_preview_v01.wav",
+    "sha256": "223618c20005dc21bea0e9eddd6de623b32a51b492d3aa35d1e4fcc0912bde70"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S094/u000767_clean_auto_preview_v01.json",
+    "sha256": "80c154a4acb7f563abd321c9dd0b7d7f6c55a995c5554658c152821d526eaa3d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S094/u000767_clean_auto_preview_v01.wav",
+    "sha256": "82533703d1bd45155828e6e5535637687fca1462ef286a038aaf1809f420e1ca"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S095/u000770_clean_auto_preview_v01.json",
+    "sha256": "8daa0e6f28e7530fecc81427f91d3860c14c7a773b6cf6a496b78a0965dc3cc2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S095/u000770_clean_auto_preview_v01.wav",
+    "sha256": "de2432a1adc3f6d0f353f8c4e4c8ba8d60d63c09de96897ffc356dafcb053345"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S096/u000772_clean_auto_preview_v01.json",
+    "sha256": "706390d4a2d3f060fa2f2e6152eac216857417c98d461ef206cd774d7d82a73c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S096/u000772_clean_auto_preview_v01.wav",
+    "sha256": "4da3a3507c1eafc5f7a9c84ced02eeacb46939ca78ecf90d73241c67f1d2c6c2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S097/u000781_clean_auto_preview_v01.json",
+    "sha256": "1e1f56fd10525d14cf567fd6ae522d9c340371fce99ce0ae9e1f60dc59456eda"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S097/u000781_clean_auto_preview_v01.wav",
+    "sha256": "59f8cd3337087748e4ae908dc2a4150eb10a4ac3b780fdb0f8df9c38508c4b24"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S098/u000764_clean_auto_preview_v01.json",
+    "sha256": "a58f91bba980d407f9aa1edfa8adda54b4dd8bc27b6708d60db205234c094c05"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S098/u000764_clean_auto_preview_v01.wav",
+    "sha256": "d5a7d22ee3440c3196de16aba2c9cf802efbcd9cb80733cc0954b1fca27091f7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S099/u000771_clean_auto_preview_v01.json",
+    "sha256": "4bef7414886adf52766b9f074112083bc004bc08264c9a9afd9886db6cc325e8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S099/u000771_clean_auto_preview_v01.wav",
+    "sha256": "70865643b34d4c53d3ec1682bf6a70447ee16fa5fb1b742f077ed2203ce88c72"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S100/u000897_clean_auto_preview_v01.json",
+    "sha256": "4d3afc9b4f458256093300f5f9db9e14976d3f9127b0276b15ca4cd2f079e2de"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S100/u000897_clean_auto_preview_v01.wav",
+    "sha256": "7fd9c94b7143cbd35dcc808814d9b1745728b8b174e0048aa6ef6c2f01053208"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S100/u000899_clean_auto_preview_v01.json",
+    "sha256": "45edce88e72c5754108e0fc06c3f95061f9748f5fc3cb3a325546517f1a8ddff"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S100/u000899_clean_auto_preview_v01.wav",
+    "sha256": "78c6ad198b174d99954d001b80de6368f937355aebd5e0cc72eebc98c4a6763f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S100/u000903_clean_auto_preview_v01.json",
+    "sha256": "5859140adb0acab4a59303138eeb207bd273d6158b9a9b3be545c94bf2342b7f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S100/u000903_clean_auto_preview_v01.wav",
+    "sha256": "71fa4025d560ddc9c0583618f7e429447fad46ec56682c6b3100cf9ff35980e6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S101/u000889_clean_auto_preview_v01.json",
+    "sha256": "f4c1963d8531648fd1da98fe04269f02657d188bca31da6709c1d38f4920111c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S101/u000889_clean_auto_preview_v01.wav",
+    "sha256": "52094c5d103511b1f91e38939f6cf340b70afde1c4304faca37e6e92e012a4c3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S101/u000891_clean_auto_preview_v01.json",
+    "sha256": "a544fa56bb122cb822bfb57767723f1b22e020503ab788525e9a9e20d8911701"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S101/u000891_clean_auto_preview_v01.wav",
+    "sha256": "dffc0ef199636d8c648ed5653192d926ca655376f47810ce4a41743929fbd3bf"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S101/u000894_clean_auto_preview_v01.json",
+    "sha256": "f1b5f28317c8f30f0a87636be88898256c2fa97a29309a66e83cedf1e4391e4e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S101/u000894_clean_auto_preview_v01.wav",
+    "sha256": "cb675e9ace4b5e79c588ec8da9f2f584b635668e8cf0ad3a271ebd9ad2f30b1d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S101/u000896_clean_auto_preview_v01.json",
+    "sha256": "9a614875744b596ef6720a3f48c6ede9779e2c9808a6349d39ec8b91ef9b1b1a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S101/u000896_clean_auto_preview_v01.wav",
+    "sha256": "07c9fbff6837600f20cdff22d7adf592dbc23ddfedf570f84f76bc60fc284ec7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S102/u000890_clean_auto_preview_v01.json",
+    "sha256": "caa0c5bff64df2b7e07dc5c3473344c531f1ebcc5e76485819f93cb3cd8717fe"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S102/u000890_clean_auto_preview_v01.wav",
+    "sha256": "bc7253c29d97613fb6c51953c7e1b79edc5437cb858a3e73a64160c91fb46171"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S102/u000892_clean_auto_preview_v01.json",
+    "sha256": "521f485fed6b0a682d690bf8e223a088e6db3d19ba6f43f29b812f9c1fce9dc5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S102/u000892_clean_auto_preview_v01.wav",
+    "sha256": "b67b21ce6cd96b26657261c5b7edcddbec07a858ff87707465ecbd87be493fd5"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S102/u000893_clean_auto_preview_v01.json",
+    "sha256": "7754d1433013e62313f8169b7fed8719e4fe52798c00005dc0e4030dcd9ce9c8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S102/u000893_clean_auto_preview_v01.wav",
+    "sha256": "325fab7dbf837c62a3f87dbc13d91815b6ba5d86acc18344eb474bc76b521aa8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S102/u000895_clean_auto_preview_v01.json",
+    "sha256": "9263006abc5e6d0418b68c19339713b6b7dacc8cc59594b7d75d0a98774cf07b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S102/u000895_clean_auto_preview_v01.wav",
+    "sha256": "38906d7e97d70e2b4d8461452b9f568b272676c89008356a5e0164091643d44d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S103/u000875_clean_auto_preview_v01.json",
+    "sha256": "bd90feb57c66a7baf07cf485d0b97991c03a3c4d9e03b49cf9767e7f2b95a677"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S103/u000875_clean_auto_preview_v01.wav",
+    "sha256": "9be40f460b40f101f057773856df125706171eb972ab3454f8604c1a1f77c7e0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S103/u000877_clean_auto_preview_v01.json",
+    "sha256": "7c67801f9c4a0aa7a172f13bdd23f9ab502989163c1c8f895638ff2756fda8f3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S103/u000877_clean_auto_preview_v01.wav",
+    "sha256": "46c50b10579d812cebee2a338c8cb788993f21a16ea56648eb16fae541f7cc4a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S103/u000879_clean_auto_preview_v01.json",
+    "sha256": "b3cdf18f997421e2626f0ded455a73b723b4fb909b5b9a5bf7b310ae83da6513"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S103/u000879_clean_auto_preview_v01.wav",
+    "sha256": "5de90e4024bce4f56504d5539fc37cf66e4beb410ccb50b9849b68114002a854"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S104/u000898_clean_auto_preview_v01.json",
+    "sha256": "1d044283e5190ef48837a96777273807b4b27e39909eb257f1deb87b09de85e8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S104/u000898_clean_auto_preview_v01.wav",
+    "sha256": "4c1704e7c9decdd03ee037f64811bacdd3fef69c55a3b4609fa333508ff567dd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S104/u000900_clean_auto_preview_v01.json",
+    "sha256": "81a8201d891592c501e6ccc4673576740be947b41eaf9ffbf3040850ffa0f9a9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S104/u000900_clean_auto_preview_v01.wav",
+    "sha256": "a5eca3c0a4fdc438e0ad7e9c7d85aea939814a29acd1bb0cf39188cc01398b54"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S104/u000902_clean_auto_preview_v01.json",
+    "sha256": "d44abb33499908fdfc4a400eb06d6eb6e626ff03ab6c768e738373780585b3ac"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S104/u000902_clean_auto_preview_v01.wav",
+    "sha256": "9fbfd7ff744958aa31fb62a186b24ea7a7f0a8c35d06f4366fc99d4a0a8b3718"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S105/u000874_clean_auto_preview_v01.json",
+    "sha256": "47f5707a43394a06201a31bc3bb709c09e61b0a9bf318179f1c3b7b901303ba9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S105/u000874_clean_auto_preview_v01.wav",
+    "sha256": "54f88e5af0e3204c3338cb16fd38b1faf122eec7a7e8667d8d2ee1fb30f532fd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S105/u000876_clean_auto_preview_v01.json",
+    "sha256": "81119aa4967569fc3ecd53cb10347763ae4c4e5f09a0b1cb554df0e62b5b69fc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S105/u000876_clean_auto_preview_v01.wav",
+    "sha256": "f82ae6380111e5f182fe374e40929aca8979ab83f547bb6956f9443ee8daeb5a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S105/u000878_clean_auto_preview_v01.json",
+    "sha256": "1bba2befaeecabe5b8d834a1503a37099c6248f466c886a98d0ad6cee385b6ec"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S105/u000878_clean_auto_preview_v01.wav",
+    "sha256": "fc72211e80cda42b99d81d165a0a8b6451d93ff8e74acee8b1b2f5d548705ff0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S106/u000905_clean_auto_preview_v01.json",
+    "sha256": "ef2abe12f06b9bdb27eafdb3da339a77b1d400adbdc62a9f72771333848c285b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S106/u000905_clean_auto_preview_v01.wav",
+    "sha256": "a5cdf59863499fd54e134dedf144ff664478947933172f5be248bbe2a7823197"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S106/u000907_clean_auto_preview_v01.json",
+    "sha256": "bedebd37714aebc6e95290069351426b96300974a15afdbb9d3b0f4f38c31d6b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S106/u000907_clean_auto_preview_v01.wav",
+    "sha256": "ed5fa1936c69aea9e8c3f3157cb8738d2cce3cd1c60c15f2c7ba9c16eacb95d2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S106/u000909_clean_auto_preview_v01.json",
+    "sha256": "4de65d4a8309ab747c26758ccd345c6a18e3ddb2ec705a35279f225849c6869b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S106/u000909_clean_auto_preview_v01.wav",
+    "sha256": "3b19f24c68bc38e345cad514015b97566094f620221fbabd25f4cf2452210ae0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S107/u000966_clean_auto_preview_v01.json",
+    "sha256": "e8d3d46f58231066cb6768d02e8b6b0ec775c7a0110809240e7a767437e0cbe6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S107/u000966_clean_auto_preview_v01.wav",
+    "sha256": "2803284697941542bd1078a0e45481a5a3719998377b2b8c13181594194b329a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S107/u000968_clean_auto_preview_v01.json",
+    "sha256": "2419a2d417063ecad02b104ff242b904a484fdb8e098545ef7b1204f5da477f3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S107/u000968_clean_auto_preview_v01.wav",
+    "sha256": "9f3f21a86d841dfda9d7e8c6f9c1e1f2f38662861e4fd59917409ca78360e6fd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S108/u000887_clean_auto_preview_v01.json",
+    "sha256": "3612ef1362c296d902a3ecf80d73406cf58f5431d534baefbc0c8d48a44d9b5f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S108/u000887_clean_auto_preview_v01.wav",
+    "sha256": "afb1b339e33b0ae5558b17e34a236dbe75b491d02835b96180d2c92e41c08873"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S108/u000967_clean_auto_preview_v01.json",
+    "sha256": "c43bf256f60fafb97753375bb856297d83b2e67144d9f9556177ae70e5b9edaf"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S108/u000967_clean_auto_preview_v01.wav",
+    "sha256": "b0e81b36bee77b999b8d376419e6e652064940bff33fae7f9c712d1e3b296546"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S109/u000906_clean_auto_preview_v01.json",
+    "sha256": "00be85c471a1ddfec0bac63ff6ccff2300734b41a122b05cb195429d272982cd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S109/u000906_clean_auto_preview_v01.wav",
+    "sha256": "0a0f7ef243f04e4d9eec0e96724dd500144b6bbeb570338833e44577949074d9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S109/u000908_clean_auto_preview_v01.json",
+    "sha256": "5a1a18341118c3b119ad9029911d2ad7322770b28445386824fd93f57f8c3bf8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S109/u000908_clean_auto_preview_v01.wav",
+    "sha256": "35c227eaf15e83fae71a53a7d5f6ab9d79f874ffbcbf0035f082581713443f91"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S110/u000954_clean_auto_preview_v01.json",
+    "sha256": "b7504131caa073e2902239703a084be7f1f6005a036d6f2827f8274d8a6347aa"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S110/u000954_clean_auto_preview_v01.wav",
+    "sha256": "b3a4cc14da51b09b7c8a82948ced969807399bdbc2d94be4c73b0df5166f72ad"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S111/u000951_clean_auto_preview_v01.json",
+    "sha256": "7ae5cca55da79c004dc60ee398dffa91d46e5bd96ba068727f225c5ff14f0bd7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S111/u000951_clean_auto_preview_v01.wav",
+    "sha256": "3e954d06806351ebc476d1c2a97163f1737591d0c073013f6c9a8c395883cbc2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S112/u000904_clean_auto_preview_v01.json",
+    "sha256": "f699496ae8c9d9a5f9dae95223b1b0115d3b7b9c660f26068193bc4b99f0a970"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S112/u000904_clean_auto_preview_v01.wav",
+    "sha256": "09fa6b788bb22416bd52f4f7b802f29f15289c7b385d9055b00a55e1ff4701d2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S113/u000924_clean_auto_preview_v01.json",
+    "sha256": "033ba35eeeb9a8a7b7a86d73b88e61ca06ae71e759dcf3438a1b3c6746df917a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S113/u000924_clean_auto_preview_v01.wav",
+    "sha256": "0c244bb9abf910ea967079d838b05b449353bdae235f736ae671f06c8511d3cb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S113/u000924_fx_auto_preview_v01.json",
+    "sha256": "3342774028a2a5cb0790eb30f2880759b7f93a7d3b43559ca79b766c100d01fd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S113/u000924_fx_auto_preview_v01.wav",
+    "sha256": "a0a5d8b9a1992434342e512515d94002eeac40de1473a5f6e29c33f11778b7dd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S114/u000941_clean_auto_preview_v01.json",
+    "sha256": "ff9e4e2dc62ade9087a643ab6d75006e970c7f4cf5a513583ad607d66506decd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S114/u000941_clean_auto_preview_v01.wav",
+    "sha256": "b15df90fce2ddbc1215a1c203b79c9e4ac7645abdffdd9ed8583a1a505915bb7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S115/u000888_clean_auto_preview_v01.json",
+    "sha256": "8fbd67566b93f34cd85060ddf8d5208515223a52557f5e430200265e0e43d961"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S115/u000888_clean_auto_preview_v01.wav",
+    "sha256": "d81ec404f911c0bb2ad3fbe565a5291c25558bc7af8067c71c6f9566b1848931"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S116/u000940_clean_auto_preview_v01.json",
+    "sha256": "7f9ffff8dc23323bcf069748c805eb98d62a19dcdb78e6607003d0125660de26"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S116/u000940_clean_auto_preview_v01.wav",
+    "sha256": "d6e27d5dd5ea9158f3b0df595f8c8d5cd64d7492ea03e876159b422902281dd9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S117/u000952_clean_auto_preview_v01.json",
+    "sha256": "275cfca3c006b9478b8c07d255ccd2bb13789e696a49eaf356d45d69983d9f64"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S117/u000952_clean_auto_preview_v01.wav",
+    "sha256": "46cf771981e5505905cc01300159a197143ede076b9068c8a15a72431560452a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S118/u000953_clean_auto_preview_v01.json",
+    "sha256": "3e3319b6dd19b77543a4f0b1c8c6612f0400961b26e4794af71deeeda3b5b133"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S118/u000953_clean_auto_preview_v01.wav",
+    "sha256": "7ac2bf392e447985caf4f437bbdbf19957bad67a0195a7c152a0ee515581aa8a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001020_clean_auto_preview_v01.json",
+    "sha256": "35320a6fd1ec5cc64026f1c5190fd9bcc06c7ef25347a98b1e4606ad06648cde"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001020_clean_auto_preview_v01.wav",
+    "sha256": "569feaec114062a943c207ba159182701b7b9637d636e25ca53fbbed1c901684"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001021_clean_auto_preview_v01.json",
+    "sha256": "41ecfbde9a86b38f0c877e0c04f6922a706cf5b3e1c31338585e456d9cc91890"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001021_clean_auto_preview_v01.wav",
+    "sha256": "3d33e2b5c42bb05975c72032b5e908f6d89c75ce523cd7f5a41e3c11c53e3929"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001023_clean_auto_preview_v01.json",
+    "sha256": "421ec3c6208ea97c128df44ff1a9cd1429230cafc69dc633ec0d33ffe9265059"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001023_clean_auto_preview_v01.wav",
+    "sha256": "71fe0bef292de4fdadf3b11f27ab7a459cd0ed84e7f8922314731b90f98f5d0d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001025_clean_auto_preview_v01.json",
+    "sha256": "8de43654e122187ee6762d35bc6678378f4d9b0a9dceef3f9dc760837ce8ffd8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001025_clean_auto_preview_v01.wav",
+    "sha256": "10df2208616b6a9f87d5f72a6f33126c3cec553985a4276e478c93e7fcad56d0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001027_clean_auto_preview_v01.json",
+    "sha256": "01934e0c091afd5dde3e70e13f409de0be29fbeb5859283ccacb250d0dbb1635"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001027_clean_auto_preview_v01.wav",
+    "sha256": "da948b4688b09fc268e2050c64df8c7402a6c8af53d3a16a8901b90c70296f85"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001029_clean_auto_preview_v01.json",
+    "sha256": "5bb0159f9092b044a6d762d4194ce9a9a9168d4fe592bccb98ce201ab55fa5ed"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001029_clean_auto_preview_v01.wav",
+    "sha256": "fc1d740c15ef91c4d05760713b056a534c8a2e76285c06734a4d82287bca81b9"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001031_clean_auto_preview_v01.json",
+    "sha256": "035c7c75c9bcba4ac29e51930231d25e0e42ec5b7b082ed5369ec438dc63562a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001031_clean_auto_preview_v01.wav",
+    "sha256": "e5777bb24943b73bf0d3ccc1d9a69c98ce992a042bb5a9893ba623e4c8b53693"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001033_clean_auto_preview_v01.json",
+    "sha256": "d022b9ffd580dc30ebd181935d8a9d0352a232ee705366a8e3664c404d3bce66"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001033_clean_auto_preview_v01.wav",
+    "sha256": "59fe1559949117a044d3bcc8b09c2c043a51984c24ca89650faf4dc8ab303c64"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001035_clean_auto_preview_v01.json",
+    "sha256": "9a4590e473cec09b0112191d7325ce2d88a7c24944265cb841f79c7ce91aebc8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001035_clean_auto_preview_v01.wav",
+    "sha256": "ea82c3b4842dcff91563ef43a8d1cec422d7e893b50e63aff210f0a220f84375"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001037_clean_auto_preview_v01.json",
+    "sha256": "831fcfb892f8ea3bfc831f9784f76028db5e359fe01d3891790acd1b00751a37"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001037_clean_auto_preview_v01.wav",
+    "sha256": "5cfbffe3e070ca9aac3f0071a90e139d978c3d960a4fa5c9b9764972aa7ce273"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001038_clean_auto_preview_v01.json",
+    "sha256": "d9cae59c4dea3cfe1903e02f65e398c9c7cc391822e6039d0e979ff629fcbd7e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001038_clean_auto_preview_v01.wav",
+    "sha256": "4855078e2e8277f6de26a4563ff6427bce3c0f0b2cf76aea4aea4be4b7418662"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001040_clean_auto_preview_v01.json",
+    "sha256": "d1ebf4d341165472c952d648e04233cbe5b3020f84d4c9e9a9994891db571194"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S119/u001040_clean_auto_preview_v01.wav",
+    "sha256": "d0583d3cda012c78c1b4fadae7e6180b133f5dc527dff84de59ccae441d2f202"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000973_clean_auto_preview_v01.json",
+    "sha256": "f9485a71b823cd41b841a9c93647bd7b844bff0a7708d06ec21543598951ba90"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000973_clean_auto_preview_v01.wav",
+    "sha256": "0875e63060910c4a8e7515f72e756933f2a375a20795b93b550db0d12d322efd"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000976_clean_auto_preview_v01.json",
+    "sha256": "fc8aad32cf5bd036576084f752a115a1d10229c5139128f0a4d7a03ad3b49ce1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000976_clean_auto_preview_v01.wav",
+    "sha256": "50f5a7345ac8523d4d09ff928f968c2db788973bfd3773c424b452bc976c05a4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000995_clean_auto_preview_v01.json",
+    "sha256": "fa39efbb3b16c821809f15b60af8d6d97b5b1c7e918bb849de77632e4b117295"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000995_clean_auto_preview_v01.wav",
+    "sha256": "59af97aac5917944414a113255dc4eee88235ff62c80bfc9b4954b44598400db"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000997_clean_auto_preview_v01.json",
+    "sha256": "30ba88f098d762047781a1eefaaf8af92401b3196990a9fcf9c6a7c03ebcf0d3"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000997_clean_auto_preview_v01.wav",
+    "sha256": "e75c6e01a569946e45da3dba47c0ee11b5cad41a5b13584f8042475aca0a8703"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000999_clean_auto_preview_v01.json",
+    "sha256": "5181b0fc9dc81369902dd2a9d8a3dac4d5000275bbfafadcabc689e6178a16e7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u000999_clean_auto_preview_v01.wav",
+    "sha256": "5c8a2d6244080f75d77d8e7548fb024397e911bb0c99674c012956e2f8960a80"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u001001_clean_auto_preview_v01.json",
+    "sha256": "dd9e4d6b1487709b1d091bc06fb1a89b2eecbe85a17cfa1e20e337369fb6b8b4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u001001_clean_auto_preview_v01.wav",
+    "sha256": "f96d8b62c3ef7675dc27e36d247adf81629d5afbe48afdc78c1217792c1b5d42"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u001068_clean_auto_preview_v01.json",
+    "sha256": "096efa6fb058a3a56b36957928a4cb05b9e63538ada28e5c66ac761360295603"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S120/u001068_clean_auto_preview_v01.wav",
+    "sha256": "a69283ea130ee42421fbd3e829bb0605ad54f409c4c0d73918cc4e2dfeeef5bc"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u000974_clean_auto_preview_v01.json",
+    "sha256": "ac8c91fbc989f29f3478a4f0dd398c819988dbc2e9c7abc2b02231064e196242"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u000974_clean_auto_preview_v01.wav",
+    "sha256": "ffcfe2377696b085ecfdf052cc59f4adb31e46263ba1818311a6dac684839181"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u000989_clean_auto_preview_v01.json",
+    "sha256": "55abdae54894f64c2dd50aa175a250dc1ccf02c58da6cbcd68cc22f09ba7963c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u000989_clean_auto_preview_v01.wav",
+    "sha256": "18ccd991d2bdb52821dba6c99237c06d902e86087e3895824a04d116a8cea231"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u001069_clean_auto_preview_v01.json",
+    "sha256": "22bf7366b53b881abb669b1481fa7b1fcf24054d0aba18a69e723f397f679965"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u001069_clean_auto_preview_v01.wav",
+    "sha256": "7e0828f481386919f953e64fa0f12ef2518a32983fbedc5a10df35c06e2f9220"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u001073_clean_auto_preview_v01.json",
+    "sha256": "7d3ac6c0d7f255291896ce9cee2b41d6e6c1136e20d5e288f8520823b40cbdc2"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u001073_clean_auto_preview_v01.wav",
+    "sha256": "bd0d05b7424d52030ddc6de0307d2c8f8a06a360fcb40b30ee3ab6a797268c09"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u001074_clean_auto_preview_v01.json",
+    "sha256": "b28f41e9b61d5198ea292178c688d482eea180da32ff6adc287dbcc0e1bd33fa"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u001074_clean_auto_preview_v01.wav",
+    "sha256": "3caebb586df255dada9a63cd22925a4e69063393b6f9db17e390ae55258b1f7a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u001075_clean_auto_preview_v01.json",
+    "sha256": "9e87248afbf922df978d601710a2efe8c84e53199fa9ae0943bdf2d25820350b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S121/u001075_clean_auto_preview_v01.wav",
+    "sha256": "048d4bcb173f8465ed4368e0312e25a1df961de5fcad23ae513abc3d7319ba35"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u000994_clean_auto_preview_v01.json",
+    "sha256": "455f27517724cd6055fdd4eaedf1324c0f038605dfb69db6465c3389f8bf2068"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u000994_clean_auto_preview_v01.wav",
+    "sha256": "f4f5f040845d4647f574b20432af5235c2e66abbda93945a94af971375d1af04"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u000996_clean_auto_preview_v01.json",
+    "sha256": "28e86efef7744f5b7dda7b38fa5e81e923d50a086aab01564b9211e5ef951ab7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u000996_clean_auto_preview_v01.wav",
+    "sha256": "23d8290a15fb8252c9992ebaea699e1764779aa1b52fb5d9324d558bd4b5d901"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u000998_clean_auto_preview_v01.json",
+    "sha256": "9a766f3cfba9c38fc361f9993fd7662affa612e8f7405e669512962a7f255783"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u000998_clean_auto_preview_v01.wav",
+    "sha256": "a24630bf0b64f6eb416968d3663ab024f9cf3d9077a9dd75c5982fae8e4be868"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u001000_clean_auto_preview_v01.json",
+    "sha256": "07a4bb3c69357cb44caa712a772d18dbe0b80727576f8fd06e121f8ee73adb2d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u001000_clean_auto_preview_v01.wav",
+    "sha256": "6506c7446ab02ce954ffea20b6fffc8acfe3c38833951de6552395dd195ad1ae"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u001002_clean_auto_preview_v01.json",
+    "sha256": "2b15dc2357bba726e1b14d81278d89dd390679ef09ee6a4c67cd4231f5f30d6c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S122/u001002_clean_auto_preview_v01.wav",
+    "sha256": "c1c8394e1d63aa391217fbd66cfa2d11e226d6d4da7d9d5c9e214b6736bd4247"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001003_clean_auto_preview_v01.json",
+    "sha256": "3430c940eb3abbb6d8a1e6f51d755ef909163c5be5e0c22317c8c5d888a37b2c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001003_clean_auto_preview_v01.wav",
+    "sha256": "471483679d488cd7b5253fc2ae6bf54191f6d7247b40abde8fb13b5b7a780155"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001003_fx_auto_preview_v01.json",
+    "sha256": "6c3bbcc38ed0ad502927ac7c6031b7834102fb3098d541fd486116e7029af13f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001003_fx_auto_preview_v01.wav",
+    "sha256": "2953deaed746033b8d1ac12dd65d9ac548c05ec8d2dcdac60b6eccac9f4ea031"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001081_clean_auto_preview_v01.json",
+    "sha256": "23c91d14699f3c587ad1472ac0e5d082e16e8a641d29aeeb6bc37f834801879c"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001081_clean_auto_preview_v01.wav",
+    "sha256": "d0714bb6100eccc02f0b4356f3e19e34b6d1c043f5953c9f8c4bf3489dad078d"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001081_fx_auto_preview_v01.json",
+    "sha256": "f4582c431931d73f10b1adca0256d06fcebfe724fdd5aa0d2cc52198c93dad39"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001081_fx_auto_preview_v01.wav",
+    "sha256": "6d87c51fd033aed638f22df2bc286100662a72c3659e4f2a4528d2e250b0eada"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001082_clean_auto_preview_v01.json",
+    "sha256": "6944b1f890621fa21cbb98a341ec7f577da094c9ddbcc88df5a850fc6393ea5a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001082_clean_auto_preview_v01.wav",
+    "sha256": "a87ad2e64d7e5d1cd9b6dd1c8cd3d3464d92f7027902cfb79070d2fc1d9d3493"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001082_fx_auto_preview_v01.json",
+    "sha256": "e89ed9f206959c32959c711efd8b45c55287f60796a3e6aa5bce20a4645cbeb8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001082_fx_auto_preview_v01.wav",
+    "sha256": "151fb0842f1889c80fd01f398c188ea8ebd0536d9bfaf63bdbc98b1e59c3d1d8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001083_clean_auto_preview_v01.json",
+    "sha256": "a3edadd9f2d1d3b0d4bdc9ddab42418830b2f62f0250549ba90fe5bb4119cf98"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001083_clean_auto_preview_v01.wav",
+    "sha256": "489fab688cc9c0261c1d232d21717df30966d1ec8b541c24f2a0623ae2e371c4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001083_fx_auto_preview_v01.json",
+    "sha256": "e8462a09e9918e103a48ff5d834654039dfff6b9b8538fbbaca4a8a91cc4ab57"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S123/u001083_fx_auto_preview_v01.wav",
+    "sha256": "e7d6b2866bb977aebac6976cfe0a1adbda8a20b9c5f7496eef5b256f88c3cfc6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S124/u001076_fx_auto_preview_v01.json",
+    "sha256": "c11713d4dcfec62a8b29394d700aca88ef46c7e6e1810a903b34811f58a2538a"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S124/u001076_fx_auto_preview_v01.wav",
+    "sha256": "16309081a457a9bba98ce9482ef9ee1150355af8000f88d2c50b84a31a2fddd8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S124/u001079_fx_auto_preview_v01.json",
+    "sha256": "ce1178fb2278fa4d5348ed60ffb0dd0cada28a39b02c5a51f60659ce41446b64"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S124/u001079_fx_auto_preview_v01.wav",
+    "sha256": "8bde297ab37a3db149aa9d82c17cd9975cda9036b5c3ffcf7c91e84f97a0cfd7"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S125/u001071_fx_auto_preview_v01.json",
+    "sha256": "06a11acdf83712298cb81532fdc60f9d8a93a4a15fcd5db2c53e2a283460315f"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S125/u001071_fx_auto_preview_v01.wav",
+    "sha256": "148393888342f4ff2564e55bc3d848fcf2bce52a4be969604fa9defc0192257e"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S125/u001072_fx_auto_preview_v01.json",
+    "sha256": "17d61f99dd1fe49da7b592c05b744c875ba0449f813617878c77dbe6749ce999"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S125/u001072_fx_auto_preview_v01.wav",
+    "sha256": "1593d5b52cf0603f755530d59e3c9c2121cd39a83bd9be2d313ac370966be9f6"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S127/u001067_clean_auto_preview_v01.json",
+    "sha256": "012b41571fcf90fce6140dfd39e7ea7640957329e60cf853d7e758ccbfaf6fca"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S127/u001067_clean_auto_preview_v01.wav",
+    "sha256": "b7ac0eae219f7f4c30eed09533b96b58be9f5c5575cd549c9a03f37eb8c79bf1"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S127/u001070_clean_auto_preview_v01.json",
+    "sha256": "f314e3f6cf43c99604003060b7a759ef691169ee75405d59d8d64d3f34c3e763"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S127/u001070_clean_auto_preview_v01.wav",
+    "sha256": "7d76d32dea86045cf51c87ed05592218578961307b1f804e493fdaa148f5f53b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S128/u001077_fx_auto_preview_v01.json",
+    "sha256": "12328535c8a3ee5ceab46d5325186f9e9f999187b7428aa06c28574ca8b189e4"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S128/u001077_fx_auto_preview_v01.wav",
+    "sha256": "eb34a9b2c0d87d1bc8ab2a6cde34176feb5f59496fe312ce996b5e8aa554a6f0"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S129/u001078_fx_auto_preview_v01.json",
+    "sha256": "6a865f72ae7ae5fc631da19225b3c8cccde7f54b74f3afaf0e9157d5b81a0781"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S129/u001078_fx_auto_preview_v01.wav",
+    "sha256": "ce50760924fabad5e013ef1a2e67f8ce8c032b41266c856d2c29aa0066c0fe3b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S130/u001009_fx_auto_preview_v01.json",
+    "sha256": "9a2554853dabb2a7944d560a3fb694462d7957078f9b4c09b5959311fca697d8"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S130/u001009_fx_auto_preview_v01.wav",
+    "sha256": "33cbc339a73fe25455ef0236c3400b0c0bb8dafb49044499aaf61892eadcc53b"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S131/u001004_fx_auto_preview_v01.json",
+    "sha256": "84ef60c12555b74b40bae276e9bc71ddff490ca385561e7677633c1fce776028"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S131/u001004_fx_auto_preview_v01.wav",
+    "sha256": "9b5df8f23cb5c5b99b63bbfd467e4885d1f6cf8061c5057dfc324c5013ee4879"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S132/u001041_clean_auto_preview_v01.json",
+    "sha256": "a11f555d604a9a2b3935ae081201020b2d7d0d3a3b87d0be5f7ce57ddf0e5e08"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S132/u001041_clean_auto_preview_v01.wav",
+    "sha256": "a2cccac1efc2ed7ff8ef5a3644b1dac48da7d6173e54bdef75d5914efc951929"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S132/u001041_fx_auto_preview_v01.json",
+    "sha256": "b1d6541475db6fd29fc66e4e9166a10cf9004427512bf6db55b5e2c6cb9e6656"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S132/u001041_fx_auto_preview_v01.wav",
+    "sha256": "9b7f4df7df829ae7558508a957529b86b46dbc6a032974af1e71d6d76dc9f8bb"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S133/u001022_clean_auto_preview_v01.json",
+    "sha256": "0da62ae45a5ae7f89717094d830e7e7e26fde6f6f80097a081c9a755352352ab"
+  },
+  {
+    "path": "dubbing/figurants/gameplay/batches/B002_20261022/review_pending_auto/word_anchor_v01/S133/u001022_clean_auto_preview_v01.wav",
+    "sha256": "29fdfd4939d0fc5361b61333fd20e8f85ad2607e25d80436b2c9f3e853c0a76d"
+  }
+]

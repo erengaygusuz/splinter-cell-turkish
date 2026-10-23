@@ -1,0 +1,98 @@
+{
+  "S037|u000405|NORMAL": {
+    "decision": "YANLIS",
+    "note": "1. cevre kayıt: beni tekrar ara. 1. cevre kayit: kiminle konusuyorsun",
+    "reviewed_at": "2026-10-23T06:35:49.069910+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S128|u001077|CLEAN": {
+    "decision": "YANLIS",
+    "note": "1. Çevre kayıt: mış bir haber var. nikoladze oldu. tekrar ediyorum nikoladze dustu. kutuphaneye ulastik. nikoladze içerde. herkes tetikte olsun arkı alıyoruz. buradan cikmaya hazır olun.\n\n2.cevre kayit: Nikoladze'nin vurulduğuna dair doğrulanmamış bir haber var. Nikoladze oldu.",
+    "reviewed_at": "2026-10-23T06:37:45.797310+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S023|u000360|FX_FIRST": {
+    "decision": "YANLIS",
+    "note": "1. Çevre kayıt : dedi aptal. Bosver dolanırız.\n2. Çevre kayıt amerak savas ucak",
+    "reviewed_at": "2026-10-23T06:38:37.305544+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S025|u000358|CLEAN": {
+    "decision": "YANLIS",
+    "note": "lılar geldi! saldırı altındayı",
+    "reviewed_at": "2026-10-23T06:39:01.082306+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S026|u000359|FX_FIRST": {
+    "decision": "YANLIS",
+    "note": "lılar geldi saldırı altındayı",
+    "reviewed_at": "2026-10-23T06:39:23.031930+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S029|u000441|NORMAL": {
+    "decision": "YANLIS",
+    "note": "... afferdersiniz evet ee gibi bir sey",
+    "reviewed_at": "2026-10-23T06:39:47.774199+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S045|u000541|NORMAL": {
+    "decision": "YANLIS",
+    "note": "var mı stepan burada bir sey yok",
+    "reviewed_at": "2026-10-23T06:40:43.099727+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S067|u000674|NORMAL": {
+    "decision": "YANLIS",
+    "note": "degilim. ben de ya grinko",
+    "reviewed_at": "2026-10-23T06:40:57.631007+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S073|u000796|NORMAL": {
+    "decision": "YANLIS",
+    "note": "durur bdrumda seni oldurur",
+    "reviewed_at": "2026-10-23T06:41:14.829762+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S082|u000776|NORMAL": {
+    "decision": "YANLIS",
+    "note": "bıraktılar basustune hayır",
+    "reviewed_at": "2026-10-23T06:41:27.854811+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S090|u000861|CLEAN": {
+    "decision": "YANLIS",
+    "note": "krar et emredersiniz",
+    "reviewed_at": "2026-10-23T06:41:42.043412+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S091|u000780|FX_FIRST": {
+    "decision": "YANLIS",
+    "note": "krar et emredersiniz",
+    "reviewed_at": "2026-10-23T06:41:55.133333+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S124|u001076|CLEAN": {
+    "decision": "YANLIS",
+    "note": "stciyi bulun sarayda suikast",
+    "reviewed_at": "2026-10-23T06:42:10.761044+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S124|u001079|CLEAN": {
+    "decision": "YANLIS",
+    "note": "ikastciyi bulun sarayda suikast",
+    "reviewed_at": "2026-10-23T06:42:26.404444+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S125|u001071|CLEAN": {
+    "decision": "YANLIS",
+    "note": "da nisanci olabilir\nkristavinin ofisinde ates ac..",
+    "reviewed_at": "2026-10-23T06:42:57.603179+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  },
+  "S125|u001072|CLEAN": {
+    "decision": "YANLIS",
+    "note": ".. nisanci olabilir\nkristavinin ofisinde ates ac",
+    "reviewed_at": "2026-10-23T06:43:31.230447+00:00",
+    "status": "USER_LISTENING_ONLY_NOT_CUT_APPROVAL"
+  }
+}
