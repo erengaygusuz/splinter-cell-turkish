@@ -59,11 +59,26 @@ def run():
             r=refs.get((e['bank'],e['map'],n['index']))
             if r is None:continue
             names=uax[e['editor_id']]
+            if not any('Barks' in v['event_name'] for v in names):bark=bark.split(':')[0] if bark else ''
             graph.append(dict(bank=e['bank'],map=e['map'],event_editor_id=e['editor_id'],event_table_offset=e['offset'],
                 event_name=';'.join(sorted(x['package']+'.'+x['event_name'] for x in names)),
                 resource_index=n['index'],resource_header_id=n['editor_id'],resource_name=r['resource_name'],
                 source_path=r['source_path'],stream_offset=r['stream_offset'],encoded_key=r.get('encoded_key',''),
                 switch_value=bark,resource_chain='>'.join(map(str,chain))))
+    used={v for r in graph for v in r['event_name'].split(';') if v}
+    installed_events=collections.defaultdict(list)
+    for n in nodes:
+        if n['kind']=='event':installed_events[n['editor_id']].append(n)
+    coverage=[]
+    for e in events:
+        n=installed_events[e['editor_id']]
+        if e['package']+'.'+e['event_name'] in used:status='RESOLVED_LEAF_AUDIO'
+        elif any(x['type']==1 for x in n):status='PLAY_TARGET_WITHOUT_LEAF_AUDIO'
+        elif n:status='NON_PLAY_EVENT_PRESENT'
+        else:status='EVENT_NOT_IN_INSTALLED_BANKS'
+        coverage.append(dict(**e,coverage_status=status,installed_event_references=len(n),
+                             bank_event_types=';'.join(map(str,sorted({x['type'] for x in n})))))
+    csv_write(OUT/'uax-reference-coverage.csv',coverage)
     csv_write(OUT/'event-resource-links.csv',graph)
     csv_write(OUT/'unresolved-event-links.csv',unresolved)
     print('Proven event/leaf paths',len(graph),'unresolved graph paths',len(unresolved))
