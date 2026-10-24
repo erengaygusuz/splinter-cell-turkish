@@ -1,0 +1,21 @@
+{
+  "pcm_wavs_verified": 3780,
+  "protected_files_verified": 1500,
+  "asr_cache_records_verified": 3712,
+  "asr_pass_counts": {
+    "asr-large-v3": 1692,
+    "asr-medium-en-no-vad": 1692,
+    "asr-large-v3-no-vad": 313,
+    "phrase-language": 11,
+    "radio-language": 4
+  },
+  "existing_turkish_ids_accounted_for": 1086,
+  "unique_decision_groups": 3655,
+  "new_dialogue_groups": 1245,
+  "police_station_identity_regression": "PASS",
+  "russian_radio_regression": "PASS",
+  "numeric_speech_regression": "PASS",
+  "alias_coverage": "PASS",
+  "manual_listening": "NOT_PERFORMED",
+  "runtime_test": "NOT_PERFORMED"
+}

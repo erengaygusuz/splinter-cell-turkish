@@ -1,0 +1,70 @@
+Splinter Cell — yeni oyun içi ses kaynakları denetimi
+
+V27 kurulumu: 1.086 Türkçe ID. Orijinal LS0 corpus: 1.093 ID.
+Tarama: 412 dosya; İngilizce/ortak 8 banka; 13.738 yaprak ses referansı.
+Çıkarım: 3780 WAV varyantı, sinyal karşılaştırmasıyla 3655 grup.
+
+Yeni İngilizce konuşma (tekilleştirilmiş, otomatik kanıt): 1245
+Bunlardan metni ayrıca incelenecek: 159
+Yeni sözsüz insan sesi: 255
+Sınıflandırması/dili belirsiz veya ASR bekleyen: 70
+
+KESİN TOPLAM HENÜZ VERİLEMEZ: belirsiz kayıtlar yeni konuşma sayısına eklenmedi.
+Sınıflar: {"VOCALIZATION": 262, "NEW_VOICE_REQUIRED": 1245, "ALREADY_DUBBED": 1090, "REVIEW_REQUIRED": 70, "NON_SPEECH": 987, "NON_ENGLISH_SPEECH": 1}
+
+ASR_AGREEMENT iki modelin normalize metin uyumudur; manuel dinleme/onay değildir.
+TEXT_REVIEW_REQUIRED kayıtlarında english_final boş bırakıldı; iki ham transkript korunur.
+Aynı metin veya süre tek başına duplicate kabul edilmedi.
+Olay editor_id ile resource_header_id farklı ad alanlarıdır; runtime denemesi yapılmadı.
+Banka/DLL/WAV kurulumu değiştirilmedi. Diğer diller envanterlendi, İngilizce ASR kapsamına alınmadı.
+Büyük WAV ve model/decoder dosyaları Git dışındadır.
+
+Kapsam ve sayım açıklamaları
+--------------------------
+Ana oyun, Kola Cell, Vselka Infiltration ve Vselka dahil.
+FMV kapsam dışı. Sayılan birim cümle sayısı değil, benzersiz kaynak ses kaydıdır.
+İnsan sesi adayları: 2789 çözülmüş varyant; mevcut corpus dışında 1.692 varyant / 1.625 sinyal grubu.
+Mevcut corpus: 610 birebir PCM eşleşmesi, 483 değişmiş canlı LS0 konumu, 4 ek dalga biçimi eşleşmesi.
+ALREADY_DUBBED içindeki 1.090 kaynak varyantı, 1.086 kurulu Türkçe ID'ye karşılık gelir.
+Eski 7 sözsüz corpus kaydı yeni diyalog sayısına eklenmedi.
+125 yinelenen çözümleme varyantı sinyal karşılaştırmasıyla birleştirildi.
+Metin durumları: {"ASR_AGREEMENT": 1001, "TEXT_REVIEW_REQUIRED": 159, "FOCUSED_ASR_AGREEMENT": 51, "SOURCE_TEXT_ASR_SUPPORTED": 34}
+SOURCE_TEXT_ASR_SUPPORTED: açık Sound/Localize betik eşleşmesi ve ASR desteği;
+betiğin bu kurulumda çalıştığına dair runtime kanıtı değildir.
+FOCUSED_ASR_AGREEMENT: VAD kapalı large-v3 ile bağımsız medium.en uyumu.
+Kısa/yabancı dil şüphesiyle ayrı inceleme: 11 kayıt.
+Bir Rusça arka plan radyosu NON_ENGLISH_SPEECH olarak ayrı listelendi.
+Zorlanmış İngilizce transkriptler bu radyonun İngilizce kaynak metni sayılmadı.
+
+Police Station / Tbilisi bulgusu
+-------------------------------
+Etiket: POLICE_STATION_CONFIRMED_MISSING_BARK
+new_id: v_e066ee2c634b8938
+Metin: Is somebody over there?
+Karakter: GeorgianCitizen; olay: Play_Switch_GCIBarks; BARK_SeeSomethingMove.
+Map: 1_1_0Tbilisi ve 1_1_2Tbilisi.
+Banka: Sounds/ENGLISH/MAPS.LM0; stream 279; offset 1927888.
+Event editor_id: 00610000; resource_header_id: 00610036.
+23467 örnek / 16000 Hz; 1.466687 saniye.
+WAV: build/full-game-voice-audit/original-wav/v_e066ee2c634b8938_00610036_1927888.wav
+Mevcut corpus dışında olduğu ve kaynak kimliği doğrulandı.
+Kullanıcının duyduğu sahneyle birebir aynı olay olduğu henüz oyun içinde doğrulanmadı.
+
+Eksiksizlik sınırları ve kalan iş
+-------------------------------
+13.738 yaprak kaynak referansının tamamı çözüldü; 3.780 WAV çıkarıldı.
+111 katmanlı ambience referansı ayrı indekslendi; bunlar çözülüp dinlenmedi.
+NON_SPEECH sınıfları banka/olay kimliğine dayanır, tüm efektler ASR'den geçirilmedi.
+62 harici İngilizce/ortak LS0/SS0 dosyasında açıklanmayan büyük boşluk veya sahipsiz ADPCM başlığı bulunmadı.
+UAX kapsamı: {"NON_PLAY_EVENT_PRESENT": 377, "EVENT_NOT_IN_INSTALLED_BANKS": 872, "PLAY_TARGET_WITHOUT_LEAF_AUDIO": 30, "RESOLVED_LEAF_AUDIO": 1740}
+Bankalarda bulunmayan 872 UAX adı yeni replik veya kayıp ses dosyası sayılmadı.
+Yaprak sesi olmayan 30 olay; boş/katmanlı/sessiz hedeflerdir, ayrı listede tutulur.
+Manuel dinleme ve oyun içi tetikleme testi yapılmadı.
+Bu nedenle 1245 otomatik olarak desteklenen yeni konuşma kaydı, kesin kalan İngilizce replik toplamı değildir.
+Önce full-game-review-required.csv içindeki 70 sesin sınıfı/dili kontrol edilmeli;
+sonra full-game-transcript-review.csv içindeki 159 konuşmanın metni netleştirilmelidir.
+Yanlış ASR metniyle çeviri veya ElevenLabs üretimi başlatılmadı.
+Runtime entegrasyonu için olay ID'si yanında gerçek banka/kaynak kimliği kullanılmalı;
+static event eşleşmesi tek başına yeni DLL kurulumu için yeterli değildir.
+Son kurulum hash kontrolü: protected-installation-verification.json.
+ASR cache hashleri ve model kanıtları: asr-evidence.csv; kelime zamanları yerel JSON cache dosyalarında.

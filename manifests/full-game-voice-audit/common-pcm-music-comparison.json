@@ -1,0 +1,408 @@
+[
+  {
+    "source_path": "Sounds/Common/Music_Common.SS0",
+    "total_bytes": 19778736,
+    "accounted_bytes": 19778736,
+    "segments": [
+      {
+        "encoded_offset": 0,
+        "pcm_byte_offset": 0,
+        "pcm_bytes": 1046868,
+        "correlation": 0.9997448310589458,
+        "encoded_key": "ddb08d10f797cb06588bf4be6698cea7c00344107b83b9d53483bc857e1e07e8"
+      },
+      {
+        "encoded_offset": 279892,
+        "pcm_byte_offset": 1046868,
+        "pcm_bytes": 540320,
+        "correlation": 0.9994237720422298,
+        "encoded_key": "be4c40bf736c10be1d65b043c482ba36d628c1dba5c0e0801a4d3ea6e4d44e05"
+      },
+      {
+        "encoded_offset": 424348,
+        "pcm_byte_offset": 1587188,
+        "pcm_bytes": 540320,
+        "correlation": 0.9992934815254388,
+        "encoded_key": "710113e1d2b9df3bcf834df5885507faddcc843627e92cfbb9e45b188cc68311"
+      },
+      {
+        "encoded_offset": 568804,
+        "pcm_byte_offset": 2127508,
+        "pcm_bytes": 540320,
+        "correlation": 0.9992337296164782,
+        "encoded_key": "e7c4166def442e20267b15dc0928e1da38bf3e33885c0bfc93953f9430bbbf86"
+      },
+      {
+        "encoded_offset": 713260,
+        "pcm_byte_offset": 2667828,
+        "pcm_bytes": 540320,
+        "correlation": 0.9992560751009579,
+        "encoded_key": "21914e1dc9d7a9f14fb0b3121247a45b24b18e427873955c43439508de5aa2d1"
+      },
+      {
+        "encoded_offset": 857716,
+        "pcm_byte_offset": 3208148,
+        "pcm_bytes": 540320,
+        "correlation": 0.9992698102864604,
+        "encoded_key": "1b3702839f1d19f4e11cfab8fb40e6838f807df3f2a158e9eae36002ece47551"
+      },
+      {
+        "encoded_offset": 1002172,
+        "pcm_byte_offset": 3748468,
+        "pcm_bytes": 540320,
+        "correlation": 0.9992529468807003,
+        "encoded_key": "bc9a34cd19a1ab65a7aa40d7361f112cb998450c1eae7c7a296a65f18aa67270"
+      },
+      {
+        "encoded_offset": 1146628,
+        "pcm_byte_offset": 4288788,
+        "pcm_bytes": 540320,
+        "correlation": 0.9996307579519107,
+        "encoded_key": "5e871703ce3451cfad0930228ca76c8f7114e8ca718696e718caa4e490af3e42"
+      },
+      {
+        "encoded_offset": 1291084,
+        "pcm_byte_offset": 4829108,
+        "pcm_bytes": 540320,
+        "correlation": 0.9998633008970388,
+        "encoded_key": "9ecb650eb7afba399ef3048308bbc8ec7a1e006e8ebb0e875e25682f4267c417"
+      },
+      {
+        "encoded_offset": 1435540,
+        "pcm_byte_offset": 5369428,
+        "pcm_bytes": 540320,
+        "correlation": 0.9993277563643859,
+        "encoded_key": "12f61436cfa4c51284c392fdb6ebc24de463f59fa7aff30942c8f0171ef0e8f1"
+      },
+      {
+        "encoded_offset": 1579996,
+        "pcm_byte_offset": 5909748,
+        "pcm_bytes": 540320,
+        "correlation": 0.9992382234576845,
+        "encoded_key": "8d9ed4fd218a0a803cbd7a51eb26f7dd04d2733ed9f2152e699ba0838ccc0c1d"
+      },
+      {
+        "encoded_offset": 1724452,
+        "pcm_byte_offset": 6450068,
+        "pcm_bytes": 540320,
+        "correlation": 0.9993607224558139,
+        "encoded_key": "afd9dc2a5f462a104d11aae20eb8857273ec9552bc037155fa67c2d04e1ad042"
+      },
+      {
+        "encoded_offset": 1868908,
+        "pcm_byte_offset": 6990388,
+        "pcm_bytes": 540320,
+        "correlation": 0.9992498372631958,
+        "encoded_key": "c1b493ba3989c224f1d5fe01ac3237b4d0e0c018ef7737190d4e43ab6ed993c2"
+      },
+      {
+        "encoded_offset": 2013364,
+        "pcm_byte_offset": 7530708,
+        "pcm_bytes": 540320,
+        "correlation": 0.9992015740226333,
+        "encoded_key": "8b00b16c31adb90b93436c52830aece43bb1a30492c80a83affd2047036a82ad"
+      },
+      {
+        "encoded_offset": 2157820,
+        "pcm_byte_offset": 8071028,
+        "pcm_bytes": 540320,
+        "correlation": 0.9992158162770345,
+        "encoded_key": "4265dccba4bc5466d7c397067fb171da542e71392059c9788ef7066b594ee6c6"
+      },
+      {
+        "encoded_offset": 2302276,
+        "pcm_byte_offset": 8611348,
+        "pcm_bytes": 540320,
+        "correlation": 0.9993013727989632,
+        "encoded_key": "ea4d31d144067f971f646cfbe769919400779026836f1c3d5415891b034d69a3"
+      },
+      {
+        "encoded_offset": 2446732,
+        "pcm_byte_offset": 9151668,
+        "pcm_bytes": 540320,
+        "correlation": 0.9994427515574223,
+        "encoded_key": "c1c150e03a3bd6e148db0150b983ccb1a4745e2c0c32dfe77646da46e8162e5a"
+      },
+      {
+        "encoded_offset": 2591188,
+        "pcm_byte_offset": 9691988,
+        "pcm_bytes": 830800,
+        "correlation": 0.9993244087401512,
+        "encoded_key": "f2babeb467ea55447addb8bd7b5898b187f3a3e30453c86855b8c798071c8bc7"
+      },
+      {
+        "encoded_offset": 2813352,
+        "pcm_byte_offset": 10522788,
+        "pcm_bytes": 830800,
+        "correlation": 0.9993400756279528,
+        "encoded_key": "327d623a39ca8474e7de9651ca30560ae7a9de013979642bc870f532d1ea259b"
+      },
+      {
+        "encoded_offset": 3035516,
+        "pcm_byte_offset": 11353588,
+        "pcm_bytes": 4607288,
+        "correlation": 0.9999401516758835,
+        "encoded_key": "94b637b5d1e86d1eb5eeae00b9d2590bad37edabc1802d3d784f13518260e233"
+      },
+      {
+        "encoded_offset": 4266888,
+        "pcm_byte_offset": 15960876,
+        "pcm_bytes": 1963164,
+        "correlation": 0.999981950900001,
+        "encoded_key": "afe65110c86196c8b99adf77533b69c0351db031828cdeb90f053ae73529db36"
+      },
+      {
+        "encoded_offset": 4791648,
+        "pcm_byte_offset": 17924040,
+        "pcm_bytes": 1854696,
+        "correlation": 0.9999531271680869,
+        "encoded_key": "eb5fc03e3773d0d1a2887b6bdd059c0b5e9a6a4daefb6c64dd38927678ba4723"
+      }
+    ]
+  },
+  {
+    "source_path": "Sounds/Common/Music_Georgie.SS0",
+    "total_bytes": 21446160,
+    "accounted_bytes": 21446160,
+    "segments": [
+      {
+        "encoded_offset": 0,
+        "pcm_byte_offset": 0,
+        "pcm_bytes": 493716,
+        "correlation": 0.9999933194492109,
+        "encoded_key": "6a1d0c44bd7627e96a7edc2da96a7f05ec5631253abc7a0cfcb666aef5cbd280"
+      },
+      {
+        "encoded_offset": 132064,
+        "pcm_byte_offset": 493716,
+        "pcm_bytes": 493716,
+        "correlation": 0.9998944738595094,
+        "encoded_key": "0ec311a1680c0883c5ec0c69baf0f584464dedc39cc2149324575de8294b33c0"
+      },
+      {
+        "encoded_offset": 264128,
+        "pcm_byte_offset": 987432,
+        "pcm_bytes": 493716,
+        "correlation": 0.9994005881622041,
+        "encoded_key": "6caf7b9b384e6304dc1524b98ebb8762a4dddc6a490d502f74c85c4040c8f1e5"
+      },
+      {
+        "encoded_offset": 396192,
+        "pcm_byte_offset": 1481148,
+        "pcm_bytes": 493716,
+        "correlation": 0.9992918844783388,
+        "encoded_key": "16d21cf6fec714096501703498015849a4bb676f895838aaa46748b1cc62aca6"
+      },
+      {
+        "encoded_offset": 528256,
+        "pcm_byte_offset": 1974864,
+        "pcm_bytes": 493716,
+        "correlation": 0.9994929606216585,
+        "encoded_key": "73be69e75067558c5ca2a908f7ad7e220053b6decc3f33a8eb26722d17075b02"
+      },
+      {
+        "encoded_offset": 660320,
+        "pcm_byte_offset": 2468580,
+        "pcm_bytes": 493716,
+        "correlation": 0.9995029647755838,
+        "encoded_key": "f5afbb272ccff16922c1c1c5534e25b5928b16a43686ff56de3a7bfebac5c406"
+      },
+      {
+        "encoded_offset": 792384,
+        "pcm_byte_offset": 2962296,
+        "pcm_bytes": 493716,
+        "correlation": 0.9993781622410314,
+        "encoded_key": "3f6be5f2fe17afe2c14a2aa7fea120e86bbdeed24227cb7580502af462fe5bea"
+      },
+      {
+        "encoded_offset": 924448,
+        "pcm_byte_offset": 3456012,
+        "pcm_bytes": 493716,
+        "correlation": 0.9993156426556209,
+        "encoded_key": "f23296dc5f9aadb697ba50e3fd57fcff7031ac56acb2cb1e8da624e8c2982d65"
+      },
+      {
+        "encoded_offset": 1056512,
+        "pcm_byte_offset": 3949728,
+        "pcm_bytes": 493716,
+        "correlation": 0.9991225399687748,
+        "encoded_key": "14c2cfd85bea9be00b993670709726ae106eabf56b5c38398391570d18ea435e"
+      },
+      {
+        "encoded_offset": 1188576,
+        "pcm_byte_offset": 4443444,
+        "pcm_bytes": 493716,
+        "correlation": 0.9984243184776023,
+        "encoded_key": "60ad0afaaaca50e5a6e2762c19c39e5e7fb512812f1a4c45e1819f414f9ca203"
+      },
+      {
+        "encoded_offset": 1320640,
+        "pcm_byte_offset": 4937160,
+        "pcm_bytes": 493716,
+        "correlation": 0.9993576711865337,
+        "encoded_key": "e57cdfc7f38515fda63d8ef72e75c29bf374be1479a415754f3befa0ad777876"
+      },
+      {
+        "encoded_offset": 1452704,
+        "pcm_byte_offset": 5430876,
+        "pcm_bytes": 493716,
+        "correlation": 0.9992711335151048,
+        "encoded_key": "47c2e360e5158628f6201dc2f96fe2098550e8b79762e6264a4e1734324f16c5"
+      },
+      {
+        "encoded_offset": 1584768,
+        "pcm_byte_offset": 5924592,
+        "pcm_bytes": 493716,
+        "correlation": 0.9993761059974597,
+        "encoded_key": "d0b40de6112ac5a921a75018d3989ac47e22e8fe7f20243688186b2307b33bff"
+      },
+      {
+        "encoded_offset": 1716832,
+        "pcm_byte_offset": 6418308,
+        "pcm_bytes": 493716,
+        "correlation": 0.9995054018510123,
+        "encoded_key": "596c8c00c31bcfd2088de3ed968041bcfe01230fe2d8c20976f138dca0cadb30"
+      },
+      {
+        "encoded_offset": 1848896,
+        "pcm_byte_offset": 6912024,
+        "pcm_bytes": 493716,
+        "correlation": 0.9988253175049342,
+        "encoded_key": "eb914a50dcb29deb2e22d6bc5c65ee00c3c1a9098bc7e6dde28eac5de902897b"
+      },
+      {
+        "encoded_offset": 1980960,
+        "pcm_byte_offset": 7405740,
+        "pcm_bytes": 493716,
+        "correlation": 0.998922086956401,
+        "encoded_key": "9d3aa5677a834ae1b37c24d271fb405e82012197a11ecacb76a02b859e9e299f"
+      },
+      {
+        "encoded_offset": 2113024,
+        "pcm_byte_offset": 7899456,
+        "pcm_bytes": 893304,
+        "correlation": 0.9999597374139721,
+        "encoded_key": "dc2df653e70c28dcecd1479a9813337369d98177418da9b394579551de7ed8ec"
+      },
+      {
+        "encoded_offset": 2351876,
+        "pcm_byte_offset": 8792760,
+        "pcm_bytes": 1133400,
+        "correlation": 0.9999861629963895,
+        "encoded_key": "c962ed2879a2e81bac2297bb4e59b49906ff29c8d5f63ac236185be685e2dd56"
+      },
+      {
+        "encoded_offset": 2654884,
+        "pcm_byte_offset": 9926160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9961756977339454,
+        "encoded_key": "d34cccd89ed1bfaa7d7dc634dc145af8930b4d0b76ba281a2f28d30d2b9851e1"
+      },
+      {
+        "encoded_offset": 2808896,
+        "pcm_byte_offset": 10502160,
+        "pcm_bytes": 576000,
+        "correlation": 0.998573741690148,
+        "encoded_key": "b9364c0025e84ae353f0003555129ba3ce0180a7f59cf4a484f270e8802e70bc"
+      },
+      {
+        "encoded_offset": 2962908,
+        "pcm_byte_offset": 11078160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9985676500801435,
+        "encoded_key": "8802c81295467fd5b4bbbc9b57c5ecd4314ff4353907bba318459ba1756738e6"
+      },
+      {
+        "encoded_offset": 3116920,
+        "pcm_byte_offset": 11654160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9984354304375018,
+        "encoded_key": "3c8c197f5ded5412c21de6d9711d94ab523cfbb1651794721891f9993faeb731"
+      },
+      {
+        "encoded_offset": 3270932,
+        "pcm_byte_offset": 12230160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9989273372185858,
+        "encoded_key": "6670effbf38e7c9ea6e731c8123b7df2611a3ffd2cfe27344913e54f15988c58"
+      },
+      {
+        "encoded_offset": 3424944,
+        "pcm_byte_offset": 12806160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9982222824901029,
+        "encoded_key": "6277501dcf38ef9e147e7d6d596feb7420acc82905ec4bcc6b8503b0090a71a1"
+      },
+      {
+        "encoded_offset": 3578956,
+        "pcm_byte_offset": 13382160,
+        "pcm_bytes": 576000,
+        "correlation": 0.998603140915129,
+        "encoded_key": "8b27e3b174e73c14c7358bb5eeb711f19148d7963998386cdf1ec238fcb00fd6"
+      },
+      {
+        "encoded_offset": 3732968,
+        "pcm_byte_offset": 13958160,
+        "pcm_bytes": 576000,
+        "correlation": 0.998672812660761,
+        "encoded_key": "a6b1a78466b72cf758f3c72f3e11c607391f77e487739707e0bf12fcc01ace47"
+      },
+      {
+        "encoded_offset": 3886980,
+        "pcm_byte_offset": 14534160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9989106718591647,
+        "encoded_key": "d6dde0d14415e1e2d6a1f162ddab2f4074c00b4d91bceef2781e21462a9b8b2c"
+      },
+      {
+        "encoded_offset": 4040992,
+        "pcm_byte_offset": 15110160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9990649850140049,
+        "encoded_key": "e2ecdda404d22fd558bbf6feb4ae243417f0ea64f1bd90b17fa6f1c2c7a30a3c"
+      },
+      {
+        "encoded_offset": 4195004,
+        "pcm_byte_offset": 15686160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9982839928071479,
+        "encoded_key": "51e07ba8f1cfb2d561a0565f2a9ae48d9c2f353567dfde67b7b74c63b3dc538f"
+      },
+      {
+        "encoded_offset": 4349016,
+        "pcm_byte_offset": 16262160,
+        "pcm_bytes": 576000,
+        "correlation": 0.998907831404011,
+        "encoded_key": "548257bf4a054239f9034a54f889286d51a73516fd5b1f5d1a4183b1684aaab2"
+      },
+      {
+        "encoded_offset": 4503028,
+        "pcm_byte_offset": 16838160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9981663587066673,
+        "encoded_key": "2f4fe5749443c2c9768a3081a4e7a4b8b9ce0052a79ef9513113dfffb0cdc369"
+      },
+      {
+        "encoded_offset": 4657040,
+        "pcm_byte_offset": 17414160,
+        "pcm_bytes": 576000,
+        "correlation": 0.9988692655142013,
+        "encoded_key": "ad101613ed5f0b36695458e4b813c9ab5a66e932564c73ac846bca7b3a83a4a3"
+      },
+      {
+        "encoded_offset": 4811052,
+        "pcm_byte_offset": 17990160,
+        "pcm_bytes": 1728000,
+        "correlation": 0.9998126548020094,
+        "encoded_key": "7a41a42de55c0caef6ebc9eccb26cf43014abd4418b6e7d1bcd63052c74691e4"
+      },
+      {
+        "encoded_offset": 5272992,
+        "pcm_byte_offset": 19718160,
+        "pcm_bytes": 1728000,
+        "correlation": 0.9998828323179941,
+        "encoded_key": "814db70c7798e88946e7490848b68ba05b09cbab683b7f3c886b455ffc3fad1b"
+      }
+    ]
+  }
+]

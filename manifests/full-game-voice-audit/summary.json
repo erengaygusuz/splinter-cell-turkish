@@ -1,0 +1,57 @@
+{
+  "installed_turkish_ids": 1086,
+  "original_corpus_ids": 1093,
+  "files_in_sounds": 412,
+  "english_common_banks": 8,
+  "leaf_resource_references": 13738,
+  "layer_resource_references": 111,
+  "vgmstream_logical_subsongs": 14284,
+  "decoded_leaf_variants": 3780,
+  "unique_signal_groups": 3655,
+  "human_candidate_variants": 2789,
+  "new_human_variants": 1692,
+  "new_human_unique_groups": 1625,
+  "classifications": {
+    "VOCALIZATION": 262,
+    "NEW_VOICE_REQUIRED": 1245,
+    "ALREADY_DUBBED": 1090,
+    "REVIEW_REQUIRED": 70,
+    "NON_SPEECH": 987,
+    "NON_ENGLISH_SPEECH": 1
+  },
+  "new_dialogue_unique": 1245,
+  "new_dialogue_text_review": 159,
+  "unresolved_voice_classification": 70,
+  "new_nonverbal_unique": 255,
+  "new_dialogue_text_qa": {
+    "ASR_AGREEMENT": 1001,
+    "TEXT_REVIEW_REQUIRED": 159,
+    "FOCUSED_ASR_AGREEMENT": 51,
+    "SOURCE_TEXT_ASR_SUPPORTED": 34
+  },
+  "language_review_unique": 11,
+  "police_station_example": {
+    "new_id": "v_e066ee2c634b8938",
+    "english": "Is somebody over there?",
+    "speaker": "GeorgianCitizen",
+    "event_editor_id": "00610000",
+    "resource_header_id": "00610036",
+    "scope": "asset identity confirmed; exact player encounter unverified"
+  },
+  "exact_remaining_english_count": "NOT_FINAL_WHILE_REVIEW_REQUIRED_OR_ASR_PENDING",
+  "duplicate_variants_removed": 125,
+  "unresolved_bank_references": 0,
+  "unresolved_event_links": 0,
+  "original_livedata_pcm_matches": 610,
+  "modified_original_ls0_slots": 483,
+  "additional_original_waveform_matches": 4,
+  "other_installed_language_banks": "inventoried, not English ASR targets",
+  "manual_audio_listening": "not performed",
+  "runtime_installation": "unchanged",
+  "uax_coverage": {
+    "NON_PLAY_EVENT_PRESENT": 377,
+    "EVENT_NOT_IN_INSTALLED_BANKS": 872,
+    "PLAY_TARGET_WITHOUT_LEAF_AUDIO": 30,
+    "RESOLVED_LEAF_AUDIO": 1740
+  }
+}
