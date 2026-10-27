@@ -65,6 +65,7 @@ Maybe a trick of the shadows. || Belki gölgeler gözümü yanılttı.
 Must have been nothing. || Bir şey değilmiş.
 Probably another alley cat. || Herhalde yine bir sokak kedisiydi.
 There is nothing here! || Burada hiçbir şey yok!
+There is nothing here. || Burada hiçbir şey yok.
 Probably just a shadow. || Muhtemelen sadece bir gölgeydi.
 I'm getting paranoid. || Paranoyak olmaya başladım.
 It was probably nothing. || Muhtemelen bir şey değildi.
