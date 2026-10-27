@@ -19,12 +19,7 @@ Eski Türkçe gameplay corpus'u: **1086** farklı ID. Kullanılan 408 ses korunu
 - Toplam kesim adayı olan ID: **676/678**. Bunlar otomatik/süreç adaylarıdır; nihai oyun kurulumuna eşit değildir.
 - Önceki 408 sesin dışında 678 için yeni DLL runtime hazır raporlanmamıştır.
 
-EKSİK LEGACY S126:
-
-1. `u000972` — daha kıdemli/otoriter erkek: `[annoyed] Avtandil, şu köpeğinin pisliğini temizlesene.`
-2. `u000975` — ast/uyumlu erkek: `[respectfully] Emredersiniz.`
-
-**Yeni keşfedilen ve Türkçesi tamamlanan 1258 benzersiz konuşma kaydı**, mevcut 1086 ID'nin dışındadır. Yeni seslerin seslendirme/teslim kapsamı:
+S126 NOTU:\n\n`u000972` ve `u000975` daha önce üretilip oyuna eklenmiştir. Yeniden üretim kapsamı dışındadır.\n\n**Yeni keşfedilen ve Türkçesi tamamlanan 1258 benzersiz konuşma kaydı**, mevcut 1086 ID'nin dışındadır. Yeni seslerin seslendirme/teslim kapsamı:
 - 979 BARK_* düşman/NPC repliği
 - 98 telsiz/kamera anonsu
 - 130 görev içi konuşma; tamamı karakter/sahne rolüne atanmış durumda
@@ -57,7 +52,7 @@ python3 create_elevenlabs_dubbing_queue.py \
 
 Duygu etiketleri Eleven v3 tarzındadır. `[shouts]`, `[whispers]`, `[curious]` gibi tag'ler sese yön verir ama seçilen sesin karakteristiklerini aşamayabilir. Dry/temiz ses üret; telsiz filtresi, eski cihaz/kamera radyo tonu ve mekan efekti sonradan uygulanır. Tek MP3 içinde birden çok karakter birleştirme. Dosya adlarını `00_production_index.csv` ile eşle.
 
-Sıra: S126 2 replik → karaktere göre ayrılmış yeni BARK/SHORT_COMMAND ve kamera/telsiz → karakteri belirlenmiş 130 hikâye repliği → 54 vocalization ihtiyacı → FMV'ler → ses kesimi ve entegrasyon → tüm oyun altyazısı.
+Sıra: karaktere göre ayrılmış yeni BARK/SHORT_COMMAND ve kamera/telsiz → karakteri belirlenmiş 130 hikâye repliği → 54 vocalization ihtiyacı → FMV'ler → ses kesimi ve entegrasyon → tüm oyun altyazısı.
 
 ## Kaynaklar
 
@@ -77,5 +72,4 @@ Bu plan bir ses dinleme veya runtime testi yerine geçmez; kullanıcı kapsamı 
 - Yeni konuşma manifesti: **1258/1258 ses grubuna atanmış**.
 - Ses grubu sayısı: **55**.
 - Varsayılan 1000 karakterlik ElevenLabs paketlemesinde: **101 prompt/TXT**.
-- Önceki 678 paketten kaynak MP3'ü bulunmayan: **2** (`u000972`, `u000975`).
-- Toplam kalan sözlü üretim hedefi: **1260 replik**.
+- S126 `u000972` / `u000975`: tamamlandı, yeniden üretme.\n- Toplam kalan sözlü üretim hedefi: **1258 yeni replik**.
