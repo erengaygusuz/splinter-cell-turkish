@@ -289,15 +289,6 @@ def main():
     write_rows(out/"00_story_needs_character_assignment.csv",
         ["new_id","speaker_or_archetype","event_name","map","source_text_final","turkish_final","emotion","duration_sec"],
         unresolved)
-    # Two previous 678-source gaps, not in this 1258 new-source list.
-    (out/"legacy_S126_01_officer.txt").write_text("[annoyed] Avtandil, şu köpeğinin pisliğini temizlesene.\n",encoding="utf-8")
-    (out/"legacy_S126_02_subordinate.txt").write_text("[respectfully] Emredersiniz.\n",encoding="utf-8")
-    (out/"legacy_S126_mapping.csv").write_text(
-        "new_id,voice_group,order,turkish_final\n"
-        'u000972,S126_OFFICER,1,"Avtandil, şu köpeğinin pisliğini temizlesene."\n'
-        'u000975,S126_SUBORDINATE,1,"Emredersiniz."\n',
-        encoding="utf-8"
-    )
     (out/"README.txt").write_text(
         "YENI DUBLAJ URETIMI — 1258 yeni ses kaydi\n"
         f"Sesi tanimlanabilir ve sirali: {len(index)}\n"
