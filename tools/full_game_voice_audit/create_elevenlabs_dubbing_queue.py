@@ -18,6 +18,103 @@ SPEAKER_ALIASES = {
     "EX-SPETSNAZ 1": "EX-SPETSNAZ-1",
     "EX-SPETSNAZ 2": "EX-SPETSNAZ-2",
 }
+STORY_SPEAKER_OVERRIDES = {
+    "S3_1_1Voice.Play_31_06_02": "VSELKA_SUB_EXSPETSNAZ_1",
+    "S3_1_1Voice.Play_31_06_03": "VSELKA_SUB_EXSPETSNAZ_2",
+    "S3_1_1Voice.Play_31_06_04": "VSELKA_SUB_EXSPETSNAZ_1",
+    "S3_1_1Voice.Play_31_06_05": "VSELKA_SUB_EXSPETSNAZ_2",
+    "S3_1_1Voice.Play_31_12_01": "FISHER",
+    "S3_1_1Voice.Play_31_12_02": "VSELKA_SPETSNAZ_1",
+    "S3_1_1Voice.Play_31_12_03": "FISHER",
+    "S3_1_1Voice.Play_31_12_04": "VSELKA_SPETSNAZ_1",
+    "S3_1_1Voice.Play_31_12_05": "FISHER",
+    "S3_1_1Voice.Play_31_12_06": "VSELKA_SPETSNAZ_1",
+    "S3_1_1Voice.Play_31_12_07": "FISHER",
+    "S3_1_1Voice.Play_31_12_08": "VSELKA_SPETSNAZ_1",
+    "S3_1_1Voice.Play_31_12_11": "FISHER",
+    "S3_1_1Voice.Play_31_12_12": "VSELKA_SPETSNAZ_1",
+    "S3_1_1Voice.Play_31_12_13": "FISHER",
+    "S3_1_1Voice.Play_31_12_14": "VSELKA_SPETSNAZ_1",
+    "S3_1_1Voice.Play_31_12_15": "FISHER",
+    "S3_1_1Voice.Play_31_15_01": "VSELKA_SPETSNAZ_4",
+    "S3_1_1Voice.Play_31_15_02": "VSELKA_SPETSNAZ_5",
+    "S3_1_1Voice.Play_31_15_03": "VSELKA_SPETSNAZ_6",
+    "S3_1_1Voice.Play_31_15_04": "VSELKA_SPETSNAZ_4",
+    "S3_1_1Voice.Play_31_15_05": "VSELKA_SPETSNAZ_5",
+    "S3_1_1Voice.Play_31_15_07": "VSELKA_SPETSNAZ_4",
+    "S3_1_1Voice.Play_31_20_01": "FISHER",
+    "S3_1_1Voice.Play_31_20_02": "BOBROV",
+    "S3_1_1Voice.Play_31_20_03": "FISHER",
+    "S3_1_1Voice.Play_31_20_04": "BOBROV",
+    "S3_1_1Voice.Play_31_20_05": "FISHER",
+    "S3_1_1Voice.Play_31_20_06": "BOBROV",
+    "S3_1_1Voice.Play_31_20_07": "FISHER",
+    "S3_1_1Voice.Play_31_20_08": "BOBROV",
+    "S3_1_1Voice.Play_31_20_09": "FISHER",
+    "S3_1_1Voice.Play_31_20_10": "BOBROV",
+    "S3_1_1Voice.Play_31_20_11": "FISHER",
+    "S3_1_1Voice.Play_31_20_12": "BOBROV",
+    "S3_1_1Voice.Play_31_20_13": "FISHER",
+    "S3_1_1Voice.Play_31_20_14": "BOBROV",
+    "S3_1_1Voice.Play_31_20_15": "FISHER",
+    "S3_1_1Voice.Play_31_20_16": "BOBROV",
+    "S3_1_1Voice.Play_31_20_17": "FISHER",
+    "S3_1_1Voice.Play_31_20_18": "BOBROV",
+    "S3_1_1Voice.Play_31_20_19": "BOBROV",
+    "S3_1_1Voice.Play_31_20_20": "BOBROV",
+    "S3_1_1Voice.Play_31_20_21": "FISHER",
+    "S3_1_1Voice.Play_31_20_23": "BOBROV",
+    "S3_1_1Voice.Play_31_20_24": "BOBROV",
+    "S3_1_1Voice.Play_31_27_01": "FISHER",
+    "S3_1_1Voice.Play_31_27_02": "VSELKA_INTERROGATED_MERC",
+    "S3_1_1Voice.Play_31_27_09": "FISHER",
+    "S3_1_1Voice.Play_31_27_12": "VSELKA_INTERROGATED_MERC",
+    "S3_1_1Voice.Play_31_37_01": "VSELKA_SPETSNAZ_2",
+    "S3_1_1Voice.Play_31_37_02": "VSELKA_SPETSNAZ_3",
+    "S3_1_1Voice.Play_31_37_03": "VSELKA_SPETSNAZ_2",
+    "S3_1_1Voice.Play_31_37_06": "VSELKA_SPETSNAZ_3",
+    "S3_1_1Voice.Play_31_37_07": "VSELKA_SPETSNAZ_2",
+    "S3_2_2Voice.Play_32_35_19": "FISHER",
+    "S3_2_2Voice.Play_32_35_20": "VSELKA_SPETSNAZ_7",
+    "S3_3_2Voice.Play_33_56_01": "VSELKA_SUB_EXSPETSNAZ_3",
+    "S3_3_2Voice.Play_33_56_02": "VSELKA_SUB_EXSPETSNAZ_4",
+    "S3_3_2Voice.Play_33_56_03": "VSELKA_SUB_EXSPETSNAZ_5",
+    "S3_3_2Voice.Play_33_56_04": "VSELKA_SUB_EXSPETSNAZ_4",
+    "S3_4_2Voice.Play_34_20_01": "KOLA_PHONE_SPETZ",
+    "S3_4_2Voice.Play_34_33_01": "FISHER",
+    "S3_4_2Voice.Play_34_33_02": "KOLA_TECHNICIAN",
+    "S3_4_2Voice.Play_34_33_04": "FISHER",
+    "S3_4_2Voice.Play_34_33_07": "KOLA_TECHNICIAN",
+    "S3_4_2Voice.Play_34_33_12": "KOLA_TECHNICIAN",
+    "S3_4_2Voice.Play_34_36_01": "KOLA_SPETSNAZ_1",
+    "S3_4_2Voice.Play_34_36_02": "KOLA_SPETSNAZ_2",
+    "S3_4_2Voice.Play_34_36_03": "KOLA_SPETSNAZ_1",
+    "S3_4_2Voice.Play_34_36_04": "KOLA_MAFIOSO",
+    "S3_4_2Voice.Play_34_36_05": "KOLA_SPETSNAZ_1",
+    "S3_4_2Voice.Play_34_36_06": "KOLA_MAFIOSO",
+    "S3_4_2Voice.Play_34_36_07": "KOLA_SPETSNAZ_2",
+    "S3_4_2Voice.Play_34_36_08": "KOLA_MAFIOSO",
+    "S3_4_2Voice.Play_34_36_09": "KOLA_SPETSNAZ_1",
+    "S3_4_2Voice.Play_34_36_11": "KOLA_MAFIOSO",
+    "S3_4_2Voice.Play_34_38_01": "KOLA_MAFIOSO_1",
+    "S3_4_2Voice.Play_34_38_02": "KOLA_MAFIOSO_2",
+    "S3_4_2Voice.Play_34_38_03": "KOLA_MAFIOSO_1",
+    "S3_4_2Voice.Play_34_38_04": "KOLA_MAFIOSO_2",
+    "S3_4_2Voice.Play_34_40_01": "KOLA_TECHNICIAN_2",
+    "S3_4_2Voice.Play_34_40_02": "KOLA_SPETSNAZ_3",
+    "S3_4_2Voice.Play_34_40_03": "KOLA_TECHNICIAN_2",
+    "S3_4_2Voice.Play_34_40_04": "KOLA_SPETSNAZ_3",
+    "S3_4_2Voice.Play_34_40_05": "KOLA_TECHNICIAN_2",
+    "S3_4_2Voice.Play_34_40_06": "KOLA_SPETSNAZ_3",
+    "S3_4_2Voice.Play_34_40_07": "KOLA_TECHNICIAN_2",
+    "S3_4_2Voice.Play_34_40_08": "KOLA_SPETSNAZ_3",
+    "S3_4_2Voice.Play_34_40_09": "KOLA_TECHNICIAN_2",
+    "S3_4_2Voice.Play_34_46_01": "MASSE",
+    "S3_4_2Voice.Play_34_46_02": "KOLA_NIKOLAI_SPETZ",
+    "S3_4_2Voice.Play_34_46_03": "MASSE",
+    "S3_4_2Voice.Play_34_46_04": "KOLA_NIKOLAI_SPETZ",
+}
+
 EMOTION_BY_BARK = {
     "BARK_HeardFoot": "curious",
     "BARK_HeardGunShot": "nervous",
@@ -76,6 +173,9 @@ def locate(row, story_ref):
         source = row["resource_name"].replace("Music_","").replace(".LS0","")
         return "CAMERA_"+source.upper(), "CAMERA", "", "ARCHETYPE_NOT_INDIVIDUAL"
     if re.match(r"^S\d.*Voice$", speaker):
+        manual = STORY_SPEAKER_OVERRIDES.get(row["event_name"])
+        if manual:
+            return "STORY_"+manual, "STORY", "", "TRANSCRIPT_SPEAKER"
         matched = story_ref.get(row["event_name"], [])
         if len(matched) == 1:
             return "STORY_"+matched[0], "STORY", "", "SCRIPT_SPEAKER"
@@ -175,7 +275,7 @@ def main():
             ready[actor].append(er)
             used_ids.add(r["new_id"])
     assert len(used_ids)+len(unresolved)==1258
-    assert len(unresolved)==94, ("Review role count changed",len(unresolved))
+    assert len(unresolved)==0, ("Story speaker mapping incomplete",len(unresolved))
     index=[]
     groups_summary=[]
     for group,group_rows in sorted(ready.items()):
@@ -202,7 +302,7 @@ def main():
         "YENI DUBLAJ URETIMI — 1258 yeni ses kaydi\n"
         f"Sesi tanimlanabilir ve sirali: {len(index)}\n"
         f"Senaryodaki karakteri henuz atanamayan: {len(unresolved)}\n"
-        "Bunlar tek bir karakter sanilmaz; 00_story_needs_character_assignment.csv icinde ayrica tutulur.\n"
+        "Tum 130 gorev ici replik senaryo/transkript baglamiyla konusmaciya atanmistir.\n"
         "Onceki oyun ici corpus'un kaynak MP3'u eksik iki replik: legacy_S126_01/02.\n"
         "Kullanici her TXT icin ilgili karakter sesini secip tek MP3 uretir.\n"
         "MP3 adini TXT adi gibi verir; 00_production_index.csv her satiri ve ID'yi esler.\n"
