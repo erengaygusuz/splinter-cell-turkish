@@ -1,0 +1,213 @@
+# SC TR — 020-025, 276 spoken bark and other short dialogue lines.
+# Contextual translations for suspicious ASR; preserve original English for audio QA.
+[BARK_SeePlayer]
+Enemy on palace grounds! || Saray arazisinde düşman var!
+Engaging hostiles! || Düşmanla çatışıyorum!
+Enemy troops! || Düşman askerleri!
+Intruder! || Davetsiz biri!
+Some kind of foreign commando! || Bir tür yabancı komando!
+I've got the situation! He looks dangerous! || Bir durum var! Tehlikeli görünüyor!
+Oh my god, who are you? || Aman Tanrım, sen kimsin?
+Oh, Jesus, they found us! || Tanrım, bizi buldular!
+You're not supposed to be here! || Burada olmaman gerekiyor!
+Who the hell is that? || Bu da kim?
+An intruder! || Davetsiz biri!
+What the? Oh my god! || Bu da ne? Aman Tanrım!
+Intruder! He looks serious! || Davetsiz biri! Tehlikeli görünüyor!
+Enemy on sight! || Düşman görüldü!
+Forget this, he's gone! || Boş ver, gitmiş!
+I've spotted the enemy! || Düşmanı gördüm!
+
+[BARK_SeeSomethingMove]
+Something moved! || Bir şey hareket etti!
+I saw something! || Bir şey gördüm!
+What's that? || Bu da ne?
+in the shadows. || Gölgelerde bir şey var.
+Is that you? || Sen misin?
+Hey, who is that? || Hey, kim o?
+Hello? Who's there? || Kimse var mı? Kim var orada?
+Is that... Hello? || O... Kimse var mı?
+Come out here where I can see you! || Görebileceğim bir yere çık!
+Is somebody over there? || Orada biri mi var?
+I think I saw something. || Sanırım bir şey gördüm.
+What is that? || Bu da ne?
+There's something back there. || Arkada bir şey var.
+I could have sworn... || Yemin edebilirdim...
+I think I see something. || Sanırım bir şey görüyorum.
+Who is that? || Kim o?
+I see movement! || Hareket görüyorum!
+There's something there. || Orada bir şey var.
+Who's there? || Kim var orada?
+There's something in the shadows. || Gölgelerde bir şey var.
+Hold up, what's that? || Dur, bu da ne?
+What's...? Something moved! || Ne...? Bir şey hareket etti!
+Come on out where I can see you! || Hadi, görebileceğim bir yere çık!
+I think I see something! || Sanırım bir şey görüyorum!
+Alright, show yourself! || Pekâlâ, göster kendini!
+Something's moving! || Bir şey hareket ediyor!
+Movement || Hareket var.
+Something's over there. || Orada bir şey var.
+Movement! || Hareket var!
+There's something over there! || Orada bir şey var!
+Is that the- || O da ne...
+I think I saw something! || Sanırım bir şey gördüm!
+Hold up! What's that? || Dur! Bu da ne?
+What? Something moved! || Ne? Bir şey hareket etti!
+Is something moving over there? || Orada bir şey mi hareket ediyor?
+
+[BARK_SeeUnconscious]
+I got a man unconscious! || Burada baygın bir adam var!
+One of us has been attacked! He's unconscious! || Bizden birine saldırılmış! Baygın!
+A guard's been knocked out! || Bir muhafız bayıltılmış!
+Agency personnel down! || Teşkilat personeli yerde!
+Man down. I think he's still breathing || Adam yerde. Sanırım hâlâ nefes alıyor.
+Personnel down! It looks like he was attacked! || Personel yerde! Görünüşe göre saldırıya uğramış!
+Somebody attacked one of our men! || Birisi adamlarımızdan birine saldırmış!
+There's a man here unconscious || Burada baygın bir adam var.
+What happened to you? || Sana ne oldu?
+Hey, are you okay? || Hey, iyi misin?
+Man down. Looks like he's still breathing. || Adam yerde. Hâlâ nefes alıyor gibi.
+One of our people has been attacked. || Bizden birine saldırılmış.
+I found a man unconscious. || Baygın bir adam buldum.
+Man down! He looks unconscious! || Adam yerde! Baygın görünüyor!
+Men unconscious! || Bir adam baygın!
+SOMEBODY ATTACKED ONE OF OUR MEN! || Birisi adamlarımızdan birine saldırmış!
+I've got a man unconscious! || Burada baygın bir adam var!
+Somebody's been attacked! They're unconscious! || Birine saldırılmış! Baygın!
+This guy's been knocked out. || Bu adam bayıltılmış.
+Oh my god, are you alright? || Aman Tanrım, iyi misin?
+I'VE GOT A MAN UNCONSCIOUS! || Burada baygın bir adam var!
+Officer down! I think he's still breathing! || Memur yerde! Sanırım hâlâ nefes alıyor!
+Wounded officer! He's unconscious! || Yaralı memur! Baygın!
+One of our men's been attacked! || Adamlarımızdan birine saldırılmış!
+I have an unconscious officer here! || Burada baygın bir memur var!
+Man down! He's still breathing! || Adam yerde! Hâlâ nefes alıyor!
+I've got a man, unconscious! || Burada baygın bir adam var!
+I need a med kit! Got an injured man here! || İlk yardım çantası lazım! Burada yaralı bir adam var!
+I've got a man unconscious. || Burada baygın bir adam var.
+Oh, my God! Are you all right? || Aman Tanrım! İyi misin?
+Somebody attacked one of our guys! || Birisi adamlarımızdan birine saldırmış!
+
+[BARK_ShootHim]
+Go ahead! I'm ready! || Hadi! Hazırım!
+Aim for his head! || Kafasına nişan al!
+Go ahead! What's stopping you?! || Hadi! Seni ne durduruyor?!
+I'M NOT AFRAID! || Korkmuyorum!
+Take the shot! You can do it! || Ateş et! Yapabilirsin!
+Come on, shoot him! || Hadi, vur onu!
+Aim for his head. || Kafasına nişan al.
+Go ahead, squeeze the trigger! || Hadi, tetiği çek!
+You have to help me! Do what he says! || Bana yardım etmelisin! Dediğini yap!
+Don't shoot me! || Beni vurma!
+careful || Dikkatli ol.
+Jesus, man, don't shoot me! || Tanrım, dostum, beni vurma!
+Don't shoot. I don't want to die. || Ateş etme. Ölmek istemiyorum.
+Shoot us both! || İkimizi de vur!
+I'm ready! Shoot! || Hazırım! Ateş et!
+Kill him! || Öldür onu!
+Shoot him in the head! || Kafasından vur!
+Kill him! I'm not frightened! || Öldür onu! Korkmuyorum!
+Shoot him! Shoot! || Vur onu! Ateş et!
+Go ahead, pull the trigger! || Hadi, tetiği çek!
+You have to help me! || Bana yardım etmelisin!
+Help me! Please! || Yardım et! Lütfen!
+Please, don't let him kill me! || Lütfen, beni öldürmesine izin verme!
+DON'T SHOOT! || Ateş etme!
+I DON'T WANT TO DIE! || Ölmek istemiyorum!
+PLEASE LET ME GO! || Lütfen bırak beni!
+He's serious! Do what he says! || Ciddi! Dediğini yap!
+Don't let him kill me! || Beni öldürmesine izin verme!
+Go ahead, shoot! || Hadi, ateş et!
+Shoot him! I am not afraid! || Vur onu! Korkmuyorum!
+Help me! || Yardım et!
+He's going to kill me! || Beni öldürecek!
+YOU HAVE TO HELP ME! || Bana yardım etmelisin!
+DO WHAT HE SAYS! || Dediğini yap!
+DON'T LET HIM KILL ME! || Beni öldürmesine izin verme!
+Don't shoot! Please! || Ateş etme! Lütfen!
+Do whatever he says. || Ne diyorsa yap.
+
+[BARK_SurprisedByPlayer]
+Jesus Christ! || Aman Tanrım!
+What the hell are you? || Sen de nesin?
+What are you supposed to be? || Sen de nesin?
+Oh, Jesus, don't hurt me! || Tanrım, bana zarar verme!
+What the hell? || Bu da ne?
+Sweet Jesus! || Aman Tanrım!
+Who are you? || Sen kimsin?
+You're not supposed to be here. || Burada olmaman gerekiyor.
+Oh my god! || Aman Tanrım!
+Holy || Aman...
+Christ! || Tanrım!
+OH JESUS || Aman Tanrım!
+OH CRAP! || Kahretsin!
+OH MY GOD || Aman Tanrım!
+CHRIST! || Tanrım!
+HOLY MARY || Kutsal Meryem!
+Mother of Christ! || İsa'nın annesi!
+Oh my god. || Aman Tanrım.
+WHO THE HELL?! || Bu da kim?!
+Good God! || Aman Tanrım!
+Mother of God! || Tanrı'nın annesi!
+What the- || Bu da ne...
+Holy Mary! || Kutsal Meryem!
+Oh, Jesus! || Aman Tanrım!
+Don't hurt me! || Bana zarar verme!
+Whoa! || Vay!
+WHAT THE HELL?! || Bu da ne?!
+
+[BARK_UnderFire]
+SHOTS FIRED || Ateş açıldı!
+I am taking the enemy! || Düşmanla çatışıyorum!
+I'm under fire! || Ateş altındayım!
+I'm in danger! || Tehlikedeyim!
+I'm being attacked! || Saldırıya uğruyorum!
+Somebody's shooting at me! || Biri bana ateş ediyor!
+Armed assailant inside the agency! || Teşkilatın içinde silahlı saldırgan var!
+Agent Under Fire! || Ajan ateş altında!
+Some lunatic is shooting at me || Bir deli bana ateş ediyor!
+I'm under fire! I need help! || Ateş altındayım! Yardım lazım!
+Stop! Don't shoot! || Dur! Ateş etme!
+No, don't shoot me! || Hayır, beni vurma!
+Security under fire! || Güvenlik ateş altında!
+Code Red! || Kod kırmızı!
+Engaging the enemy || Düşmanla çatışıyorum.
+I'm taking fire! || Ateş alıyorum!
+I'm in trouble! || Başım dertte!
+Shots fired! || Ateş açıldı!
+I'M ENGAGING THE ENEMY! || Düşmanla çatışıyorum!
+I'M NOT HARMED! || Silahlı değilim!
+DON'T KILL ME! || Beni öldürme!
+SHOTS FIRED! || Ateş açıldı!
+I'M IN TROUBLE! || Başım dertte!
+Officer needs assistance! || Memurun yardıma ihtiyacı var!
+Officer in trouble! || Memurun başı dertte!
+Hostilities on palace grounds! || Saray arazisinde çatışma var!
+I'm engaging the enemy! || Düşmanla çatışıyorum!
+I'M UNDER FIRE! || Ateş altındayım!
+Somebody's shooting at me, goddammit! || Biri bana ateş ediyor, kahretsin!
+Help! I'm being shot at! || Yardım! Bana ateş ediyorlar!
+PLEASE! || Lütfen!
+No! Don't shoot me! || Hayır! Beni vurma!
+STOP! DON'T SHOOT! || Dur! Ateş etme!
+Oh my god! || Aman Tanrım!
+Please, don't! || Lütfen, yapma!
+I'M NOT ARMED! || Silahlı değilim!
+I'm being shot at! || Bana ateş ediyorlar!
+Somebody's trying to kill me! || Biri beni öldürmeye çalışıyor!
+
+[OTHER_DIALOGUE]
+Wait here! || Burada bekle!
+WATCH IT! || Dikkat!
+GET OUT OF THE WAY! || Çekil yoldan!
+STAY BACK! || Geri dur!
+Hold your position! || Yerini koru!
+WAIT HERE! || Burada bekle!
+MOVE! || Çekil!
+HOLD YOUR POSITION! || Yerini koru!
+Stay back. || Geri dur.
+Get out of the way! || Çekil yoldan!
+Stay back! || Geri dur!
+Watch it! || Dikkat!
+Hold your position. || Yerini koru.
+Right here! || Burada kal!
