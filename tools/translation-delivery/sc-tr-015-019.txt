@@ -1,0 +1,213 @@
+# SC TR — 015-019, 250 spoken bark lines. English || Natural Turkish
+[BARK_NormalGreeting]
+Hey there. || Selam.
+Evening. || İyi akşamlar.
+You holding up all right? || İyi misin?
+Hey, you look tired. || Hey, yorgun görünüyorsun.
+Howdy. || Selam.
+You hanging in there? || İdare ediyor musun?
+How's it going? || Nasıl gidiyor?
+Bye-bye. || Görüşürüz.
+You doing all right? || İyi misin?
+Man, I'm beat. || Dostum, bittim.
+You look tired. || Yorgun görünüyorsun.
+How's the family? || Aile nasıl?
+Hey! || Selam!
+Officer? || Memur?
+Hello, my friend. || Selam, dostum.
+Strange business tonight. || Bu gece işler tuhaf.
+You okay? You look jumpy. || İyi misin? Gergin görünüyorsun.
+This business makes me nervous. || Bu iş beni geriyor.
+Hey, man. || Selam, dostum.
+You're hanging in there? || İdare ediyor musun?
+
+[BARK_PlayerKilled]
+Check him! Make sure he's dead! I'm taking his goggles! || Kontrol edin! Öldüğünden emin olun! Gözlüğünü ben alıyorum!
+Tell Feirong we killed the American! || Feirong'a Amerikalıyı öldürdüğümüzü söyleyin!
+Somebody call control! || Biri merkeze haber versin!
+There's no way he survived that! || Bundan sağ çıkmış olamaz!
+He's down! We got him! || Düştü! Onu hakladık!
+Call security. We need to ID this corpse. || Güvenliği çağırın. Bu cesedin kimliğini belirlememiz gerek.
+Did we get him? Is he dead? || Onu hakladık mı? Öldü mü?
+Somebody radio control. Don't want to see this. || Biri merkeze telsizle haber versin. Bunu görmek istemiyorum.
+Whoever he is, he's dead. || Kim olursa olsun, öldü.
+I hate to think of all the paperwork this is gonna mean. || Bunun çıkaracağı evrak işini düşünmek bile istemiyorum.
+Is he dead? Did we get him? || Öldü mü? Onu hakladık mı?
+We got him. I think we're safe. || Onu hakladık. Sanırım güvendeyiz.
+Good work. || İyi iş.
+Check the corpse. Make sure he's dead. || Cesedi kontrol edin. Öldüğünden emin olun.
+Tell Nikoladze the American is dead. || Nikoladze'ye Amerikalının öldüğünü söyleyin.
+Search the body. Find out who he is. || Cesedi arayın. Kim olduğunu öğrenin.
+I'm taking his gun. || Silahını ben alıyorum.
+He's dead! We got him! || Öldü! Onu hakladık!
+Keep looking, there might be others. || Aramaya devam edin, başkaları da olabilir.
+Check him. Make sure he's dead. || Kontrol edin. Öldüğünden emin olun.
+Grinko will want to know about this. || Grinko bunu bilmek isteyecek.
+Who is he? Were we supposed to kill him? || Bu kim? Onu öldürmemiz mi gerekiyordu?
+Search his body! || Üstünü arayın!
+Put one in his brain, just to be sure. || Emin olmak için kafasına bir tane daha sık.
+Relay to Cristavi. We killed the American. || Cristavi'ye iletin. Amerikalıyı öldürdük.
+We killed him. The American's dead. || Onu öldürdük. Amerikalı öldü.
+Watch out. There might be others. || Dikkat. Başkaları da olabilir.
+Stay sharp. There's probably others. || Tetikte olun. Muhtemelen başkaları da var.
+Radio Grinko. He'll want to see this. || Grinko'ya telsizle haber verin. Bunu görmek isteyecek.
+Somebody radio Grinko. Tell him we killed an American. || Biri Grinko'ya telsizle haber versin. Amerikalıyı öldürdüğümüzü söyleyin.
+Search the body! Find out who he is! || Cesedi arayın! Kim olduğunu öğrenin!
+Hand me a knife. I want his scalp. || Bana bir bıçak ver. Kafa derisini istiyorum.
+Shoot him again! Make sure he's dead! || Bir daha vur! Öldüğünden emin ol!
+Ha! He's dead! || Hah! Öldü!
+I'm taking his gun! || Silahını ben alıyorum!
+Whoever he is, he's dead now. || Kim olursa olsun, artık öldü.
+
+[BARK_SearchFailedOther]
+Maybe I am losing it. || Galiba aklımı kaçırıyorum.
+Maybe a trick of the shadows. || Belki gölgeler gözümü yanılttı.
+Must have been nothing. || Bir şey değilmiş.
+Probably another alley cat. || Herhalde yine bir sokak kedisiydi.
+There is nothing here! || Burada hiçbir şey yok!
+Probably just a shadow. || Muhtemelen sadece bir gölgeydi.
+I'm getting paranoid. || Paranoyak olmaya başladım.
+It was probably nothing. || Muhtemelen bir şey değildi.
+My eyes must be playing tricks on me. || Gözlerim beni yanıltıyor olmalı.
+There's nothing here. || Burada hiçbir şey yok.
+Too much coffee. I'm getting jittery. || Çok kahve içtim. Titremeye başladım.
+I need to get more sleep. || Biraz daha uyumam gerek.
+I'm seeing things. || Hayal görüyorum.
+Maybe it was nothing. || Belki de bir şey değildi.
+Huh? Could have sworn I saw something. || Ha? Bir şey gördüğüme yemin edebilirdim.
+Maybe it was a shadow. || Belki bir gölgeydi.
+There was something there. || Orada bir şey vardı.
+Maybe I'm crazy. || Belki de delirdim.
+God, I need a drink. || Tanrım, bir içkiye ihtiyacım var.
+I'm losing my mind out here. || Burada aklımı kaçırıyorum.
+I've been working too long. || Fazla uzun süredir çalışıyorum.
+I was imagining things. || Hayal görmüşüm.
+It's probably not my problem. || Muhtemelen benim sorunum değil.
+Maybe it's better if I didn't see anything. || Belki de hiçbir şey görmemiş olmam daha iyi.
+I'll mind my own business. || Kendi işime bakayım.
+I'll let somebody else worry about it. || Başkası dert etsin.
+Maybe it was part of this Nikolad's business. || Belki bu Nikoladze meselesinin bir parçasıydı.
+I must be seeing things. || Hayal görüyor olmalıyım.
+It's just my imagination. || Sadece hayal gücüm.
+I'm letting Nikoladze make me paranoid! || Nikoladze yüzünden paranoyak oluyorum!
+Been staring at that computer screen too long. || O bilgisayar ekranına fazla uzun baktım.
+I must be crazy. || Delirmiş olmalıyım.
+Must've been nothing. || Bir şey değilmiş.
+Maybe I'm seeing things. || Belki de hayal görüyorum.
+
+[BARK_SearchFailedPlayer]
+Returning to patrol! || Devriyeye dönüyorum!
+He's not here! || Burada değil!
+We lost the intruder! || Sızanı kaybettik!
+God help us. He's gone. || Tanrı yardımcımız olsun. Gitmiş.
+If he ever was here, he's gone now. || Buradaysa bile artık gitmiş.
+Radio control. This area is clear. || Merkeze telsizle bildir. Bölge temiz.
+I'm wasting my time here. || Burada vaktimi boşa harcıyorum.
+He's not here. || Burada değil.
+Whoever he was, he's gone. || Kim idiyse, gitmiş.
+This area is clear. || Bölge temiz.
+This is stupid. The guy's history. || Bu saçmalık. Adam çoktan gitmiş.
+That guy's gone. || Adam gitmiş.
+I'm going back to my patrol. || Devriyeme dönüyorum.
+His gun! || Gitmiş!
+He's moved on! Expand the search! || Gitmiş! Arama alanını genişletin!
+This area is clear! || Bölge temiz!
+Damn it! We lost him! || Kahretsin! Onu kaybettik!
+This area's clear. || Bölge temiz.
+This is useless, he's gone. || Bu iş boşuna, gitmiş.
+This is a waste of time, return to patrol! || Vakit kaybı. Devriyeye dönün!
+The perp's gone || Şüpheli gitmiş.
+Whoever he was he's gone || Kim idiyse gitmiş.
+He's moved on || Gitmiş.
+We'll have to look elsewhere. || Başka yere bakmamız gerekecek.
+We lost him || Onu kaybettik.
+He's not here || Burada değil.
+Area clear. Returning to patrol. || Bölge temiz. Devriyeye dönüyorum.
+This is a waste of time! We'll return to patrol! || Vakit kaybı! Devriyeye dönüyoruz!
+Whoever he is, he's gone. || Kim olursa olsun, gitmiş.
+Dammit! We lost him! || Kahretsin! Onu kaybettik!
+We're wasting our time! || Vaktimizi boşa harcıyoruz!
+
+[BARK_SeeBrokenCamera]
+Someone wreck an embassy camera! || Birisi elçilik kamerasını mahvetmiş!
+Somebody is messing with our cameras! || Birisi kameralarımızla oynuyor!
+I've got a broken camera here! || Burada bozuk bir kamera var!
+Reporting a broken security camera. || Bozuk bir güvenlik kamerası bildiriyorum.
+Somebody's messing with our security cameras! || Birisi güvenlik kameralarımızla oynuyor!
+Does security know about this camera? || Güvenliğin bu kameradan haberi var mı?
+I think somebody's messing with our cameras. || Sanırım birisi kameralarımızla oynuyor.
+This camera's broken. || Bu kamera bozuk.
+Some Yuba wrecked one of our security cams! || Birisi güvenlik kameralarımızdan birini mahvetmiş!
+Somebody's messing with our cameras! || Birisi kameralarımızla oynuyor!
+Looks like somebody shot this camera. || Görünüşe göre biri bu kamerayı vurmuş.
+Somebody's screwing with our cameras! || Birisi kameralarımızı kurcalıyor!
+I've got a wrecked security cam here! || Burada parçalanmış bir güvenlik kamerası var!
+
+[BARK_SeeCorpse]
+Man down! He's dead! || Adam düştü! Ölmüş!
+One of us has been killed! || Bizden biri öldürülmüş!
+Relay alert! I found a body! || Alarmı iletin! Bir ceset buldum!
+Reporting a corpse. || Ceset bulundu, bildiriyorum.
+A fresh kill! One of ours! || Yeni öldürülmüş! Bizden biri!
+I found the body! || Cesedi buldum!
+I've got a corpse here. || Burada bir ceset var.
+One of our men has been killed || Adamlarımızdan biri öldürülmüş.
+I found a dead body! || Bir ceset buldum!
+Officer down! I think he's dead! || Memur düştü! Sanırım ölmüş!
+I have a corpse here, one of ours. || Burada bir ceset var, bizden biri.
+Man down! He's not breathing! || Adam düştü! Nefes almıyor!
+I found a body! He's one of us! || Bir ceset buldum! Bizden biri!
+I have a corpse here! || Burada bir ceset var!
+I've got a dead body here! || Burada bir ceset var!
+I found the corpse! It's one of ours! || Cesedi buldum! Bizden biri!
+Oh my god, he's dead! || Aman Tanrım, ölmüş!
+Somebody killed him. || Birisi onu öldürmüş.
+Good lord! || Tanrım!
+He's... he's dead! || O... ölmüş!
+He's dead? Oh my god, they're dead! || Ölmüş mü? Aman Tanrım, ölmüşler!
+I found a man killed! || Öldürülmüş bir adam buldum!
+I've got a corpse here! || Burada bir ceset var!
+
+[BARK_SeeHackedTurret]
+Somebody is tinkering with our turds! || Birisi taretlerimizle oynuyor!
+This turret has been broken! || Bu taret bozulmuş!
+Who's messing with the carrots? || Taretleri kim kurcalıyor?
+Some svolage hacked into this turret! || Birisi bu tareti hacklemiş!
+Someone's been messing with the turrets! || Birisi taretlerle oynamış!
+I've got a broken shirt! || Burada bozuk bir taret var!
+I've got a broken turret! || Burada bozuk bir taret var!
+Someone screwed up this turret! || Birisi bu tareti bozmuş!
+I think this turret's broken! || Sanırım bu taret bozuk!
+
+[BARK_SeePlayer]
+Engaging hostiles! || Düşmanla çatışıyorum!
+INTRUDER! || Davetsiz misafir!
+The embassy is being invaded! || Elçiliğe saldırıyorlar!
+An American commando! || Amerikalı bir komando!
+I've got an arm hostile! || Silahlı bir düşman görüyorum!
+Agent reporting on-site hostilities. || Ajan bildiriyor: Bölgede düşman var.
+Intruder! He looks armed! || Davetsiz biri! Silahlı görünüyor!
+Intruder! || Davetsiz biri!
+Call security we have an intruder || Güvenliği çağırın, içeri biri sızmış!
+Unauthorized personnel! || Yetkisiz personel!
+Who are you? || Sen kimsin?
+You're not supposed to be here! || Burada olmaman gerekiyor!
+We have an intruder in the agency! || Teşkilata biri sızmış!
+I've got a heavily armed 10-14. || Ağır silahlı bir 10-14 var.
+10-14! Repeat! 10-14! || 10-14! Tekrar ediyorum, 10-14!
+There's an armed man inside Langley! || Langley'nin içinde silahlı bir adam var!
+I have visual on the enemy. || Düşmanı görüyorum.
+It's him! || O!
+THE AMERICAN || Amerikalı!
+Enemy in sight! Relay to Nikoladze! || Düşman görüldü! Nikoladze'ye iletin!
+Engaging the enemy. || Düşmanla çatışıyorum.
+I got a situation! || Bir durum var!
+Some kind of commando! Looks American! || Bir tür komando! Amerikalıya benziyor!
+Enemy on sight! || Düşman görüldü!
+An intruder! || Davetsiz biri!
+What the? Oh my god! || Bu da ne? Aman Tanrım!
+Unidentified assailant! || Kimliği belirsiz saldırgan!
+It's some kind of foreign soldier! || Bir tür yabancı asker!
+An armed man! Some kind of commando! || Silahlı bir adam! Bir tür komando!
+I've got a situation here! || Burada bir durum var!
+Unidentified perp! Heavily armed! || Kimliği belirsiz şüpheli! Ağır silahlı!
