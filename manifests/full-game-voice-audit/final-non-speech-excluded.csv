@@ -1,0 +1,4 @@
+new_id,speaker_or_archetype,event_name,switch_values,resource_name,map,decision,english_final,source_language,notes,source_wav,source_pcm_sha256
+v_724d3504e813fc32,radio,radio.Play_RadioAmericaine1,,RADIO_2.wav,2_1_1CIA,NON_SPEECH,,en,muzık,build/full-game-voice-audit/original-wav/v_724d3504e813fc32_00680002_84636648.wav,e7bf58d9c1e949b4e04923173309114eea9237a445da3d2608d09fbedfc81bc0
+v_bc8a1a76b9faffa2,radio,radio.Play_RadioRusse2,,RADIO_4.wav,1_2_2DefenseMinistry;1_7_1_1VselkaInfiltration,NON_SPEECH,,en,meldoi muzik sadece,build/full-game-voice-audit/original-wav/v_bc8a1a76b9faffa2_00680003_10083608.wav,b2a0263afe67cd285601a30f7df27b40f4d643351ad1f7a9352186a0f483450f
+v_c0c2eccb25daedc2,radio,radio.Play_RadioAmericaine2,,RADIO_3.wav,2_1_2CIA,NON_SPEECH,,en,muzık,build/full-game-voice-audit/original-wav/v_c0c2eccb25daedc2_00680001_92899004.wav,7345a72dfc8a9cfd690f2c235733944c525ebff5d2d56f7c8c6e6f4f66b1cd20
