@@ -27,10 +27,10 @@ EKSİK LEGACY S126:
 **Yeni keşfedilen ve Türkçesi tamamlanan 1258 benzersiz konuşma kaydı**, mevcut 1086 ID'nin dışındadır. Yeni seslerin seslendirme/teslim kapsamı:
 - 979 BARK_* düşman/NPC repliği
 - 98 telsiz/kamera anonsu
-- 130 görev içi konuşma; bir sahnede birden çok konuşmacı olabilir
+- 130 görev içi konuşma; tamamı karakter/sahne rolüne atanmış durumda
 - 51 kısa komut / diğer konuşma
 
-Toplam 1258. Sahnelerin metinlerinde **36 replik** senaryo konuşmacı referansı üzerinden adlandırılabilir; **94 repliğin** konuşmacısı `S3_1_1Voice` gibi ses bankası etiketlerinden güvenle seçilemez. Bunları tek sese karıştırma.
+Toplam 1258. Sahnelerin 36 repliği proje içindeki senaryo konuşmacı referanslarından, kalan 94 teknik `S*_Voice` kaydı ise Vselka/Kola görev transkriptlerindeki gerçek konuşma sırasından karakter/rol bazında çözüldü. **Konuşmacısı belirsiz görev içi replik kalmadı (0).**
 
 `manifests/full-game-voice-audit/final-turkish-production-voices.csv` üzerinde **FINAL_TR=1258, NEEDS_TR_TRANSLATION=0**; bu metin kapsamıdır, MP3 kaydı değildir.
 
@@ -41,8 +41,8 @@ Ayrıca `final-vocalization-review.csv` kapsamındaki 54 sözsüz insan sesi (ba
 `tools/full_game_voice_audit/create_elevenlabs_dubbing_queue.py` dosyası:
 - ana çeviri manifestini ve `event-source-text.csv` senaryo konuşmacı referanslarını okur;
 - oynanabilir karakter/asker arketipini veya senaryodaki FISHER/LAMBERT/GRIMSDOTTIR gibi gerçek rolü ayırır;
-- 1164 **ses grubu atanabilir** yeni repliği, duygu etiketi ve `[short pause]` ile, en fazla 2200 karakterlik metin paketlerine böler;
-- 94 **rolü ayrıca belirlenmesi gereken** görev konuşmasını `00_story_needs_character_assignment.csv` dosyasına çıkarır (bunları **üretime hazır saymaz**);
+- 1258/1258 yeni repliği ses grubuna atar ve duygu etiketi + `[short pause]` ile varsayılan **1000 karakter** üst sınırında üretim paketlerine böler;
+- görev içi 130 repliğin tamamını Fisher/Lambert/Grimsdottir/Bobrov/Masse/Alekseevich veya sahneye özel muhafız-teknisyen-mafya rolleriyle ayırır;
 - her MP3 içinde replik sıra numarası ve ID'yi `00_production_index.csv` dosyasında korur;
 - eksik S126 iki repliği iki ayrı karakter TXT dosyasına çıkarır;
 - oyun dosyalarına, ses bankalarına, mevcut seslere ve DLL'ye dokunmaz.
@@ -57,7 +57,7 @@ python3 create_elevenlabs_dubbing_queue.py \
 
 Duygu etiketleri Eleven v3 tarzındadır. `[shouts]`, `[whispers]`, `[curious]` gibi tag'ler sese yön verir ama seçilen sesin karakteristiklerini aşamayabilir. Dry/temiz ses üret; telsiz filtresi, eski cihaz/kamera radyo tonu ve mekan efekti sonradan uygulanır. Tek MP3 içinde birden çok karakter birleştirme. Dosya adlarını `00_production_index.csv` ile eşle.
 
-Sıra: S126 2 replik → karaktere göre ayrılmış yeni BARK/SHORT_COMMAND ve kamera/telsiz → sahne içi gerçek rolü belirlenmiş hikâye → kalan 94 konuşmacı ataması → 54 vocalization ihtiyacı → FMV'ler → ses kesimi ve entegrasyon → tüm oyun altyazısı.
+Sıra: S126 2 replik → karaktere göre ayrılmış yeni BARK/SHORT_COMMAND ve kamera/telsiz → karakteri belirlenmiş 130 hikâye repliği → 54 vocalization ihtiyacı → FMV'ler → ses kesimi ve entegrasyon → tüm oyun altyazısı.
 
 ## Kaynaklar
 
@@ -70,3 +70,12 @@ Sıra: S126 2 replik → karaktere göre ayrılmış yeni BARK/SHORT_COMMAND ve 
 - `manifests/full-game-voice-audit/event-source-text.csv`
 
 Bu plan bir ses dinleme veya runtime testi yerine geçmez; kullanıcı kapsamı gereği ses dinleme zorunluluğu yoktur. Kararları esasen konuşmacı bağlamı, ID ve metin eşlemesi belirler.
+
+## 27 Ekim konuşmacı çözümleme sonucu
+
+- Teknik görev etiketi çözümü: **94/94**.
+- Yeni konuşma manifesti: **1258/1258 ses grubuna atanmış**.
+- Ses grubu sayısı: **55**.
+- Varsayılan 1000 karakterlik ElevenLabs paketlemesinde: **101 prompt/TXT**.
+- Önceki 678 paketten kaynak MP3'ü bulunmayan: **2** (`u000972`, `u000975`).
+- Toplam kalan sözlü üretim hedefi: **1260 replik**.
