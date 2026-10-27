@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate ElevenLabs v3 copy-paste prompts from the already approved full-game Turkish voice manifest.
+"""Generate ElevenLabs v4/v3 copy-paste prompts from the approved full-game Turkish voice manifest.
 
 READ-ONLY on repository content. Does not generate audio, modify DLLs, rename WAVs, or touch V27.
 """
@@ -249,7 +249,7 @@ def main():
     p=argparse.ArgumentParser()
     p.add_argument("--root",default=DEFAULT_ROOT)
     p.add_argument("--out",default=str(Path.home()/"Downloads"/"SplinterCell-ElevenLabs"))
-    p.add_argument("--max-chars",type=int,default=2200)
+    p.add_argument("--max-chars",type=int,default=1000)
     args=p.parse_args()
     if args.max_chars < 300 or args.max_chars > 2800:
         raise SystemExit("--max-chars must be between 300 and 2800 for this export")
