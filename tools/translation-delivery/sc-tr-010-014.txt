@@ -2,6 +2,7 @@
 # Source texts are not overwritten; dubious ASR readings are kept for later audio QA.
 [BARK_HeardGunShot]
 That didn't sound good || Bu hiç iyi gelmedi.
+That didn't sound good. || Bu hiç iyi gelmedi.
 Heads up everybody! || Herkes dikkat!
 Possible situation? Investigating. || Şüpheli bir durum var. Kontrol ediyorum.
 What's that inside? || İçerideki de ne?
