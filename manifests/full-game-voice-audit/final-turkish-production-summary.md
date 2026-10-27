@@ -10,8 +10,8 @@
 - NON-SPEECH EXCLUDED: 3
 
 ## Translation status
-- FINAL_TR: 32
-- NEEDS_TR_TRANSLATION: 1226
+- FINAL_TR: 1258
+- NEEDS_TR_TRANSLATION: 0
 
 ## User decision counts
 - APPROVE_TEXT: 171
