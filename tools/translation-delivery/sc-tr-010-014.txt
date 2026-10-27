@@ -1,0 +1,200 @@
+# SC TR — 010-014, 250 spoken bark lines. Format: English || Turkish
+# Source texts are not overwritten; dubious ASR readings are kept for later audio QA.
+[BARK_HeardGunShot]
+That didn't sound good || Bu hiç iyi gelmedi.
+Heads up everybody! || Herkes dikkat!
+Possible situation? Investigating. || Şüpheli bir durum var. Kontrol ediyorum.
+What's that inside? || İçerideki de ne?
+Oh my god, what was that? || Aman Tanrım, o da neydi?
+Is that gunfire? || Bu silah sesi mi?
+Somebody's in trouble. || Birinin başı dertte.
+Sounds like somebody's in trouble! || Birinin başı dertte gibi!
+Possible situation. Investigating. || Şüpheli bir durum var. Kontrol ediyorum.
+I've got audio on a possible situation. || Şüpheli bir durum var gibi. Kontrol ediyorum.
+Sounds like fighting! || Çatışma sesi geliyor!
+Somebody's disturbing the peace! || Birileri ortalığı karıştırıyor!
+I hear fighting! || Çatışma sesi duyuyorum!
+Audio on possible hostilities. || Olası çatışma sesi alıyorum.
+Somebody's attacking! || Birisi saldırıyor!
+Sounds like battle! || Çatışma sesi geliyor!
+I hear combat! || Çatışma sesi duyuyorum!
+What's that noise? || O ses ne?
+SOMEBODY'S IN TROUBLE! || Birinin başı dertte!
+What the hell? || Bu da ne?
+That doesn't sound good. || Bu hiç iyi gelmedi.
+Somebody's in trouble! || Birinin başı dertte!
+We're being attacked! || Saldırıya uğruyoruz!
+Sounds like someone's found trouble! || Birinin başı derde girmiş gibi!
+Who's fighting? || Kim çatışıyor?
+
+[BARK_InvestigationGreeting]
+Stay watchful. || Tetikte kal.
+Is your CT up? || Tetikte misin?
+He's close. || Yakında.
+I swear I saw something. || Yemin ederim bir şey gördüm.
+What do you think? || Ne düşünüyorsun?
+What did you find? || Ne buldun?
+Keep your eyes open. || Gözünü açık tut.
+I think he's close. || Bence yakında.
+There's somebody in the agency. || Teşkilatta biri var.
+I think we're being attacked! || Sanırım saldırıya uğruyoruz!
+God, I hope this is a drill. || Tanrım, umarım bu bir tatbikattır.
+Find anything? || Bir şey buldun mu?
+You think there's anything out there? || Sence dışarıda bir şey var mı?
+This creeps me out. || Bu iş tüylerimi ürpertiyor.
+Got anything? || Bir şey var mı?
+There's got to be something. || Bir şey olmalı.
+You find anything? || Bir şey buldun mu?
+I saw an armed man, some kind of commando. || Silahlı bir adam gördüm. Bir tür komando.
+There's a heavily armed man back there! || Arkada ağır silahlı bir adam var!
+There's an intruder! || İçeri biri sızmış!
+I don't like this. || Bu iş hoşuma gitmedi.
+Something strange. || Tuhaf bir şey var.
+What do you think's going on? || Sence neler oluyor?
+What should we do? || Ne yapmalıyız?
+Maybe it's Nikoladze's men. || Belki Nikoladze'nin adamlarıdır.
+There's gotta be something. || Bir şey olmalı.
+Maybe we're being paranoid. || Belki de paranoya yapıyoruz.
+They're in trouble. || Başları dertte.
+I got a bad feeling about this. || Bu konuda kötü bir his var içimde.
+We have an intruder! || İçeri biri sızmış!
+I think we're under attack! || Sanırım saldırı altındayız!
+I saw an armed man. He looked American. || Silahlı bir adam gördüm. Amerikalıya benziyordu.
+There's some kind of commando! || Bir tür komando var!
+They found us! We have an intruder! || Bizi buldular! İçeri biri sızmış!
+You scared? || Korktun mu?
+I'm not being paid enough for this. || Bunun için yeterince para almıyorum.
+
+[BARK_LightShot]
+That's not good. || Bu iyi değil.
+How did that happen? || Bu nasıl oldu?
+Jesus, what the- || Tanrım, bu da ne...
+HOW THE HELL- || Bu da ne...
+What the hell? || Bu da ne?
+That's strange. || Bu tuhaf.
+Whoa, that's strange. || Vay, bu tuhaf.
+How the hell did that happen? || Bu nasıl oldu böyle?
+What the- || Bu da ne...
+Oh Christ! || Tanrım!
+WOAH! || Vay!
+How the hell? || Nasıl yani?
+Aw, crap! || Kahretsin!
+Whoa || Vay!
+That's weird. || Bu garip.
+Oh, Christ! || Tanrım!
+What's that? || Bu da ne?
+Whoa! How did that happen? || Vay! Bu nasıl oldu?
+
+[BARK_LightsOut]
+Who did that? || Bunu kim yaptı?
+Who's there? || Kim var orada?
+Hey! Turn your lights back on! || Hey! Işıkları geri aç!
+Hello? Turn that back on! || Kimse var mı? Onu geri aç!
+Hey, there's somebody in here! || Hey, burada biri var!
+WHO DID THAT?! || Bunu kim yaptı?!
+Hey, I'm in here! || Hey, ben buradayım!
+Hey! I'm in here! || Hey, ben buradayım!
+Hello? Who did that? || Kimse var mı? Bunu kim yaptı?
+Ah, hell. || Kahretsin.
+Hey, turn the lights back on! || Hey, ışıkları geri aç!
+Show yourself! || Göster kendini!
+Who is that? || Kim o?
+HELLO? || Kimse var mı?
+Turn the lights back on! || Işıkları geri aç!
+TURN THE LIGHTS BACK ON! || Işıkları geri aç!
+Hey, who did that? || Hey, bunu kim yaptı?
+I'm in here! || Ben buradayım!
+Who's there? What the- || Kim var orada? Bu da ne...
+Hey! Turn those back on! || Hey! Şunları geri aç!
+Hey, turn those back on! || Hey, şunları geri aç!
+I'm in here! Turn the lights back on! || Buradayım! Işıkları geri aç!
+Turn those back on! || Şunları geri aç!
+I'm in here! Turn on the lights! || Buradayım! Işıkları aç!
+
+[BARK_LookingForYou]
+Where are you? || Neredesin?
+You can't hide! || Saklanamazsın!
+Whoever is there, come out! || Kim varsa ortaya çıksın!
+You'll get caught sooner or later! || Er ya da geç yakalanacaksın!
+Come on out! || Hadi çık ortaya!
+Show yourself! || Göster kendini!
+I'll find you! || Seni bulacağım!
+Come out with your hands up. || Ellerini kaldırıp çık!
+You can't hide from me! || Benden saklanamazsın!
+Give yourself up! || Teslim ol!
+Come out and die! || Çık ortaya da geber!
+Give up! We have you surrounded! || Teslim ol! Etrafını sardık!
+Come out with your hands up! || Ellerini kaldırıp çık!
+WHERE ARE YOU? || Neredesin?
+Surrender and show yourself! || Teslim ol ve çık ortaya!
+We'll find you. || Seni bulacağız.
+You're surrounded! Give up! || Etrafın sarıldı! Teslim ol!
+We have you surrounded! || Etrafını sardık!
+Who's there? Come out! || Kim var orada? Çık ortaya!
+Olly olly oxen free! || Saklanma, çık ortaya!
+Come out wherever you are! || Neredeysen çık ortaya!
+You're good as dead. || Sen artık ölüsün.
+
+[BARK_LostPlayer]
+He must be close. || Yakında olmalı.
+Where did he go? || Nereye gitti?
+Damn, he's gone. || Kahretsin, gitti.
+He vanished! || Kayboldu!
+He was just here. || Az önce buradaydı.
+He's still close! || Hâlâ yakında!
+Christ, I lost him! || Kahretsin, onu kaybettim!
+He couldn't have gone far. || Fazla uzağa gitmiş olamaz.
+He's somewhere around here. || Buralarda bir yerde.
+Where'd he go? || Nereye gitti?
+He's gotta be close by. || Yakında olmalı.
+He just disappeared. || Bir anda kayboldu.
+I can't believe I lost him. || Onu kaybettiğime inanamıyorum.
+He's close. || Yakında.
+You can't hide! || Saklanamazsın!
+Where are you, American? || Neredesin, Amerikalı?
+Come out wherever you are! || Neredeysen çık ortaya!
+You can't hide forever! || Sonsuza kadar saklanamazsın!
+I'm still close. || Hâlâ peşindeyim.
+They couldn't have gotten far. || Fazla uzaklaşmış olamaz.
+He couldn't have gotten far. || Fazla uzaklaşmış olamaz.
+He vanished. || Kayboldu.
+He's got to be close! || Yakında olmalı!
+Lost him. || Onu kaybettim.
+He's still close. || Hâlâ yakında.
+He couldn't have just vanished. || Öylece yok olmuş olamaz.
+Damn! Where is he? || Kahretsin! Nerede bu adam?
+Oh crap! We lost him! || Kahretsin! Onu kaybettik!
+He's gonna be close. || Yakında olmalı.
+He can't hide forever. || Sonsuza kadar saklanamaz.
+He must be somewhere nearby! || Yakınlarda bir yerde olmalı!
+Damn! He couldn't have gotten far! || Kahretsin! Fazla uzağa gitmiş olamaz!
+
+[BARK_Mystified]
+Curious. || İlginç.
+I don't understand. || Anlamıyorum.
+That's not right. || Burada bir terslik var.
+Very odd. || Çok tuhaf.
+It doesn't make sense. || Hiç mantıklı değil.
+Bizarre. || Tuhaf.
+Strange. || Tuhaf.
+That's curious. || İlginç.
+What in the hell is that? || Bu da ne böyle?
+That's not right at all. || Burada kesinlikle bir terslik var.
+Kind of looks like, uh, I don't know. || Bir şeye benziyor ama... bilmiyorum.
+What is that? || Bu da ne?
+God. || Tanrım.
+Very strange. || Çok tuhaf.
+Bizarre! || Tuhaf!
+What the hell? || Bu da ne?
+I don't understand! || Anlamıyorum!
+Doesn't make sense. || Mantıklı değil.
+Odd. || Tuhaf.
+That doesn't make sense! || Bu hiç mantıklı değil!
+I don't get it. || Anlamıyorum.
+Weird. || Garip.
+
+[BARK_NormalGreeting]
+Meow. || Merhaba.
+Hello? || Merhaba?
+Hey! || Selam!
+Hell of a night, huh? || Ne gece ama, değil mi?
