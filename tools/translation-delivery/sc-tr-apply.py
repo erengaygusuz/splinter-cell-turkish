@@ -25,7 +25,7 @@ PLAN = [
 TR_ASCII = str.maketrans({"ç":"c","Ç":"C","ğ":"g","Ğ":"G","ı":"i","İ":"I","ö":"o","Ö":"O","ş":"s","Ş":"S","ü":"u","Ü":"U"})
 
 def norm(text):
-    return re.sub(r"\s+", " ", text.strip()).rstrip(" .!?")
+    return re.sub(r"\s+", " ", text.strip())
 
 def read_csv(path):
     with path.open(encoding="utf-8-sig",newline="") as f:
