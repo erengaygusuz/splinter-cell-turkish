@@ -298,7 +298,7 @@ def main():
         "Kullanici her TXT icin ilgili karakter sesini secip tek MP3 uretir.\n"
         "MP3 adini TXT adi gibi verir; 00_production_index.csv her satiri ve ID'yi esler.\n"
         "TXT dosyalarina ID veya satir numarasi EKLEME; ses olarak okunmamali.\n"
-        "[short pause] ve duygu etiketleri Eleven v3'e gore hazirlandi. Onceki V4 veya Multilingual v2 ses modu secilirse etiketlerin islenmesi farkli olabilir.\n"
+        "Replikler arasinda yalniz bir bos satir vardir; [short pause] kullanilmaz.\n"
         "Telsiz/kamera kayitlari temiz ses olarak uretilir; efekt sonra uygulanir.\n"
         "Otomatik kesim/oyun kurulumu bu disariya aktarmanin parcasi degildir.\n"
         "54 vocalization ayri kuyrukta, 265 FMV bu listenin disindadir.\n",
