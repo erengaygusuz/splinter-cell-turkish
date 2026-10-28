@@ -8,7 +8,7 @@ import numpy as np
 def run():
     p=argparse.ArgumentParser();p.add_argument('--model',default='medium');p.add_argument('--version',default='v01');p.add_argument('--only',nargs='+');args=p.parse_args()
     assert re.fullmatch(r'v\d{2,}',args.version)
-    expected=read(QA/'expected.json');plans=[];cuts=[];boundaries=[];unknown_all=[]
+    expected=read(QA/'resolved_expected.json');plans=[];cuts=[];boundaries=[];unknown_all=[]
     overrides=read(QA/'boundary_overrides.json') if (QA/'boundary_overrides.json').exists() else {}
     for src in read(QA/'sources.json'):
         subset=[r for r in expected if r['source_key']==src['source_key']]
@@ -34,7 +34,7 @@ def run():
             pair=left['new_id']+'|'+right['new_id']
             if pair in overrides:
                 o=overrides[pair];assert o['physical_source_sha256']==src['physical_source_sha256']
-                cut=dict(time=o['time'],quiet_start=o.get('quiet_start',''),quiet_end=o.get('quiet_end',''),method=o['basis'])
+                cut=dict(time=o['time'],quiet_start=o.get('quiet_start',''),quiet_end=o.get('quiet_end',''),method=o['basis'],threshold_dbfs=o.get('threshold_dbfs',-50))
             elif left['word_anchors'] and right['word_anchors']:
                 cut=alignment.pick_boundary(left['word_anchors'][-1]['end'],right['word_anchors'][0]['start'],quiet)
             else:cut=dict(time=None,method='MISSING_NEIGHBOR_ANCHORS',quiet_start='',quiet_end='')
@@ -52,12 +52,22 @@ def run():
             chunk=data[a:b];hop=220;amplitude=chunk[:len(chunk)//hop*hop].astype(float).reshape(-1,hop)/32768
             active=np.flatnonzero(np.sqrt(np.mean(amplitude*amplitude,axis=1))>10**(-50/20))
             lead=active[0]*hop/RATE if len(active) else len(chunk)/RATE;trail=(len(amplitude)-active[-1]-1)*hop/RATE if len(active) else len(chunk)/RATE
+            # Keep the actual per-edge noise criterion instead of treating a
+            # low-level reverberation tail as a clipped lexical word.
+            for edge in (left,right):
+                threshold=edge.get('threshold_dbfs',-50)
+                if threshold!=-50:
+                    at=np.flatnonzero(np.sqrt(np.mean(amplitude*amplitude,axis=1))>10**(threshold/20))
+                    if len(at):
+                        if edge is left:lead=at[0]*hop/RATE
+                        else:trail=(len(amplitude)-at[-1]-1)*hop/RATE
             if min(lead,trail)<.025:flags.append('SHORT_EDGE_MARGIN')
             unassigned=[w for w in unknown if a/RATE<=w['start']<b/RATE]
             if unassigned:flags.append('UNASSIGNED_WORDS')
             out=BASE/'review_pending/R001_20261028'/args.version/(r['new_id']+'.wav');wav(out,chunk)
             r.update(start_sample=a,end_sample=b,start_sec=a/RATE,end_sec=b/RATE,leading_quiet_ms=round(lead*1000,1),trailing_quiet_ms=round(trail*1000,1),
                 start_method=left['method'],end_method=right['method'],unassigned_words=unassigned,output_wav_path=rel(out),output_wav_sha256=sha(out),version=args.version,
+                start_threshold_dbfs=left.get('threshold_dbfs',-50),end_threshold_dbfs=right.get('threshold_dbfs',-50),
                 sample_rate=RATE,qa_status='REVIEW_PENDING',alignment_status='FLAGS_PRESENT' if flags else 'SOURCE_ALIGNED')
             plans.append(r);cuts.append({k:v for k,v in r.items() if k not in {'word_anchors','unassigned_words'}})
     if args.only:

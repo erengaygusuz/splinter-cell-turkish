@@ -1,0 +1,22 @@
+{
+  "source_key": "story_kola_all_29_jason_20261028",
+  "physical_source_sha256": "c77d99c3888fc29a1dfd26a991a68bc32f1ef7c9372e912c0475ec344c75c191",
+  "transcript": "dubbing/full-game-new-voices/qa/R001_20261028/source_asr_medium/story_kola_all_29_jason_20261028.json",
+  "transcript_sha256": "84391f7933535afba86b91e7156966c83914eb35418eb68dfcd8d871a056664a",
+  "observed_voice_group_order": [
+    "STORY_KOLA_MAFIOSO_1",
+    "STORY_KOLA_MAFIOSO_2",
+    "STORY_KOLA_MAFIOSO",
+    "STORY_KOLA_NIKOLAI_SPETZ",
+    "STORY_KOLA_PHONE_SPETZ",
+    "STORY_KOLA_SPETSNAZ_1",
+    "STORY_KOLA_SPETSNAZ_2",
+    "STORY_KOLA_SPETSNAZ_3",
+    "STORY_KOLA_TECHNICIAN_2",
+    "STORY_KOLA_TECHNICIAN"
+  ],
+  "whole_text_similarity": 99.3,
+  "changed_positions": 16,
+  "reason": "Numbered mafioso TXT files precede unsuffixed mafioso; technician_2 precedes technician in recorded audio",
+  "original_mapping_preserved": true
+}

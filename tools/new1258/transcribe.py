@@ -4,11 +4,15 @@ from common import *
 import argparse,time
 
 def run():
-    p=argparse.ArgumentParser();p.add_argument('--device',choices=['cpu','cuda'],default='cuda');p.add_argument('--model',default='medium');p.add_argument('--mode',choices=['source','clips'],default='source');p.add_argument('--version',default='v01');args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--device',choices=['cpu','cuda'],default='cuda');p.add_argument('--model',default='medium');p.add_argument('--mode',choices=['source','clips'],default='source');p.add_argument('--only-text-review',action='store_true');args=p.parse_args()
     from faster_whisper import WhisperModel
     model=None
     if args.mode=='source':jobs=[dict(key=s['source_key'],path=s['decoded_wav'],sha256=s['decoded_sha256']) for s in read(QA/'sources.json')]
     else:jobs=[dict(key=r['new_id']+'_'+r['version'],path=r['output_wav_path'],sha256=r['output_wav_sha256']) for r in read(QA/'cuts.json')]
+    if args.only_text_review:
+        assert args.mode=='clips'
+        wanted={r['new_id']+'_'+r['version'] for r in rows(QA/'qa_1258.csv') if 'TEXT_MISMATCH' in r.get('qa_flags','')}
+        jobs=[j for j in jobs if j['key'] in wanted]
     dest=QA/(args.mode+'_asr_'+args.model)
     for i,j in enumerate(jobs,1):
         out=dest/(j['key']+'.json')
