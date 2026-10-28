@@ -1,0 +1,616 @@
+[
+  {
+    "source_key": "camera_all_27_adrian_vale_20261027",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261027/camera_all_27_adrian_vale_20261027.mp3",
+    "physical_source_sha256": "fded22f222aed49c1fbb569d820ce468d830439e97e27e60e85562d30ad214af",
+    "bytes": 1012514,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 2,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/camera_all_27_adrian_vale_20261027.wav",
+    "decoded_sha256": "c249b6dccdceab400a1fc06e51222f65ec715e3a7fc4027a1810b747755a1a30",
+    "decoded_pcm_sha256": "b685b7ec9174f7f9d75840b56fe5cc275d4341e7d28fd9560faf94e003a98a93",
+    "sample_rate": 44100,
+    "sample_count": 2741279,
+    "duration_sec": 62.16052154195011,
+    "expected_lines": 27,
+    "groups": [
+      "CAMERA_BIRMANIE",
+      "CAMERA_GEORGIE",
+      "CAMERA_USA"
+    ]
+  },
+  {
+    "source_key": "chinesesoldier_all_105_kurtulus_20261027",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261027/chinesesoldier_all_105_kurtulus_20261027.mp3",
+    "physical_source_sha256": "0b90fadc9b16998e9e76413ad5b71c808679cf38432a70196305e2a19c97a3e5",
+    "bytes": 2316965,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/chinesesoldier_all_105_kurtulus_20261027.wav",
+    "decoded_sha256": "c6c10d94d311da0f94be29b6b9af96f5b3c010b8c6abbae4568c4d174edc11af",
+    "decoded_pcm_sha256": "5116bd31886adf0a5640fe796fb7350b2fdfb34d96b628900627fcfc5e0739a5",
+    "sample_rate": 44100,
+    "sample_count": 6336288,
+    "duration_sec": 143.68,
+    "expected_lines": 105,
+    "groups": [
+      "ChineseSoldier"
+    ]
+  },
+  {
+    "source_key": "ciaagentmale_all_101_ozgur_ozturk_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/ciaagentmale_all_101_ozgur_ozturk_20261028.mp3",
+    "physical_source_sha256": "abceae11327168ac7ac6459b99b159d8708355d9a319fdfe56c5b141f9c69b13",
+    "bytes": 2406408,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/ciaagentmale_all_101_ozgur_ozturk_20261028.wav",
+    "decoded_sha256": "2e5ef083c4dd60f29d70ff9a0455e6c17d5c92aba71bd2f1addb070cfa41ce57",
+    "decoded_pcm_sha256": "cbc8402ea8b252ffb1501f5e37a3ef84173d4639546e48f81b32362d700eb381",
+    "sample_rate": 44100,
+    "sample_count": 6583248,
+    "duration_sec": 149.28,
+    "expected_lines": 101,
+    "groups": [
+      "CiaAgentMale"
+    ]
+  },
+  {
+    "source_key": "ciabureaucratmale_all_30_mustafa_s_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/ciabureaucratmale_all_30_mustafa_s_20261028.mp3",
+    "physical_source_sha256": "ef286e645968fb16ecf782c7b29b26251540ff7a25ba5f37e5fa8084cf923d86",
+    "bytes": 714091,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/ciabureaucratmale_all_30_mustafa_s_20261028.wav",
+    "decoded_sha256": "439344b4dc949e9635f1fe77a294525b740a38035061c8e3f6e0b61d99e61ea8",
+    "decoded_pcm_sha256": "1944b74cf087ce9e8de1e9da990a406be5db29fb9b5c1e351e7f4c0ddf19a77a",
+    "sample_rate": 44100,
+    "sample_count": 1919232,
+    "duration_sec": 43.52,
+    "expected_lines": 30,
+    "groups": [
+      "CiaBureaucratMale"
+    ]
+  },
+  {
+    "source_key": "ciasecurity_all_97_alvin_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/ciasecurity_all_97_alvin_20261028.mp3",
+    "physical_source_sha256": "dcb1aac933c969562e53c465654fb9989cd04b54b370acee7a53dfffdc466b67",
+    "bytes": 2223342,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/ciasecurity_all_97_alvin_20261028.wav",
+    "decoded_sha256": "56d5a569c103dff9802af0eb118e538c0dbbf79be84195dd0d2e21347838070f",
+    "decoded_pcm_sha256": "acd95c8762cecb22ce5daa10752d3816906273e6f7005b7e9edfa61301ff8edd",
+    "sample_rate": 44100,
+    "sample_count": 6078744,
+    "duration_sec": 137.84,
+    "expected_lines": 97,
+    "groups": [
+      "CiaSecurity"
+    ]
+  },
+  {
+    "source_key": "eliteforce_all_64_toprak_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/eliteforce_all_64_toprak_20261028.mp3",
+    "physical_source_sha256": "b07956e9f3739662e4fa1f99a6705ed804dcfcad20d8f5452c361144c7b7da1c",
+    "bytes": 1435071,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/eliteforce_all_64_toprak_20261028.wav",
+    "decoded_sha256": "e7b30e93afb50549a690d64d6a7869c6fe4e0dd77036a8b4144efc7ff2ded2de",
+    "decoded_pcm_sha256": "3f711e2f8186523a2338c000381f37f4015fb5a4344d9d23a1cad6fdf5ca320c",
+    "sample_rate": 44100,
+    "sample_count": 3905496,
+    "duration_sec": 88.56,
+    "expected_lines": 64,
+    "groups": [
+      "EliteForce"
+    ]
+  },
+  {
+    "source_key": "exspetsnaz_part001-004_toprak_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/exspetsnaz_part001-004_toprak_20261028.mp3",
+    "physical_source_sha256": "0247d678fd9f54d57c359603124c46af3ddb56e947fd43c4a8b855495911e945",
+    "bytes": 1916142,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/exspetsnaz_part001-004_toprak_20261028.wav",
+    "decoded_sha256": "4c6ecabd7b58928d830b5d0406783cfd0b341d6f2bfa0d65de7324a761a6d14f",
+    "decoded_pcm_sha256": "292d09ffe2c8c3d9e60963ddaa80209ea8f221d3063fcdc881118ed6d0a9b5fd",
+    "sample_rate": 44100,
+    "sample_count": 5232024,
+    "duration_sec": 118.64,
+    "expected_lines": 89,
+    "groups": [
+      "Exspetsnaz"
+    ]
+  },
+  {
+    "source_key": "exspetsnaz_part005_hakan_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/exspetsnaz_part005_hakan_20261028.mp3",
+    "physical_source_sha256": "ea4d9f152a930a8e2c8760939adf7869d03c0e2b7e0740fca7864b18c722a452",
+    "bytes": 388083,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/exspetsnaz_part005_hakan_20261028.wav",
+    "decoded_sha256": "a1cc35e8bdc7b467faa82f850ae3e49a82df1201f75343d3de0c8fa0609d1baa",
+    "decoded_pcm_sha256": "64607651149444ae612b0c3a125d6bc920bb5300041be6ed2a862b6d3614865a",
+    "sample_rate": 44100,
+    "sample_count": 1019592,
+    "duration_sec": 23.12,
+    "expected_lines": 15,
+    "groups": [
+      "Exspetsnaz"
+    ]
+  },
+  {
+    "source_key": "georgiancitizen_all_52_yusuf_suratli_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/georgiancitizen_all_52_yusuf_suratli_20261028.mp3",
+    "physical_source_sha256": "e1d26588d925cb169617826d743e56b4f2edefcc85397888278cb4020414009c",
+    "bytes": 1144171,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/georgiancitizen_all_52_yusuf_suratli_20261028.wav",
+    "decoded_sha256": "11d69b74fe7873c4e565b2c2887053f0f7bfdf98ebf4eab5cf8bbf2c51baa78e",
+    "decoded_pcm_sha256": "6242224ffc5fc82ee3fef81f1bce7d799fdb396560e58201f56c74c6dadaed63",
+    "sample_rate": 44100,
+    "sample_count": 3104640,
+    "duration_sec": 70.4,
+    "expected_lines": 52,
+    "groups": [
+      "GeorgianCitizen"
+    ]
+  },
+  {
+    "source_key": "georgiancop_all_104_adam_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/georgiancop_all_104_adam_20261028.mp3",
+    "physical_source_sha256": "e77a3528d436d619d0ff52c16078e725f2def65a94df8ce8ea92049c384c1f88",
+    "bytes": 2371718,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/georgiancop_all_104_adam_20261028.wav",
+    "decoded_sha256": "fead980ec44dbdda6401ff8479ff50fca659fbc35e583a7925fccb08334fe1f4",
+    "decoded_pcm_sha256": "b4bb1e62871956eeffab89277d3cbfc60ca7e3308f086fda161bab18d86e4210",
+    "sample_rate": 44100,
+    "sample_count": 6487992,
+    "duration_sec": 147.12,
+    "expected_lines": 104,
+    "groups": [
+      "GeorgianCop"
+    ]
+  },
+  {
+    "source_key": "georgianpalaceguard_all_99_kaya_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/georgianpalaceguard_all_99_kaya_20261028.mp3",
+    "physical_source_sha256": "8b7305c80ca4e75f7790d5b9b1b77da20f28e7d6262b9c010ff80060e4928856",
+    "bytes": 2149363,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/georgianpalaceguard_all_99_kaya_20261028.wav",
+    "decoded_sha256": "92d33e3616a1a75e143da5f61994799e36b80624719c91f81d600a7514f92337",
+    "decoded_pcm_sha256": "ed1550a8ad7a2a9feb9e73095245a5e52f6ac66b8b13255234f41f6882108ae4",
+    "sample_rate": 44100,
+    "sample_count": 5874120,
+    "duration_sec": 133.2,
+    "expected_lines": 99,
+    "groups": [
+      "GeorgianPalaceGuard"
+    ]
+  },
+  {
+    "source_key": "georgiansoldier_all_111_cem_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/georgiansoldier_all_111_cem_20261028.mp3",
+    "physical_source_sha256": "86562904c7e11b26ba570f9b6aabd8952cdaede0cb68aa0f94484740f845904d",
+    "bytes": 2574010,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/georgiansoldier_all_111_cem_20261028.wav",
+    "decoded_sha256": "ea9c5e39b853087ae08d7ec2f772515a5bb52bf4c6b20b94654ae4926de0795f",
+    "decoded_pcm_sha256": "b44b913888a0824cebd1c7b64caae3841efbac93e5d83422c8ef34bda4e169b9",
+    "sample_rate": 44100,
+    "sample_count": 7045416,
+    "duration_sec": 159.76,
+    "expected_lines": 111,
+    "groups": [
+      "GeorgianSoldier"
+    ]
+  },
+  {
+    "source_key": "grinko_all_1_vyacheslav_grinko_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/grinko_all_1_vyacheslav_grinko_20261028.mp3",
+    "physical_source_sha256": "ad747a1530e4db9b684f1f5e9f8a802093ea8bb90e632667ea06df62c00055b5",
+    "bytes": 61657,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/grinko_all_1_vyacheslav_grinko_20261028.wav",
+    "decoded_sha256": "86730dd8d41772f300b5beda06e9541633124166147b33416dd2c6821c42bbb6",
+    "decoded_pcm_sha256": "c6a111af5daccc924ea098fadd0e522deb3d4cdc46d8a373c1423e6eabdd7d8f",
+    "sample_rate": 44100,
+    "sample_count": 119952,
+    "duration_sec": 2.72,
+    "expected_lines": 1,
+    "groups": [
+      "Grinko"
+    ]
+  },
+  {
+    "source_key": "hamlet_all_10_yunus_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/hamlet_all_10_yunus_20261028.mp3",
+    "physical_source_sha256": "b37ce5a6930a70d8f0196c7aed8769acabd173ff593317b4d33089f5cb861c9d",
+    "bytes": 213794,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/hamlet_all_10_yunus_20261028.wav",
+    "decoded_sha256": "a0af206ab8894aa57dffda5d5d62d275bb0e6b7b42976b3d42f04ca0bb8c0307",
+    "decoded_pcm_sha256": "211c0c5171148fb434cd16fc3f072cea114a1938cccd98fd7e54289e167c332d",
+    "sample_rate": 44100,
+    "sample_count": 539784,
+    "duration_sec": 12.24,
+    "expected_lines": 10,
+    "groups": [
+      "Hamlet"
+    ]
+  },
+  {
+    "source_key": "mercenarytech_all_71_orhan_tumerkan_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/mercenarytech_all_71_orhan_tumerkan_20261028.mp3",
+    "physical_source_sha256": "cdb191079818c2311959470f9f4adfee6cb4a17af84a1ac0e3b3fa74504d89e5",
+    "bytes": 1596403,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/mercenarytech_all_71_orhan_tumerkan_20261028.wav",
+    "decoded_sha256": "ab280bdb3af188232320e2b292c419bc5b13a48a2b34f6384f3ba161a22f63e3",
+    "decoded_pcm_sha256": "4c20a50db3aaea8ca6e5f82ea2dec3118769e4c2fd91d93f8bbf0a2920cbc2cb",
+    "sample_rate": 44100,
+    "sample_count": 4350024,
+    "duration_sec": 98.64,
+    "expected_lines": 71,
+    "groups": [
+      "MercenaryTech"
+    ]
+  },
+  {
+    "source_key": "nikoladze_all_1_kombayn_nikoladze_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/nikoladze_all_1_kombayn_nikoladze_20261028.mp3",
+    "physical_source_sha256": "b84606bc1c96233039619976d30b7ddd54d80010a2c213af79b41b5488e5bc31",
+    "bytes": 53716,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/nikoladze_all_1_kombayn_nikoladze_20261028.wav",
+    "decoded_sha256": "6b90825d640a9ea2320349de68c17b5f5d9fd45cfb6ef964fc4a7ce823445e01",
+    "decoded_pcm_sha256": "b0ab6023bfe58234508eee5256eb5a02a54f1310001dbfaa25708f48fde7138b",
+    "sample_rate": 44100,
+    "sample_count": 98784,
+    "duration_sec": 2.24,
+    "expected_lines": 1,
+    "groups": [
+      "Nikoladze"
+    ]
+  },
+  {
+    "source_key": "radio_tawchi_all_19_yunus_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/radio_tawchi_all_19_yunus_20261028.mp3",
+    "physical_source_sha256": "508e849cb4838b9957b31f5fa8b26ccdd2b06c9e220e3a2de20435e08f77ac6e",
+    "bytes": 1021291,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/radio_tawchi_all_19_yunus_20261028.wav",
+    "decoded_sha256": "32cb3a521b7e46556fb966006f405d1919a3e7aae25290d9bc134754ec133a24",
+    "decoded_pcm_sha256": "2b20d2b7ae00800aab0a6236c739fd4187dc5cc896468d903812e12546d85813",
+    "sample_rate": 44100,
+    "sample_count": 2765952,
+    "duration_sec": 62.72,
+    "expected_lines": 19,
+    "groups": [
+      "RADIO_TAWCHI"
+    ]
+  },
+  {
+    "source_key": "radio_tawcia_all_23_mustafa_erkek_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/radio_tawcia_all_23_mustafa_erkek_20261028.mp3",
+    "physical_source_sha256": "881c99dfddba777fdd5c87b8c46915163ea12f27770b04da78036c46710ec160",
+    "bytes": 1047205,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/radio_tawcia_all_23_mustafa_erkek_20261028.wav",
+    "decoded_sha256": "eeefe422a88e834bd6a6ad30011a2f94e73a81ac3322f774c607f710ccaa6cfc",
+    "decoded_pcm_sha256": "8187700ebb57a65e247a6c072a2789e129327ddd018c45027fe03cefde40ae37",
+    "sample_rate": 44100,
+    "sample_count": 2836512,
+    "duration_sec": 64.32,
+    "expected_lines": 23,
+    "groups": [
+      "RADIO_TAWCIA"
+    ]
+  },
+  {
+    "source_key": "radio_tawrus_all_19_erdi_goren_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/radio_tawrus_all_19_erdi_goren_20261028.mp3",
+    "physical_source_sha256": "f4c0d3842037ef3a932a295c8259841e5c5c18bb014571354d6e4d1d6c6966a0",
+    "bytes": 1040518,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/radio_tawrus_all_19_erdi_goren_20261028.wav",
+    "decoded_sha256": "4f19d3ef54fb31a05b5141601a1d2cd45477b4a1513724609df769a0fa0e907b",
+    "decoded_pcm_sha256": "38c1b23729368546bbe5cc5bbec78f826931feea579b6c9569ec73110a6166ba",
+    "sample_rate": 44100,
+    "sample_count": 2818872,
+    "duration_sec": 63.92,
+    "expected_lines": 19,
+    "groups": [
+      "RADIO_TAWRUS"
+    ]
+  },
+  {
+    "source_key": "radio_tawuss_all_10_erdi_goren_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/radio_tawuss_all_10_erdi_goren_20261028.mp3",
+    "physical_source_sha256": "4eecc37120d05d69dab3e118bac7c1ee714e548744eb774fd45f32a52993d3dc",
+    "bytes": 203763,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/radio_tawuss_all_10_erdi_goren_20261028.wav",
+    "decoded_sha256": "ae9cac1a0c46a5ae7db1c180b01ade967e8da8b9172a557dca33bc8677cb6f0f",
+    "decoded_pcm_sha256": "54544dcc809f1c3ae8cb2c2c967b1925f24e68833b4c3d419609a4d25e67f198",
+    "sample_rate": 44100,
+    "sample_count": 511560,
+    "duration_sec": 11.6,
+    "expected_lines": 10,
+    "groups": [
+      "RADIO_TAWUSS"
+    ]
+  },
+  {
+    "source_key": "russianmafioso_all_80_mustafa_s_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/russianmafioso_all_80_mustafa_s_20261028.mp3",
+    "physical_source_sha256": "324d8a949f72adb5960aaee1f1091df3f153c15b669571dff5b0986244678527",
+    "bytes": 1762751,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/russianmafioso_all_80_mustafa_s_20261028.wav",
+    "decoded_sha256": "8d4a2ae7d3ca15a3e713f1279e0dbb4fecd1a4c2e9b11ad09798d4a2e1da10a4",
+    "decoded_pcm_sha256": "23a0b2a202a2b50dc5e14dedc006a5eb5839b9f75b50c6184ef8f9156f9f23fa",
+    "sample_rate": 44100,
+    "sample_count": 4808664,
+    "duration_sec": 109.04,
+    "expected_lines": 80,
+    "groups": [
+      "RussianMafioso"
+    ]
+  },
+  {
+    "source_key": "story_alekseevich_all_4_mustafa_s_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_alekseevich_all_4_mustafa_s_20261028.mp3",
+    "physical_source_sha256": "ab2d79ae739ec3b4186e8db052f8216bf0056ca073ec60c20ebb013747107552",
+    "bytes": 473765,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_alekseevich_all_4_mustafa_s_20261028.wav",
+    "decoded_sha256": "cc64d8e86fcb29162777f5c8fbf916d52bdaeb02f05c933285b9a77ef51270ef",
+    "decoded_pcm_sha256": "4a69bc7b191347715f4c0f1e878f050041c590e22cb0fbf0facb35979f7107ef",
+    "sample_rate": 44100,
+    "sample_count": 1255968,
+    "duration_sec": 28.48,
+    "expected_lines": 4,
+    "groups": [
+      "STORY_ALEKSEEVICH"
+    ]
+  },
+  {
+    "source_key": "story_bobrov_all_13_mustafa_s_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_bobrov_all_13_mustafa_s_20261028.mp3",
+    "physical_source_sha256": "9e0a4fc72abaf23125af151e504181c348e50511a38304298b433344412d6564",
+    "bytes": 764247,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_bobrov_all_13_mustafa_s_20261028.wav",
+    "decoded_sha256": "6653f256f076374de09b54595e016dd30bc4eea185cac3670726e9421ea0a436",
+    "decoded_pcm_sha256": "d8b0ff3317261dd084e412dfdfaa0988cd9295eacc246dea34ff3bfb8aa30b15",
+    "sample_rate": 44100,
+    "sample_count": 2056824,
+    "duration_sec": 46.64,
+    "expected_lines": 13,
+    "groups": [
+      "STORY_BOBROV"
+    ]
+  },
+  {
+    "source_key": "story_ex-spetsnaz-1-2_all_2_erdi_goren_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_ex-spetsnaz-1-2_all_2_erdi_goren_20261028.mp3",
+    "physical_source_sha256": "42886dd0fd04ce49a29e2d13e3c1e5d360009133ded658e6ffc8d301410a6377",
+    "bytes": 57478,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_ex-spetsnaz-1-2_all_2_erdi_goren_20261028.wav",
+    "decoded_sha256": "99ba9818cfd209f7ec89b6137bf0902e79e3d73fcbc0667fa33ada47e5a03b66",
+    "decoded_pcm_sha256": "a5d0b591b0116af1a9251615b4f415a35a844ab494b0571dde419a760a5b8d5e",
+    "sample_rate": 44100,
+    "sample_count": 109368,
+    "duration_sec": 2.48,
+    "expected_lines": 2,
+    "groups": [
+      "STORY_EX-SPETSNAZ-1",
+      "STORY_EX-SPETSNAZ-2"
+    ]
+  },
+  {
+    "source_key": "story_ex-spetsnaz_all_1_ibrahim_kinik_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_ex-spetsnaz_all_1_ibrahim_kinik_20261028.mp3",
+    "physical_source_sha256": "9353a1474958d8ce4266eb90750144636b38141bb071de0917d932d0140fa852",
+    "bytes": 138144,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_ex-spetsnaz_all_1_ibrahim_kinik_20261028.wav",
+    "decoded_sha256": "37c2d07230eb1b8dd6ce63f8558c9ce9f27cb83982d5f689e85b6e041af4018e",
+    "decoded_pcm_sha256": "3245251428236fc9aa60cd357be22bdda8f6788dc3cc1f9d47c8217aa3f8f249",
+    "sample_rate": 44100,
+    "sample_count": 331632,
+    "duration_sec": 7.52,
+    "expected_lines": 1,
+    "groups": [
+      "STORY_EX-SPETSNAZ"
+    ]
+  },
+  {
+    "source_key": "story_fisher_all_31_sam_fisher_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_fisher_all_31_sam_fisher_20261028.mp3",
+    "physical_source_sha256": "73129229c42f730a9c0325ee3eb956777286798c95b8eaf276bc6d50d44a7b4f",
+    "bytes": 1041771,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_fisher_all_31_sam_fisher_20261028.wav",
+    "decoded_sha256": "4d69c7f432439b7e48df440790830a31cdd28df5d9621e8a3279049b854d668b",
+    "decoded_pcm_sha256": "d582fb83d9a88509600725e7225eeecc9bcf0c296a5b2f8f6abc83c3644e7d36",
+    "sample_rate": 44100,
+    "sample_count": 2822400,
+    "duration_sec": 64.0,
+    "expected_lines": 31,
+    "groups": [
+      "STORY_FISHER"
+    ]
+  },
+  {
+    "source_key": "story_grimsdottir_all_2_anna_grimsdottir_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_grimsdottir_all_2_anna_grimsdottir_20261028.mp3",
+    "physical_source_sha256": "d59992a0b9e951ca618d8378abd13a15b5a271203faa0fbffc3c663a70720954",
+    "bytes": 180358,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_grimsdottir_all_2_anna_grimsdottir_20261028.wav",
+    "decoded_sha256": "4078a3ca5fbf3628717c27b49eb86008d9f87897a394a2a60c92c64b53229dd4",
+    "decoded_pcm_sha256": "b80b6d2b9e6b9f026a9c270a31023a3340991b968044606a774af370ca71d078",
+    "sample_rate": 44100,
+    "sample_count": 448056,
+    "duration_sec": 10.16,
+    "expected_lines": 2,
+    "groups": [
+      "STORY_GRIMSDOTTIR"
+    ]
+  },
+  {
+    "source_key": "story_kola_all_29_jason_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_kola_all_29_jason_20261028.mp3",
+    "physical_source_sha256": "c77d99c3888fc29a1dfd26a991a68bc32f1ef7c9372e912c0475ec344c75c191",
+    "bytes": 1528276,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_kola_all_29_jason_20261028.wav",
+    "decoded_sha256": "e92eab610e701001d67a8b6d39a17c6d0cd7ac270766c9d89819b0ac708f272d",
+    "decoded_pcm_sha256": "9727835afe3855242f72d06cff726e9b3725db3f789fcee9bb95cdaeae029ff1",
+    "sample_rate": 44100,
+    "sample_count": 4163040,
+    "duration_sec": 94.4,
+    "expected_lines": 29,
+    "groups": [
+      "STORY_KOLA_MAFIOSO",
+      "STORY_KOLA_MAFIOSO_1",
+      "STORY_KOLA_MAFIOSO_2",
+      "STORY_KOLA_NIKOLAI_SPETZ",
+      "STORY_KOLA_PHONE_SPETZ",
+      "STORY_KOLA_SPETSNAZ_1",
+      "STORY_KOLA_SPETSNAZ_2",
+      "STORY_KOLA_SPETSNAZ_3",
+      "STORY_KOLA_TECHNICIAN",
+      "STORY_KOLA_TECHNICIAN_2"
+    ]
+  },
+  {
+    "source_key": "story_lambert_all_15_irving_lambert_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_lambert_all_15_irving_lambert_20261028.mp3",
+    "physical_source_sha256": "a5d037b5214b20f236ee4364da10748a2bf74a0e3063ef759fc7d98584a81784",
+    "bytes": 1119930,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_lambert_all_15_irving_lambert_20261028.wav",
+    "decoded_sha256": "7e5626426c8d9d5ab3c88a02e64898d26920d7e8d6b56bb06e9d9cc90b4ee50c",
+    "decoded_pcm_sha256": "80d4d3930b0c1122eead4bf229b8350c59af463fc2410676d701c8d6d258cec0",
+    "sample_rate": 44100,
+    "sample_count": 3037608,
+    "duration_sec": 68.88,
+    "expected_lines": 15,
+    "groups": [
+      "STORY_LAMBERT"
+    ]
+  },
+  {
+    "source_key": "story_masse_to_vselka_spetsnaz_all_25_mustafa_s_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_masse_to_vselka_spetsnaz_all_25_mustafa_s_20261028.mp3",
+    "physical_source_sha256": "6f322abd59c2f827f1d87d6a84af2351e130416f0c43a915bdc3b17e55fdddd1",
+    "bytes": 1296727,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_masse_to_vselka_spetsnaz_all_25_mustafa_s_20261028.wav",
+    "decoded_sha256": "b41b1398d4d649f221b94d9a410a1f67560154c0fb5b65a79251c9b58cfb2151",
+    "decoded_pcm_sha256": "d8c7d64c5613884ae2716c1433b9fca1024841ab863579aea9755c8ac91437f7",
+    "sample_rate": 44100,
+    "sample_count": 3524472,
+    "duration_sec": 79.92,
+    "expected_lines": 25,
+    "groups": [
+      "STORY_MASSE",
+      "STORY_SPETSNAZ",
+      "STORY_VSELKA_INTERROGATED_MERC",
+      "STORY_VSELKA_SPETSNAZ_1",
+      "STORY_VSELKA_SPETSNAZ_2",
+      "STORY_VSELKA_SPETSNAZ_3",
+      "STORY_VSELKA_SPETSNAZ_4",
+      "STORY_VSELKA_SPETSNAZ_5",
+      "STORY_VSELKA_SPETSNAZ_6",
+      "STORY_VSELKA_SPETSNAZ_7"
+    ]
+  },
+  {
+    "source_key": "story_vselka_sub_exspetsnaz_all_8_jason_20261028",
+    "physical_source_mp3": "dubbing/full-game-new-voices/production_sources/20261028/story_vselka_sub_exspetsnaz_all_8_jason_20261028.mp3",
+    "physical_source_sha256": "8a69422f2babbe21254965d2fc2c5b8e6cd7bee090af3e7b2301d7988174e648",
+    "bytes": 504276,
+    "codec": "mp3",
+    "source_rate": "44100",
+    "source_channels": 1,
+    "decoded_wav": "build/new1258/R001_20261028/decoded_sources/story_vselka_sub_exspetsnaz_all_8_jason_20261028.wav",
+    "decoded_sha256": "704c282387e954c1d523a7eabc71e73825d6236a2b74e84f472a10407998e165",
+    "decoded_pcm_sha256": "077c7f02f9f230410e3d209f6ee452c03bb04d0154d5c35e23130a12d272430a",
+    "sample_rate": 44100,
+    "sample_count": 1340640,
+    "duration_sec": 30.4,
+    "expected_lines": 8,
+    "groups": [
+      "STORY_VSELKA_SUB_EXSPETSNAZ_1",
+      "STORY_VSELKA_SUB_EXSPETSNAZ_2",
+      "STORY_VSELKA_SUB_EXSPETSNAZ_3",
+      "STORY_VSELKA_SUB_EXSPETSNAZ_4",
+      "STORY_VSELKA_SUB_EXSPETSNAZ_5"
+    ]
+  }
+]

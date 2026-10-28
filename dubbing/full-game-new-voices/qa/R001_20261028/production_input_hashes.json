@@ -1,0 +1,418 @@
+[
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/camera_birmanie_part001.txt",
+    "sha256": "b50f0046697a604fc99d3e2e85411f6b03e1329f798ccaa3f1eb2a420c4aa86b"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/camera_georgie_part001.txt",
+    "sha256": "7d1c9f617ca5b5834ae962ef25e471d79632fd77a7b6b216148b8e226573cb71"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/camera_usa_part001.txt",
+    "sha256": "ca8b2cc74615112bf297d067ead5b67739af4d3d0e75cc853e6f775081094e72"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/chinesesoldier_part001.txt",
+    "sha256": "96ebcfd76b02b5432f7dc2a84e42a2e1d1c1f7b6fba8509216a4751a9b36bfa8"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/chinesesoldier_part002.txt",
+    "sha256": "87a51f6e4b5992f139cb099cda3fe99e63f622b56cdd88aa47ac72f717a58e97"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/chinesesoldier_part003.txt",
+    "sha256": "3db5211f8db0896d2b8ad98235ad250077fb6aeba96a2649f25ebfcc495ca73f"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/chinesesoldier_part004.txt",
+    "sha256": "b1caad8c3146385be9770afb41e461ddff9366e903a20bc542a3ba546fff517b"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/chinesesoldier_part005.txt",
+    "sha256": "6af6134dbcbcc6ce9adfc0f11fcd59aad33707ed52d054d6bdf53907f036c730"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciaagentmale_part001.txt",
+    "sha256": "16485324a58c036503789b7ade956d748e505423a1bc3955948d957e0c013455"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciaagentmale_part002.txt",
+    "sha256": "b49fa679363ea065e8d7362b2ac6973b31906892ad55ff1dd61d76d9b03de2cd"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciaagentmale_part003.txt",
+    "sha256": "0e3d68bb5558bdbc02deabbccccf219bb4b1ea11996417b122ec723b4a297017"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciaagentmale_part004.txt",
+    "sha256": "0f30b1c8fc2de21acff72fc508b6b70684a64c5f250238978a2451995d8d696f"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciaagentmale_part005.txt",
+    "sha256": "85670eb7f9a88d144f447a7fb0a1778cc344f6f89531d8605df6a2d01d344b31"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciabureaucratmale_part001.txt",
+    "sha256": "7cc2a08e6f8fa9c30ea7c0e6ed6f5676adb809f355b5071e8ced7b14a03137f5"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciabureaucratmale_part002.txt",
+    "sha256": "1b05a470e5c12d0c353a5da31883a8e4a1fe22917c46d899906ccb0b2f6b1f0a"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciasecurity_part001.txt",
+    "sha256": "be4d39343db69e1035f8cf359bd9e3096d80daeab81c4a069e859280b56a02e9"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciasecurity_part002.txt",
+    "sha256": "1e2cbf10d3bbcd6804c908af3eedf3cb89dee85b85304607f72b16ad04b85e58"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciasecurity_part003.txt",
+    "sha256": "c53e94f9b9e5ad5de8d456ccc72bfcadcdd7e5153a92efc2c38408ea29413c63"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciasecurity_part004.txt",
+    "sha256": "95eb84b0484adc708df0ff6b5cf8127fa17e4431d277e46ceeff283e0e4ac3c0"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/ciasecurity_part005.txt",
+    "sha256": "3f816038fbbd6b53890258cb06325a27fa4ea9fc945c5b00c524ca12a09ee042"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/eliteforce_part001.txt",
+    "sha256": "d75ec9beb09c9997140962b83a85a87bad0743ed861686baed52389df424f8d2"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/eliteforce_part002.txt",
+    "sha256": "f5e4188b137e75a4838502b4f6493eb5686fb6789dc84516d871e3898d370e93"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/eliteforce_part003.txt",
+    "sha256": "7539981a70c1e469b1a264804f59d917cc49f8209a58744edd4b6882926cd531"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/exspetsnaz_part001.txt",
+    "sha256": "266f5356e62ec3ef5baff1f789addbcc502a74f6bdb54fb8724ce04847700426"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/exspetsnaz_part002.txt",
+    "sha256": "05adad02031481954f278bdaeb9f9eb41df54a68c98447fce33bd8e37c262307"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/exspetsnaz_part003.txt",
+    "sha256": "10b1ff0d0a50e7226350f0921ae065db1444ef9f1b3222fde3357fa755d42c43"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/exspetsnaz_part004.txt",
+    "sha256": "b170d0365f0d2eed48e9f4a921a9cf6dfe206e4e4adb7c7476d1273159b257f9"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/exspetsnaz_part005.txt",
+    "sha256": "bbfc51316082494ed50eafaa3cf4fcf464a8d599bba4b110ca565c69107bc5e6"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiancitizen_part001.txt",
+    "sha256": "3d52be4fbb835f9de123b3b4390163360e7f4366e5b5174a3f42a65462e4bc9e"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiancitizen_part002.txt",
+    "sha256": "5139ec03a5d55f42c038f1c3197c2a6c8fca253ef40db692ccc8e7e42e90942f"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiancitizen_part003.txt",
+    "sha256": "48ac5539e2e5a6328dc5e590c48869808bbc6e2c45b19b73ae32758161bc8399"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiancop_part001.txt",
+    "sha256": "14d4262f6a88ec97b67b889b0f8f2e6003c96735e69d3b51305978d02baf2a63"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiancop_part002.txt",
+    "sha256": "0302d9ce4ac1fdf8cb5590fa9994117d3aab019d0f80e52a4273d9243a1b7c9a"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiancop_part003.txt",
+    "sha256": "60e43c84c86fe7cff4a25c6155dba5b5481143e03c4dafe907490015de0aab1e"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiancop_part004.txt",
+    "sha256": "df51fbfbee32d4ec8b9e4acc094b47b6a3faa754d9ebf39c86a2984579e84d0d"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiancop_part005.txt",
+    "sha256": "a053d7f8c6156c34cbdd56823eaebbfc39c469728b9e5ccac6f7dd1d4fb4d262"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgianpalaceguard_part001.txt",
+    "sha256": "25b2653e17b18dcb9a25205a16f84730ef650553522ed2ba899a96d6276c16d9"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgianpalaceguard_part002.txt",
+    "sha256": "16d0cb6fbc4edc7b7debd3fce66589ce69812bcb5ebcc9f5ca59d4d1cea700bc"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgianpalaceguard_part003.txt",
+    "sha256": "b2bc5c4275a0fdec58dd4ceb0ccc0d4ce84e9a01c342dbb0b8a20c66e84c24a8"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgianpalaceguard_part004.txt",
+    "sha256": "22211112d1f8726228e8b7c2ad7cf80adfe214b740adf53513b0713e23a0ebcd"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgianpalaceguard_part005.txt",
+    "sha256": "9339c6300da532385b90b2325760e053b23c069982e1c9cf986d5f46e2d009a8"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiansoldier_part001.txt",
+    "sha256": "4f3653a80f2ce9db109ff263ab55be34f5a15c30e6c3c34d7b5d9f3f2aa22f73"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiansoldier_part002.txt",
+    "sha256": "46eab7ab70ad2a2df727772c7041795fc6c30a63689b3136cadc8ee27d41741f"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiansoldier_part003.txt",
+    "sha256": "77bbcd3bb18f36d72be4cdda0779846efb9f9e2986d73511bba13e08544e4935"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiansoldier_part004.txt",
+    "sha256": "93221baf820ec56d09e4c20c7559845d4e0663da970ea152d3f6dfa68f4b92bf"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiansoldier_part005.txt",
+    "sha256": "1d189e7936ccbfadb94797621dd7fa291fc008c624a0bc2370e0633ffa0a8855"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/georgiansoldier_part006.txt",
+    "sha256": "98fa4a5a741d4e5d643e195c5cba4ec302aaeda471398abb9b09ee7606cb0ae4"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/grinko_part001.txt",
+    "sha256": "09114d493c39c62da480f93c55d62531d33c5147ccba17e8e1461278f58af1a5"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/hamlet_part001.txt",
+    "sha256": "2d86743400f21d5a38ad2e7b37dd4330a8e979405c7e23279af35ee9a8e63b2b"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/mercenarytech_part001.txt",
+    "sha256": "ea74793909306fe66009a7e00ffba2f5571b30beddc07d75d75895eaf2027906"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/mercenarytech_part002.txt",
+    "sha256": "ffaa135d6c22cfce2c648785c71d34ba6b148a955d0e096e75afc145dda49208"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/mercenarytech_part003.txt",
+    "sha256": "154d6cd5bc143a8b8a39f3a58940bd86e4bab4d1ca79281bbf42b0d0a582400a"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/mercenarytech_part004.txt",
+    "sha256": "ee47fa8cbf866ecd54c125575e8fce6683428bd9180be62dc8727384ead0471a"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/nikoladze_part001.txt",
+    "sha256": "7a434b0377e0a4ee5db88f055d50b5356547a94f5500fab4742471439ead4c32"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/radio_tawchi_part001.txt",
+    "sha256": "3a4a60e2c6a67157c6cd1a76986db02c2ce5947283411794660f166729aed997"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/radio_tawchi_part002.txt",
+    "sha256": "3d0302444db7ee05d951cee0c9f46264b390f033984d8a1adc1a813888161b4c"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/radio_tawcia_part001.txt",
+    "sha256": "5d96a8910f9b6f42c414d0f0398371ceae07e467e9aba414e415529224f70d35"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/radio_tawcia_part002.txt",
+    "sha256": "b0962202ebe6d76b227eeb59ab3b4734dcc7ece9c8da3f61de937ff06fb8dbcb"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/radio_tawrus_part001.txt",
+    "sha256": "8babb0493318d44ad59fa7e99be51e86ff89675010db98f4846026ec4dcadbae"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/radio_tawrus_part002.txt",
+    "sha256": "233ee6932bf02001067052bf85bb4ddeb91388a9cbd5c357f2d093338795324c"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/radio_tawuss_part001.txt",
+    "sha256": "398d7dbc35d63d4188e0f1f4450acc90813b5425b618693158c986136417a423"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/russianmafioso_part001.txt",
+    "sha256": "533d79ab07af213c0c730c464ae0dee853784736aa365189c396fe3a2f0bbef5"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/russianmafioso_part002.txt",
+    "sha256": "1a68c8614245d8f14902ac86b290b9d6475deb57ba99fdbcd3d2cd6dc765db94"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/russianmafioso_part003.txt",
+    "sha256": "3527cf9370baf9894412e338a4bae1fa3a234e8ad735469454d5f968acdd0aa4"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/russianmafioso_part004.txt",
+    "sha256": "c921dce38fc4da08ca135935a61eebd8d79b23c91f2c632e66180b3e0865d33d"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_alekseevich_part001.txt",
+    "sha256": "da9b41198399c8fd4a77d6bc6d40bf696167ce8dac02014d0b4167393afe7b6b"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_bobrov_part001.txt",
+    "sha256": "77f3d3ce7a81183f73153e0657d570824e4d1095628d1b8bc3ed499afbe3c12a"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_bobrov_part002.txt",
+    "sha256": "3790e9324b4f10b29d9f74ba62ae60233665f4cfc0c4ae9f93d067fa756d641a"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_ex-spetsnaz-1_part001.txt",
+    "sha256": "3608215b188c57beefeb468304ea7b82e31d438c1105e9b1a03a2b6032dd9c33"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_ex-spetsnaz-2_part001.txt",
+    "sha256": "61382545063ac6d7087da1217671fb2c9171fa93a3ff24643180b991addfd2ac"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_ex-spetsnaz_part001.txt",
+    "sha256": "cfd3b91600a3ac3b93f9df835f9042944da2df765c1aa3b6c3e874737337db90"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_fisher_part001.txt",
+    "sha256": "52fae6976594f9c792cbe48a052620544f0e021185bb7681e932c19a5aad09cd"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_fisher_part002.txt",
+    "sha256": "a0f04e33733615958273615d588a52ccb8a1b8689e3940ff9b48ea221c543413"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_grimsdottir_part001.txt",
+    "sha256": "4d5a314dad579c134fb0df3445df36784b44e39dcf0aa2b05e54e22594367c9d"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_mafioso_1_part001.txt",
+    "sha256": "b3bae72f618d4e24d85d6d06823ba8526d61adc1d272944fef92a6173354e239"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_mafioso_2_part001.txt",
+    "sha256": "d97c56c7615c47065058e0bf91a2ea146aa0561407e83a564ddd89a1b21c8f06"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_mafioso_part001.txt",
+    "sha256": "69e0042cf2712b75ea4935e15fefcb0cdf353fefe479384846cae146a4510a93"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_nikolai_spetz_part001.txt",
+    "sha256": "23c5fa023ba1fd2c025c289ff5fdaf365a8d14254cbda9be59af11225db791a9"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_phone_spetz_part001.txt",
+    "sha256": "072d473ee1a241b2ccc9bc8eeaa27454c46b073aefc6998df14562f229a5c1dd"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_spetsnaz_1_part001.txt",
+    "sha256": "7d12986b49bb0f67a6d223945e61eb79d22449b094ffdc0978d6cac4baf8c366"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_spetsnaz_2_part001.txt",
+    "sha256": "8d26b172b528d52e257834c8d2bf776170429d101a08dca5f97ebe1c17f9707a"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_spetsnaz_3_part001.txt",
+    "sha256": "e184aca32eed8c7bd6e826d15dd5a41112ef5dbab6b5c6a60525f45d1103b675"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_technician_2_part001.txt",
+    "sha256": "d2f222923e0016e11d5a307c7c56a63831400710be15a0b482f2a55e99d62994"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_kola_technician_part001.txt",
+    "sha256": "8ef0331a7b7b5a861d702721f7a475b00ebd4a5e6829600ea4f69191b5064abb"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_lambert_part001.txt",
+    "sha256": "d7f31d2701a7f70fef077550409fd860d3bf097aee89d4caf384d3ccd6ed3053"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_lambert_part002.txt",
+    "sha256": "1e509cfd6a71856c5f46c2212aeaed3c90fd1f243237210bb0e3f3fd8bc0152a"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_masse_part001.txt",
+    "sha256": "3529d18481e6b7025985b1530730a3d25243cda135d64838a76c4a817648852f"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_spetsnaz_part001.txt",
+    "sha256": "f42a4813118d27e1e13d2e4a484f6f8361c08420f8e7900ea66400b75d0b3110"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_interrogated_merc_part001.txt",
+    "sha256": "8c7f53251068d163ea1589576c5398a5cf88c74b4ccf13cbfb1545d98cd76682"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_spetsnaz_1_part001.txt",
+    "sha256": "fbcf47c19dc0162aa2fd2a01af2c6915a698b6f47f0da3b65a58ce2eb9df74ed"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_spetsnaz_2_part001.txt",
+    "sha256": "2af920b69cc3c811b4ace61227cb7c571e6d564c2c1c9f01c89ba2fb09a3855f"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_spetsnaz_3_part001.txt",
+    "sha256": "079d7642a443076fae6ad316a9a9fc52d41dbcf48f312ccda0e7e767dacedd9f"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_spetsnaz_4_part001.txt",
+    "sha256": "33c94099aeb8df31d6a7e23eadb4613cfbeaab87d8cb85133317fdbf28a83e4c"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_spetsnaz_5_part001.txt",
+    "sha256": "b53e12b0a1478905006ba7b60b4e362e42879f7ae7df78b83408cbb6eb8c98ce"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_spetsnaz_6_part001.txt",
+    "sha256": "8bddcfad89c900a5ed8c9bffbd601eeb361134ae31d7b843f248b459dec09bfe"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_spetsnaz_7_part001.txt",
+    "sha256": "c205fbf65a043e4beaf5611e02215d8c2d9b0b22a0fc5147e1ab6fd4df4d6e98"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_sub_exspetsnaz_1_part001.txt",
+    "sha256": "8284f321d60247cb5f7a82165303d3c3951b02be2375eb560b5c3bb69ae72745"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_sub_exspetsnaz_2_part001.txt",
+    "sha256": "8aa47afa3b6258f266f9e01d0440a8ccad887c93be92034e87109f09744abaf7"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_sub_exspetsnaz_3_part001.txt",
+    "sha256": "a2b0465745a745cef08f9ebc20cb1c37ab4879395d338598d9609976a200fbc4"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_sub_exspetsnaz_4_part001.txt",
+    "sha256": "832322112491f775ab0f701c1bf87ace53e99d68174a8990fda262bbc445ce55"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/story_vselka_sub_exspetsnaz_5_part001.txt",
+    "sha256": "4b801581fb29d01d04c7f30d95e10308bf190ff91913583f6d2b46cf78c4ab1f"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/00_production_index.csv",
+    "sha256": "672ecd46b7a1d13082ab643374edf0ee0f2057afc7a2c3a686d25c70672d7b6c"
+  },
+  {
+    "path": "/home/ereng/Downloads/SplinterCell-ElevenLabs/00_voice_groups.csv",
+    "sha256": "f3c5c82a8d63a0ead0555db71228de119fd7c04f55a64ef6ae9d5009c9e78f34"
+  },
+  {
+    "path": "/run/media/ereng/files/projects/splinter-cell-turkish/manifests/full-game-voice-audit/final-turkish-production-voices.csv",
+    "sha256": "9f8872f144cc731200934fafccbe80b03ff740ece1ebbafa7c618118f9228a9f"
+  }
+]
