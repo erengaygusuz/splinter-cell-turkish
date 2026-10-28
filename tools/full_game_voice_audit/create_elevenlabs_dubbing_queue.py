@@ -216,7 +216,7 @@ def write_chunks(rows, out, prefix, limit):
         line = tag+r["turkish_final"].strip()
         if len(line) > limit:
             raise ValueError("Tek replik limitten uzun: "+r["new_id"])
-        overhead = len("\n\n[short pause]\n\n") if current else 0
+        overhead = len("\n\n") if current else 0
         if current and current_chars+overhead+len(line)>limit:
             chunks.append(current)
             current=[];current_chars=0
@@ -227,7 +227,7 @@ def write_chunks(rows, out, prefix, limit):
     for i,chunk in enumerate(chunks,1):
         name=f"{prefix}_part{i:03d}"
         (out/f"{name}.txt").write_text(
-            "\n\n[short pause]\n\n".join(line for _,line in chunk)+"\n",
+            "\n\n".join(line for _,line in chunk)+"\n",
             encoding="utf-8"
         )
         for j,(r,line) in enumerate(chunk,1):
