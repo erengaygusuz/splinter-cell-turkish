@@ -4,11 +4,12 @@ from pathlib import Path
 from catalog import ROOT, QA, sha, write
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--model',default='medium');p.add_argument('--device',default='cuda');args=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument('--model',default='medium');p.add_argument('--device',default='cuda');p.add_argument('--videos',nargs='*');args=p.parse_args()
  from faster_whisper import WhisperModel
  model=WhisperModel(args.model,device=args.device,compute_type='int8_float16' if args.device=='cuda' else 'int8',cpu_threads=8)
  inv=json.loads((QA/'inventory.json').read_text())
  for source in inv['sources']:
+  if args.videos and source['video'][:2] not in args.videos:continue
   path=ROOT/source['path'];digest=sha(path)
   out=ROOT/'work/fmv-dub/R001_20261029/asr'/source['video']/(path.stem+'_'+args.model+'.json')
   if out.exists() and json.loads(out.read_text()).get('sha256')==digest:continue
