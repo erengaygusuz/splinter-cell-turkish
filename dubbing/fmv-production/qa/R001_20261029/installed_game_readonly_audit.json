@@ -1,0 +1,979 @@
+{
+  "videos": [
+    {
+      "video": "01_Training",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/0_0_2_Training.bik",
+      "sha256": "d457a448037f0a9b01084d8de7eced517df5a3fb2d7ffa396de1149fa3847b31",
+      "same_as_source": true,
+      "duration": "133.833834",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "02_Tbilisi",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/1_1_0Tbilisi.bik",
+      "sha256": "c62e80f6bcc1038ee1ade6d83de160f9c3f85483d105808e89d66a804b7d1de6",
+      "same_as_source": true,
+      "duration": "104.137471",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "03_Tbilisi_Osprey",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/1_1_0Tbilisi_Osprey.bik",
+      "sha256": "e1ea1e47ff00949c5623a3bc3be772593b9b1c508f44679c9997676cf596934d",
+      "same_as_source": true,
+      "duration": "122.055389",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "04_DefenseMinistry",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/1_2_1DefenseMinistry.bik",
+      "sha256": "0dd50b23e4b8a6d5a8bb277c544d4a1f08aace402b3e7bcb51aa50d467f015bd",
+      "same_as_source": false,
+      "duration": "73.373373",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "05_CaspianOilRefinery",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/1_3_2CaspianOilRefinery.bik",
+      "sha256": "36c8a36b025cc98b3cc712f299b754533986784ae0b9007043bf911320352d7c",
+      "same_as_source": true,
+      "duration": "87.354021",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "06_CIA",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/2_1_0CIA.bik",
+      "sha256": "43b930992b800b42b9ed7f85936df5e15039aefb69eb54ee30cb4511a6922b02",
+      "same_as_source": true,
+      "duration": "104.704705",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "07_CIA_Osprey",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/2_1_0CIA_Osprey.bik",
+      "sha256": "c5660f071a89e158786d78c186f5659440fb23eed016d459d9a117d3592ec598",
+      "same_as_source": true,
+      "duration": "102.135469",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "08_Kalinatek",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/2_2_1_Kalinatek.bik",
+      "sha256": "6818e5f5b7aa5f45a6d6dcec54cb3addea0be4c818dfd195c8ee39e646992607",
+      "same_as_source": true,
+      "duration": "91.991992",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "09_PowerPlant",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/3_2_1_PowerPlant.bik",
+      "status": "NOT_INSTALLED"
+    },
+    {
+      "video": "10_PowerPlant_Osprey",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/3_2_1_PowerPlant_Osprey.bik",
+      "status": "NOT_INSTALLED"
+    },
+    {
+      "video": "11_ChineseEmbassy",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/4_1_1ChineseEmbassy.bik",
+      "sha256": "275d00b14f3d52573ff728e17e96f865dafac2927b3dc1c767658d0f59fc794a",
+      "same_as_source": false,
+      "duration": "80.914248",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "12_ChineseEmbassy_Osprey",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/4_1_1ChineseEmbassy_Osprey.bik",
+      "sha256": "55487249bef543f386ad0b5fc4d87488b64dad4ecef3efbf0ec4293f1fd6586a",
+      "same_as_source": false,
+      "duration": "110.410300",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "13_Abattoir",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/4_2_1_Abattoir.bik",
+      "sha256": "37171ef82abb778eac278606f428e466621e21f8d6350c6cd8337f2b0962ac67",
+      "same_as_source": true,
+      "duration": "78.645312",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "14_ChineseEmbassy_II",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/4_3_0ChineseEmbassy.bik",
+      "sha256": "7167808ef2e48ec8de7142037a7d3be13ad5f120e860485b47ae19d755e65148",
+      "same_as_source": true,
+      "duration": "43.209877",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "15_PresidentialPalace",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/5_1_1_PresidentialPalace.bik",
+      "sha256": "2f7fec5fb17caf878e5cba9770f6c27626a7dd6b5fe4151c87fbb4b2706dcbc3",
+      "same_as_source": true,
+      "duration": "63.530197",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "16_PresidentialPalace_Osprey",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/5_1_1_PresidentialPalace_Osprey.bik",
+      "sha256": "32c1204dd025d449dc0f2c415243e7fb4cb84ce7bb86ce9ed855b030809dbec7",
+      "same_as_source": true,
+      "duration": "71.338005",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    },
+    {
+      "video": "17_Sam_Sarah",
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/Videos/Sam&Shara.bik",
+      "sha256": "9eb885e6375d6f37e209990898e9b196551892ddfc16267c1e6d66aa8768c856",
+      "same_as_source": true,
+      "duration": "100.033367",
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "binkvideo",
+          "id": "0x0",
+          "sample_rate": null,
+          "channels": null,
+          "width": 640,
+          "height": 480
+        },
+        {
+          "index": 1,
+          "codec_name": "binkaudio_dct",
+          "id": "0x0",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 2,
+          "codec_name": "binkaudio_dct",
+          "id": "0x1",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 3,
+          "codec_name": "binkaudio_dct",
+          "id": "0x2",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 4,
+          "codec_name": "binkaudio_dct",
+          "id": "0x3",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        },
+        {
+          "index": 5,
+          "codec_name": "binkaudio_dct",
+          "id": "0x4",
+          "sample_rate": "48000",
+          "channels": 2,
+          "width": null,
+          "height": null
+        }
+      ]
+    }
+  ],
+  "protected_binaries": [
+    {
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/system/SplinterCell.exe",
+      "sha256": "8afcbc804207125ef9395094bf45ea0cae770a25497752351c2c630015217c42"
+    },
+    {
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/system/dinput8.dll",
+      "sha256": "ee28eabccde22624c63f3b72be05580601e2d6cf0539f9d871bc4798bf971ca0"
+    },
+    {
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/system/dsound.dll",
+      "sha256": "038c2a77b2ffe7394a5cdb070ecdbac30315ac0f3604763edbf5185df1257e2b"
+    },
+    {
+      "path": "/run/media/ereng/files/games/tom-clancys-splinter-cell/drive_c/GOG Games/Splinter Cell/system/binkw32.dll",
+      "sha256": "beca6b41565a75b8bbf4fdce978d659a339d1a836be1fd543c9789e361b52e88"
+    }
+  ],
+  "game_launched": false,
+  "files_modified": false
+}
